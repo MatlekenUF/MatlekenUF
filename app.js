@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 document.getElementById('searchButton').addEventListener('click', function() {
     var input = document.getElementById('searchInput').value;
     var resultSection = document.getElementById('resultSection');
@@ -163,7 +163,7 @@ function displayRecipe(recipe) {
         }, 1000);
     });
 }
-=======
+
 document.getElementById('searchButton').addEventListener('click', function() {
     var input = document.getElementById('searchInput').value;
     var resultSection = document.getElementById('resultSection');
@@ -328,4 +328,4 @@ function displayRecipe(recipe) {
         }, 1000);
     });
 }
->>>>>>> 75cb4f550ab49ec5340e8135e76d3185025e38d5
+

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @media (max-width: 768px) {
     .content {
         flex-direction: column;
@@ -9,7 +9,7 @@
         width: 80%;
     }
 }
-=======
+
 @media (max-width: 768px) {
     .content {
         flex-direction: column;
@@ -20,4 +20,4 @@
         width: 80%;
     }
 }
->>>>>>> 75cb4f550ab49ec5340e8135e76d3185025e38d5
+
