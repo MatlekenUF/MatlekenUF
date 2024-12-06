@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Grundlayout */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -244,3 +245,251 @@ h3 {
 }
 
 
+=======
+/* Grundlayout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #ffb171;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('din-bild.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+/* Söksektion */
+.search-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#searchInput {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ffb171;
+    border-radius: 5px;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Resultatsektion - Receptkort */
+.recipe-section {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    text-align: center;
+}
+
+.recipe-section.active {
+    display: flex;
+}
+
+.recipe {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    max-height: 80vh;
+    overflow-y: scroll; /* Scrolla innehåll i receptet */
+}
+
+/* Bild under titel */
+.recipe-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.recipe h2 {
+    color: #ffb171;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* Timer Section under Titeln */
+.timer-container {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.timer-container label {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.timer-container input {
+    padding: 10px;
+    font-size: 1.5rem;
+    border: 2px solid #007acc;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.timer-container button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.timer-container button:hover {
+    background-color: #005f87;
+}
+
+.timer-container p {
+    font-size: 1.4rem;
+    color: #333;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Ingredienser och Instruktioner */
+.ingredients-list, .instructions-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Justera varje ingrediens/instruktion för att skapa större avstånd */
+.ingredient-item, .instruction-item {
+    display: block;
+    margin-bottom: 15px;  /* Öka utrymmet mellan varje rad */
+    padding: 12px 20px;   /* Mer padding för att ge mer utrymme */
+    border: 1px solid #ddd;
+    border-radius: 8px;   /* Rundade hörn */
+    background-color: #f9f9f9;
+    font-size: 1.2rem;
+    color: #333;
+    transition: background-color 0.3s ease;  /* Gör övergången mjuk vid hover */
+}
+
+/* För att göra checkboxen större och ge mer utrymme mellan den och texten */
+.ingredient-checkbox, .instruction-checkbox {
+    margin-right: 15px; /* Lägg till mer avstånd mellan checkboxen och texten */
+    transform: scale(1.2); /* Gör checkboxen större */
+}
+
+/* Lägg till mer utrymme mellan listobjekten och checkboxen */
+.ingredient-item, .instruction-item {
+    display: flex;
+    align-items: center;
+}
+
+/* Justera layouten på ingredienser och instruktioner så de inte är för tätt packade */
+.ingredients-instructions-container {
+    display: block; /* Flexbox för att hantera kolumner */
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.ingredients-list, .instructions-list {
+    width: 100%; /* Gör kolumnerna smalare så att de inte är för breda */
+    padding-right: 10px;
+}
+
+/* Justera mellanrum för ingredienser och instruktioner */
+.ingredients-list {
+    padding-right: 20px; /* Ge mer utrymme på höger sida */
+}
+
+.instructions-list {
+    padding-left: 20px; /* Ge mer utrymme på vänster sida */
+}
+
+/* Instruktionstitel */
+h3 {
+    color: #ffb171;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Stäng-knapp */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #ff0000;
+}
+
+/* Responsiv design */
+@media (max-width: 768px) {
+    .ingredients-instructions-container {
+        display: block; /* Ställer in en kolumn på små skärmar */
+    }
+
+    .ingredients-list, .instructions-list {
+        width: 100%; /* Tar upp hela bredden på små skärmar */
+        padding-right: 10px;
+    }
+}
+
+
+>>>>>>> 75cb4f550ab49ec5340e8135e76d3185025e38d5
