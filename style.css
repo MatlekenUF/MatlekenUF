@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-    color: #333;
+    color: #333333f4;
 }
 
 header {
@@ -33,34 +33,59 @@ nav ul li a {
 
 /* Hero Section */
 .hero {
-    background-image: url('din-bild.jpg'); /* Lägg till din bakgrundsbild här */
-    background-size: cover; /* Gör så att bilden täcker hela sektionen */
-    background-position: center; /* Centrera bilden */
+    background-image: 
+        linear-gradient(to bottom, rgba(38, 38, 38, 0.438) 0%, rgba(48, 47, 47, 0.347) 100%), 
+        url('bilder/kortlek\ orange.JPG'); /* Rätt bildväg */
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
     color: white;
-    padding: 100px 20px; /* Justera padding för att ge utrymme */
+    padding: 100px 20px;
     text-align: center;
     position: relative;
-    height: 100vh; /* Gör så att hero-sektionen tar upp hela höjden på skärmen */
+    height: 100vh;
 }
 
+
+/* Hero Content */
 .hero-content {
-    max-width: 800px;
+    max-width: 400px;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.5); /* Halvtransparent bakgrund för att förbättra läsbarheten */
+    background-color: rgba(0, 0, 0, 0); /* Halvtransparent bakgrund för att förbättra läsbarheten */
     padding: 30px;
     border-radius: 10px;
 }
 
+/* Hero Content Styling */
+.hero-content {
+    text-align: center; /* Centrera all text inom hero-content */
+}
+
 .hero-content h2 {
-    font-size: 3rem;
-    margin-bottom: 20px;
+    font-size: 7rem; /* Större textstorlek */
+    font-family: 'Courier New', 'Courier New', Courier, monospace; /* Elegant serif font */
+    font-weight: 400; /* Fetare text */
+    margin-bottom: 50px; /* Lite större marginal nedåt */
+    color: #ffffff; /* Vit textfärg */
+    text-shadow: 2px 2px 10px rgb(0, 0, 0); /* Skugga för att förbättra läsbarheten */
 }
 
 .hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+    font-size: 1.5rem; /* Större textstorlek */
+    font-family: 'Raleway', sans-serif; /* Modern sans-serif font */
+    font-weight: 400; /* Normal vikt */
+    margin-bottom: 30px; /* Lite större marginal nedåt */
+    color: #ffffff; /* Vit textfärg */
+    line-height: 1.6; /* Bättre radavstånd för ökad läsbarhet */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); /* Skugga för förbättrad läsbarhet */
 }
 
+
+/* Exempel på att lägga till en finare font från Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400&display=swap');
+
+
+/* CTA Button */
 .cta-button {
     padding: 15px 30px;
     background-color: #007acc;
@@ -288,44 +313,8 @@ h3 {
         padding-right: 10px;
     }
 }
-/* Hero Section Styling */
-.hero {
-    background-image: url('images/hero-bg.jpg'); /* Path to your background image */
-    background-size: cover; /* Ensures the image covers the entire hero section */
-    background-position: center; /* Centers the image */
-    background-attachment: fixed; /* Makes the background image fixed during scroll */
-    color: white; /* Makes text color white for better contrast */
-    padding: 100px 0; /* Adds space around the content */
-    text-align: center; /* Centers the text */
-    height: 100vh; /* Makes the hero section take the full viewport height */
-}
 
-/* Hero Content Styling */
-.hero .hero-content {
-    position: relative;
-    z-index: 1; /* Ensures text appears above the background */
-}
 
-.hero h2 {
-    font-size: 3em; /* Larger text size for the title */
-    margin-bottom: 20px;
-}
 
-.hero p {
-    font-size: 1.5em; /* Adjust text size */
-    margin-bottom: 30px;
-}
 
-.cta-button {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-    transition: background-color 0.3s;
-}
 
-.cta-button:hover {
-    background-color: #0056b3;
-}
