@@ -34,10 +34,10 @@ nav ul li a {
 /* Hero Section */
 .hero {
     background-image: 
-        linear-gradient(to bottom, rgba(38, 38, 38, 0.438) 0%, rgba(48, 47, 47, 0.347) 100%), 
-        url('bilder/kortlek\ orange.JPG'); /* Rätt bildväg */
+        linear-gradient(to bottom, rgba(38, 38, 38, 0.952) 0%, rgba(48, 47, 47, 0.509) 100%), 
+        url('bilder/MatlekenBakgrundsbild.webp'); /* Rätt bildväg */
     background-size: cover;
-    background-position: center top;
+    background-position: center;
     background-attachment: fixed;
     color: white;
     padding: 100px 20px;
@@ -46,44 +46,36 @@ nav ul li a {
     height: 100vh;
 }
 
-
 /* Hero Content */
 .hero-content {
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0); /* Halvtransparent bakgrund för att förbättra läsbarheten */
     padding: 30px;
     border-radius: 10px;
-}
-
-/* Hero Content Styling */
-.hero-content {
-    text-align: center; /* Centrera all text inom hero-content */
+    text-align: center;
 }
 
 .hero-content h2 {
-    font-size: 7rem; /* Större textstorlek */
-    font-family: 'Courier New', 'Courier New', Courier, monospace; /* Elegant serif font */
-    font-weight: 400; /* Fetare text */
-    margin-bottom: 50px; /* Lite större marginal nedåt */
-    color: #ffffff; /* Vit textfärg */
-    text-shadow: 2px 2px 10px rgb(0, 0, 0); /* Skugga för att förbättra läsbarheten */
+    font-size: 3rem; 
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #fdfdfd;
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
 }
 
 .hero-content p {
-    font-size: 1.5rem; /* Större textstorlek */
-    font-family: 'Raleway', sans-serif; /* Modern sans-serif font */
-    font-weight: 400; /* Normal vikt */
-    margin-bottom: 30px; /* Lite större marginal nedåt */
-    color: #ffffff; /* Vit textfärg */
-    line-height: 1.6; /* Bättre radavstånd för ökad läsbarhet */
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); /* Skugga för förbättrad läsbarhet */
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #ffffff;
+    line-height: 1.6;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
-
 
 /* Exempel på att lägga till en finare font från Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400&display=swap');
-
 
 /* CTA Button */
 .cta-button {
@@ -103,25 +95,31 @@ nav ul li a {
 /* Söksektion */
 .search-section {
     text-align: center;
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 #searchInput {
-    width: 50%;
-    padding: 10px;
-    font-size: 16px;
+    width: 60%;
+    padding: 15px;
+    font-size: 1rem;
     border: 2px solid #ffb171;
     border-radius: 5px;
 }
 
 #searchButton {
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 15px 25px;
+    font-size: 1rem;
     margin-left: 10px;
     background-color: #007acc;
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+    background-color: #005f87;
 }
 
 /* Resultatsektion - Receptkort */
@@ -148,12 +146,12 @@ nav ul li a {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    width: 70%;
+    width: 90%;
     max-width: 800px;
     margin: 0 auto;
     position: relative;
     max-height: 80vh;
-    overflow-y: scroll; /* Scrolla innehåll i receptet */
+    overflow-y: auto;
 }
 
 /* Bild under titel */
@@ -229,20 +227,20 @@ nav ul li a {
 /* Justera varje ingrediens/instruktion för att skapa större avstånd */
 .ingredient-item, .instruction-item {
     display: block;
-    margin-bottom: 15px;  /* Öka utrymmet mellan varje rad */
-    padding: 12px 20px;   /* Mer padding för att ge mer utrymme */
+    margin-bottom: 15px;
+    padding: 12px 20px;
     border: 1px solid #ddd;
-    border-radius: 8px;   /* Rundade hörn */
+    border-radius: 8px;
     background-color: #f9f9f9;
     font-size: 1.2rem;
     color: #333;
-    transition: background-color 0.3s ease;  /* Gör övergången mjuk vid hover */
+    transition: background-color 0.3s ease;
 }
 
 /* För att göra checkboxen större och ge mer utrymme mellan den och texten */
 .ingredient-checkbox, .instruction-checkbox {
-    margin-right: 15px; /* Lägg till mer avstånd mellan checkboxen och texten */
-    transform: scale(1.2); /* Gör checkboxen större */
+    margin-right: 15px;
+    transform: scale(1.2);
 }
 
 /* Lägg till mer utrymme mellan listobjekten och checkboxen */
@@ -253,23 +251,22 @@ nav ul li a {
 
 /* Justera layouten på ingredienser och instruktioner så de inte är för tätt packade */
 .ingredients-instructions-container {
-    display: block; /* Flexbox för att hantera kolumner */
-    justify-content: space-between;
+    display: block;
     margin-top: 20px;
 }
 
 .ingredients-list, .instructions-list {
-    width: 100%; /* Gör kolumnerna smalare så att de inte är för breda */
+    width: 100%;
     padding-right: 10px;
 }
 
 /* Justera mellanrum för ingredienser och instruktioner */
 .ingredients-list {
-    padding-right: 20px; /* Ge mer utrymme på höger sida */
+    padding-right: 20px;
 }
 
 .instructions-list {
-    padding-left: 20px; /* Ge mer utrymme på vänster sida */
+    padding-left: 20px;
 }
 
 /* Instruktionstitel */
@@ -305,15 +302,129 @@ h3 {
     }
 
     .ingredients-instructions-container {
-        display: block; /* Ställer in en kolumn på små skärmar */
+        display: block;
     }
 
     .ingredients-list, .instructions-list {
-        width: 100%; /* Tar upp hela bredden på små skärmar */
+        width: 100%;
         padding-right: 10px;
     }
 }
 
+#logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+    height: auto;
+}
+
+/* Enkel stil för hamburgarmenyn */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu-mobile {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cart-icon {
+    cursor: pointer; /* Visar en pekare när man hovrar över kundvagnen */
+    display: flex; /* Gör det möjligt att centrera innehållet */
+    align-items: center; /* Vertikal centrering av ikonen i förhållande till andra element */
+    padding: 10px; /* Lägg till lite inre avstånd för bättre klickbarhet */
+}
+
+.cart-icon svg {
+    width: 48px; /* Ställer in storlek på shopping cart-ikonen */
+    height: 48px;
+    fill: none; /* Ingen bakgrundsfyllning */
+    stroke: #4a4a4a; /* Primär färg för ikonen */
+    transition: transform 0.2s ease-in-out; /* Smooth animation effect */
+}
+
+.cart-icon svg:hover {
+    transform: scale(1.1); /* Gör ikonen större när användaren hovrar över den */
+}
+
+.product-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.product-card p {
+    font-size: 1em;
+    color: #666;
+}
+
+.product-card .price {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product-card button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+    background-color: #e68900;
+}
+
+ /* Om Oss Sektion Styling */
+ .about-section {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    color: #ffb171;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-family: 'Raleway', sans-serif;
+}
 
 
 

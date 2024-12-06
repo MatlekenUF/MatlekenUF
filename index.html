@@ -6,19 +6,100 @@
     <title>Matleken UF</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.css">
+    <style>
+       @media (min-width: 769px) {
+            .header-container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 20px;
+            }
+
+            #logo {
+                order: -1;
+            }
+
+            .nav-menu {
+                justify-content: center;
+                flex: 1;
+            }
+
+            .cart-icon {
+                margin-left: auto;
+            }
+
+            .product-section .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                gap: 20px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header-container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 10px;
+            }
+
+            #logo {
+                order: 1;
+                margin: 0 auto;
+                max-width: 100px;
+            }
+
+            .menu-toggle {
+                display: block;
+            }
+
+            .nav-menu {
+                display: none;
+            }
+
+            .nav-menu-mobile.active {
+                display: flex;
+            }
+
+            .cart-icon {
+                order: 2;
+            }
+
+            .product-section .container {
+                display: block;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
     <header>
-        <div class="container">
-            <h1>Välkommen till Matleken UF</h1>
+        <div class="header-container">
+            <button class="menu-toggle" id="menuToggle">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 6H6m12 4H6m12 4H6m12 4H6"/>
+                </svg>
+            </button>
+            <img src="bilder/kortlek orange.JPG" alt="Matleken UF Logotyp" id="logo">
             <nav>
-                <ul>
-                    <li><a href="#">Om Oss</a></li>
-                    <li><a href="#">våran produkt</a></li>
+                <ul class="nav-menu">
+                    <li><a href="#aboutSection">Om Oss</a></li>
+                    <li><a href="#productSection">Våran produkt</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+                <ul class="nav-menu-mobile" id="navMenuMobile">
+                    <li><a href="#aboutSection">Om Oss</a></li>
+                    <li><a href="#productSection">Våran produkt</a></li>
                     <li><a href="#">Kontakt</a></li>
                 </ul>
             </nav>
+            <div class="cart-icon" id="cartIcon">
+                <svg class="w-[48px] h-[48px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                </svg>
+                <span id="cartCount" style="margin-left: 8px; font-weight: bold;">0</span>
+            </div>
         </div>
     </header>
 
@@ -31,7 +112,6 @@
         </div>
     </section>    
     
-
     <!-- Search Section -->
     <section id="searchSection" class="search-section">
         <div class="container">
@@ -40,16 +120,72 @@
         </div>
     </section>
 
+    <!-- Om Oss Sektion -->
+    <section id="aboutSection" class="about-section">
+        <div class="container">
+            <h2>Om Oss</h2>
+            <p>Matleken UF är ett företag som brinner för att göra matlagning roligare och enklare för alla. Vi erbjuder produkter och tjänster som hjälper dig att upptäcka nya recept och inspirera till mer kreativitet i köket.</p>
+        </div>
+    </section>
+
+    <!-- Produkter Sektion -->
+    <section id="productSection" class="product-section">
+        <div class="container">
+            <div class="product-card">
+                <img src="bilder/Vegatarinsk.png" alt="Produkt 1">
+                <h3>Vegatarinsk</h3>
+                <p>Perfekt för matälskare och familjer.</p>
+                <div class="price">150 kr</div>
+                <button class="add-to-cart-button">Lägg till i kundvagn</button>
+            </div>
+            <div class="product-card">
+                <img src="bilder/blå.png" alt="Produkt 2">
+                <h3>Asiatiskt</h3>
+                <p>Perfekt för matälskare och familjer.</p>
+                <div class="price">150 kr</div>
+                <button class="add-to-cart-button">Lägg till i kundvagn</button>
+            </div>
+        </div>
+    </section>
+
     <!-- Resultatsektion (där receptkort visas) -->
     <section id="recipeSection" class="recipe-section">
         <div id="resultSection"></div>
     </section>
 
+    <script>
+        // JavaScript för att hantera hamburgarmenyn
+        document.getElementById('menuToggle').addEventListener('click', function () {
+            const navMenuMobile = document.getElementById('navMenuMobile');
+            navMenuMobile.classList.toggle('active');
+        });
 
+        // JavaScript för att hantera kundvagnen
+        let cartCount = 0;
+        const cartCountElement = document.getElementById('cartCount');
+        const addToCartButtons = document.querySelectorAll('.add-to-cart-button');
+
+        addToCartButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                cartCount++;
+                cartCountElement.textContent = cartCount;
+            });
+        });
+    </script>
 
     <script src="app.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
 
 
 
