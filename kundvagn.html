@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Din Varukorg - Matleken</title>
+    <link rel="stylesheet" href="kundvagn.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="kortlek orange.JPG" alt="Matleken Logotyp">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HEMMET</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="cart-main">
+        <h1>Din Varukorg</h1>
+
+        <section class="cart-items" id="cart-items">
+            <!-- Cart items will be dynamically inserted here -->
+        </section>
+
+        <section class="cart-summary">
+            <div class="summary-row">
+                <span class="summary-label">Totalt:</span>
+                <span class="summary-value" id="total-price">0 kr</span>
+            </div>
+
+            <div class="checkout">
+                <button class="checkout-btn">Till Kassan</button>
+            </div>
+        </section>
+    </main>
+
+    
+
+    <script>
+        // Function to load the cart from localStorage
+        function loadCart() {
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const cartItemsContainer = document.getElementById('cart-items');
+            let totalPrice = 0;
+
+            cartItemsContainer.innerHTML = ''; // Clear the cart before loading
+
+            // Loop through each cart item and display it
+            cart.forEach((item, index) => {
+                const itemTotal = item.price * item.quantity;
+                totalPrice += itemTotal;
+
+                // Create item element
+                const itemElement = document.createElement('div');
+                itemElement.classList.add('cart-item');
+                itemElement.dataset.index = index; // Store index in the item
+
+                // Add product details including image and remove button
+                itemElement.innerHTML = 
+                    `<div class="item-image">
+                        <img src="${item.image}" alt="${item.name}" class="product-image"/>
+                    </div>
+                    <div class="item-info">
+                        <h3>${item.name}</h3>
+                        <p>${item.price} kr</p>
+                    </div>
+                    <div class="item-quantity">
+                        <label for="quantity-${item.name}">Antal: </label>
+                        <input id="quantity-${item.name}" type="number" value="${item.quantity}" min="1" class="quantity-input" data-product="${item.name}">
+                    </div>
+                    <div class="item-total">
+                        <span class="item-price">${itemTotal} kr</span>
+                    </div>
+                    <button class="remove-item-btn">×</button>`;
+
+                // Append the item element to the cart container
+                cartItemsContainer.appendChild(itemElement);
+            });
+
+            // Update total price
+            document.getElementById('total-price').textContent = totalPrice + ' kr';
+        }
+
+        // Listen for quantity changes and update localStorage and cart display
+        document.addEventListener('input', function(event) {
+            if (event.target.classList.contains('quantity-input')) {
+                const productName = event.target.dataset.product;
+                const newQuantity = parseInt(event.target.value);
+
+                // Get the cart from localStorage
+                let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+                // Update the quantity of the product in the cart
+                const product = cart.find(item => item.name === productName);
+                if (product) {
+                    product.quantity = newQuantity;
+                }
+
+                // Save the updated cart to localStorage
+                localStorage.setItem('cart', JSON.stringify(cart));
+
+                // Reload the cart to update totals
+                loadCart();
+            }
+        });
+
+        // Remove item from cart
+        document.addEventListener('click', function(event) {
+            if (event.target.classList.contains('remove-item-btn')) {
+                const cart = JSON.parse(localStorage.getItem('cart')) || [];
+                const itemIndex = event.target.parentElement.dataset.index;
+
+                // Remove the item from the cart array
+                cart.splice(itemIndex, 1);
+
+                // Save the updated cart to localStorage
+                localStorage.setItem('cart', JSON.stringify(cart));
+
+                // Reload the cart to update the display
+                loadCart();
+            }
+        });
+
+        // Load the cart on page load
+        loadCart();
+    </script>
+</body>
+</html>
+
