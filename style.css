@@ -34,11 +34,11 @@ nav ul li a {
 /* Hero Section */
 .hero {
     background-image: 
-        linear-gradient(to bottom, rgba(38, 38, 38, 0.6) 0%, rgba(0, 0, 0, 0.4) 100%), 
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.237) 0%, rgba(239, 118, 19, 0.155) 100%), 
         url('bilder/MatlekenBakgrundsbild.webp'); /* Rätt bildväg */
-    background-size: cover; /* Ändrar från contain till cover för bättre skärmfyllning */
+    background-size: contain; /* Ändrar från contain till cover för bättre skärmfyllning */
     background-position: center;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
     padding: 100px 20px;
     text-align: center;
@@ -49,8 +49,8 @@ nav ul li a {
 /* Anpassning för mobila enheter */
 @media (max-width: 768px) {
     .hero {
-        background-attachment: scroll; /* Förhindra att bilden stannar fast på mindre skärmar */
-        background-size: cover; /* Fyll hela bakgrunden utan att förvränga bilden */
+        background-attachment: fixed; /* Förhindra att bilden stannar fast på mindre skärmar */
+        background-size: contain; /* Fyll hela bakgrunden utan att förvränga bilden */
         height: 70vh; /* Mindre höjd för mobiler */
     }
 
@@ -447,33 +447,55 @@ h3 {
     font-family: 'Raleway', sans-serif;
 }
 
-/* Om Oss Sektion */
-.about-section {
-    background-color: #f9f9f9; /* Ljus bakgrundsfärg för att skilja sektionen från resten */
-    padding: 60px 20px; /* Avstånd från toppen och kanterna */
-    text-align: center; /* Centrerad text */
-    border-top: 3px solid #ff9800; /* Dekorativ övre kant */
-    border-bottom: 3px solid #ff9800; /* Dekorativ nedre kant */
+/* Kontakt Sektion Styling */
+.contact-section {
+    padding: 60px 20px; /* Generöst utrymme för topp- och bottenkanten */
+    background-color: #f5f5f5; /* Ljus bakgrund för en trevlig kontrast */
+    text-align: center; /* Centrera texten */
 }
 
-.about-section .container {
-    max-width: 800px; /* Begränsar bredden för bättre läsbarhet */
+.contact-section h2 {
+    font-size: 2.5rem; /* Större rubrik för att dra uppmärksamhet */
+    margin-bottom: 20px; /* Litet avstånd mellan rubrik och innehåll */
+    color: #007acc; /* Kontrasterande blå färg */
+    font-family: 'Playfair Display', serif; /* Elegant serif-typsnitt */
+    font-weight: bold;
+}
+
+.contact-details {
+    font-size: 1.2rem; /* Lättläst textstorlek */
+    color: #333; /* Neutral textfärg */
+    line-height: 1.8; /* Bra radavstånd för läsbarhet */
+    max-width: 600px; /* Begränsar bredden för bättre layout */
     margin: 0 auto; /* Centrerar innehållet */
+    text-align: left; /* Justerar texten till vänster för att efterlikna ett brevformat */
+    background: #ffffff; /* Vit bakgrund för kontrast */
+    padding: 20px 30px; /* Lagt till padding för utrymme runt texten */
+    border-radius: 10px; /* Rundade hörn för ett mjukt utseende */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lätt skugga för att lyfta sektionen */
 }
 
-.about-section h2 {
-    font-size: 2.5em; /* Stor och tydlig rubrik */
-    margin-bottom: 20px; /* Avstånd mellan rubrik och text */
-    color: #333; /* Tydlig textfärg */
-    font-weight: bold; /* Gör rubriken fet */
+.contact-details p {
+    margin-bottom: 10px; /* Avstånd mellan varje rad */
 }
 
-.about-section p {
-    font-size: 1.2em; /* Lättläst textstorlek */
-    line-height: 1.6; /* Bra radavstånd för läsbarhet */
-    color: #666; /* Neutral textfärg */
-    margin: 0 auto; /* Centrerar texten */
+.contact-details strong {
+    color: #ff9800; /* Gör etiketten mer framträdande */
 }
+
+/* Anpassning för mobila enheter */
+@media (max-width: 768px) {
+    .contact-section h2 {
+        font-size: 2rem; /* Mindre rubrikstorlek på mindre skärmar */
+    }
+
+    .contact-details {
+        font-size: 1rem; /* Anpassad textstorlek för mobiler */
+        padding: 15px 20px; /* Mindre padding för mindre skärmar */
+    }
+}
+
+
 
 
 
