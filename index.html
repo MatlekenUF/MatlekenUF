@@ -269,10 +269,16 @@
             return;
         }
 
-        const formData = { name, phone, email, comment };
+        // Skapa en lista över produkter med namn och antal
+        const products = Object.entries(cart).map(([product, details]) => ({
+            name: product,         // Produktens namn
+            quantity: details.quantity // Antalet
+        }));
+
+        const formData = { name, phone, email, comment, products };
 
         try {
-            const response = await fetch('https://script.google.com/macros/s/AKfycbyPG8FIJBmVEPF5ZPm4sDQGLB6zZ73YRSVRKjz2E_xmxOwIgRVEiTr_mHGDqS9vB2OI8Q/exec', {
+            const response = await fetch('https://script.google.com/macros/s/AKfycbwN4roIWfkhbmECMy7bEiWXD1HAVba6eGAaaum3Qk20FeCaeMfGOzpeNO91x69mRbtC/exec', {
                 method: 'POST',
                 body: JSON.stringify(formData),
                 headers: { 'Content-Type': 'application/json' },
