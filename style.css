@@ -51,7 +51,7 @@ nav ul li a {
     .hero {
         background-attachment: fixed; /* Förhindra att bilden stannar fast på mindre skärmar */
         background-size: contain; /* Fyll hela bakgrunden utan att förvränga bilden */
-        height: 70vh; /* Mindre höjd för mobiler */
+        height: 100vh; /* Mindre höjd för mobiler */
     }
 
     .hero-content h2 {
@@ -359,24 +359,27 @@ h3 {
     gap: 10px;
 }
 
-.cart-icon {
-    cursor: pointer; /* Visar en pekare när man hovrar över kundvagnen */
-    display: flex; /* Gör det möjligt att centrera innehållet */
-    align-items: center; /* Vertikal centrering av ikonen i förhållande till andra element */
-    padding: 10px; /* Lägg till lite inre avstånd för bättre klickbarhet */
+/* Cart Icon */
+.cart {
+    position: relative;
 }
 
-.cart-icon svg {
-    width: 48px; /* Ställer in storlek på shopping cart-ikonen */
-    height: 48px;
-    fill: none; /* Ingen bakgrundsfyllning */
-    stroke: #4a4a4a; /* Primär färg för ikonen */
-    transition: transform 0.2s ease-in-out; /* Smooth animation effect */
+.cart img {
+    width: 40px;
+    height: 40px;
 }
 
-.cart-icon svg:hover {
-    transform: scale(1.1); /* Gör ikonen större när användaren hovrar över den */
+.cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 50%;
 }
+
 
 .product-card {
     border: 1px solid #e0e0e0;
