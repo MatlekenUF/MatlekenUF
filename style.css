@@ -359,26 +359,31 @@ h3 {
     gap: 10px;
 }
 
-/* Cart Icon */
-.cart {
-    position: relative;
+:root {
+    --cart-icon-color: #4a4a4a; /* Standardfärg för ikonen */
+    --cart-icon-hover-color: #ff9800; /* Färg vid hovring */
 }
 
-.cart img {
-    width: 40px;
-    height: 40px;
+.cart-icon {
+    cursor: pointer; /* Visar en pekare när man hovrar över kundvagnen */
+    display: flex; /* Gör det möjligt att centrera innehållet */
+    align-items: center; /* Vertikal centrering av ikonen i förhållande till andra element */
+    padding: 10px; /* Lägg till lite inre avstånd för bättre klickbarhet */
 }
 
-.cart-count {
-    position: absolute;
-    top: -5px;
-    right: -5px;
-    background-color: red;
-    color: white;
-    font-size: 12px;
-    padding: 2px 5px;
-    border-radius: 50%;
+.cart-icon svg {
+    width: 48px; /* Ställer in storlek på shopping cart-ikonen */
+    height: 48px;
+    fill: none; /* Ingen bakgrundsfyllning */
+    stroke: var(--cart-icon-color); /* Använd variabeln för primär färg */
+    transition: transform 0.2s ease-in-out, stroke 0.2s ease-in-out; /* Smooth animation effect */
 }
+
+.cart-icon svg:hover {
+    transform: scale(1.1); /* Gör ikonen större när användaren hovrar över den */
+    stroke: var(--cart-icon-hover-color); /* Ändrar färgen vid hovring */
+}
+
 
 
 .product-card {

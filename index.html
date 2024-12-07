@@ -95,12 +95,10 @@
                 </ul>
             </nav>
             <div class="cart-icon" id="cartIcon">
-                <a href="kundvagn.html">
-                    <svg class="w-[48px] h-[48px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
-                    </svg>
-                    <span id="cartCount" style="margin-left: 8px; font-weight: bold;">0</span>
-                </a>
+                <svg class="w-[48px] h-[48px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                </svg>
+                <span id="cartCount" style="margin-left: 8px; font-weight: bold;">0</span>
             </div>
         </div>
     </header>
@@ -159,60 +157,33 @@
             </div>
         </div>
     </section>
+ 
     <!-- Resultatsektion (där receptkort visas) -->
-    <section id="recipeSection" class="recipe-section">
-        <div id="resultSection"></div>
-    </section>
+ <section id="recipeSection" class="recipe-section">
+    <div id="resultSection"></div>
+</section>
 
-    <script>
-        // Uppdatera kundvagnsikonen vid sidladdning
-        document.addEventListener('DOMContentLoaded', () => {
-            const cart = JSON.parse(localStorage.getItem('cart')) || [];
-            const cartCount = cart.reduce((total, item) => total + item.quantity, 0);
-            document.getElementById('cartCount').textContent = cartCount;
+<script>
+    // JavaScript för att hantera hamburgarmenyn
+    document.getElementById('menuToggle').addEventListener('click', function () {
+        const navMenuMobile = document.getElementById('navMenuMobile');
+        navMenuMobile.classList.toggle('active');
+    });
+
+    // JavaScript för att hantera kundvagnen
+    let cartCount = 0;
+    const cartCountElement = document.getElementById('cartCount');
+    const addToCartButtons = document.querySelectorAll('.add-to-cart-button');
+
+    addToCartButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            cartCount++;
+            cartCountElement.textContent = cartCount;
         });
-    
-        // Hämta alla "Lägg till i kundvagn"-knappar
-        const addToCartButtons = document.querySelectorAll('.add-to-cart-button');
-    
-        // Lägg till klickhändelse för varje knapp
-        addToCartButtons.forEach(button => {
-            button.addEventListener('click', (event) => {
-                // Hitta produktinformationen
-                const productCard = event.target.closest('.product-card');
-                const productName = productCard.querySelector('h3').textContent;
-                const productPrice = parseInt(productCard.querySelector('.price').textContent.replace(' kr', ''));
-                const productImage = productCard.querySelector('img').src;
-    
-                // Skapa produktobjekt
-                const product = {
-                    name: productName,
-                    price: productPrice,
-                    image: productImage,
-                    quantity: 1 // Standardantal
-                };
-    
-                // Hämta nuvarande kundvagn från localStorage
-                let cart = JSON.parse(localStorage.getItem('cart')) || [];
-    
-                // Kontrollera om produkten redan finns i kundvagnen
-                const existingProduct = cart.find(item => item.name === product.name);
-                if (existingProduct) {
-                    existingProduct.quantity++; // Öka antalet
-                } else {
-                    cart.push(product); // Lägg till ny produkt
-                }
-    
-                // Uppdatera kundvagnen i localStorage
-                localStorage.setItem('cart', JSON.stringify(cart));
-    
-                // Uppdatera kundvagnsikonen
-                const cartCount = cart.reduce((total, item) => total + item.quantity, 0);
-                document.getElementById('cartCount').textContent = cartCount;
-    
-                alert(`${productName} har lagts till i kundvagnen!`);
-            });
-        });
-    </script>
-    
+    });
+
+</script>
+<script src="app.js"></script>
+</body>
+</html>
     
