@@ -168,12 +168,12 @@
         <div id="productDetails" class="product-details"></div>
         <p>Fyll i dina uppgifter för att förbeställa spelet.</p>
         <form id="orderForm">
-            <input type="text" id="name" placeholder="Namn" required>
-            <input type="tel" id="phone" placeholder="Telefonnummer" required>
-            <input type="email" id="email" placeholder="E-postadress" required>
-            <textarea id="comment" placeholder="Eventuell kommentar..."></textarea>
+            <input type="text" id="name" name="name" placeholder="Namn" required>
+            <input type="tel" id="phone" name="phone" placeholder="Telefonnummer" required>
+            <input type="email" id="email" name="email" placeholder="E-postadress" required>
+            <textarea id="comment" name="comment" placeholder="Eventuell kommentar..."></textarea>
             <button type="submit">Förbeställ</button>
-        </form>
+        </form>        
     </div>
 </div>
 
@@ -189,120 +189,19 @@
         navMenuMobile.classList.toggle('active');
     });
 
-    // Kundvagnsdata
-    let cart = {};
-    const cartCountElement = document.getElementById('cartCount');
-    const addToCartButtons = document.querySelectorAll('.add-to-cart-button');
-    const productDetails = document.getElementById('productDetails');
 
-    addToCartButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            const product = button.getAttribute('data-product');
-            const image = button.getAttribute('data-image');
-
-            if (!cart[product]) {
-                cart[product] = { quantity: 0, image };
-            }
-
-            cart[product].quantity++;
-
-            const totalItems = Object.values(cart).reduce((sum, item) => sum + item.quantity, 0);
-            cartCountElement.textContent = totalItems;
-        });
-    });
-
-    // Hantera visning av modalen
-    const cartIcon = document.getElementById('cartIcon');
-    const cartModal = document.getElementById('cartModal');
-
-    cartIcon.addEventListener('click', () => {
-        productDetails.innerHTML = '';
-        for (const [product, details] of Object.entries(cart)) {
-            productDetails.innerHTML += `
-                <div>
-                    <img src="${details.image}" alt="${product}" class="product-image">
-                    <p>${product}: ${details.quantity} st <span class="remove-button" data-product="${product}">Ta bort</span></p>
-                </div>`;
-        }
-        cartModal.classList.add('active');
-        handleRemoveButtons();
-    });
-
-    // Hantera ta bort-knappar i kundvagnen
-    function handleRemoveButtons() {
-        document.querySelectorAll('.remove-button').forEach(button => {
-            button.addEventListener('click', (e) => {
-                const productToRemove = e.target.getAttribute('data-product');
-                delete cart[productToRemove];
-
-                const totalItems = Object.values(cart).reduce((sum, item) => sum + item.quantity, 0);
-                cartCountElement.textContent = totalItems;
-                e.target.parentElement.parentElement.remove();
-
-                if (Object.keys(cart).length === 0) {
-                    cartModal.classList.remove('active');
-                }
-            });
-        });
-    }
-
-    // Stäng modal vid klick utanför innehållet
-    cartModal.addEventListener('click', (e) => {
-        if (e.target === cartModal) {
-            cartModal.classList.remove('active');
-        }
-    });
-
-    // Hantera formulärets inskickning
-    const orderForm = document.getElementById('orderForm');
-    orderForm.addEventListener('submit', async (e) => {
-        e.preventDefault();
-
-        // Validering
-        const name = document.getElementById('name').value.trim();
-        const phone = document.getElementById('phone').value.trim();
-        const email = document.getElementById('email').value.trim();
-        const comment = document.getElementById('comment').value.trim();
-
-        if (!name || !phone || !email) {
-            alert('Vänligen fyll i alla obligatoriska fält.');
-            return;
-        }
-
-        // Skapa en lista över produkter med namn och antal
-        const products = Object.entries(cart).map(([product, details]) => ({
-            name: product,         // Produktens namn
-            quantity: details.quantity // Antalet
-        }));
-
-        const formData = { name, phone, email, comment, products };
-
-        try {
-            const response = await fetch('https://script.google.com/macros/s/AKfycbwN4roIWfkhbmECMy7bEiWXD1HAVba6eGAaaum3Qk20FeCaeMfGOzpeNO91x69mRbtC/exec', {
-                method: 'POST',
-                body: JSON.stringify(formData),
-                headers: { 'Content-Type': 'application/json' },
-            });
-
-            const result = await response.json();
-            if (result.result === 'success') {
-                alert('Tack för din förbeställning!');
-                cartModal.classList.remove('active');
-                cart = {}; // Rensa kundvagnen
-                cartCountElement.textContent = "0"; // Återställ räknaren
-                window.location.href = "index.html"; // Navigera tillbaka till framsidan
-            } else {
-                throw new Error(result.error || 'Okänt fel');
-            }
-        } catch (error) {
-            alert('Något gick fel. Kontrollera din anslutning eller försök igen senare.');
-            console.error('Fel:', error);
-        }
-    });
 </script>
 <script src="app.js"></script>
 </body>
 </html>
+
+
+
+ 
+
+    
+    
+
 
 
 
