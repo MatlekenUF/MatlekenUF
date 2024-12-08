@@ -1183,8 +1183,6 @@ function getRecipeByCode(code) {
         '2. Tillsätt quorn eller tofu och fräs i några minuter.',
         '3. Rör ner paprikapulver, krossade tomater och dijonsenap. Låt koka i 5 minuter.',
         '4. Häll i grädde och låt småputtra ytterligare 5 minuter. Smaka av med salt och peppar.',
-        '5. Servera med ris eller potatismos och toppa med persilja.',
-        'Tips:',
         '1. Lägg till skivade champinjoner för mer smak och textur.',
         '2. För en vegansk variant, använd växtbaserad grädde och tofu.',
         '3. Servera med en klick crème fraiche eller vegansk alternativ för extra syrlighet.'
