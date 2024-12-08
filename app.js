@@ -262,7 +262,7 @@ orderForm.addEventListener('submit', async (e) => {
     const formData = { name, phone, email, comment, products };
 
     try {
-        const response = await fetch('https://script.google.com/macros/s/AKfycbwHXRD5cpaGe2KjXxZAUZm77rx4Pn9HPMW0qB_WG4CUQe0m0y6fT7kFkV8_3q66WCHI/exec', {
+        const response = await fetch('https://script.google.com/macros/s/AKfycbw1gou2tgnDu2Yi002-6Kzy2kFnWRN-E4oLczD3osat38Mb7Xq6VIJ2IbEh482kp6VE/exec', {
             method: 'POST',
             body: JSON.stringify(formData),
             headers: { 'Content-Type': 'application/json' },
