@@ -3379,7 +3379,7 @@ orderForm.addEventListener('submit', async (e) => {
             headers: { 'Content-Type': 'application/json' },
             mode: "no-cors"
         });
-
+/*
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -3393,7 +3393,13 @@ orderForm.addEventListener('submit', async (e) => {
             window.location.href = "index.html"; // Navigera tillbaka till framsidan
         } else {
             throw new Error(result.error || 'Okänt fel från servern');
-        }
+        }*/
+            alert('Tack för din förbeställning!');
+            cartModal.classList.remove('active');
+            cart = {}; // Rensa kundvagnen
+            cartCountElement.textContent = "0"; // Återställ räknaren
+            window.location.href = "index.html"; // Navigera tillbaka till framsidan
+
     } catch (error) {
         alert('Något gick fel. Kontrollera din anslutning eller försök igen senare.');
         console.error('Fel:', error);
