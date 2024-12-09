@@ -3377,6 +3377,7 @@ orderForm.addEventListener('submit', async (e) => {
             method: 'POST',
             body: JSON.stringify(formData),
             headers: { 'Content-Type': 'application/json' },
+            mode: "no-cors"
         });
 
         if (!response.ok) {
