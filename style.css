@@ -10,7 +10,7 @@ body {
 header {
     background-color: #ffb171;
     color: white;
-    padding: 0,7rem 0;
+    padding: 1rem 0;
     text-align: center;
     position: fixed; /* Gör så att headern stannar på plats */
     top: 0; /* Placera den längst upp */
