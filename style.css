@@ -1,8 +1,8 @@
 /* Grundlayout */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0; 
+    padding-top: 80px; 
     background-color: #f9f9f9;
     color: #333333f4;
 }
@@ -12,6 +12,11 @@ header {
     color: white;
     padding: 1.5rem 0;
     text-align: center;
+    position: fixed; /* Gör så att headern stannar på plats */
+    top: 0; /* Placera den längst upp */
+    left: 0; /* Placera den till vänster */
+    width: 100%; /* Gör att den sträcker sig över hela sidans bredd */
+    z-index: 1000; /* Placera den över andra element */  
 }
 
 nav ul {
@@ -39,7 +44,7 @@ nav ul li a {
     background-size: contain; /* Ändrar från contain till cover för bättre skärmfyllning */
     background-position: center;
     background-attachment: fixed;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 100px 20px;
     text-align: center;
     position: relative;
@@ -117,11 +122,12 @@ nav ul li a {
 .search-section {
     text-align: center;
     margin: 40px 0;
+    scroll-margin-top: 200px;
 }
 
 #searchInput {
     width: 60%;
-    padding: 15px;
+    padding: 10px;
     font-size: 1rem;
     border: 2px solid #ffb171;
     border-radius: 5px;
@@ -568,6 +574,9 @@ h3 {
     width: 100px;
     height: auto;
 }
+
+
+
 
 
 

@@ -3240,38 +3240,45 @@ function displayRecipe(recipe) {
     });
     recipeDiv.appendChild(closeBtn);
 
-    // Timer
-    var timer = document.createElement('div');
-    timer.className = 'timer-container';
-    timer.innerHTML = ` 
-        <label for="timerInput">Ställ in timer (minuter): </label>
-        <input type="number" id="timerInput" min="1" value="30">
-        <button id="startTimer">Starta Timer</button>
-        <p>Timer: <span id="countdown">30:00</span> min</p>
-    `;
-    recipeDiv.appendChild(timer);
+// Timer
+var timer = document.createElement('div');
+timer.className = 'timer-container';
+timer.innerHTML = ` 
+    <label for="timerInput">Ställ in timer (minuter): </label>
+    <input type="number" id="timerInput" min="1" value="30">
+    <button id="startTimer">Starta Timer</button>
+    <p>Timer: <span id="countdown">30:00</span> min</p>
+`;
+recipeDiv.appendChild(timer);
 
-    resultSection.appendChild(recipeDiv);
+resultSection.appendChild(recipeDiv);
 
-    // Timer funktionalitet
-    var countdown = 30 * 60; // Default till 30 minuter i sekunder
+// Timer funktionalitet
+let timerInterval = null; // Spara referensen till intervallet
+let countdown = 30 * 60; // Default till 30 minuter i sekunder
 
-    document.getElementById('startTimer').addEventListener('click', function() {
-        var timerInput = document.getElementById('timerInput').value;
-        countdown = timerInput * 60;
+document.getElementById('startTimer').addEventListener('click', function () {
+    // Avbryt eventuell tidigare timer
+    if (timerInterval) {
+        clearInterval(timerInterval);
+    }
 
-        var timerInterval = setInterval(function() {
-            var minutes = Math.floor(countdown / 60);
-            var seconds = countdown % 60;
-            document.getElementById('countdown').textContent = `${minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
-            countdown--;
+    var timerInput = document.getElementById('timerInput').value;
+    countdown = timerInput * 60;
 
-            if (countdown < 0) {
-                clearInterval(timerInterval);
-                alert('Timer är slut!');
-            }
-        }, 1000);
-    });
+    timerInterval = setInterval(function () {
+        var minutes = Math.floor(countdown / 60);
+        var seconds = countdown % 60;
+        document.getElementById('countdown').textContent = `${minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
+        countdown--;
+
+        if (countdown < 0) {
+            clearInterval(timerInterval);
+            timerInterval = null; // Nollställ referensen
+            alert('Timer är slut!');
+        }
+    }, 1000);
+});
 }
 // Kundvagnsdata
 let cart = {};
@@ -3327,7 +3334,6 @@ function handleRemoveButtons() {
 
             // Ta bort produkten från modalen
             e.target.parentElement.parentElement.remove();
-
             // Stäng modalen om kundvagnen är tom
             if (Object.keys(cart).length === 0) {
                 cartModal.classList.remove('active');
@@ -3405,6 +3411,20 @@ orderForm.addEventListener('submit', async (e) => {
         console.error('Fel:', error);
     }
 });
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (event) {
+        event.preventDefault();
+        const targetId = this.getAttribute('href').slice(1); // Hämta id:t utan #
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            targetElement.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    });
+});
+
 
 
 
