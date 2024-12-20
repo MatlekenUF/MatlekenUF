@@ -3164,9 +3164,15 @@ function getRecipeByCode(code) {
         '4. Lägg upp riset på tallrikar och toppa med edamamebönor, ett stekt ägg och salladslök. Strö över sesamfrön.'
     ]
 },
+'22222': {
+    title: 'Grekisk Pastasallad',
+    image: 'bilder/22222.png',
     description: 'En fräsch och smakrik grekisk pastasallad med fetaost, grönsaker och en enkel dressing. Perfekt för picknick eller som tillbehör.',
     ingredients: [
         '300 g pasta (t.ex. penne, fusilli eller farfalle)',
+        '200 g fetaost, tärnad',
+        '1 gurka, skuren i halvmånar',
+        '250 g körsbärstomater, halverade',
         '1 röd paprika, skuren i små bitar',
         '1 rödlök, tunt skivad',
         '100 g svarta oliver (gärna Kalamata)',
