@@ -3164,10 +3164,1455 @@ function getRecipeByCode(code) {
         '4. Lägg upp riset på tallrikar och toppa med edamamebönor, ett stekt ägg och salladslök. Strö över sesamfrön.'
     ]
 },
+    description: 'En fräsch och smakrik grekisk pastasallad med fetaost, grönsaker och en enkel dressing. Perfekt för picknick eller som tillbehör.',
+    ingredients: [
+        '300 g pasta (t.ex. penne, fusilli eller farfalle)',
+        '1 röd paprika, skuren i små bitar',
+        '1 rödlök, tunt skivad',
+        '100 g svarta oliver (gärna Kalamata)',
+        '2 msk olivolja',
+        '1 msk rödvinsvinäger',
+        '1 tsk torkad oregano',
+        'Salt och svartpeppar efter smak',
+        'Färsk persilja eller basilika, hackad (valfritt)'
+    ],
+    instructions: [
+        '1. Koka pastan enligt anvisningarna på förpackningen. Häll av vattnet och skölj pastan med kallt vatten för att kyla ner den. Låt den rinna av ordentligt.',
+        '2. Skär gurka, tomater, paprika och rödlök enligt beskrivningen.',
+        '3. I en liten skål, vispa ihop olivolja, rödvinsvinäger, oregano, salt och peppar.',
+        '4. Lägg pastan i en stor skål. Tillsätt gurka, tomater, paprika, rödlök, oliver och fetaost. Häll över dressingen och blanda försiktigt så att allt blir väl täckt.',
+        '5. Toppa med färsk persilja eller basilika om så önskas. Salladen kan serveras direkt eller stå i kylskåp i ca 30 minuter för att smakerna ska sätta sig.'
+    ],
+    tips: [
+        'För extra smak kan du tillsätta kapris eller soltorkade tomater.',
+        'Servera med ett gott bröd, t.ex. pita eller ciabatta.'
+    ]
+},
+'22223': {
+    title: 'Frasig Halloumi med Tzatziki och Rostad Potatis',
+    image: 'bilder/22223.png',
+    description: 'En härlig och smakrik rätt med krispig halloumi, gyllene rostad potatis och en fräsch tzatziki. Perfekt för både vardag och fest!',
+    ingredients: [
+        'Rostad potatis:',
+        '800 g små potatisar (t.ex. delikatesspotatis)',
+        '2 msk olivolja',
+        '1 tsk paprikapulver',
+        '1 tsk torkad timjan',
+        'Salt och svartpeppar',
+        'Halloumi:',
+        '400 g halloumi, skuren i skivor',
+        '1 dl vetemjöl',
+        '2 ägg, lättvispade',
+        '2 dl panko eller vanligt ströbröd',
+        '2 msk olivolja till stekning',
+        'Tzatziki:',
+        '2 dl grekisk yoghurt',
+        '1 gurka',
+        '2 vitlöksklyftor, pressade',
+        '1 msk olivolja',
+        '1 tsk vitvinsvinäger',
+        'Salt och peppar',
+        'Till servering:',
+        'Färska grönsaker (t.ex. tomat, rödlök, sallad)',
+        'Citronklyftor'
+    ],
+    instructions: [
+        '1. Sätt ugnen på 225°C. Tvätta potatisarna och skär dem i halvor. Lägg dem på en plåt med bakplåtspapper.',
+        '2. Ringla över olivolja, strö på paprikapulver, timjan, salt och peppar. Blanda väl. Rosta i ugnen i ca 25–30 minuter tills potatisen är gyllene och krispig. Vänd dem efter halva tiden.',
+        '3. Riv gurkan grovt och lägg den i en sil. Strö över lite salt och låt stå i 10 minuter för att vätskan ska dra ur.',
+        '4. Krama ur överflödig vätska och blanda gurkan med grekisk yoghurt, pressad vitlök, olivolja och vitvinsvinäger. Smaka av med salt och peppar. Ställ i kylen tills servering.',
+        '5. Förbered tre skålar: en med mjöl, en med vispade ägg och en med panko eller ströbröd. Doppa varje halloumiskiva först i mjöl, sedan i ägg och slutligen i panko.',
+        '6. Hetta upp olivolja i en stekpanna och stek halloumin på medelhög värme tills skivorna är gyllene och frasiga på båda sidor.',
+        '7. Lägg upp den rostade potatisen, frasig halloumi och tzatziki på tallrikar. Komplettera med färska grönsaker och citronklyftor för extra fräschör.'
+    ],
+    tips: [
+        'För en extra touch kan du tillsätta honung eller chiliflakes på halloumin strax innan servering.',
+        'Variera potatisen med sötpotatis om du vill ha en annan smak.'
+    ]
+},
+'22224': {
+    title: 'Ugnsrostade Medelhavsgrönsaker med Fetaost och Soltorkade Tomater',
+    image: 'bilder/22224.png',
+    description: 'En färgstark och smakrik rätt med ugnsrostade grönsaker, krämig fetaost och soltorkade tomater. Perfekt som huvudrätt eller tillbehör.',
+    ingredients: [
+        '1 zucchini, skuren i halvmånar',
+        '1 aubergine, tärnad',
+        '2 paprikor (gärna olika färger), skurna i bitar',
+        '1 rödlök, klyftad',
+        '2 vitlöksklyftor, finhackade',
+        '200 g körsbärstomater, hela',
+        '100 g soltorkade tomater i olja, strimlade',
+        '150 g fetaost, smulad',
+        '3 msk olivolja',
+        '1 tsk torkad oregano',
+        '1 tsk torkad timjan',
+        '1 tsk paprikapulver',
+        'Salt och svartpeppar efter smak',
+        'Färsk basilika eller persilja för garnering'
+    ],
+    instructions: [
+        '1. Sätt ugnen på 200°C (varmluft om möjligt).',
+        '2. Lägg zucchini, aubergine, paprika, rödlök och körsbärstomater i en stor skål. Tillsätt vitlök, soltorkade tomater och kryddor (oregano, timjan och paprikapulver).',
+        '3. Ringla över olivoljan och blanda allt noggrant så att grönsakerna blir jämnt täckta av kryddor och olja.',
+        '4. Sprid ut grönsaksblandningen på en plåt med bakplåtspapper. Se till att grönsakerna ligger i ett jämnt lager. Rosta i ugnen i 25–30 minuter, eller tills grönsakerna är mjuka och har fått en gyllene färg.',
+        '5. Ta ut plåten ur ugnen och smula fetaosten över de varma grönsakerna. Sätt tillbaka plåten i ugnen i 5 minuter så att fetaosten blir lätt mjuk.',
+        '6. Ta ut plåten och toppa med färsk basilika eller persilja. Servera som en huvudrätt med bröd eller som ett tillbehör till exempelvis grillat kött eller fisk.'
+    ],
+    tips: [
+        'För extra smak kan du ringla över lite balsamvinäger eller honung innan servering.',
+        'Vill du göra rätten matigare? Tillsätt kikärtor eller quinoa som bas.'
+    ]
+},
+'22225': {
+    title: 'Lammfärsbiffar med Bulgursallad',
+    image: 'bilder/22225.png',
+    description: 'Saftiga lammfärsbiffar serverade med en fräsch bulgursallad – en perfekt balans av kryddighet och fräschör.',
+    ingredients: [
+        '500 g lammfärs',
+        '1 ägg',
+        '2 vitlöksklyftor, finhackade',
+        '1 tsk spiskummin',
+        '1 tsk paprikapulver',
+        'Salt och svartpeppar efter smak',
+        '2 dl bulgur',
+        '1 rödlök, hackad',
+        '1 tomat, tärnad',
+        '1 gurka, tärnad',
+        '1 näve färsk persilja, hackad',
+        '2 msk olivolja',
+        'Saft från 1 citron'
+    ],
+    instructions: [
+        '1. Blanda lammfärs, ägg, vitlök, spiskummin, paprikapulver, salt och peppar i en skål. Forma till små biffar.',
+        '2. Koka bulgur enligt anvisningarna på förpackningen. Låt svalna och blanda med rödlök, tomat, gurka och persilja. Tillsätt olivolja och citronsaft. Smaka av med salt och peppar.',
+        '3. Stek lammfärsbiffarna i en stekpanna med olja tills de är genomstekta och har fått fin färg.',
+        '4. Lägg upp biffarna tillsammans med bulgursalladen. Servera med bröd eller yoghurtbaserad sås vid sidan.'
+    ],
+    tips: [
+        'För extra smak kan du tillsätta hackad mynta i färssmeten.',
+        'Servera med hummus eller baba ganoush som tillbehör.'
+    ]
+},
+'22226': {
+    title: 'Pontiska Pannkakor, Pishia',
+    image: 'bilder/22226.png',
+    description: 'Traditionella pontiska pannkakor som är enkla att laga och passar både till frukost och mellanmål.',
+    ingredients: [
+        '4 dl vetemjöl',
+        '2 dl vatten',
+        '1 ägg',
+        '1 tsk bakpulver',
+        '1 tsk salt',
+        'Olja för stekning'
+    ],
+    instructions: [
+        '1. Vispa ihop vetemjöl, vatten, ägg, bakpulver och salt till en jämn smet.',
+        '2. Hetta upp olja i en stekpanna och stek små pannkakor tills de är gyllene på båda sidor.',
+        '3. Servera pannkakorna med sylt, yoghurt eller ost efter smak.'
+    ],
+    tips: [
+        'Du kan även fylla pannkakorna med fetaost och örter innan stekning för en matigare variant.',
+        'Servera med honung och valnötter för en söt twist.'
+    ]
+},
+'22227': {
+    title: 'Grekiska Potatisklyftor med Tzatziki',
+    image: 'bilder/22227.png',
+    description: 'Krispiga ugnsrostade potatisklyftor serverade med en krämig tzatziki – perfekt som tillbehör eller huvudrätt.',
+    ingredients: [
+        '6 potatisar, klyftade',
+        '3 msk olivolja',
+        '1 tsk torkad oregano',
+        '1 tsk torkad timjan',
+        '1 tsk paprikapulver',
+        'Salt och svartpeppar efter smak',
+        '3 dl grekisk yoghurt',
+        '2 vitlöksklyftor, finhackade',
+        '1 gurka, riven',
+        '1 msk olivolja (för tzatziki)'
+    ],
+    instructions: [
+        '1. Lägg potatisklyftorna i en skål och tillsätt olivolja, oregano, timjan, paprikapulver, salt och peppar. Blanda väl.',
+        '2. Lägg potatisklyftorna på en plåt med bakplåtspapper och rosta i ugnen på 200°C i 30–35 minuter, eller tills de är gyllene och mjuka.',
+        '3. Blanda grekisk yoghurt med vitlök och riven gurka. Smaka av med olivolja, salt och peppar.',
+        '4. Servera de rostade potatisklyftorna med tzatzikin vid sidan.'
+    ],
+    tips: [
+        'Toppa potatisklyftorna med färsk persilja eller mynta innan servering.',
+        'Vill du ha lite hetta? Strö över chiliflakes på potatisen innan rostning.'
+    ]
+},
+'22228': {
+    title: 'Lammracks med Grekisk Potatissallad och Tzatziki',
+    image: 'bilder/22228.png',
+    description: 'Saftiga lammracks serverade med en smakrik grekisk potatissallad och krämig tzatziki.',
+    ingredients: [
+        '500 g lammracks',
+        '3 msk olivolja',
+        '1 tsk rosmarin',
+        '1 tsk timjan',
+        'Salt och svartpeppar efter smak',
+        '6 kokta potatisar, tärnade',
+        '1 rödlök, tunt skivad',
+        '100 g fetaost, smulad',
+        '1 dl oliver',
+        '1 dl grekisk yoghurt',
+        '2 vitlöksklyftor, finhackade',
+        '½ gurka, riven',
+        '1 msk olivolja (för tzatziki)'
+    ],
+    instructions: [
+        '1. Krydda lammracks med olivolja, rosmarin, timjan, salt och peppar. Låt marinera i 30 minuter.',
+        '2. Blanda kokt potatis med rödlök, fetaost och oliver. Ringla över olivolja och smaka av med salt och peppar.',
+        '3. Blanda grekisk yoghurt med vitlök och riven gurka. Smaka av med olivolja, salt och peppar.',
+        '4. Grilla lammracksen i ugnen på 200°C i 15–20 minuter eller stek dem tills de är rosa inuti.',
+        '5. Servera racksen med potatissallad och tzatziki vid sidan.'
+    ],
+    tips: [
+        'För extra smak, tillsätt lite citronsaft över potatissalladen.',
+        'Servera med pitabröd för en matigare rätt.'
+    ]
+},
+'22229': {
+    title: 'Grekisk Sallad med Grillad Kyckling',
+    image: 'bilder/22229.png',
+    description: 'En klassisk grekisk sallad toppad med saftig grillad kyckling – perfekt för en lätt och fräsch middag.',
+    ingredients: [
+        '4 kycklingfiléer',
+        '3 msk olivolja',
+        '1 tsk oregano',
+        '1 tsk paprikapulver',
+        'Salt och svartpeppar efter smak',
+        '2 tomater, tärnade',
+        '1 gurka, skivad',
+        '1 rödlök, tunt skivad',
+        '100 g fetaost, smulad',
+        '1 dl oliver',
+        '1 citron, i klyftor'
+    ],
+    instructions: [
+        '1. Blanda olivolja, oregano, paprikapulver, salt och peppar. Gnid in kycklingfiléerna och låt marinera i 20 minuter.',
+        '2. Blanda tomater, gurka, rödlök, fetaost och oliver i en stor skål. Ringla över lite olivolja.',
+        '3. Grilla eller stek kycklingen tills den är genomstekt och saftig.',
+        '4. Lägg kycklingen ovanpå salladen och servera med citronklyftor vid sidan.'
+    ],
+    tips: [
+        'Tillsätt lite balsamvinäger till salladen för extra smak.',
+        'Servera med bröd eller bulgur för en fylligare rätt.'
+    ]
+},
+'22230': {
+    title: 'Grekiska Färsbullar med Tzatziki och Rostad Potatis',
+    image: 'bilder/22230.png',
+    description: 'Kryddiga grekiska färsbullar serverade med krispiga potatisklyftor och en fräsch tzatziki.',
+    ingredients: [
+        '500 g blandfärs (eller lammfärs)',
+        '1 ägg',
+        '1 vitlöksklyfta, finhackad',
+        '1 tsk oregano',
+        '1 tsk kanel',
+        'Salt och svartpeppar efter smak',
+        '6 potatisar, klyftade',
+        '3 msk olivolja',
+        '1 tsk paprikapulver',
+        '3 dl grekisk yoghurt',
+        '1 gurka, riven',
+        '1 vitlöksklyfta, finhackad'
+    ],
+    instructions: [
+        '1. Blanda färs, ägg, vitlök, oregano, kanel, salt och peppar. Forma små bullar.',
+        '2. Lägg potatisklyftorna på en plåt. Ringla över olivolja, krydda med paprikapulver, salt och peppar. Rosta i ugnen på 200°C i 30 minuter.',
+        '3. Blanda grekisk yoghurt med riven gurka och vitlök. Smaka av med salt.',
+        '4. Stek bullarna i en stekpanna tills de är genomstekta.',
+        '5. Servera färsbullarna med rostad potatis och tzatziki vid sidan.'
+    ],
+    tips: [
+        'Tillsätt lite chiliflakes till färsbullarna för extra hetta.',
+        'Servera med en grönsallad för en fräsch touch.'
+    ]
+},
+'22231': {
+    title: 'Spaghetti Carbonara',
+    image: 'bilder/22231.png',
+    description: 'En klassisk och krämig italiensk pastarätt som alltid imponerar.',
+    ingredients: [
+        '400 g spaghetti',
+        '150 g pancetta eller bacon, tärnad',
+        '3 ägg',
+        '1 dl riven parmesan',
+        '1 vitlöksklyfta, finhackad',
+        'Salt och svartpeppar'
+    ],
+    instructions: [
+        '1. Koka spaghettin enligt anvisningarna på förpackningen.',
+        '2. Stek pancettan i en stekpanna tills den är knaprig. Tillsätt vitlök och låt fräsa kort.',
+        '3. Vispa ihop ägg med parmesan. Smaka av med salt och peppar.',
+        '4. Sila pastan (spara lite pastavatten). Rör ner pancettan och äggblandningen i den heta pastan. Tillsätt lite pastavatten för krämighet.',
+        '5. Lägg upp och toppa med extra parmesan och svartpeppar.'
+    ],
+    tips: [
+        'Använd guanciale för en mer autentisk smak.',
+        'Tillsätt persilja om du vill ha en fräsch touch.'
+    ]
+},
+'22232': {
+    title: 'Pasta Salsiccia Classico',
+    image: 'bilder/22232.png',
+    description: 'En smakrik och kryddig pastarätt med italiensk salsiccia.',
+    ingredients: [
+        '400 g pasta (t.ex. rigatoni eller penne)',
+        '300 g salsiccia (italiensk korv)',
+        '2 vitlöksklyftor, finhackade',
+        '1 dl torrt vitt vin',
+        '400 g krossade tomater',
+        '1 dl grädde',
+        '1 tsk chiliflakes',
+        'Salt och peppar',
+        'Färsk basilika (till garnering)'
+    ],
+    instructions: [
+        '1. Koka pastan enligt förpackningens anvisningar.',
+        '2. Skär upp korvarna och stek innehållet tills det är genomstekt. Tillsätt vitlök och chiliflakes.',
+        '3. Häll i vinet och låt det reducera. Tillsätt krossade tomater och låt koka i 10 minuter. Häll i grädden och låt sjuda.',
+        '4. Rör ner pastan i såsen och blanda väl.',
+        '5. Toppa med basilika och servera.'
+    ],
+    tips: [
+        'Strö över riven parmesan för extra smak.',
+        'Tillsätt en nypa socker i tomatsåsen om den känns för syrlig.'
+    ]
+},
+'22233': {
+    title: 'Marry Me Chicken',
+    image: 'bilder/22233.png',
+    description: 'Kyckling i en ljuvlig gräddig sås med parmesan och soltorkade tomater.',
+    ingredients: [
+        '4 kycklingfiléer',
+        '3 msk olivolja',
+        '2 vitlöksklyftor, finhackade',
+        '2 dl kycklingbuljong',
+        '2 dl grädde',
+        '1 dl parmesan, riven',
+        '1 msk soltorkade tomater, strimlade',
+        '1 tsk chiliflakes',
+        'Salt och svartpeppar',
+        'Färsk basilika för garnering'
+    ],
+    instructions: [
+        '1. Krydda kycklingfiléerna med salt och peppar. Stek dem gyllene på båda sidor i olivolja. Ta upp kycklingen och lägg åt sidan.',
+        '2. Fräs vitlök i samma panna. Tillsätt buljong, grädde, parmesan, soltorkade tomater och chiliflakes. Låt såsen sjuda i några minuter.',
+        '3. Lägg tillbaka kycklingfiléerna i såsen och låt sjuda på låg värme tills kycklingen är genomstekt.',
+        '4. Toppa med färsk basilika och servera med pasta, ris eller grönsaker.'
+    ],
+    tips: [
+        'Vill du ha mer syra? Tillsätt en skvätt citronsaft i såsen.',
+        'För en lyxigare variant, använd kycklinglårfilé istället för bröstfilé.'
+    ]
+},
+'22234': {
+    title: 'Biff Tagliata med Rostad Vitlökssås',
+    image: 'bilder/22234.png',
+    description: 'En elegant rätt med saftiga biffskivor och en smakrik vitlökssås.',
+    ingredients: [
+        '4 biffar (t.ex. entrecôte eller ryggbiff)',
+        '3 msk olivolja',
+        '1 vitlöksklyfta, finhackad',
+        '1 dl grädde',
+        '½ dl creme fraiche',
+        '1 tsk balsamvinäger',
+        'Salt och svartpeppar',
+        'Färsk ruccola och parmesan för topping'
+    ],
+    instructions: [
+        '1. Krydda biffarna med salt och peppar. Stek eller grilla dem till önskad stekgrad.',
+        '2. Fräs vitlök i olivolja tills den är gyllene. Tillsätt grädde och creme fraiche. Smaka av med balsamvinäger, salt och peppar.',
+        '3. Låt biffarna vila några minuter och skär dem sedan i tunna skivor.',
+        '4. Lägg upp biffskivorna på en bädd av ruccola. Ringla över vitlökssåsen och toppa med parmesan.'
+    ],
+    tips: [
+        'Servera med rostade potatisklyftor eller vitlöksbröd vid sidan.',
+        'För en fräsch twist, tillsätt tomatskivor till ruccolabädden.'
+    ]
+},
+'22235': {
+    title: 'Italiensk Räkpasta med Chili och Vitlök',
+    image: 'bilder/22235.png',
+    description: 'En snabb och smakrik pastarätt med räkor, vitlök och chili.',
+    ingredients: [
+        '400 g spaghetti',
+        '300 g stora räkor, skalade',
+        '3 vitlöksklyftor, finhackade',
+        '1 röd chili, skivad',
+        '3 msk olivolja',
+        '1 dl vitt vin',
+        '1 dl persilja, hackad',
+        'Salt och svartpeppar',
+        '1 citron (zest och juice)'
+    ],
+    instructions: [
+        '1. Koka spaghettin enligt anvisningarna på förpackningen.',
+        '2. Värm olivolja i en panna. Fräs vitlök och chili snabbt. Tillsätt räkorna och stek dem tills de är rosa.',
+        '3. Häll i vitt vin och låt det reducera något. Tillsätt citronzest och juice.',
+        '4. Rör ner spaghettin och persiljan i pannan. Smaka av med salt och peppar.',
+        '5. Toppa med extra persilja och en skvätt olivolja.'
+    ],
+    tips: [
+        'För en mer krämig sås, tillsätt lite grädde.',
+        'Använd färska räkor för bäst smak.'
+    ]
+},
+'22236': {
+    title: 'Risotto med Kantareller och Brynt Mandelsmör',
+    image: 'bilder/22236.png',
+    description: 'En lyxig och krämig risotto med skogens guld och brynt smör.',
+    ingredients: [
+        '300 g arborioris',
+        '200 g kantareller',
+        '1 gul lök, finhackad',
+        '2 vitlöksklyftor, finhackade',
+        '2 dl vitt vin',
+        '1 l grönsaksbuljong',
+        '1 dl parmesan, riven',
+        '50 g smör',
+        '50 g mandel, grovhackad',
+        'Salt och peppar'
+    ],
+    instructions: [
+        '1. Stek kantarellerna i lite smör tills de är gyllene. Lägg åt sidan.',
+        '2. Fräs lök och vitlök i smör. Tillsätt riset och låt det bli glansigt. Häll i vinet och låt det koka in. Tillsätt buljong, lite i taget, och rör kontinuerligt tills riset är krämigt.',
+        '3. Rör ner parmesan och kantareller i risotton.',
+        '4. Smält smöret tills det blir gyllene och doftar nötigt. Tillsätt mandeln och låt den rostas.',
+        '5. Lägg upp risotton och ringla över mandelsmöret.'
+    ],
+    tips: [
+        'Garnera med färsk timjan eller persilja.',
+        'Tillsätt tryffelolja för en lyxigare smak.'
+    ]
+},
+'22237': {
+    title: 'Tommys Pasta Salsiccia',
+    image: 'bilder/22237.png',
+    description: 'En smakfull pastarätt med salsiccia och tomatsås.',
+    ingredients: [
+        '400 g pasta (t.ex. penne)',
+        '300 g salsiccia (italiensk korv)',
+        '1 gul lök, hackad',
+        '2 vitlöksklyftor, finhackade',
+        '1 dl vitt vin',
+        '400 g krossade tomater',
+        '1 dl grädde',
+        '1 dl parmesan, riven',
+        '1 tsk chiliflakes',
+        'Färsk basilika för garnering'
+    ],
+    instructions: [
+        '1. Koka pastan enligt förpackningens anvisningar.',
+        '2. Ta ut korvinnehållet och stek det tillsammans med lök och vitlök tills det är genomstekt.',
+        '3. Tillsätt vitt vin och låt det reducera. Häll i krossade tomater och låt koka i 10 minuter. Tillsätt grädden.',
+        '4. Rör ner pastan i såsen och toppa med parmesan.',
+        '5. Garnera med basilika och servera.'
+    ],
+    tips: [
+        'Tillsätt lite rödvin i såsen för en djupare smak.',
+        'För extra hetta, öka mängden chiliflakes.'
+    ]
+},
+'22238': {
+    title: 'Bruschetta med Sardeller och Tomat',
+    image: 'bilder/22238.png',
+    description: 'En enkel och klassisk förrätt med en smakrik topping av sardeller och tomater.',
+    ingredients: [
+        '8 skivor surdegsbröd',
+        '3 tomater, tärnade',
+        '6 sardeller, finhackade',
+        '2 vitlöksklyftor, finhackade',
+        '3 msk olivolja',
+        '1 näve färsk basilika, hackad',
+        'Salt och svartpeppar efter smak'
+    ],
+    instructions: [
+        '1. Blanda tomater, sardeller, vitlök, olivolja och basilika i en skål. Smaka av med salt och peppar.',
+        '2. Rosta brödskivorna i ugnen på grillfunktion eller i en grillpanna tills de är gyllene.',
+        '3. Lägg tomatblandningen på de varma brödskivorna.',
+        '4. Servera direkt som förrätt eller tilltugg.'
+    ],
+    tips: [
+        'Gnid brödskivorna med en halverad vitlöksklyfta innan du toppar dem för extra smak.',
+        'Tillsätt lite balsamvinäger för en syrlig touch.'
+    ]
+},
+'22239': {
+    title: 'Pizza Cacio e Pepe',
+    image: 'bilder/22239.png',
+    description: 'En enkel och elegant pizza med krämig ost och svartpeppar.',
+    ingredients: [
+        '1 pizzadeg (färdig eller hemgjord)',
+        '2 dl crème fraiche',
+        '1 dl riven parmesan',
+        '1 dl riven pecorino',
+        '1 tsk svartpeppar, nymald',
+        '1 msk olivolja'
+    ],
+    instructions: [
+        '1. Kavla ut degen och lägg den på en plåt.',
+        '2. Blanda crème fraiche med hälften av parmesanen och pecorinon. Bred ut blandningen på degen.',
+        '3. Strö över svartpeppar och resten av osten.',
+        '4. Grädda i ugnen på 250°C i cirka 10–12 minuter, eller tills pizzan är gyllene och frasig.',
+        '5. Ringla över olivolja och servera direkt.'
+    ],
+    tips: [
+        'För en extra touch, toppa pizzan med färsk ruccola efter gräddning.',
+        'Tillsätt lite citronzest för en fräsch smak.'
+    ]
+},
+'22240': {
+    title: 'Gnocchi med Krämig Tomatsås och Mozzarella',
+    image: 'bilder/22240.png',
+    description: 'En tröstande och enkel gnocchirätt med krämig tomatsås och smält mozzarella.',
+    ingredients: [
+        '800 g gnocchi (färdigköpt eller hemgjord)',
+        '1 msk olivolja',
+        '1 liten gul lök, finhackad',
+        '2 vitlöksklyftor, finhackade',
+        '1 burk (400 g) krossade tomater',
+        '1 dl grädde',
+        '100 g färsk mozzarella, skuren i små bitar',
+        '2 msk färsk basilika, hackad (eller 1 msk torkad)',
+        'Salt och peppar',
+        '1 msk socker (valfritt, för att runda av smaken)',
+        'Parmesanost (till servering)'
+    ],
+    instructions: [
+        '1. Koka gnocchin enligt anvisningarna på förpackningen. När de är klara, häll av vattnet och ställ åt sidan.',
+        '2. Värm olivolja i en stor panna på medelhög värme. Tillsätt den hackade löken och vitlöken och fräs i 2–3 minuter tills de är mjuka och doftande.',
+        '3. Tillsätt de krossade tomaterna i pannan och låt koka upp. Sänk värmen och låt såsen sjuda i 10 minuter tills den har tjocknat något.',
+        '4. Häll i grädden och rör om. Låt såsen sjuda ytterligare 2–3 minuter tills den blir krämig och väl blandad. Smaka av med salt, peppar och eventuellt socker.',
+        '5. Lägg den kokta gnocchin i tomatsåsen och rör försiktigt så att alla gnocchis täcks av såsen.',
+        '6. Tillsätt mozzarella och låt den smälta i såsen.',
+        '7. Strö över färsk basilika och servera genast, gärna med riven parmesanost på toppen.'
+    ],
+    tips: [
+        'Om du vill ha en ännu krämigare sås, använd matlagningsgrädde eller en blandning av grädde och crème fraiche.',
+        'För extra smak kan du tillsätta chili eller rökt paprika i såsen.',
+        'Om du inte har mozzarella, använd annan ost som burrata eller en krämig chèvre.'
+    ]
+},
+'22241': {
+    title: 'Lasagne Bolognese',
+    image: 'bilder/22241.png',
+    description: 'En klassisk italiensk lasagne med rik bolognesesås och krämig béchamel.',
+    ingredients: [
+        '12 lasagneplattor',
+        '500 g köttfärs',
+        '1 gul lök, hackad',
+        '2 vitlöksklyftor, finhackade',
+        '400 g krossade tomater',
+        '2 msk tomatpuré',
+        '1 dl rött vin',
+        '1 tsk torkad oregano',
+        'Salt och svartpeppar',
+        '3 dl béchamelsås (färdigköpt eller hemgjord)',
+        '1 dl parmesan, riven',
+        '1 dl mozzarella, riven'
+    ],
+    instructions: [
+        '1. Fräs köttfärsen i olivolja tills den är genomstekt. Tillsätt lök, vitlök, krossade tomater, tomatpuré, vin och oregano. Låt småputtra i 20 minuter. Smaka av med salt och peppar.',
+        '2. Lägg ett lager köttfärssås i botten av en ugnsform. Täck med lasagneplattor och ett lager béchamelsås. Upprepa tills alla ingredienser är slut, avsluta med béchamelsås och ost.',
+        '3. Sätt ugnen på 200°C och grädda lasagnen i cirka 30 minuter, tills den är gyllene och bubblig.',
+        '4. Låt lasagnen vila i 5 minuter innan servering.'
+    ],
+    tips: [
+        'Tillsätt lite riven muskotnöt i béchamelsåsen för extra smak.',
+        'Servera med en grönsallad och vitlöksbröd.'
+    ]
+},
+'22242': {
+    title: 'Klassisk Fransk Potatissallad',
+    image: 'bilder/22242.png',
+    description: 'En enkel och smakrik potatissallad som passar perfekt till grillat kött eller fisk.',
+    ingredients: [
+        '600 g potatis (gärna fast sort)',
+        '1 rödlök, finhackad',
+        '2 msk vitvinsvinäger',
+        '3 msk olivolja',
+        '1 tsk dijonsenap',
+        'Salt och svartpeppar',
+        '1 dl färsk persilja, hackad'
+    ],
+    instructions: [
+        '1. Skala potatisen och koka den tills den är mjuk. Låt svalna och skär i bitar.',
+        '2. Blanda vitvinsvinäger, olivolja, dijonsenap, salt och peppar i en skål.',
+        '3. Lägg potatisen i en stor skål och blanda med rödlök, persilja och dressingen.',
+        '4. Låt potatissalladen stå i kylskåp i 30 minuter innan servering för att smakerna ska utvecklas.'
+    ],
+    tips: [
+        'Tillsätt kapris eller hackade cornichoner för extra syra.',
+        'Passar perfekt till grillat kött eller fisk.'
+    ]
+},
+'22243': {
+    title: 'Gulaschgryta',
+    image: 'bilder/22243.png',
+    description: 'En värmande och mustig gryta med nötkött, paprika och potatis.',
+    ingredients: [
+        '500 g nötkött (t.ex. högrev), tärnat',
+        '2 gula lökar, hackade',
+        '2 vitlöksklyftor, finhackade',
+        '2 paprikor, tärnade',
+        '400 g krossade tomater',
+        '3 msk paprikapulver',
+        '1 tsk kummin',
+        '1 l köttbuljong',
+        '3 potatisar, tärnade',
+        'Salt och peppar'
+    ],
+    instructions: [
+        '1. Bryn köttet i en stor gryta tills det fått färg. Lägg åt sidan.',
+        '2. Fräs lök, vitlök och paprika i samma gryta tills de mjuknat.',
+        '3. Tillsätt krossade tomater, paprikapulver, kummin och buljong. Lägg tillbaka köttet och låt sjuda i 1,5–2 timmar.',
+        '4. Lägg i potatisbitarna och koka ytterligare 20–30 minuter, tills de är mjuka.',
+        '5. Servera grytan med ett gott bröd.'
+    ],
+    tips: [
+        'Tillsätt lite chili för en hetare variant.',
+        'Grytan blir ännu godare om den får stå till nästa dag.'
+    ]
+},
+'22244': {
+    title: 'Langos',
+    image: 'bilder/22244.png',
+    description: 'Klassiska ungerska bröd som friteras gyllene och toppas med godsaker.',
+    ingredients: [
+        '25 g jäst',
+        '2,5 dl mjölk',
+        '5 dl vetemjöl',
+        '1 tsk salt',
+        '1 msk socker',
+        'Olja för fritering',
+        'Topping: Gräddfil, riven ost, rödlök, löjrom eller kaviar'
+    ],
+    instructions: [
+        '1. Lös upp jästen i ljummen mjölk. Tillsätt vetemjöl, salt och socker. Knåda till en smidig deg och låt jäsa i 1 timme.',
+        '2. Dela degen i mindre bitar och kavla ut till tunna kakor. Fritera i het olja tills de är gyllene.',
+        '3. Låt langosen rinna av och toppa med gräddfil, ost, rödlök och löjrom.',
+        '4. Servera varma som förrätt eller snacks.'
+    ],
+    tips: [
+        'Testa att tillsätta vitlökssmör som topping för en ny smak.',
+        'Servera med ett glas kall öl för en autentisk känsla.'
+    ]
+},
+'22245': {
+    title: 'Korvgulasch',
+    image: 'bilder/22245.png',
+    description: 'En snabb och mättande gryta med falukorv, paprika och potatis.',
+    ingredients: [
+        '400 g falukorv, tärnad',
+        '2 gula lökar, hackade',
+        '2 paprikor, tärnade',
+        '3 potatisar, tärnade',
+        '2 msk tomatpuré',
+        '1 tsk paprikapulver',
+        '5 dl grönsaksbuljong',
+        '1 dl crème fraiche',
+        'Salt och peppar'
+    ],
+    instructions: [
+        '1. Stek korven och löken i en stor gryta tills de fått färg.',
+        '2. Lägg i paprika och potatis. Rör ner tomatpuré och paprikapulver.',
+        '3. Häll i buljong och låt koka i 20 minuter tills potatisen är mjuk.',
+        '4. Rör ner crème fraiche och smaka av med salt och peppar.',
+        '5. Servera med ett gott bröd eller kokt ris.'
+    ],
+    tips: [
+        'För en hetare variant, tillsätt lite chiliflakes.',
+        'Toppa med hackad persilja för extra färg och smak.'
+    ]
+},
+'22246': {
+    title: 'Borjtj, Rödbetssoppa',
+    image: 'bilder/22246.png',
+    description: 'En klassisk rödbetssoppa med djup smak och fräsch dill.',
+    ingredients: [
+        '500 g rödbetor, skalade och rivna',
+        '1 morot, riven',
+        '1 gul lök, hackad',
+        '2 vitlöksklyftor, finhackade',
+        '3 potatisar, tärnade',
+        '1 l grönsaksbuljong',
+        '2 msk tomatpuré',
+        '2 msk vitvinsvinäger',
+        'Salt och svartpeppar',
+        '1 dl gräddfil',
+        'Färsk dill för garnering'
+    ],
+    instructions: [
+        '1. Fräs lök, vitlök, rödbetor och morot i lite olja tills de mjuknar.',
+        '2. Häll i grönsaksbuljongen och lägg i potatisen. Tillsätt tomatpuré och vinäger. Låt koka i cirka 20–30 minuter tills alla grönsaker är mjuka.',
+        '3. Smaka av med salt och peppar.',
+        '4. Toppa med en klick gräddfil och färsk dill.'
+    ],
+    tips: [
+        'Servera med ett gott mörkt bröd vid sidan.',
+        'För en extra mättande soppa, tillsätt kokt kött eller vita bönor.'
+    ]
+},
+'22247': {
+    title: 'Turkisk Köfte',
+    image: 'bilder/22247.png',
+    description: 'Saftiga turkiska biffar med smak av spiskummin och persilja.',
+    ingredients: [
+        '500 g lamm- eller nötfärs',
+        '1 gul lök, riven',
+        '2 vitlöksklyftor, finhackade',
+        '1 dl färsk persilja, hackad',
+        '1 tsk spiskummin',
+        '1 tsk paprikapulver',
+        'Salt och svartpeppar',
+        'Olja för stekning'
+    ],
+    instructions: [
+        '1. Blanda färs, lök, vitlök, persilja, spiskummin, paprikapulver, salt och peppar. Forma små avlånga biffar.',
+        '2. Stek köftebiffarna i lite olja tills de är genomstekta och har fått fin färg.',
+        '3. Lägg köfte i pitabröd och servera med yoghurt och färska grönsaker.'
+    ],
+    tips: [
+        'För en ännu saftigare köfte, tillsätt 1 ägg i färsen.',
+        'Servera med hummus eller baba ganoush som tillbehör.'
+    ]
+},
+'22248': {
+    title: 'Burek med Feta och Grillad Paprika',
+    image: 'bilder/22248.png',
+    description: 'Krispiga filodegspaket fyllda med fetaost och grillad paprika.',
+    ingredients: [
+        '1 paket filodeg',
+        '200 g fetaost',
+        '2 grillade paprikor (färdiga eller hemgjorda), tärnade',
+        '1 ägg',
+        '1 dl crème fraiche',
+        '1 msk olivolja'
+    ],
+    instructions: [
+        '1. Mosa fetaosten och blanda med paprikorna, ägget och crème fraiche.',
+        '2. Lägg en klick fyllning på en filodegsark, vik ihop till små paket och pensla med olivolja.',
+        '3. Lägg paketen på en plåt och grädda i ugnen på 200°C i 20 minuter tills de är gyllene.',
+        '4. Servera varma som förrätt eller tillbehör.'
+    ],
+    tips: [
+        'Strö över sesamfrön innan gräddning för extra smak.',
+        'Servera med en fräsch yoghurtsås.'
+    ]
+},
+'22249': {
+    title: 'Lammfärsspett med Kryddig Löksås',
+    image: 'bilder/22249.png',
+    description: 'Saftiga spett med kryddig lammfärs och en smakrik löksås.',
+    ingredients: [
+        '500 g lammfärs',
+        '1 gul lök, riven',
+        '2 vitlöksklyftor, finhackade',
+        '1 tsk spiskummin',
+        '1 tsk paprikapulver',
+        'Salt och svartpeppar',
+        'Spettpinnar (blötlagda om träspett används)'
+    ],
+    instructions: [
+        '1. Blanda färsen med lök, vitlök, spiskummin, paprikapulver, salt och peppar. Forma färsen runt spettpinnar.',
+        '2. Tillaga spetten i ugnen eller på grill tills de är genomstekta.',
+        '3. Fräs löken tills den är mjuk. Blanda med gräddfil och paprikapulver till löksåsen.',
+        '4. Servera spetten med löksåsen och gärna ett gott bröd.'
+    ],
+    tips: [
+        'Tillsätt finhackad mynta i färsen för en fräsch smak.',
+        'Servera med en enkel grönsallad.'
+    ]
+},
+'22250': {
+    title: 'Ungersk Köttfärssås med Blancherad Vitkål',
+    image: 'bilder/22250.png',
+    description: 'En smakrik och hälsosam rätt där vitkål ersätter pasta.',
+    ingredients: [
+        '500 g köttfärs',
+        '1 gul lök, hackad',
+        '2 vitlöksklyftor, finhackade',
+        '1 röd paprika, tärnad',
+        '2 msk tomatpuré',
+        '2 dl köttbuljong',
+        '1 tsk paprikapulver',
+        'Salt och svartpeppar',
+        '1 huvud vitkål'
+    ],
+    instructions: [
+        '1. Fräs köttfärsen med lök och vitlök. Tillsätt paprika, tomatpuré, paprikapulver och buljong. Låt koka i 15 minuter. Smaka av med salt och peppar.',
+        '2. Dela vitkålen i stora blad och blanchera dem i kokande vatten i 2 minuter. Låt rinna av.',
+        '3. Lägg upp vitkålen som en bädd och toppa med köttfärssåsen.'
+    ],
+    tips: [
+        'Tillsätt lite crème fraiche i såsen för en krämigare konsistens.',
+        'Toppa med hackad persilja för extra färg.'
+    ]   
+},
+'22251': {
+    title: 'Piljeskavica, het färs i panna',
+    image: 'bilder/22251.png',
+    description: 'En smakrik färsgryta med paprika och kryddor.',
+    ingredients: [
+        '500 g blandfärs (eller nötkött)',
+        '1 stor lök, finhackad',
+        '2 vitlöksklyftor, hackade',
+        '1 röd paprika, tärnad',
+        '1 grön paprika, tärnad',
+        '1 msk paprikapulver (gärna rökt)',
+        '1 tsk spiskummin',
+        '1 tsk torkad oregano',
+        'Salt och peppar',
+        '2 msk olivolja',
+        '1 msk tomatpuré',
+        '2 dl tomatkross',
+        '1 dl vatten eller buljong',
+        'Färsk persilja, hackad'
+    ],
+    instructions: [
+        '1. Hetta upp olivoljan i en stor panna. Stek löken och vitlöken tills de är mjuka och genomskinliga.',
+        '2. Tillsätt paprikorna och stek ytterligare några minuter tills de mjuknar.',
+        '3. Lägg i blandfärsen och bryn tills den är genomstekt och smulig.',
+        '4. Krydda med paprikapulver, spiskummin, oregano, salt och peppar.',
+        '5. Tillsätt tomatpuré och tomatkross. Häll i vattnet eller buljongen och låt koka i ca 10–15 minuter, tills såsen tjocknar något.',
+        '6. Servera med hackad persilja ovanpå och gärna ris eller bröd till.'
+    ],
+    tips: [
+        'För en extra smakdimension, prova att tillsätta en skvätt rödvin i tomatsåsen när du kokar. Det ger en djupare, mustigare smak.',
+        'Servera gärna med en fräsch grönsallad eller nybakat bröd för att få upplevelsen ännu bättre.'
+    ]
+},
+'22252': {
+    title: 'Paella med kyckling och skaldjur',
+    image: 'bilder/22252.png',
+    description: 'En klassisk spansk paella fylld med kyckling och skaldjur.',
+    ingredients: [
+        '2 kycklingfiléer, tärnade',
+        '200 g räkor, skalade',
+        '200 g musslor, rensade',
+        '1 röd paprika, tärnad',
+        '1 lök, hackad',
+        '2 vitlöksklyftor, hackade',
+        '2 dl paellaris',
+        '1 tsk saffran',
+        '1 tsk paprikapulver',
+        '1 tsk chili (valfritt)',
+        '1 dl vitt vin',
+        '6 dl kycklingbuljong',
+        '1 msk olivolja',
+        '1 citron, skuren i klyftor',
+        'Färsk persilja, hackad',
+        'Salt och peppar'
+    ],
+    instructions: [
+        '1. Hetta upp olivoljan i en stor paellapanna. Bryn kycklingbitarna tills de får en fin yta och ta ur pannan.',
+        '2. Stek lök och vitlök tills de är mjuka. Tillsätt paprika och stek ytterligare några minuter.',
+        '3. Lägg tillbaka kycklingen i pannan. Tillsätt riset, saffran, paprikapulver, chili, vin och buljong. Rör om och låt koka upp.',
+        '4. Sänk värmen och täck med lock. Låt koka i ca 15 minuter, tills riset är nästan klart.',
+        '5. Lägg i räkor och musslor och täck pannan igen. Låt koka ytterligare 5–10 minuter tills skaldjuren är genomkokta och riset är mjukt.',
+        '6. Garnera med citronklyftor och färsk persilja. Servera varmt.'
+    ],
+    tips: [
+        'För bästa resultat, använd en traditionell paellapanna om du har en sådan. Det ger en jämnare värmefördelning och hjälper till att skapa den karakteristiska "socarrat", den krispiga botten av riset.',
+        'Lägg till några safranstrå för en ännu mer autentisk smak.'
+    ]
+},
+'22253': {
+    title: 'Gazpacho med tomat och basilikatost',
+    image: 'bilder/22253.png',
+    description: 'En svalkande kall tomatsoppa med krämig färskost.',
+    ingredients: [
+        '6 stora tomater, tärnade',
+        '1 gurka, skalad och tärnad',
+        '1 röd paprika, tärnad',
+        '1/2 rödlök, finhackad',
+        '2 vitlöksklyftor, hackade',
+        '2 msk olivolja',
+        '2 msk rödvinsvinäger',
+        '1 tsk socker',
+        '5 dl kallt vatten',
+        'Salt och peppar',
+        '100 g basilikablandad färskost (eller fetaost om du föredrar)',
+        'Färsk basilika till garnering'
+    ],
+    instructions: [
+        '1. Lägg tomater, gurka, paprika, rödlök och vitlök i en mixer. Mixa tills du får en slät soppa.',
+        '2. Tillsätt olivolja, rödvinsvinäger, socker och vatten. Mixa igen och smaka av med salt och peppar.',
+        '3. Låt gazpachon stå i kylen i minst en timme innan servering, så att smakerna får sätta sig.',
+        '4. Servera kall med en klick färskost i varje skål och garnera med färsk basilika.'
+    ],
+    tips: [
+        'För en mer fyllig smak, prova att använda en krämig grekisk yoghurt istället för färskost.',
+        'Om du vill ha en mer rustik version, kan du lämna lite större bitar i soppan istället för att mixa den helt slät.'
+    ]
+},
+'22254': {
+    title: 'Spansk tortilla med bacon',
+    image: 'bilder/22254.png',
+    description: 'En klassisk spansk tortilla med potatis och bacon.',
+    ingredients: [
+        '6 stora potatisar, skalade och skivade',
+        '1 liten gul lök, hackad',
+        '150 g bacon, tärnat',
+        '6 ägg',
+        '2 msk olivolja',
+        'Salt och peppar',
+        'Färsk persilja (valfritt, för garnering)'
+    ],
+    instructions: [
+        '1. Hetta upp 1 msk olivolja i en stor stekpanna. Stek potatisen på medelvärme tills den är mjuk och gyllenbrun, cirka 15–20 minuter.',
+        '2. Stek baconet i en separat panna tills det är krispigt. Lägg åt sidan.',
+        '3. Tillsätt lök till potatisen och stek i 2-3 minuter tills den mjuknar.',
+        '4. Vispa äggen i en skål och krydda med salt och peppar. Häll äggen över potatisen och löken.',
+        '5. Lägg i baconet och blanda försiktigt.',
+        '6. Låt tortilla koka på låg värme i 8-10 minuter. Vänd tortilla och koka ytterligare 5 minuter.',
+        '7. Servera varm eller i rumstemperatur, gärna med sallad.'
+    ],
+    tips: [
+        'Gör tortillan i förväg och servera kall eller rumstempererad.',
+        'Variera smaken med paprika eller spenat.'
+    ]
+},
+'22255': {
+    title: 'Kotlett meunière med romanesco',
+    image: 'bilder/22255.png',
+    description: 'Saftiga kotletter med en smakrik citron- och kaprissås.',
+    ingredients: [
+        '4 fläskkotletter',
+        '1 dl vetemjöl',
+        '2 msk smör',
+        '2 msk olivolja',
+        '1 citron, skuren i klyftor',
+        '1/2 dl vitt vin',
+        '1 tsk kapris',
+        'Salt och peppar',
+        '1 romanesco (alternativt broccoli eller blomkål)',
+        '1 msk olivolja (för grönsakerna)'
+    ],
+    instructions: [
+        '1. Koka romanesco i saltat vatten i 5-7 minuter tills den är mjuk men krispig. Ringla över olivolja och sätt åt sidan.',
+        '2. Salta och peppra kotletterna och vänd dem i mjölet.',
+        '3. Stek kotletterna i smör och olivolja på medelhög värme i 3-4 minuter per sida.',
+        '4. Ta upp kotletterna och håll dem varma. Tillsätt smör, citron, vin och kapris i pannan. Reducera såsen i 1-2 minuter.',
+        '5. Lägg tillbaka kotletterna i pannan och låt dra i såsen.',
+        '6. Servera med romanesco och sås över köttet.'
+    ],
+    tips: [
+        'För en mer intensiv smak, tillsätt grädde i såsen.',
+        'Romanesco kan bytas ut mot broccoli eller blomkål.'
+    ]
+},
+'22256': {
+    title: 'Korv med bröd, mushy peas och morotspickles',
+    image: 'bilder/22256.png',
+    description: 'En modern twist på klassikern korv med bröd.',
+    ingredients: [
+        '4 korvar (kyckling eller fläsk)',
+        '4 bröd (brioche eller korvbröd)',
+        '4 morötter, skurna i tunna skivor',
+        '1 dl ättikssprit (12%)',
+        '1 dl vatten',
+        '1 tsk socker',
+        'Salt och peppar',
+        '2 dl gröna ärtor',
+        '1 msk smör',
+        '1 msk olivolja'
+    ],
+    instructions: [
+        '1. Koka upp ättika, vatten och socker. Häll över morötterna och låt marinera i minst 30 minuter.',
+        '2. Koka ärtorna i saltat vatten i 5 minuter. Mosa dem grovt med smör och olivolja. Smaka av med salt och peppar.',
+        '3. Stek korvarna på medelhög värme tills de är genomstekta och gyllene.',
+        '4. Värm bröden och lägg i korvarna. Toppa med mushy peas och servera med morotspickles.'
+    ],
+    tips: [
+        'Tillsätt hackad mynta i mushy peas för fräsch smak.',
+        'För extra krispighet, stek picklade morötter lätt innan servering.'
+    ]
+},
+'22257': {
+    title: 'Fusk-fish’n chips',
+    image: 'bilder/22257.png',
+    description: 'En enkel variant av klassisk fish’n chips.',
+    ingredients: [
+        '4 torskfiléer (eller annan vit fisk, 150–200 g per filé)',
+        '2 dl vetemjöl',
+        '1 tsk bakpulver',
+        '1 tsk salt',
+        '1 dl kallt vatten (eller öl för extra smak)',
+        '4 stora potatisar, skurna i stavar',
+        '2 msk olivolja',
+        'Salt och peppar',
+        'Färsk citron'
+    ],
+    instructions: [
+        '1. Förbered pommes frites: Koka potatisstavar i saltat vatten i 5 minuter. Häll av och låt torka.',
+        '2. Fritera potatisarna i olivolja tills de är gyllenbruna och krispiga, cirka 4–5 minuter per omgång.',
+        '3. Blanda vetemjöl, bakpulver och salt. Tillsätt kallt vatten (eller öl) och rör till en slät smet.',
+        '4. Doppa fiskfiléerna i smeten och fritera tills de är genomstekta och gyllene, cirka 4–5 minuter per sida.',
+        '5. Servera fisken med pommes frites, citronklyftor och en skvätt salt.'
+    ],
+    tips: [
+        'Tillsätt cayennepeppar eller hackade örter i smeten för mer smak.',
+        'Servera med tartarsås eller coleslaw för en komplett måltid.'
+    ]
+},
+'22258': {
+    title: 'Cottage pie',
+    image: 'bilder/22258.png',
+    description: 'En brittisk klassiker med nötkött och potatismos.',
+    ingredients: [
+        '600 g nötfärs',
+        '1 gul lök, hackad',
+        '2 morötter, tärnade',
+        '2 vitlöksklyftor, hackade',
+        '1,5 dl rödvin (valfritt)',
+        '2 msk tomatpuré',
+        '3 dl köttbuljong',
+        '2 msk Worcestershiresås',
+        '800 g potatis (för moset)',
+        '2 msk smör (för moset)',
+        '1 dl mjölk (för moset)',
+        'Salt och peppar',
+        'Färsk persilja (valfritt, för garnering)'
+    ],
+    instructions: [
+        '1. Koka potatisen tills den är mjuk. Mosa med smör och mjölk. Smaka av med salt och peppar.',
+        '2. Stek lök, vitlök och morötter tills de är mjuka. Tillsätt nötfärsen och bryn den.',
+        '3. Häll i rödvin, tomatpuré, buljong och Worcestershiresås. Låt sjuda i 10 minuter tills fyllningen tjocknat.',
+        '4. Lägg färsblandningen i en ugnsfast form och bred potatismoset över. Gör mönster med en gaffel.',
+        '5. Gratinera i ugnen på 200°C i 20 minuter tills toppen är gyllenbrun. Servera gärna med sallad.'
+    ],
+    tips: [
+        'För en vegetarisk version, ersätt färsen med linser eller sojafärs.',
+        'Lägg till ärtor eller svamp för extra smak.'
+    ]
+},
+'22259': {
+    title: 'Shepherd’s pie',
+    image: 'bilder/22259.png',
+    description: 'Den klassiska brittiska rätten med lammfärs och potatismos.',
+    ingredients: [
+        '600 g lammfärs',
+        '1 gul lök, hackad',
+        '2 morötter, tärnade',
+        '1 selleristjälk, hackad',
+        '2 vitlöksklyftor, hackade',
+        '1,5 dl lammbuljong',
+        '2 msk tomatpuré',
+        '2 msk Worcestershiresås',
+        '800 g potatis (för moset)',
+        '2 msk smör (för moset)',
+        '1 dl mjölk (för moset)',
+        'Salt och peppar',
+        'Färsk timjan (valfritt, för garnering)'
+    ],
+    instructions: [
+        '1. Koka potatisen tills den är mjuk. Mosa med smör och mjölk. Smaka av med salt och peppar.',
+        '2. Stek lök, vitlök, morötter och selleri tillsammans med lammfärsen.',
+        '3. Tillsätt tomatpuré, Worcestershiresås och lammbuljong. Låt koka i 10 minuter.',
+        '4. Lägg fyllningen i en ugnsfast form och bred potatismoset över. Gör mönster på toppen.',
+        '5. Gratinera i ugnen på 200°C i 20 minuter tills toppen är gyllenbrun.'
+    ],
+    tips: [
+        'Kan göras med blandfärs om lammfärs inte finns tillgängligt.',
+        'Tillsätt rödvin i fyllningen för extra smak.'
+    ]
+},
+'22260': {
+    title: 'Yorkshire pudding',
+    image: 'bilder/22260.png',
+    description: 'En luftig och klassisk engelsk pudding.',
+    ingredients: [
+        '1,5 dl vetemjöl',
+        '2 ägg',
+        '2 dl mjölk',
+        '1/2 tsk salt',
+        '2 msk olivolja eller smör',
+        '1 msk smör (för att smörja formen)'
+    ],
+    instructions: [
+        '1. Förvärm ugnen till 220°C. Smörj en muffinsform med smör och sätt in den i ugnen.',
+        '2. Blanda mjöl, ägg, mjölk och salt tills smeten är slät.',
+        '3. Häll olivolja eller smör i varje form och låt formen bli riktigt het i ugnen.',
+        '4. Häll snabbt smeten i varje form och grädda i 15-20 minuter tills puddingen är puffig och gyllene.',
+        '5. Servera direkt, gärna med en stek och gräddsås.'
+    ],
+    tips: [
+        'Se till att både ugnen och oljan är riktigt heta innan smeten hälls i.',
+        'Perfekt som tillbehör till en söndagsstek eller som del av en engelsk frukost.'
+    ]
+},
+'22261': {
+    title: 'Klassisk irländsk köttgryta, Beef Stew',
+    image: 'bilder/22261.png',
+    description: 'En mustig och värmande köttgryta.',
+    ingredients: [
+        '600 g nötkött (grytbitar)',
+        '1 gul lök, hackad',
+        '2 morötter, tärnade',
+        '2 selleristjälkar, hackade',
+        '2 vitlöksklyftor, hackade',
+        '4 dl nötköttsbuljong',
+        '2 msk tomatpuré',
+        '2 msk Worcestershiresås',
+        '1 tsk torkad timjan',
+        '1 tsk rosmarin',
+        '2 msk olivolja',
+        'Salt och peppar',
+        '1 dl rödvin (valfritt)'
+    ],
+    instructions: [
+        '1. Hetta upp olivoljan i en stor gryta. Bryn nötköttet i omgångar tills alla bitar får färg.',
+        '2. Tillsätt lök, morötter, selleri och vitlök. Stek i 5 minuter.',
+        '3. Häll i rödvin (om du använder det) och låt koka i 2 minuter. Tillsätt buljong, tomatpuré, Worcestershiresås och kryddor.',
+        '4. Låt grytan sjuda på låg värme i 1,5–2 timmar tills köttet är mört.',
+        '5. Smaka av med salt och peppar. Servera med potatis eller bröd.'
+    ],
+    tips: [
+        'För en tjockare gryta, reda såsen med mjöl eller majsstärkelse i slutet av koktiden.',
+        'Servera gärna med kokt potatis eller en god baguette.'
+    ]
+},
+'22262': {
+    title: 'Bläckfisksallad',
+    image: 'bilder/22262.png',
+    description: 'En fräsch och lätt sallad med bläckfisk och grönsaker.',
+    ingredients: [
+        '500 g bläckfiskringar (eller hel bläckfisk, rensad)',
+        '1 röd lök, skivad',
+        '1 röd paprika, skivad',
+        '100 g ruccola',
+        '10 körsbärstomater, halverade',
+        '2 msk olivolja',
+        '1 msk rödvinsvinäger',
+        '1 tsk citronsaft',
+        'Salt och peppar',
+        'Färsk persilja (för garnering)'
+    ],
+    instructions: [
+        '1. Koka bläckfisken i saltat vatten i 3-5 minuter tills den är genomkokt. Häll av och skölj med kallt vatten.',
+        '2. Blanda bläckfisken med lök, paprika, ruccola och tomater i en stor skål.',
+        '3. Vispa ihop olivolja, vinäger, citronsaft, salt och peppar. Häll dressingen över salladen och blanda väl.',
+        '4. Garnera med färsk persilja och servera direkt.'
+    ],
+    tips: [
+        'Grilla bläckfisken för extra smak innan den blandas i salladen.',
+        'Servera med ett gott bröd eller en citronskiva vid sidan av.'
+    ]
+},
+'22263': {
+    title: 'Zucchini och kyckling i sås med ost',
+    image: 'bilder/22263.png',
+    description: 'En krämig och god rätt med zucchini och kyckling.',
+    ingredients: [
+        '4 kycklingbröst',
+        '2 zucchini, skivade',
+        '1 gul lök, hackad',
+        '2 vitlöksklyftor, hackade',
+        '2 dl grädde',
+        '100 g riven parmesanost',
+        '2 msk olivolja',
+        'Salt och peppar',
+        'Färsk basilika (valfritt, för garnering)'
+    ],
+    instructions: [
+        '1. Stek kycklingbrösten i olivolja tills de är genomstekta, cirka 6-7 minuter per sida. Ta upp och håll varma.',
+        '2. Stek lök och vitlök i samma panna tills de är mjuka. Tillsätt zucchini och stek i ytterligare 5 minuter.',
+        '3. Häll i grädden och låt koka upp. Sänk värmen och rör ner parmesanosten tills såsen tjocknar.',
+        '4. Lägg tillbaka kycklingen i pannan och låt värmas i såsen.',
+        '5. Servera med färsk basilika på toppen.'
+    ],
+    tips: [
+        'Byt ut kycklingen mot tofu eller kalkon för variation.',
+        'Tillsätt en tesked dijonsenap i såsen för extra smak.'
+    ]
+},
+'22264': {
+    title: 'Krämig pumpasoppa',
+    image: 'bilder/22264.png',
+    description: 'En len och smakrik soppa med pumpa och grädde.',
+    ingredients: [
+        '1 liten pumpa (cirka 600 g), skalad och tärnad',
+        '1 gul lök, hackad',
+        '2 vitlöksklyftor, hackade',
+        '2 morötter, tärnade',
+        '1 liter grönsaksbuljong',
+        '2 dl grädde',
+        '2 msk olivolja',
+        '1 tsk torkad timjan',
+        'Salt och peppar',
+        'Färsk persilja eller pumpafrön (för garnering)'
+    ],
+    instructions: [
+        '1. Hetta upp olivolja i en stor kastrull och fräs lök och vitlök tills de är mjuka.',
+        '2. Tillsätt pumpa och morötter och stek i cirka 5 minuter.',
+        '3. Häll i grönsaksbuljongen och timjan. Koka i 20-25 minuter tills grönsakerna är mjuka.',
+        '4. Mixa soppan slät med en stavmixer eller blender.',
+        '5. Tillsätt grädde, salt och peppar. Rör om och värm soppan igen.',
+        '6. Servera med färsk persilja eller pumpafrön som garnering.'
+    ],
+    tips: [
+        'Rosta pumpabitarna i ugnen innan kokning för en extra fyllig smak.',
+        'Byt ut grädden mot en växtbaserad variant för en vegansk soppa.'
+    ]
+},
+'22265': {
+    title: 'Fylld pljeskavica',
+    image: 'bilder/22265.png',
+    description: 'En saftig pljeskavica fylld med fetaost och kryddor.',
+    ingredients: [
+        '500 g blandfärs (nöt- och fläskkött)',
+        '100 g fetaost, smulad',
+        '1 liten gul lök, hackad',
+        '1 tsk paprika',
+        '1 tsk torkad oregano',
+        '2 vitlöksklyftor, hackade',
+        '1 msk olivolja',
+        'Salt och peppar',
+        '4 hamburgerbröd (valfritt, för servering)'
+    ],
+    instructions: [
+        '1. Blanda färs, fetaost, lök, paprika, oregano, vitlök, olivolja, salt och peppar.',
+        '2. Forma till fyra bollar och platta ut dem till kakor.',
+        '3. Stek pljeskavican på medelhög värme i 4-5 minuter per sida tills de är genomstekta.',
+        '4. Servera i hamburgerbröd eller med en sida av ris eller pommes frites.'
+    ],
+    tips: [
+        'Tillsätt lite olivolja i färsen för extra saftighet.',
+        'Variera smaken med örter som timjan eller persilja.'
+    ]
+},
+'22266': {
+    title: 'Cypriotisk ägg- och tomatröra',
+    image: 'bilder/22266.png',
+    description: 'En enkel och god rätt med kokta ägg och smakrika tomater.',
+    ingredients: [
+        '4 ägg',
+        '4 tomater, tärnade',
+        '1 röd lök, hackad',
+        '2 vitlöksklyftor, hackade',
+        '2 msk olivolja',
+        '1 tsk paprikapulver',
+        '1 tsk torkad oregano',
+        'Salt och peppar',
+        'Färsk persilja (för garnering)'
+    ],
+    instructions: [
+        '1. Koka äggen i 10 minuter tills de är hårdkokta. Skala och skär dem i klyftor.',
+        '2. Hetta upp olivolja i en stekpanna och fräs lök och vitlök tills de är mjuka.',
+        '3. Tillsätt tomater och paprikapulver och låt koka i 5 minuter.',
+        '4. Lägg i äggen och blanda försiktigt. Tillsätt oregano, salt och peppar.',
+        '5. Servera varm med persilja och bröd vid sidan.'
+    ],
+    tips: [
+        'Lägg till chili flakes för lite hetta.',
+        'Perfekt som lätt lunch eller tillbehör till grillat.'
+    ]
+},
+'22267': {
+    title: 'Magiritsa, soppa med kyckling och avgolemono',
+    image: 'bilder/22267.png',
+    description: 'En traditionell grekisk soppa med kyckling och citron.',
+    ingredients: [
+        '2 kycklingbröst',
+        '1 liter kycklingbuljong',
+        '1 dl ris',
+        '2 ägg',
+        'Saften från 1 citron',
+        '1 tsk torkad dill',
+        'Salt och peppar',
+        'Färsk persilja (för garnering)'
+    ],
+    instructions: [
+        '1. Koka kycklingbrösten i buljongen i 20 minuter. Ta upp och strimla kycklingen.',
+        '2. Tillsätt riset i buljongen och koka i 10 minuter tills riset är mjukt.',
+        '3. Vispa äggen med citronsaft och temperera med lite varm buljong. Rör ner blandningen i soppan.',
+        '4. Låt sjuda på låg värme tills soppan är krämig.',
+        '5. Smaka av med dill, salt och peppar. Servera med persilja.'
+    ],
+    tips: [
+        'Använd lamm istället för kyckling för en autentisk version.',
+        'Servera med bröd eller grönsaker vid sidan.'
+    ]
+},
+'22268': {
+    title: 'Friterade calamares',
+    image: 'bilder/22268.png',
+    description: 'Krispiga och gyllenbruna friterade bläckfiskringar.',
+    ingredients: [
+        '500 g bläckfiskringar',
+        '1 dl vetemjöl',
+        '1 dl majsstärkelse',
+        '1 tsk bakpulver',
+        'Salt och peppar',
+        '1 dl kolsyrat vatten',
+        'Olja för fritering',
+        'Färsk citron (för servering)'
+    ],
+    instructions: [
+        '1. Hetta upp oljan i en gryta eller fritös till 180°C.',
+        '2. Blanda vetemjöl, majsstärkelse, bakpulver, salt och peppar i en skål.',
+        '3. Tillsätt kolsyrat vatten och rör om till en slät smet.',
+        '4. Doppa bläckfiskringarna i smeten och fritera dem i 3–4 minuter tills de är gyllenbruna.',
+        '5. Lägg de färdiga calamares på hushållspapper för att rinna av. Servera med citron.'
+    ],
+    tips: [
+        'Servera med aioli eller vitlöksmayo för extra smak.',
+        'Använd hela bläckfiskar skurna i ringar om du inte har färdiga ringar.'
+    ]
+},
+'22269': {
+    title: 'Spenatknyten med feta och grilloumi',
+    image: 'bilder/22269.png',
+    description: 'Krispiga filodegsknyten med en smakrik fyllning av spenat, feta och grilloumi.',
+    ingredients: [
+        '200 g fryst spenat, tinad och avrunnen',
+        '150 g fetaost, smulad',
+        '100 g grilloumi, tärnad',
+        '1 paket filodeg',
+        '1 msk olivolja',
+        '1 ägg (för pensling)',
+        'Salt och peppar'
+    ],
+    instructions: [
+        '1. Förvärm ugnen till 200°C.',
+        '2. Blanda spenat, fetaost och grilloumi. Smaka av med salt och peppar.',
+        '3. Ta ett ark filodeg och pensla det med olivolja. Lägg en sked fyllning i ena änden och vik till ett knyte.',
+        '4. Upprepa med resten av degen och fyllningen. Pensla varje knyte med vispat ägg.',
+        '5. Grädda i ugnen i 20–25 minuter tills de är gyllenbruna och krispiga. Servera varma.'
+    ],
+    tips: [
+        'Byt grilloumi mot halloumi eller bara extra fetaost om du vill.',
+        'Servera med en fräsch sallad som tillbehör.'
+    ]
+},
+'22270': {
+    title: 'Plankstek',
+    image: 'bilder/22270.png',
+    description: 'En lyxig rätt med entrecôte eller ryggbiff, serverad på planka.',
+    ingredients: [
+        '4 entrecôte eller ryggbiffar (ca 200 g per portion)',
+        '4 potatisar, skalade och kokta',
+        '2 morötter, skurna i stavar',
+        '1 rödlök, skivad',
+        '200 g champinjoner, skivade',
+        '1 dl bearnaisesås',
+        '2 msk smör',
+        'Färsk timjan',
+        'Salt och peppar'
+    ],
+    instructions: [
+        '1. Stek biffarna på hög värme i en grillpanna eller stekpanna i 3–4 minuter per sida. Krydda med salt och peppar.',
+        '2. Stek morötter, champinjoner och rödlök i smör tills de är mjuka och gyllene.',
+        '3. Mosa de kokta potatisarna och spritsa eller forma dem runt en plankstekspjäl.',
+        '4. Lägg biffen i mitten, toppa med grönsakerna och häll över bearnaisesås.',
+        '5. Gratinera i ugnen på 200°C i 5–7 minuter. Servera direkt.'
+    ],
+    tips: [
+        'För krispigare potatis, rosta dem i ugnen innan de mosas.',
+        'Byt bearnaisesås mot rödvinssås för variation.'
+    ]
+},
+'22271': {
+    title: 'Currywurst',
+    image: 'bilder/22271.png',
+    description: 'En smakrik tysk klassiker med kryddig korv och currysås.',
+    ingredients: [
+        '4 korvar (gärna bratwurst)',
+        '2 msk olivolja',
+        '1 liten gul lök, hackad',
+        '1 msk curry',
+        '2 msk ketchup',
+        '1 msk Worcestershiresås',
+        '1 msk honung',
+        '1 tsk rökt paprika',
+        'Salt och peppar',
+        'Färsk persilja (för garnering)'
+    ],
+    instructions: [
+        '1. Stek korvarna i olivolja på medelhög värme tills de är genomstekta och gyllene.',
+        '2. Fräs lök i samma panna tills den är mjuk.',
+        '3. Tillsätt curry, ketchup, Worcestershiresås, honung och rökt paprika. Låt puttra i 2–3 minuter.',
+        '4. Skär korvarna i skivor och blanda med såsen. Låt koka ytterligare 2 minuter.',
+        '5. Servera med persilja och valfritt tillbehör.'
+    ],
+    tips: [
+        'Servera med pommes frites eller ett gott bröd.',
+        'Tillsätt chili för en hetare sås.'
+    ]
+},
+'22272': {
+    title: 'Banitsa - Bulgarisk filodegspaj',
+    image: 'bilder/22272.png',
+    description: 'En klassisk bulgarisk paj fylld med ost och ägg.',
+    ingredients: [
+        '1 paket filodeg (10–12 ark)',
+        '300 g fetaost, smulad',
+        '100 g keso',
+        '2 ägg',
+        '1 dl mjölk',
+        '2 msk smör, smält',
+        '1 msk olivolja',
+        'Salt och peppar'
+    ],
+    instructions: [
+        '1. Förvärm ugnen till 180°C.',
+        '2. Blanda fetaost, keso, ägg, mjölk, smör och olivolja. Smaka av med salt och peppar.',
+        '3. Pensla ett ark filodeg med smält smör. Lägg en sked fyllning i ena änden och vik till en rulle eller fyrkant.',
+        '4. Upprepa med resten av degen och fyllningen. Lägg på en bakplåt.',
+        '5. Grädda i 30–35 minuter tills banitsan är gyllenbrun och krispig.'
+    ],
+    tips: [
+        'Tillsätt spenat eller örter för variation.',
+        'Servera med sallad eller yoghurt vid sidan.'
+    ]
+},
+'22273': {
+    title: 'Empanadas med tacokrydda',
+    image: 'bilder/22273.png',
+    description: 'Kryddiga empanadas fyllda med köttfärs och ost.',
+    ingredients: [
+        '400 g köttfärs (nöt eller blandfärs)',
+        '1 liten gul lök, hackad',
+        '1 vitlöksklyfta, hackad',
+        '1 msk tacokrydda',
+        '1 dl majs',
+        '1 dl riven ost (gärna cheddar eller mozzarella)',
+        '1 paket färdiga empanadadeg (eller smördegsplattor)',
+        '1 ägg (för pensling)',
+        'Salt och peppar'
+    ],
+    instructions: [
+        '1. Förvärm ugnen till 200°C.',
+        '2. Stek lök och vitlök i en panna tills de är mjuka. Tillsätt köttfärsen och stek tills den är genomstekt. Krydda med tacokrydda, salt och peppar.',
+        '3. Blanda ner majs och låt svalna något.',
+        '4. Ta ut empanadadegen och skär ut rundlar eller använd hela plattor.',
+        '5. Lägg en matsked fyllning på varje degbit, toppa med ost och vik till halvmånar. Tryck ihop kanterna med en gaffel.',
+        '6. Pensla med vispat ägg och lägg på en bakplåt med bakplåtspapper.',
+        '7. Grädda i ugnen i 15–20 minuter tills de är gyllenbruna och frasiga.'
+    ],
+    tips: [
+        'Tillsätt hackad paprika eller jalapeños för mer smak.',
+        'Vegetariskt alternativ: Byt köttfärsen mot svarta bönor eller linser.'
+    ]
+},
+
+
+  
+    
+  
+    
+
     };
 
     return recipes[code] || null;
 }
+
+
 
 function displayRecipe(recipe) {
     var resultSection = document.getElementById('resultSection');
@@ -3193,9 +4638,9 @@ function displayRecipe(recipe) {
     ingredientsTitle.textContent = 'Ingredienser:';
     recipeDiv.appendChild(ingredientsTitle);
 
-    // Skapa en container för ingredienser och instruktioner
-    var ingredientsAndInstructionsContainer = document.createElement('div');
-    ingredientsAndInstructionsContainer.className = 'ingredients-instructions-container';
+    // Skapa en container för ingredienser, instruktioner och tips
+    var contentContainer = document.createElement('div');
+    contentContainer.className = 'content-container';
 
     // Ingredienser list
     var ingredientsList = document.createElement('div');
@@ -3208,12 +4653,12 @@ function displayRecipe(recipe) {
     });
 
     // Lägg till ingredienser till container
-    ingredientsAndInstructionsContainer.appendChild(ingredientsList);
+    contentContainer.appendChild(ingredientsList);
 
-    // Instruktionstitel - Nu mellan ingredienser och instruktioner
+    // Instruktionstitel
     var instructionsTitle = document.createElement('h3');
     instructionsTitle.textContent = 'Instruktioner:';
-    ingredientsAndInstructionsContainer.appendChild(instructionsTitle); // Här läggs titeln till
+    contentContainer.appendChild(instructionsTitle);
 
     // Instruktioner list
     var instructionsList = document.createElement('div');
@@ -3226,10 +4671,33 @@ function displayRecipe(recipe) {
     });
 
     // Lägg till instruktioner till container
-    ingredientsAndInstructionsContainer.appendChild(instructionsList);
+    contentContainer.appendChild(instructionsList);
 
-    // Lägg till hela innehållet (både ingredienser och instruktioner) till receptet
-    recipeDiv.appendChild(ingredientsAndInstructionsContainer);
+    // Tips titel
+    if (recipe.tips && recipe.tips.length > 0) {
+        var tipsTitle = document.createElement('h3');
+        tipsTitle.textContent = 'Tips:';
+        contentContainer.appendChild(tipsTitle);
+
+        // Tips list
+        var tipsList = document.createElement('div');
+        tipsList.className = 'tips-list'; // Kolumn för tips
+        recipe.tips.forEach(function(tip) {
+            var tipItem = document.createElement('div');
+            tipItem.className = 'tip-item'; // Blockformat
+            tipItem.innerHTML = `<input type="checkbox" class="tip-checkbox"> ${tip}`;
+            tipsList.appendChild(tipItem);
+        });
+
+        // Lägg till tips till container
+        contentContainer.appendChild(tipsList);
+    }
+
+    // Lägg till hela innehållet (ingredienser, instruktioner och tips) till receptet
+    recipeDiv.appendChild(contentContainer);
+
+    // Lägg till receptet i resultsektionen
+    resultSection.appendChild(recipeDiv);
 
     // Stäng-knapp
     var closeBtn = document.createElement('span');
