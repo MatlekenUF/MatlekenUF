@@ -3596,7 +3596,7 @@ function getRecipeByCode(code) {
     ]
 },
 '22237': {
-    title: 'Tommys Pasta Salsiccia',
+    title: 'Pasta Salsiccia',
     image: 'bilder/22237.png',
     description: 'En smakfull pastarätt med salsiccia och tomatsås.',
     ingredients: [
@@ -6062,8 +6062,6 @@ function getRecipeByCode(code) {
     return recipes[code] || null;
 }
 
-
-
 function displayRecipe(recipe) {
     var resultSection = document.getElementById('resultSection');
     var recipeDiv = document.createElement('div');
@@ -6082,6 +6080,13 @@ function displayRecipe(recipe) {
         image.className = 'recipe-image';
         recipeDiv.appendChild(image);
     }
+ // Portioner (låst till 4 personer)
+ var portionContainer = document.createElement('div');
+ portionContainer.className = 'portion-container';
+ portionContainer.innerHTML = `
+     <p class="portion-label">Portioner: <span class="portion-value">4 </span></p>
+ `;
+ recipeDiv.appendChild(portionContainer);
 
     // Ingredienser
     var ingredientsTitle = document.createElement('h3');
@@ -6158,46 +6163,47 @@ function displayRecipe(recipe) {
     });
     recipeDiv.appendChild(closeBtn);
 
-// Timer
-var timer = document.createElement('div');
-timer.className = 'timer-container';
-timer.innerHTML = ` 
-    <label for="timerInput">Ställ in timer (minuter): </label>
-    <input type="number" id="timerInput" min="1" value="30">
-    <button id="startTimer">Starta Timer</button>
-    <p>Timer: <span id="countdown">30:00</span> min</p>
-`;
-recipeDiv.appendChild(timer);
+    // Timer
+    var timer = document.createElement('div');
+    timer.className = 'timer-container';
+    timer.innerHTML =  `
+        <label for="timerInput">Ställ in timer (minuter): </label>
+        <input type="number" id="timerInput" min="1" value="30">
+        <button id="startTimer">Starta Timer</button>
+        <p>Timer: <span id="countdown">30:00</span> min</p>
+    `;
+    recipeDiv.appendChild(timer);
 
-resultSection.appendChild(recipeDiv);
+    resultSection.appendChild(recipeDiv);
 
-// Timer funktionalitet
-let timerInterval = null; // Spara referensen till intervallet
-let countdown = 30 * 60; // Default till 30 minuter i sekunder
+    // Timer funktionalitet
+    let timerInterval = null; // Spara referensen till intervallet
+    let countdown = 30 * 60; // Default till 30 minuter i sekunder
 
-document.getElementById('startTimer').addEventListener('click', function () {
-    // Avbryt eventuell tidigare timer
-    if (timerInterval) {
-        clearInterval(timerInterval);
-    }
-
-    var timerInput = document.getElementById('timerInput').value;
-    countdown = timerInput * 60;
-
-    timerInterval = setInterval(function () {
-        var minutes = Math.floor(countdown / 60);
-        var seconds = countdown % 60;
-        document.getElementById('countdown').textContent = `${minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
-        countdown--;
-
-        if (countdown < 0) {
+    document.getElementById('startTimer').addEventListener('click', function () {
+        // Avbryt eventuell tidigare timer
+        if (timerInterval) {
             clearInterval(timerInterval);
-            timerInterval = null; // Nollställ referensen
-            alert('Timer är slut!');
         }
-    }, 1000);
-});
+
+        var timerInput = document.getElementById('timerInput').value;
+        countdown = timerInput * 60;
+
+        timerInterval = setInterval(function () {
+            var minutes = Math.floor(countdown / 60);
+            var seconds = countdown % 60;
+            document.getElementById('countdown').textContent = `${minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
+            countdown--;
+
+            if (countdown < 0) {
+                clearInterval(timerInterval);
+                timerInterval = null; // Nollställ referensen
+                alert('Timer är slut!');
+            }
+        }, 1000);
+    });
 }
+
 // Kundvagnsdata
 let cart = {};
 const cartCountElement = document.getElementById('cartCount');
@@ -6344,6 +6350,23 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
+function changePortions(change, ingredientCount) {
+    var portionElement = document.getElementById('portioner');
+    var currentPortions = parseInt(portionElement.textContent);
+    currentPortions = Math.max(1, currentPortions + change); // Minst 1 portion
+    portionElement.textContent = currentPortions;
+
+    // Justera ingredienser baserat på nya portioner
+    adjustIngredients(currentPortions, ingredientCount);
+}
+
+function adjustIngredients(portions, ingredientCount) {
+    for (let i = 0; i < ingredientCount; i++) {
+        var ingredientItem = document.getElementById(`ingredient-${i}`);
+        // Här kan du dynamiskt ändra mängder om receptet innehåller mängdinformation (t.ex. "400 g halloumi")
+        ingredientItem.textContent = `Ingrediens ${i + 1} för ${portions} personer`; // Exempeltext
+    }
+}
 
 
 
