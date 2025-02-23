@@ -23,7 +23,6 @@ function getRecipeByCode(code) {
         '11111': {
             title: 'Lasagne med halloumi, spenat och pumpakärnor',
             image: 'bilder/11111.png',  // Bildens väg
-            description: 'En härlig lasagne med halloumi, spenat och rostad pumpakärnor. Perfekt för både vegetariska och veganska alternativ!',
             ingredients: [
                 'Lasagneplattor (gärna fullkorn) – ca 9–12 st',
                 'Halloumi – 400 g',
@@ -4609,7 +4608,7 @@ function getRecipeByCode(code) {
 '55555': {
     title: 'Kladdkaka',
     image: 'bilder/55555.png',
-    description: 'En klassisk kladdkaka med rik chokladsmak och kladdig mitt.',
+    portion: ' (för ca 8–10 bitar).',
     ingredients: [
         '150 g smör',
         '3 dl strösocker',
@@ -4617,28 +4616,26 @@ function getRecipeByCode(code) {
         '2 tsk vaniljsocker',
         '2 ägg',
         '2 dl vetemjöl',
-        'Florsocker (valfritt, för dekoration)',
-        'Vispad grädde eller glass (valfritt, för servering)'
+        'Valfritt till topping: Florsocker, Vispad grädde eller glass'
     ],
     instructions: [
-        '1. Förvärm ugnen till 175°C och smörj en springform (ca 24 cm i diameter). Pudra med mjöl eller kakao för att undvika att kakan fastnar.',
-        '2. Smält smöret på låg värme och låt det svalna något.',
-        '3. Blanda strösocker, kakao och vaniljsocker i en bunke.',
-        '4. Rör ner det smälta smöret i sockerblandningen och tillsätt äggen ett i taget. Blanda väl.',
-        '5. Sikta ner vetemjölet och rör försiktigt ihop smeten. Undvik att överarbeta.',
-        '6. Häll smeten i formen och jämna till ytan.',
-        '7. Grädda i mitten av ugnen i 15–20 minuter. Kakan ska vara lite lös i mitten för en kladdig konsistens.',
-        '8. Låt kakan svalna i formen innan servering. Pudra eventuellt över florsocker.'
+        'Förberedelse: Sätt ugnen på 175°C och smörj en springform (ca 24 cm i diameter) med smör. Pudra lite mjöl eller kakao i formen om du vill undvika att kakan fastnar.',
+        'Smält smöret: Smält smöret i en kastrull på låg värme eller i mikrovågsugnen. Låt det svalna något.',
+        'Blanda de torra ingredienserna: I en bunke, blanda ihop strösocker, kakao och vaniljsocker.',
+        'Tillsätt de våta ingredienserna: Rör ner det smälta smöret i sockerblandningen. Tillsätt äggen ett i taget och rör om ordentligt.',
+        'Tillsätt mjölet: Sikta ner vetemjölet i smeten och blanda försiktigt tills det är jämnt fördelat. Överarbeta inte smeten – det ska precis gå ihop.',
+        'Häll i formen: Häll smeten i den förberedda formen och jämna till ytan med en slickepott.',
+        'Grädda: Ställ formen i mitten av ugnen och grädda i 15–20 minuter. Kakan ska vara lite lös i mitten – det är det som gör den kladdig!',
+        'Låt svalna: Låt kakan svalna i formen innan du serverar. Pudra eventuellt över florsocker som dekoration.'
     ],
     tips: [
-        'Servera med en klick vispad grädde, vaniljglass eller färska bär för en extra lyxig dessert.',
-        'För en ännu djupare chokladsmak, tillsätt 50 g smält mörk choklad i smeten.'
+        'Servera kladdkakan med en klick vispad grädde, vaniljglass eller färska bär. Perfekt för alla chokladälskare!'
     ]
 },
+
 '55556': {
     title: 'Kärleksmums',
     image: 'bilder/55556.png',
-    description: 'Saftig chokladkaka med en len kaffeglasyr och kokos.',
     ingredients: [
         '150 g smör',
         '2 ägg',
@@ -4649,25 +4646,34 @@ function getRecipeByCode(code) {
         '1 msk vaniljsocker',
         '4 msk kakao'
     ],
+    glaze: [
+        '75 g smör',
+        '2 msk starkt kaffe (kan ersättas med mjölk)',
+        '1,5 msk kakao',
+        '1 tsk vaniljsocker',
+        '3,5 dl florsocker'
+    ],
+    topping: 'Ca 1 dl riven kokos',
     instructions: [
-        '1. Sätt ugnen på 175°C och klä en långpanna (ca 20x30 cm) med bakplåtspapper.',
-        '2. Smält smöret och låt det svalna.',
-        '3. Vispa ägg och socker fluffigt. Tillsätt mjölk och smör.',
-        '4. Sikta ihop vetemjöl, bakpulver, vaniljsocker och kakao i en separat skål. Vänd ner i äggsmeten.',
-        '5. Häll smeten i formen och grädda i ugnen i 20–25 minuter. Låt svalna.',
-        '6. Gör glasyren genom att smälta smöret och blanda med kaffe, kakao, vaniljsocker och florsocker.',
-        '7. Bred glasyren över kakan och strö på kokos. Låt stelna innan servering.'
+        'Förberedelse: Sätt ugnen på 175°C. Klä en långpanna (ca 20x30 cm) med bakplåtspapper eller smörj och mjöla formen.',
+        'Smält smöret: Smält smöret i en kastrull och låt det svalna.',
+        'Blanda ägg och socker: Vispa ägg och strösocker pösigt med en elvisp tills smeten är ljus och fluffig.',
+        'Tillsätt mjölk och smör: Rör ner mjölken och det smälta smöret i äggsmeten.',
+        'Blanda de torra ingredienserna: I en separat skål, sikta ihop vetemjöl, bakpulver, vaniljsocker och kakao. Vänd försiktigt ner de torra ingredienserna i äggsmeten tills allt är väl blandat.',
+        'Grädda kakan: Häll smeten i den förberedda formen och grädda i mitten av ugnen i 20–25 minuter. Kontrollera med en sticka – den ska komma ut torr. Låt kakan svalna.',
+        'Gör glasyren: Smält smöret i en kastrull. Tillsätt kaffe (eller mjölk), kakao, vaniljsocker och florsocker. Rör till en jämn och smidig glasyr.',
+        'Bred på glasyren: Bred ut glasyren jämnt över den avsvalnade kakan. Strö över riven kokos direkt innan glasyren stelnar.',
+        'Skär och servera: Låt kakan stå och stelna innan du skär den i rutor. Servera och njut!'
     ],
     tips: [
-        'Byt ut kaffet mot mjölk för en mildare glasyr.',
-        'Strö över hackad choklad eller nötter för extra crunch.'
+        'Vill du ha extra smak? Testa att toppa med hackad choklad eller strössel istället för kokos.',
+        'För en glutenfri variant, använd glutenfritt mjöl.'
     ]
 },
-
 '55557': {
-    title: 'Chocolate chip cookies',
+    title: 'Chocolate Chip Cookies',
     image: 'bilder/55557.png',
-    description: 'Klassiska amerikanska kakor med massor av chokladbitar.',
+    portion: ' (ca 20–24 kakor)',
     ingredients: [
         '150 g smör, rumsvarmt',
         '1,5 dl strösocker',
@@ -4679,112 +4685,118 @@ function getRecipeByCode(code) {
         '1 tsk bikarbonat',
         '1 tsk bakpulver',
         '1/2 tsk salt',
-        '200 g hackad choklad'
+        '200 g mörk eller mjölkchoklad, hackad (eller färdiga chokladknappar)'
     ],
     instructions: [
-        '1. Sätt ugnen på 175°C och klä två plåtar med bakplåtspapper.',
-        '2. Vispa smör, strösocker, farinsocker och vaniljsocker krämigt.',
-        '3. Tillsätt ägget och äggulan, och blanda väl.',
-        '4. Sikta ihop mjöl, bikarbonat, bakpulver och salt i en skål. Vänd försiktigt ner i smeten.',
-        '5. Rör ner den hackade chokladen.',
-        '6. Rulla små bollar av degen och placera på plåten med mellanrum.',
-        '7. Grädda i ugnen i 10–12 minuter tills kanterna är gyllene.',
-        '8. Låt kakorna svalna på plåten innan du flyttar dem till ett galler.'
+        'Förberedelse: Sätt ugnen på 175°C och klä två plåtar med bakplåtspapper.',
+        'Vispa smör och socker: I en stor bunke, vispa ihop det rumsvarma smöret, strösockret, farinsockret och vaniljsockret tills det blir krämigt.',
+        'Tillsätt ägg och äggula: Rör ner ägget och äggulan i smeten och blanda väl.',
+        'Blanda torra ingredienser: I en separat skål, sikta ihop vetemjöl, bikarbonat, bakpulver och salt. Vänd försiktigt ner de torra ingredienserna i smeten tills det precis går ihop.',
+        'Tillsätt chokladen: Rör ner den hackade chokladen eller chokladknapparna i degen. Spara några bitar för att trycka på toppen av kakorna innan gräddning.',
+        'Forma kakorna: Rulla degen till små bollar (ca 1–2 matskedar per boll) och placera dem på plåtarna med mellanrum emellan (de flyter ut under gräddning).',
+        'Grädda: Grädda kakorna i mitten av ugnen i 10–12 minuter. Kanterna ska vara gyllene, men mitten ska fortfarande se lite mjuk ut – det gör dem härligt sega.',
+        'Låt svalna: Låt kakorna svalna på plåten i några minuter innan du flyttar dem till ett galler för att svalna helt.'
     ],
     tips: [
-        'Tillsätt en nypa kanel eller flingsalt för extra smak.',
-        'Förvara kakorna i en lufttät burk så håller de sig längre.'
+        'För extra smak, prova att tillsätta en nypa kanel eller lite flingsalt på toppen innan gräddning.',
+        'Kakorna kan förvaras i en lufttät burk i flera dagar (om de inte äts upp direkt!).'
     ]
 },
-
 '55558': {
     title: 'Chokladbollar',
     image: 'bilder/55558.png',
-    description: 'Enkel och god chokladfavorit som inte behöver gräddas.',
+    portion: ' (ca 20 chokladbollar)',
     ingredients: [
         '100 g smör, rumsvarmt',
         '1 dl strösocker',
         '3 dl havregryn',
         '2 msk kakao',
         '1 tsk vaniljsocker',
-        '2 msk kallt kaffe',
-        'Pärlsocker eller kokos (till garnering)'
+        '2 msk kallt starkt kaffe (eller vatten om du föredrar det)'
+    ],
+    garnish: [
+        'Pärlsocker eller kokos'
     ],
     instructions: [
-        '1. Vispa ihop smör och socker till en krämig smet.',
-        '2. Blanda ner havregryn, kakao och vaniljsocker.',
-        '3. Rör i det kalla kaffet och blanda till en smidig deg.',
-        '4. Rulla små bollar och doppa i pärlsocker eller kokos.',
-        '5. Ställ i kylskåpet i minst 30 minuter innan servering.'
+        'Blanda smör och socker: Vispa ihop det rumsvarma smöret och strösockret tills det blir en jämn och krämig smet.',
+        'Tillsätt de torra ingredienserna: Blanda ner havregryn, kakao och vaniljsocker. Rör om ordentligt så att allt blandas jämnt.',
+        'Tillsätt vätskan: Rör ner det kalla kaffet (eller vattnet) och blanda tills du har en smidig deg. Om smeten känns för lös, kan du låta den vila i kylskåpet i 10 minuter.',
+        'Forma bollar: Ta en liten mängd smet och rulla till bollar, ungefär stora som en valnöt.',
+        'Garnera: Rulla bollarna i pärlsocker eller kokos, beroende på vad du föredrar.',
+        'Kyl och servera: Lägg chokladbollarna på en tallrik och ställ in i kylskåpet i minst 30 minuter innan servering så att de stelnar lite.'
     ],
     tips: [
-        'För en lyxigare variant, tillsätt hackad mörk choklad i smeten.',
-        'Byt ut kaffet mot apelsinjuice för en frisk smak.'
+        'För extra smak kan du tillsätta en nypa flingsalt eller lite apelsinzest i smeten.',
+        'Chokladbollarna håller sig bra i kylskåpet i upp till en vecka, eller längre i frysen.'
     ]
 },
 
 '55559': {
     title: 'Smulpaj',
     image: 'bilder/55559.png',
-    description: 'Krispig smulpaj med valfri fyllning av äpplen eller bär.',
+    portion: ' (4 portioner)',
     ingredients: [
-        '4–5 äpplen eller 500 g bär',
+        'Fyllning:',
+        '4–5 äpplen (eller ca 500 g bär, t.ex. blåbär, hallon eller rabarber)',
         '2 msk strösocker',
-        '1 tsk kanel (om du använder äpplen)',
+        '1 tsk kanel (valfritt, om du använder äpplen)',
+        'Smuldeg:',
         '150 g smör, kallt',
-        '3 dl vetemjöl eller havregryn',
+        '3 dl vetemjöl (eller havregryn för en rustikare paj)',
         '1 dl strösocker'
     ],
     instructions: [
-        '1. Sätt ugnen på 200°C och smörj en pajform.',
-        '2. Förbered fyllningen: Skiva äpplen och blanda med socker och kanel, eller lägg bär direkt i formen.',
-        '3. Gör smuldegen genom att nypa ihop smör, mjöl (eller havregryn) och socker till en smulig konsistens.',
-        '4. Strö smuldegen över fyllningen.',
-        '5. Grädda i ugnen i 20–25 minuter tills ytan är gyllene.',
-        '6. Låt pajen svalna något innan servering.'
+        'Förberedelse: Sätt ugnen på 200°C. Smörj en pajform (ca 24 cm i diameter) med lite smör.',
+        'Fyllning: Äpplen: Skala, kärna ur och skiva äpplena tunt. Lägg dem i pajformen. Strö över strösocker och kanel.',
+        'Bär: Om du använder bär, lägg dem direkt i formen och strö över lite socker (justera sockermängden beroende på hur söta bären är).',
+        'Gör smuldegen: Skär det kalla smöret i små bitar. Lägg smöret, vetemjölet (eller havregrynen) och sockret i en bunke. Nyp ihop ingredienserna med fingrarna tills det blir en smulig deg.',
+        'Montering: Fördela smuldegen jämnt över fyllningen i formen.',
+        'Grädda: Grädda i mitten av ugnen i 20–25 minuter, eller tills smuldegen är gyllene och knaprig.',
+        'Servera: Låt pajen svalna något och servera den ljummen med vaniljsås, glass eller vispad grädde.'
     ],
     tips: [
-        'Servera med vaniljsås, glass eller vispad grädde.',
-        'Tillsätt hackade nötter eller kokosflingor i smuldegen för extra crunch.'
+        'För extra smak kan du tillsätta hackade nötter eller kokosflingor i smuldegen.',
+        'Vill du göra pajen lite hälsosammare? Byt ut en del av vetemjölet mot fullkornsmjöl eller använd mindre socker.'
     ]
 },
 '55560': {
-    title: 'Äppelkaka i långpanna',
+    title: 'Äppelkaka i Långpanna',
     image: 'bilder/55560.png',
-    description: 'Saftig äppelkaka med smak av kanel och vanilj.',
+    portion: ' (ca 20–24 bitar)',
     ingredients: [
+        'Smörjning:',
+        'Smör och ströbröd till långpannan',
+        'Kaksmet:',
         '200 g smör, rumsvarmt',
         '4 dl strösocker',
         '4 ägg',
         '6 dl vetemjöl',
         '3 tsk bakpulver',
-        '2 tsk vaniljsocker',
-        '2 dl mjölk',
-        '5–6 äpplen',
-        '2 msk kanel',
-        '3 msk strösocker',
-        'Pärlsocker eller hackad mandel (valfritt, till garnering)'
+        '2–3 msk strösocker',
+        'Garnering:',
+        'Pärlsocker eller hackad mandel (valfritt)'
     ],
     instructions: [
-        '1. Sätt ugnen på 200°C och smörj en långpanna (ca 30x40 cm). Bröa med ströbröd.',
-        '2. Skala och skär äpplena i tunna skivor. Blanda dem med kanel och strösocker.',
-        '3. Vispa smör och socker poröst. Tillsätt äggen ett i taget och vispa fluffigt.',
-        '4. Blanda vetemjöl, bakpulver och vaniljsocker. Sikta ner i smeten varvat med mjölken och rör försiktigt ihop.',
-        '5. Häll smeten i långpannan och fördela äppelskivorna över.',
-        '6. Strö eventuellt över pärlsocker eller hackad mandel.',
-        '7. Grädda i ugnen i 25–30 minuter tills kakan är gyllene och en provsticka kommer ut torr.',
-        '8. Låt svalna, skär i bitar och servera.'
+        'Förberedelse: Sätt ugnen på 200°C. Smörj en långpanna (ca 30x40 cm) och bröa den med ströbröd.',
+        'Förbered äpplena: Skala, kärna ur och skiva äpplena i tunna klyftor. Blanda dem i en skål med kanel och strösocker. Ställ åt sidan.',
+        'Gör kaksmeten: Vispa det rumsvarma smöret och sockret poröst med en elvisp.',
+        'Tillsätt äggen ett i taget och vispa smeten fluffig.',
+        'Blanda vetemjöl, bakpulver och vaniljsocker i en separat skål. Sikta ner de torra ingredienserna i smeten, varvat med mjölken. Rör försiktigt ihop till en jämn smet.',
+        'Fyll långpannan: Häll smeten i den smorda långpannan och bred ut den jämnt med en slickepott.',
+        'Lägg på äpplena: Fördela de kanel- och sockerkryddade äppelskivorna jämnt över smeten. Tryck ner dem lite lätt.',
+        'Garnera (valfritt): Strö pärlsocker eller hackad mandel över kakan för extra crunch.',
+        'Grädda: Grädda i mitten av ugnen i 25–30 minuter eller tills kakan fått en gyllene färg och en provsticka kommer ut torr.',
+        'Låt svalna och servera: Låt kakan svalna i formen. Skär den i rutor och servera som den är eller med vaniljsås, glass eller vispad grädde.'
     ],
     tips: [
-        'För en extra saftig kaka, tillsätt 1 dl rivet äpple i smeten.',
-        'Går utmärkt att frysa in i bitar för senare njutning.'
+        'För en saftigare kaka kan du tillsätta 1 dl rivet äpple eller 1 tsk kardemumma i smeten.',
+        'Äppelkakan går utmärkt att frysa in för senare tillfällen.'
     ]
 },
-
 '55561': {
-    title: 'Saftig sockerkaka',
+    title: 'Saftig Sockerkaka',
     image: 'bilder/55561.png',
-    description: 'En klassisk sockerkaka som alltid blir perfekt.',
+    portion: ' (12 bitar)',
     ingredients: [
         '3 ägg',
         '2 dl strösocker',
@@ -4796,47 +4808,48 @@ function getRecipeByCode(code) {
         'En nypa salt'
     ],
     instructions: [
-        '1. Sätt ugnen på 175°C och smörj en sockerkaksform.',
-        '2. Vispa ägg, strösocker och vaniljsocker vitt och pösigt.',
-        '3. Smält smöret och blanda med mjölken. Rör ner i äggsmeten.',
-        '4. Blanda mjöl, bakpulver och salt i en skål. Sikta ner i smeten och rör om försiktigt.',
-        '5. Häll smeten i formen och grädda i ugnen i 35–40 minuter.',
-        '6. Låt kakan svalna något innan den stjälps upp.'
+        'Sätt ugnen på 175°C och smörj och bröa en sockerkaksform (ca 1,5 liter).',
+        'Vispa ägg, strösocker och vaniljsocker vitt och pösigt.',
+        'Smält smöret och blanda med mjölken. Rör ner det i äggsmeten.',
+        'Blanda mjöl, bakpulver och salt i en separat skål. Sikta ner detta i smeten och rör om försiktigt.',
+        'Häll smeten i formen och grädda i nedre delen av ugnen i ca 35–40 minuter. Kontrollera med en sticka; den ska komma ut torr.',
+        'Låt kakan svalna något innan du stjälper upp den.'
     ],
     tips: [
-        'Tillsätt rivet citronskal för en fräsch smak.',
-        'Byt ut vaniljsockret mot kardemumma för en twist.'
+        'För variation, tillsätt rivet citronskal eller byt ut vaniljsockret mot kardemumma.',
+        'Servera med en klick vispad grädde och färska bär för en lyxigare upplevelse.'
+    ],
+    topping: [
+        '5–6 äpplen',
+        '2 msk kanel'
     ]
 },
 
 '55562': {
     title: 'Maränger',
     image: 'bilder/55562.png',
-    description: 'Luftiga och spröda maränger som smälter i munnen.',
+    portion: ' (ca 20 små maränger)',
     ingredients: [
         '3 äggvitor',
         '2 dl strösocker',
         '1 tsk pressad citron'
     ],
     instructions: [
-        '1. Sätt ugnen på 100°C och klä en plåt med bakplåtspapper.',
-        '2. Vispa äggvitorna till ett fast skum.',
-        '3. Tillsätt socker, lite i taget, under fortsatt vispning tills smeten är glansig och bildar toppar.',
-        '4. Rör ner citronsaften.',
-        '5. Klicka eller spritsa ut små maränger på plåten.',
-        '6. Grädda i ugnen i ca 1,5 timme tills marängerna är torra.',
-        '7. Låt svalna innan servering.'
+        'Sätt ugnen på 100°C och klä en plåt med bakplåtspapper.',
+        'Vispa äggvitorna till ett fast skum. Tillsätt socker, lite i taget, under fortsatt vispning tills smeten är glansig och bildar toppar.',
+        'Rör ner citronsaften.',
+        'Klicka eller spritsa ut små maränger på plåten.',
+        'Grädda mitt i ugnen i ca 1,5 timme tills marängerna är torra och lätt lossnar från bakplåtspappret. Låt svalna.'
     ],
     tips: [
-        'Tillsätt några droppar karamellfärg för färgglada maränger.',
-        'Doppa de färdiga marängerna i smält choklad för extra dekoration.'
+        'För färgglada maränger, tillsätt några droppar karamellfärg i smeten.',
+        'Doppa de färdiga marängerna i smält choklad för en extra dekoration.'
     ]
 },
-
 '55563': {
-    title: 'Cake pops',
+    title: 'Cake Pops',
     image: 'bilder/55563.png',
-    description: 'Roliga och goda cake pops, perfekta till kalas!',
+    portion: ' (ca 15 cake pops)',
     ingredients: [
         '400 g sockerkaka eller muffins',
         '100 g färskost',
@@ -4845,25 +4858,23 @@ function getRecipeByCode(code) {
         'Pinnar för cake pops'
     ],
     instructions: [
-        '1. Smula sockerkakan eller muffinsarna i en skål.',
-        '2. Blanda med färskosten tills det blir en formbar massa.',
-        '3. Rulla små bollar av smeten och lägg på en bricka.',
-        '4. Ställ i frysen i 30 minuter.',
-        '5. Smält chokladen och doppa ena änden av en pinne i choklad innan du trycker in den i en boll.',
-        '6. Doppa hela bollen i chokladen och låt överflödig choklad rinna av.',
-        '7. Dekorera med strössel innan chokladen stelnar.',
-        '8. Låt cake popsen stelna och servera.'
+        'Smula sockerkakan eller muffinsarna i en skål. Blanda med färskosten tills det blir en formbar massa.',
+        'Rulla små bollar av smeten och lägg dem på en bricka. Ställ i frysen i 30 minuter.',
+        'Smält chokladen i ett vattenbad eller i mikron. Doppa ena änden av en pinne i choklad och tryck in den i en boll.',
+        'Doppa hela bollen i chokladen och låt överflödig choklad rinna av. Dekorera med strössel innan chokladen stelnar.',
+        'Ställ cake popsen i ett glas eller på en bricka med hål tills chokladen har stelnat.'
     ],
     tips: [
-        'Testa att använda olika smaksättningar, som apelsinzest eller kakao.',
+        'Testa att använda olika smaksättningar, som apelsinzest eller kakao, i smeten.',
         'För en vegansk version, använd vegansk sockerkaka och mörk choklad.'
     ]
 },
 '55564': {
     title: 'Ryttarkaka',
     image: 'bilder/55564.png',
-    description: 'Kombinationen av kladdkaka och kokostosca gör denna kaka oemotståndlig.',
+    portion: ' (12 bitar)',
     ingredients: [
+        'Botten:',
         '150 g smör',
         '2 ägg',
         '2,5 dl strösocker',
@@ -4871,1107 +4882,1097 @@ function getRecipeByCode(code) {
         '1 dl kakao',
         '1 tsk vaniljsocker',
         'En nypa salt',
+        'Topping:',
         '200 g kokosflingor',
         '1,5 dl grädde',
         '1,5 dl strösocker',
         '75 g smör'
     ],
     instructions: [
-        '1. Sätt ugnen på 175°C och klä en långpanna (20x30 cm) med bakplåtspapper.',
-        '2. Smält smöret och låt svalna.',
-        '3. Vispa ägg och socker fluffigt.',
-        '4. Sikta ner mjöl, kakao, vaniljsocker och salt i smeten.',
-        '5. Tillsätt smöret och rör ihop till en jämn smet.',
-        '6. Häll smeten i formen och grädda i ugnen i 15 minuter.',
-        '7. Gör under tiden toppingen genom att blanda kokosflingor, grädde, socker och smör i en kastrull. Låt sjuda i 5 minuter.',
-        '8. Ta ut kakan ur ugnen och bred på kokosblandningen.',
-        '9. Grädda ytterligare 10 minuter tills ytan är gyllene.',
-        '10. Låt svalna och skär i bitar.'
+        'Sätt ugnen på 175°C och klä en långpanna (20x30 cm) med bakplåtspapper.',
+        'Smält smöret. Vispa ägg och socker vitt och fluffigt.',
+        'Sikta ner mjöl, kakao, vaniljsocker och salt i äggsmeten. Tillsätt smöret och rör ihop till en jämn smet.',
+        'Häll smeten i formen och grädda i mitten av ugnen i 15 minuter.',
+        'Gör under tiden toppingen: Blanda kokosflingor, grädde, socker och smör i en kastrull och låt sjuda i 5 minuter.',
+        'Bred toppingen över kakan och grädda i ytterligare 10 minuter tills ytan är gyllene. Låt svalna och skär i bitar.'
     ],
     tips: [
-        'Tillsätt apelsinzest i smeten för en fräsch twist.',
-        'Servera med vispad grädde för extra lyx.'
+        'För extra smak, tillsätt lite apelsinzest i botten.',
+        'Servera med en klick vispad grädde för lyxigare servering.'
     ]
 },
-"55565": {
-    "title": "Chokladsnittar",
-    "image": "bilder/55565.png",
-    "description": "Lättbakade och spröda chokladkakor som smälter i munnen.",
-    "ingredients": [
-      "100 g smör, rumstempererat",
-      "1 dl strösocker",
-      "1 msk ljus sirap",
-      "2,5 dl vetemjöl",
-      "1 msk kakao",
-      "1 tsk bakpulver",
-      "1 tsk vaniljsocker"
-    ],
-    "instructions": [
-      "1. Sätt ugnen på 175°C och klä en plåt med bakplåtspapper.",
-      "2. Vispa smör, socker och sirap poröst.",
-      "3. Blanda mjöl, kakao, bakpulver och vaniljsocker i en separat skål.",
-      "4. Arbeta in detta i smörblandningen till en smidig deg.",
-      "5. Dela degen i två delar, rulla till längder och platta till.",
-      "6. Grädda i mitten av ugnen i 12–15 minuter.",
-      "7. Skär längderna i sneda bitar medan de är varma. Låt svalna."
-    ],
-    "tips": [
-      "Tillsätt hackad choklad eller nötter för extra crunch.",
-      "Doppa ena änden i smält choklad för fin dekoration."
-    ]
-  },
 
-  "55566": {
-    "title": "Kokostoppar",
-    "image": "bilder/55566.png",
-    "description": "Saftiga och smakrika kokostoppar, perfekta till fikat.",
-    "ingredients": [
-      "50 g smör",
-      "2 ägg",
-      "1 dl strösocker",
-      "200 g kokosflingor"
+'55565': {
+    title: 'Chokladsnittar',
+    image: 'bilder/55565.png',
+    portion: ' (ca 25 kakor)',
+    ingredients: [
+        '100 g smör, rumstempererat',
+        '1 dl strösocker',
+        '1 msk ljus sirap',
+        '2,5 dl vetemjöl',
+        '1 msk kakao',
+        '1 tsk bakpulver',
+        '1 tsk vaniljsocker'
     ],
-    "instructions": [
-      "1. Sätt ugnen på 175°C och klä en plåt med bakplåtspapper.",
-      "2. Smält smöret och låt det svalna.",
-      "3. Vispa ägg och socker lätt. Rör i smör och kokos.",
-      "4. Låt smeten svälla i 5 minuter.",
-      "5. Forma små toppar och placera på plåten.",
-      "6. Grädda i 10–12 minuter tills gyllene.",
-      "7. Låt svalna."
+    instructions: [
+        'Sätt ugnen på 175°C och klä en plåt med bakplåtspapper.',
+        'Vispa smör, socker och sirap poröst.',
+        'Blanda mjöl, kakao, bakpulver och vaniljsocker i en separat skål. Arbeta ihop med smörblandningen till en smidig deg.',
+        'Dela degen i två delar och rulla ut till längder. Lägg dem på plåten och platta till lätt.',
+        'Grädda i mitten av ugnen i ca 12–15 minuter.',
+        'Skär längderna i sneda bitar medan de fortfarande är varma. Låt svalna.'
     ],
-    "tips": [
-      "Doppa bottnarna i smält choklad för extra lyx.",
-      "Smaksätt med lite lime- eller citronskal för en frisk touch."
+    tips: [
+        'Tillsätt hackad choklad eller nötter i degen för extra crunch.',
+        'Doppa ena änden av kakorna i smält choklad för en fin dekoration.'
     ]
-  },
+},
 
-  "55567": {
-    "title": "Cheesecake",
-    "image": "bilder/55567.png",
-    "description": "En krämig och lyxig cheesecake med smak av citron.",
-    "ingredients": [
-      "200 g digestivekex",
-      "100 g smör, smält",
-      "400 g färskost",
-      "2 dl crème fraiche",
-      "1 dl strösocker",
-      "3 ägg",
-      "1 tsk vaniljsocker",
-      "Saft och zest från 1 citron"
+'55566': {
+    title: 'Kokostoppar',
+    image: 'bilder/55566.png',
+    portion: ' (ca 15 st)',
+    ingredients: [
+        '50 g smör',
+        '2 ägg',
+        '1 dl strösocker',
+        '200 g kokosflingor'
     ],
-    "instructions": [
-      "1. Sätt ugnen på 175°C.",
-      "2. Mixa kexen och blanda med smält smör. Tryck ut i en springform.",
-      "3. Vispa ihop färskost, crème fraiche, socker, ägg, vaniljsocker samt citronzest och saft.",
-      "4. Häll smeten över bottnen och grädda 45–50 minuter.",
-      "5. Låt svalna och ställ i kylen i minst 3 timmar."
+    instructions: [
+        'Sätt ugnen på 175°C och klä en plåt med bakplåtspapper.',
+        'Smält smöret och låt det svalna något.',
+        'Vispa ägg och socker lätt i en skål. Tillsätt smöret och rör ner kokosflingorna. Låt smeten svälla i 5 minuter.',
+        'Forma små toppar av smeten och placera dem på plåten.',
+        'Grädda i mitten av ugnen i ca 10–12 minuter tills topparna är gyllene. Låt svalna.'
     ],
-    "tips": [
-      "Servera med färska bär eller en bärsås.",
-      "För en chokladvariant, tillsätt 100 g smält choklad i fyllningen."
+    tips: [
+        'Doppa bottnarna i smält choklad för extra lyx.',
+        'Smaksätt med lite lime- eller citronskal för en frisk touch.'
     ]
-  },
+},
 
-  "55568": {
-    "title": "Blåbärsmuffins",
-    "image": "bilder/55568.png",
-    "description": "Luftiga muffins fyllda med färska eller frysta blåbär.",
-    "ingredients": [
-      "100 g smör, smält",
-      "2 ägg",
-      "2 dl strösocker",
-      "1 dl mjölk",
-      "3 dl vetemjöl",
-      "1,5 tsk bakpulver",
-      "1 tsk vaniljsocker",
-      "2 dl blåbär"
+'55567': {
+    title: 'Cheesecake',
+    image: 'bilder/55567.png',
+    portion: ' (10–12 bitar)',
+    ingredients: [
+        'Botten:',
+        '200 g digestivekex',
+        '100 g smör, smält',
+        'Fyllning:',
+        '400 g färskost',
+        '2 dl crème fraiche',
+        '1 dl strösocker',
+        '3 ägg',
+        '1 tsk vaniljsocker',
+        'Saft och zest från 1 citron'
     ],
-    "instructions": [
-      "1. Sätt ugnen på 200°C och placera muffinsformar i en muffinsplåt.",
-      "2. Vispa ägg och socker fluffigt. Tillsätt smält smör och mjölk.",
-      "3. Blanda mjöl, bakpulver och vaniljsocker. Sikta ner i smeten.",
-      "4. Vänd försiktigt ner blåbären.",
-      "5. Fördela smeten i formarna och grädda i 15–20 minuter.",
-      "6. Låt svalna."
+    instructions: [
+        'Sätt ugnen på 175°C.',
+        'Mixa kexen till smulor och blanda med smält smör. Tryck ut i en springform (ca 24 cm) och ställ i kylen.',
+        'Vispa ihop färskost, crème fraiche, socker, ägg, vaniljsocker, citronzest och -saft till en slät smet.',
+        'Häll smeten över botten och grädda i ugnen i 45–50 minuter. Låt svalna och ställ i kylen i minst 3 timmar innan servering.'
     ],
-    "tips": [
-      "Strö pärlsocker eller smuldeg på toppen innan gräddning.",
-      "Byt ut blåbären mot hallon eller äppelbitar för variation."
+    tips: [
+        'Servera med färska bär eller en bärsås.',
+        'För en chokladvariant, tillsätt 100 g smält choklad i fyllningen.'
     ]
-  },
+},
 
-  "55569": {
-    "title": "Havrekakor",
-    "image": "bilder/55569.png",
-    "description": "Spröda havrekakor med en rustik känsla.",
-    "ingredients": [
-      "100 g smör, rumstempererat",
-      "1 dl strösocker",
-      "2 dl havregryn",
-      "1,5 dl vetemjöl",
-      "1 tsk bakpulver",
-      "1 tsk vaniljsocker"
+'55568': {
+    title: 'Blåbärsmuffins',
+    image: 'bilder/55568.png',
+    portion: ' (12 muffins)',
+    ingredients: [
+        '100 g smör, smält',
+        '2 ägg',
+        '2 dl strösocker',
+        '1 dl mjölk',
+        '3 dl vetemjöl',
+        '1,5 tsk bakpulver',
+        '1 tsk vaniljsocker',
+        '2 dl blåbär (färska eller frysta)'
     ],
-    "instructions": [
-      "1. Sätt ugnen på 175°C och klä en plåt med bakplåtspapper.",
-      "2. Vispa smör och socker fluffigt.",
-      "3. Blanda havregryn, mjöl, bakpulver och vaniljsocker. Arbeta in i smöret.",
-      "4. Rulla små bollar och lägg på plåten. Platta till lätt.",
-      "5. Grädda i 10–12 minuter tills gyllene.",
-      "6. Låt svalna."
+    instructions: [
+        'Sätt ugnen på 200°C och placera muffinsformar i en muffinsplåt.',
+        'Vispa ägg och socker fluffigt. Tillsätt smält smör och mjölk.',
+        'Blanda mjöl, bakpulver och vaniljsocker och sikta ner i smeten. Vänd försiktigt ner blåbären.',
+        'Fördela smeten i formarna och grädda i mitten av ugnen i ca 15–20 minuter. Låt svalna.'
     ],
-    "tips": [
-      "Tillsätt chokladbitar eller russin för extra smak.",
-      "För en nötigare variant, byt ut en del av havregrynen mot hackade nötter."
+    tips: [
+        'Strö lite pärlsocker eller smuldeg på toppen innan gräddning för en extra krispig yta.',
+        'Byt ut blåbären mot hallon eller äppelbitar för variation.'
     ]
-  },
+},
 
-  "55570": {
-    "title": "Croissant",
-    "image": "bilder/55570.png",
-    "description": "Klassiska franska croissanter med frasig yta.",
-    "ingredients": [
-      "25 g jäst",
-      "2 dl mjölk, fingervarm",
-      "1 msk strösocker",
-      "0,5 tsk salt",
-      "6 dl vetemjöl",
-      "250 g smör, kylskåpskallt"
+'55569': {
+    title: 'Havrekakor',
+    image: 'bilder/55569.png',
+    portion: ' (ca 20 kakor)',
+    ingredients: [
+        '100 g smör, rumstempererat',
+        '1 dl strösocker',
+        '2 dl havregryn',
+        '1,5 dl vetemjöl',
+        '1 tsk bakpulver',
+        '1 tsk vaniljsocker'
     ],
-    "instructions": [
-      "1. Smula jästen i en bunke och lös upp i mjölken. Tillsätt socker, salt och det mesta av mjölet.",
-      "2. Arbeta ihop till en deg och låt vila i kylen 30 minuter.",
-      "3. Kavla ut degen till en rektangel. Lägg skivat kallt smör på två tredjedelar.",
-      "4. Vik ihop som ett treslag och kavla ut. Upprepa 3 gånger, vila i kylen mellan.",
-      "5. Kavla ut degen, skär i trianglar och rulla ihop till croissanter.",
-      "6. Jäs i 2 timmar, pensla med ägg.",
-      "7. Grädda i 225°C i 12–15 minuter."
+    instructions: [
+        'Sätt ugnen på 175°C och klä en plåt med bakplåtspapper.',
+        'Vispa smör och socker fluffigt.',
+        'Blanda havregryn, mjöl, bakpulver och vaniljsocker i en separat skål. Arbeta in i smörblandningen till en smidig deg.',
+        'Rulla små bollar av degen och placera på plåten. Platta till dem lätt med handen eller en gaffel.',
+        'Grädda i mitten av ugnen i ca 10–12 minuter tills kakorna är gyllene. Låt svalna.'
     ],
-    "tips": [
-      "Fyll med choklad eller ost innan rullning för extra smak.",
-      "Servera med sylt och smör för en klassisk touch."
+    tips: [
+        'Tillsätt chokladbitar eller russin i degen för extra smak.',
+        'För en nötigare variant, byt ut en del av havregrynen mot hackade nötter.'
     ]
-  },
+},
 
-  "55571": {
-    "title": "Knäckig blåbärspaj",
-    "image": "bilder/55571.png",
-    "description": "En frasig och knäckig paj toppad med blåbär.",
-    "ingredients": [
-      "300 g blåbär",
-      "1 msk potatismjöl",
-      "1 msk strösocker",
-      "150 g smör",
-      "2 dl havregryn",
-      "2 dl vetemjöl",
-      "1,5 dl strösocker",
-      "1 tsk bakpulver",
-      "1 tsk vaniljsocker"
+'55570': {
+    title: 'Croissant',
+    image: 'bilder/55570.png',
+    portion: ' (8 croissanter)',
+    ingredients: [
+        '25 g jäst',
+        '2 dl mjölk, fingervarm',
+        '1 msk strösocker',
+        '0,5 tsk salt',
+        '6 dl vetemjöl',
+        '250 g smör, kylskåpskallt'
     ],
-    "instructions": [
-      "1. Sätt ugnen på 200°C och smörj en pajform.",
-      "2. Blanda blåbär med potatismjöl och socker i formen.",
-      "3. Smält smöret och rör ner havregryn, mjöl, socker, bakpulver och vaniljsocker.",
-      "4. Fördela degen över blåbären.",
-      "5. Grädda i 20–25 minuter tills ytan är gyllene.",
-      "6. Servera ljummen med vaniljsås eller glass."
+    instructions: [
+        'Smula jästen i en bunke och lös upp i mjölken. Tillsätt socker, salt och nästan allt mjöl. Arbeta ihop till en deg och låt vila i kylen i 30 minuter.',
+        'Kavla ut degen till en rektangel. Skär smöret i tunna skivor och lägg ut på två tredjedelar av degen. Vik ihop som ett treslag (utan smör på yttersta lagret).',
+        'Kavla ut och vik på nytt, upprepa 3 gånger. Låt degen vila i kylen 30 minuter mellan vikningarna.',
+        'Kavla ut degen till en stor rektangel och skär i trianglar. Rulla ihop trianglarna från basen till spetsen och forma till croissanter.',
+        'Lägg på en plåt, täck med en bakduk och låt jäsa i 2 timmar. Pensla med uppvispat ägg.',
+        'Grädda i 225°C i ca 12–15 minuter tills gyllene.'
     ],
-    "tips": [
-      "Byt ut blåbären mot hallon, äpplen eller rabarber.",
-      "Tillsätt kanel eller kardemumma i toppingen för extra smak."
+    tips: [
+        'Fyll med choklad eller ost innan rullning för extra smak.',
+        'Servera med sylt och smör för en klassisk touch.'
     ]
-  },
+},
+'55571': {
+    title: 'Knäckig Blåbärspaj',
+    image: 'bilder/55571.png',
+    portion: ' (6–8 portioner)',
+    ingredients: [
+        '300 g blåbär (färska eller frysta)',
+        '1 msk potatismjöl',
+        '1 msk strösocker',
+        'Topping:',
+        '150 g smör',
+        '2 dl havregryn',
+        '2 dl vetemjöl',
+        '1,5 dl strösocker',
+        '1 tsk bakpulver',
+        '1 tsk vaniljsocker'
+    ],
+    instructions: [
+        'Sätt ugnen på 200°C och smörj en pajform.',
+        'Blanda blåbär med potatismjöl och socker i formen.',
+        'Smält smöret i en kastrull och rör ner havregryn, mjöl, socker, bakpulver och vaniljsocker. Fördela smeten jämnt över bären.',
+        'Grädda i mitten av ugnen i ca 20–25 minuter tills ytan är gyllene och knäckig.',
+        'Servera pajen ljummen med vaniljsås eller glass.'
+    ],
+    tips: [
+        'Byt ut blåbären mot hallon, äpplen eller rabarber.',
+        'Tillsätt kanel eller kardemumma i toppingen för extra smak.'
+    ]
+},
 
-  "55572": {
-    "title": "Drömrulltårta",
-    "image": "bilder/55572.png",
-    "description": "En klassisk rulltårta med chokladbotten och smörkräm.",
-    "ingredients": [
-      "3 ägg",
-      "1,5 dl strösocker",
-      "2 dl potatismjöl",
-      "2 tsk bakpulver",
-      "2 msk kakao",
-      "100 g smör (till fyllning)",
-      "2 dl florsocker",
-      "2 tsk vaniljsocker",
-      "1 äggula"
+'55572': {
+    title: 'Drömrulltårta',
+    image: 'bilder/55572.png',
+    portion: ' (10–12 bitar)',
+    ingredients: [
+        'Botten:',
+        '3 ägg',
+        '1,5 dl strösocker',
+        '2 dl potatismjöl',
+        '2 tsk bakpulver',
+        '2 msk kakao',
+        'Fyllning:',
+        '100 g smör, rumstempererat',
+        '2 dl florsocker',
+        '2 tsk vaniljsocker',
+        '1 äggula'
     ],
-    "instructions": [
-      "1. Sätt ugnen på 250°C och klä en långpanna med bakplåtspapper.",
-      "2. Vispa ägg och socker pösigt.",
-      "3. Blanda potatismjöl, bakpulver och kakao. Sikta ner i smeten.",
-      "4. Bred ut smeten och grädda i ca 5 minuter.",
-      "5. Stjälp upp på sockrat papper och låt svalna.",
-      "6. Vispa smör, florsocker, vaniljsocker och äggula fluffigt. Bred på.",
-      "7. Rulla ihop och kyl innan du skär."
+    instructions: [
+        'Sätt ugnen på 250°C och klä en långpanna med bakplåtspapper.',
+        'Vispa ägg och socker pösigt. Blanda potatismjöl, bakpulver och kakao och sikta ner i smeten. Rör om försiktigt.',
+        'Bred ut smeten jämnt på bakplåtspappret och grädda i mitten av ugnen i ca 5 minuter.',
+        'Stjälp upp kakan på ett sockrat bakplåtspapper och dra försiktigt bort det gamla pappret. Låt svalna.',
+        'Gör fyllningen: Vispa smör, florsocker, vaniljsocker och äggula till en fluffig smet. Bred ut på den avsvalnade kakan.',
+        'Rulla ihop från långsidan och låt vila i kylen en stund innan du skär upp.'
     ],
-    "tips": [
-      "Byt ut kakao mot kardemumma eller kanel för variation.",
-      "Dekorera med smält choklad innan servering."
+    tips: [
+        'Byt ut kakao mot kardemumma eller kanel för variation.',
+        'Dekorera rullen med smält choklad och florsocker innan servering.'
     ]
-  },
+},
 
-  "55573": {
-    "title": "Karlsbaderbullar",
-    "image": "bilder/55573.png",
-    "description": "Extra fluffiga bullar med en söt vaniljfyllning.",
-    "ingredients": [
-      "25 g jäst",
-      "2,5 dl mjölk, fingervarm",
-      "75 g smör, rumstempererat",
-      "0,5 dl strösocker",
-      "1 ägg",
-      "1 krm salt",
-      "7–8 dl vetemjöl",
-      "75 g smör (fyllning)",
-      "2 msk strösocker (fyllning)",
-      "2 tsk vaniljsocker (fyllning)"
+'55573': {
+    title: 'Karlsbaderbullar',
+    image: 'bilder/55573.png',
+    portion: ' (ca 20 bullar)',
+    ingredients: [
+        '25 g jäst',
+        '2,5 dl mjölk, fingervarm',
+        '75 g smör, rumstempererat',
+        '0,5 dl strösocker',
+        '1 ägg',
+        '1 krm salt',
+        '7–8 dl vetemjöl',
+        'Fyllning:',
+        '75 g smör, rumstempererat',
+        '2 msk strösocker',
+        '2 tsk vaniljsocker'
     ],
-    "instructions": [
-      "1. Smula jästen i en bunke och lös upp i mjölken.",
-      "2. Tillsätt smör, socker, ägg och salt. Arbeta in mjölet till en smidig deg. Låt jäsa 30 minuter.",
-      "3. Kavla ut degen till en rektangel, bred på fyllningen.",
-      "4. Rulla ihop och skär i ca 2 cm skivor. Lägg i bullformar.",
-      "5. Låt jäsa 30 minuter till, pensla med ägg.",
-      "6. Grädda i 225°C i 8–10 minuter tills gyllene."
+    instructions: [
+        'Smula jästen i en bunke och lös upp med mjölken.',
+        'Tillsätt smör, socker, ägg och salt. Arbeta in mjölet lite i taget till en smidig deg. Låt jäsa i 30 minuter.',
+        'Blanda fyllningen. Kavla ut degen till en rektangel och bred på fyllningen. Rulla ihop och skär i ca 2 cm breda skivor.',
+        'Lägg bullarna i bullformar på en plåt. Låt jäsa ytterligare 30 minuter. Pensla med uppvispat ägg.',
+        'Grädda i 225°C i ca 8–10 minuter tills gyllene.'
     ],
-    "tips": [
-      "Strö pärlsocker på bullarna innan gräddning.",
-      "Byt ut vaniljsockret i fyllningen mot kanel för en twist."
+    tips: [
+        'Strö pärlsocker över bullarna innan gräddning.',
+        'Byt ut vaniljsockret i fyllningen mot kanel för en twist.'
     ]
-  },
+},
 
-  "55574": {
-    "title": "Mazariner",
-    "image": "bilder/55574.png",
-    "description": "Små mandelkakor med mördegsbotten och glasyr.",
-    "ingredients": [
-      "3 dl vetemjöl",
-      "125 g smör, kallt",
-      "1 msk strösocker",
-      "1 äggula",
-      "100 g mandelmassa",
-      "50 g smör, rumstempererat",
-      "1 ägg",
-      "1 msk mjöl",
-      "2 dl florsocker (glasyr)",
-      "2 msk vatten (glasyr)"
+'55574': {
+    title: 'Mazariner',
+    image: 'bilder/55574.png',
+    portion: ' (ca 12 stycken)',
+    ingredients: [
+        'Mördeg:',
+        '3 dl vetemjöl',
+        '125 g smör, kallt och tärnat',
+        '1 msk strösocker',
+        '1 äggula',
+        'Fyllning:',
+        '100 g mandelmassa',
+        '50 g smör, rumstempererat',
+        '1 ägg',
+        '1 msk mjöl',
+        'Glasyr:',
+        '2 dl florsocker',
+        '2 msk vatten'
     ],
-    "instructions": [
-      "1. Sätt ugnen på 175°C och smörj mazarinformar.",
-      "2. Blanda mjöl, kallt smör och socker till en smulig deg. Tillsätt äggulan och arbeta ihop.",
-      "3. Tryck ut degen i formarna och ställ kallt.",
-      "4. Riv mandelmassan. Vispa ihop med smör, ägg och mjöl.",
-      "5. Fyll formarna och grädda 15–20 minuter.",
-      "6. Blanda florsocker och vatten till en glasyr och bred på svalnade mazariner."
+    instructions: [
+        'Sätt ugnen på 175°C och smörj mazarinformar eller använd muffinsformar.',
+        'Blanda mjöl, smör och socker till en smulig deg. Tillsätt äggulan och arbeta ihop till en deg. Låt vila i kylen i 30 minuter.',
+        'Tryck ut degen i formarna och ställ dem i kylen medan du gör fyllningen.',
+        'Riv mandelmassan och vispa ihop med smör, ägg och mjöl till en jämn smet. Fyll formarna med smeten.',
+        'Grädda i mitten av ugnen i ca 15–20 minuter. Låt svalna.',
+        'Blanda ihop florsocker och vatten till en glasyr och bred på de avsvalnade mazarinerna.'
     ],
-    "tips": [
-      "Smaksätt glasyren med citronsaft eller hallonpuré.",
-      "Toppa med hackade pistagenötter för en lyxig känsla."
+    tips: [
+        'Smaksätt glasyren med citronsaft eller hallonpuré för variation.',
+        'För en lyxigare känsla, toppa med hackade pistagenötter eller torkade rosenblad.'
     ]
-  },
+},
 
-  "55575": {
-    "title": "Drömmar",
-    "image": "bilder/55575.png",
-    "description": "Frasiga småkakor med karakteristisk sprödhet.",
-    "ingredients": [
-      "100 g smör, rumstempererat",
-      "3 dl strösocker",
-      "1 dl neutral olja",
-      "1 tsk hjorthornssalt",
-      "4 dl vetemjöl",
-      "1 tsk vaniljsocker"
+'55575': {
+    title: 'Drömmar',
+    image: 'bilder/55575.png',
+    portion: ' (ca 30 kakor)',
+    ingredients: [
+        '100 g smör, rumstempererat',
+        '3 dl strösocker',
+        '1 dl neutral olja (t.ex. rapsolja)',
+        '1 tsk hjorthornssalt',
+        '4 dl vetemjöl',
+        '1 tsk vaniljsocker'
     ],
-    "instructions": [
-      "1. Sätt ugnen på 150°C och klä en plåt med bakplåtspapper.",
-      "2. Vispa smör och socker fluffigt. Tillsätt oljan.",
-      "3. Blanda hjorthornssalt, mjöl och vaniljsocker. Rör ner i smörblandningen.",
-      "4. Rulla små bollar och lägg på plåten. Tryck till dem lätt.",
-      "5. Grädda i 15–20 minuter tills kakorna är torra.",
-      "6. Låt svalna."
+    instructions: [
+        'Sätt ugnen på 150°C och klä en plåt med bakplåtspapper.',
+        'Vispa smör och socker fluffigt. Tillsätt oljan och vispa lite till.',
+        'Blanda hjorthornssalt, mjöl och vaniljsocker i en separat skål. Rör ner i smörblandningen och arbeta ihop till en smidig deg.',
+        'Rulla små bollar av degen och placera på plåten. Tryck till dem lätt.',
+        'Grädda i mitten av ugnen i ca 15–20 minuter tills kakorna är torra. Låt svalna.'
     ],
-    "tips": [
-      "Tillsätt rivet citronskal eller karamellfärg för variation.",
-      "Förvara i en burk med lock för att behålla sprödheten."
+    tips: [
+        'För en twist, tillsätt rivet citronskal eller några droppar karamellfärg.',
+        'Förvara kakorna i en tättslutande burk för att behålla deras sprödhet.'
     ]
-  },
+},
+'55576': {
+    title: 'Kanelbullar',
+    image: 'bilder/55576.png',
+    portion: ' (ca 25 bullar)',
+    ingredients: [
+        'Deg:',
+        '25 g jäst',
+        '2,5 dl mjölk, fingervarm',
+        '75 g smör, smält',
+        '0,5 dl strösocker',
+        '0,5 tsk salt',
+        '7 dl vetemjöl',
+        'Fyllning:',
+        '75 g smör, rumstempererat',
+        '0,5 dl strösocker',
+        '1 msk kanel'
+    ],
+    instructions: [
+        'Smula jästen i en bunke och lös upp i mjölken. Tillsätt smält smör, socker och salt.',
+        'Arbeta in mjölet lite i taget till en smidig deg. Låt jäsa i 30 minuter.',
+        'Blanda fyllningen. Kavla ut degen till en rektangel och bred på fyllningen.',
+        'Rulla ihop degen och skär i ca 2 cm breda skivor. Lägg i bullformar på en plåt. Låt jäsa i 30 minuter.',
+        'Pensla med uppvispat ägg och strö över pärlsocker.',
+        'Grädda i 225°C i ca 8–10 minuter tills gyllene.'
+    ],
+    tips: [
+        'Frys in bullarna direkt efter de svalnat för att hålla dem färska längre.',
+        'Testa att tillsätta hackade nötter eller russin i fyllningen för extra smak.'
+    ]
+},
 
-  "55576": {
-    "title": "Kanelbullar",
-    "image": "bilder/55576.png",
-    "description": "Sveriges klassiska favoritbulle, med kanel och socker.",
-    "ingredients": [
-      "25 g jäst",
-      "2,5 dl mjölk, fingervarm",
-      "75 g smör, smält",
-      "0,5 dl strösocker",
-      "0,5 tsk salt",
-      "7 dl vetemjöl",
-      "75 g smör (fyllning)",
-      "0,5 dl strösocker (fyllning)",
-      "1 msk kanel"
+'55577': {
+    title: 'Riskakor med Jordnötssmör och Choklad',
+    image: 'bilder/55577.png',
+    portion: ' (ca 10 stycken)',
+    ingredients: [
+        '10 riskakor',
+        '1 dl jordnötssmör',
+        '100 g mörk choklad',
+        '2 msk kokosolja (valfritt)',
+        'Flingsalt för topping'
     ],
-    "instructions": [
-      "1. Smula jästen i en bunke och lös upp med mjölken. Tillsätt smält smör, socker och salt.",
-      "2. Arbeta in mjölet till en smidig deg och låt jäsa 30 minuter.",
-      "3. Kavla ut degen, bred på fyllningen.",
-      "4. Rulla ihop och skär i ca 2 cm skivor. Lägg i bullformar.",
-      "5. Låt jäsa 30 minuter, pensla med ägg och strö på pärlsocker.",
-      "6. Grädda i 225°C i 8–10 minuter.",
-      "7. Låt svalna."
+    instructions: [
+        'Smält jordnötssmöret i mikron eller i en kastrull tills det är rinnigt.',
+        'Bred jordnötssmör på varje riskaka och ställ på ett bakplåtspapper.',
+        'Smält chokladen tillsammans med kokosoljan och ringla eller bred över riskakorna.',
+        'Toppa med flingsalt och ställ i kylen tills chokladen har stelnat.'
     ],
-    "tips": [
-      "Frys in bullarna efter de svalnat för bästa hållbarhet.",
-      "Tillsätt hackade nötter eller russin i fyllningen för extra smak."
+    tips: [
+        'Byt ut jordnötssmöret mot mandelsmör eller hasselnötskräm för variation.',
+        'Strö över hackade nötter eller torkad frukt för extra crunch.'
     ]
-  },
+},
 
-  "55577": {
-    "title": "Riskakor med jordnötssmör och choklad",
-    "image": "bilder/55577.png",
-    "description": "Snabbt och enkelt snacks med härlig kombination av jordnötssmör och choklad.",
-    "ingredients": [
-      "10 riskakor",
-      "1 dl jordnötssmör",
-      "100 g mörk choklad",
-      "2 msk kokosolja (valfritt)",
-      "Flingsalt"
+'55578': {
+    title: 'Chokladfondant',
+    image: 'bilder/55578.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '100 g mörk choklad',
+        '100 g smör',
+        '2 ägg',
+        '2 äggulor',
+        '1 dl strösocker',
+        '1 dl vetemjöl'
     ],
-    "instructions": [
-      "1. Smält jordnötssmöret lätt och bred på riskakorna.",
-      "2. Smält chokladen (och ev. kokosolja) och ringla eller bred över.",
-      "3. Toppa med flingsalt och låt stelna i kylen."
+    instructions: [
+        'Sätt ugnen på 200°C och smörj små ugnsfasta formar med smör och pudra med kakao.',
+        'Smält chokladen och smöret tillsammans i en kastrull på låg värme. Låt svalna något.',
+        'Vispa ägg, äggulor och socker vitt och pösigt.',
+        'Vänd ner chokladblandningen och sikta ner mjölet. Rör försiktigt till en slät smet.',
+        'Fördela smeten i formarna och grädda i mitten av ugnen i ca 8–10 minuter. Kanterna ska vara fasta men mitten ska vara lös.',
+        'Servera genast med vaniljglass eller grädde.'
     ],
-    "tips": [
-      "Variera genom att använda mandelsmör eller hasselnötskräm.",
-      "Strö över hackade nötter eller torkad frukt för extra crunch."
+    tips: [
+        'Gräddningstiden är avgörande – testa dig fram för perfekt rinnighet.',
+        'Pudra över florsocker eller kakaopulver innan servering för en fin presentation.'
     ]
-  },
+},
 
-  "55578": {
-    "title": "Chokladfondant",
-    "image": "bilder/55578.png",
-    "description": "Ljuvlig dessert med rinnig chokladkärna.",
-    "ingredients": [
-      "100 g mörk choklad",
-      "100 g smör",
-      "2 ägg",
-      "2 äggulor",
-      "1 dl strösocker",
-      "1 dl vetemjöl"
+'55579': {
+    title: 'Creme Brulee',
+    image: 'bilder/55579.png',
+    portion: ' (för 4 portioner)',
+    ingredients: [
+        '5 dl vispgrädde',
+        '1 vaniljstång (eller 1 tsk vaniljpasta/extrakt)',
+        '5 äggulor',
+        '1 dl strösocker',
+        'Ca 4 msk råsocker (för bränning)'
     ],
-    "instructions": [
-      "1. Sätt ugnen på 200°C och smörj små ugnsfasta formar, pudra med kakao.",
-      "2. Smält choklad och smör på låg värme.",
-      "3. Vispa ägg, äggulor och socker vitt och pösigt.",
-      "4. Vänd ner chokladblandningen och sikta i mjölet.",
-      "5. Fördela i formarna och grädda 8–10 minuter. Kanterna ska vara fasta, mitten lös.",
-      "6. Servera genast med glass eller grädde."
+    instructions: [
+        'Förberedelse: Sätt ugnen på 150 °C. Ställ fram 4 små ugnssäkra formar (ramekiner).',
+        'Vaniljgrädde: Häll grädden i en kastrull. Dela vaniljstången på längden och skrapa ur fröna. Lägg både fröna och stången i grädden (eller tillsätt vaniljpasta/extrakt om du använder det). Värm grädden försiktigt tills den nästan kokar, men låt den inte koka. Ta av från värmen och låt dra i 10 minuter.',
+        'Äggsmet: Vispa äggulorna och strösockret i en bunke tills blandningen är ljus och fluffig. Plocka ur vaniljstången från grädden.',
+        'Häll den varma grädden långsamt i äggblandningen under ständig vispning för att undvika att äggen koagulerar.',
+        'Fördela smeten jämnt i formarna. Placera formarna i en djup ugnsform. Häll hett vatten i ugnsformen så att det når upp till hälften av formarnas höjd (vattenbad).',
+        'Grädda i ugnen i 35–40 minuter, eller tills krämen precis har stelnat men fortfarande är lite dallrig i mitten. Ta ut formarna från vattenbadet och låt dem svalna helt. Ställ sedan i kylskåp i minst 2 timmar (gärna över natten).',
+        'Knäckig topp: Strö ett tunt lager råsocker på toppen av varje form. Använd en brännare för att smälta och karamellisera sockret tills det är gyllenbrunt och knäckigt. Om du inte har en brännare kan du ställa formarna högt upp i ugnen och använda grillfunktionen (passa noga så att det inte bränns).',
+        'Servera: Låt sockret stelna i några minuter innan servering. Servera gärna med färska bär för extra elegans.'
     ],
-    "tips": [
-      "Gräddningstiden är avgörande för rätt konsistens.",
-      "Pudra över florsocker eller kakao vid servering."
+    tips: [
+        'För en extra twist kan du smaksätta grädden med en nypa kanel, apelsinskal eller lite likör, t.ex. Grand Marnier.'
     ]
-  },
+},
+'55580': {
+    title: 'Äppelfries med Kanel och Vaniljvisp',
+    image: 'bilder/55580.png',
+    portion: ' (för 4 personer)',
+    ingredients: [
+        'Äppelfries:',
+        '3 stora äpplen (gärna fasta sorter som Granny Smith eller Pink Lady)',
+        '1 dl vetemjöl',
+        '1 dl majsstärkelse (Maizena)',
+        '1/2 tsk bakpulver',
+        '1 dl mjölk',
+        '1 ägg',
+        '1 msk strösocker',
+        '1/2 tsk kanel',
+        'En nypa salt',
+        'Olja för fritering (t.ex. rapsolja)',
+        'Kanel- och sockerblandning:',
+        '1 dl strösocker',
+        '1 tsk malen kanel',
+        'Vaniljvisp:',
+        '2 dl vispgrädde',
+        '1 msk florsocker',
+        '1 tsk vaniljsocker eller vaniljpasta'
+    ],
+    instructions: [
+        'Förberedelse: Skala äpplena och skär dem i tunna stavar, ungefär i pommes frites-storlek.',
+        'Blanda strösocker och kanel i en skål och ställ åt sidan.',
+        'Frityrsmet: I en skål, vispa ihop vetemjöl, majsstärkelse, bakpulver, socker, kanel och salt.',
+        'Tillsätt mjölk och ägg, och vispa tills smeten är jämn och klumpfri.',
+        'Fritering: Värm oljan i en kastrull till ca 180 °C (använd termometer för bästa resultat).',
+        'Doppa äppelbitarna i frityrsmeten, se till att de är jämnt täckta.',
+        'Fritera några bitar åt gången tills de är gyllenbruna och frasiga (ca 2–3 minuter). Lägg de friterade bitarna på hushållspapper för att rinna av.',
+        'Kanel och socker: Rulla de varma äppelfriesen i kanel- och sockerblandningen direkt efter friteringen.',
+        'Vaniljvisp: Vispa grädden tills den är fluffig. Tillsätt florsocker och vaniljsocker, och vispa lite till.',
+        'Servering: Lägg upp äppelfriesen på ett fat och servera med vaniljvispen som en dipp.'
+    ],
+    tips: [
+        'För en extra kick kan du lägga till en nypa muskot eller kardemumma i sockerblandningen!'
+    ]
+},
 
-  "55579": {
-    "title": "Creme brulee",
-    "image": "bilder/55579.png",
-    "description": "Klassisk fransk dessert med knäckig sockertopp.",
-    "ingredients": [
-      "5 dl vispgrädde",
-      "1 vaniljstång (eller 1 tsk vaniljpasta)",
-      "5 äggulor",
-      "1 dl strösocker",
-      "4 msk råsocker (till bränning)"
+'55581': {
+    title: 'Efterrättspizza med Choklad och Marshmallows',
+    image: 'bilder/55581.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        'För pizzadegen:',
+        '1 paket färdig pizzadeg (kan också göra egen deg om du vill)',
+        'För fyllningen:',
+        '100 g mjölkchoklad (eller vit choklad för en ljusare variant)',
+        '100 g mörk choklad',
+        '1 dl nutella (eller annan chokladspread)',
+        '1 ½ dl mini-marshmallows (eller vanliga marshmallows skurna i små bitar)',
+        '½ dl chokladsås (kan användas för extra dekoration)',
+        '1 msk florsocker (för pudring på toppen)',
+        'Topping:',
+        'Hackade nötter (valfritt, t.ex. hasselnötter eller valnötter)',
+        'Färska bär (t.ex. hallon eller jordgubbar, valfritt)'
     ],
-    "instructions": [
-      "1. Sätt ugnen på 150°C. Ställ 4 ramekiner i en form.",
-      "2. Dela vaniljstången och skrapa ur fröna. Värm grädden med stång och frön.",
-      "3. Låt dra i 10 minuter.",
-      "4. Vispa äggulor och socker fluffigt. Häll i grädden under omrörning.",
-      "5. Häll smeten i formarna och grädda i vattenbad ca 35–40 minuter.",
-      "6. Kyl minst 2 timmar. Strö råsocker på och bränn av till en knäckig yta."
+    instructions: [
+        'Förbered pizzadegen: Om du använder färdig pizzadeg, rulla ut degen på en bakplåt med bakpapper. Forma den till en rund eller rektangulär pizza, beroende på vilken form du vill ha.',
+        'Förgrädda degen: Grädda pizzadegen i en förvärmd ugn på 220°C (varmluft) i 8–10 minuter eller tills den är lätt gyllenbrun. Om du gör din egen deg, följ anvisningarna för förgräddning.',
+        'Smält chokladen: Under tiden degen grillas, smält chokladen. Hacka både mjölkchokladen och den mörka chokladen i mindre bitar och smält dem försiktigt i mikrovågsugn eller över ett vattenbad. Rör om tills du får en slät chokladsås.',
+        'Montera pizzan: Ta ut pizzadegen från ugnen och låt den svalna något. När degen fortfarande är varm men inte het, bred ut ett jämnt lager Nutella eller chokladspread på hela pizzan.',
+        'Häll på den smälta chokladen: Häll den smälta chokladen över Nutella-lagret och sprid ut det jämnt med en sked eller spatel.',
+        'Lägg på marshmallows: Strö marshmallows över den chokladiga ytan. Om du vill ha en lite rostad smak, kan du trycka in marshmallowsen lätt i den smälta chokladen så att de smälter lite mer när du gräddar pizzan igen.',
+        'Grädda igen: Sätt tillbaka pizzan i ugnen i ytterligare 3-5 minuter, eller tills marshmallowsen har smält och blivit lätt gyllenbruna.',
+        'Dekorera och servera: Ta ut pizzan från ugnen och dekorera med eventuella extra toppingar som hackade nötter och färska bär. Pudra över lite florsocker för en extra söt finish.',
+        'Servera: Skär upp pizzan i bitar och servera direkt. Njut av denna himmelska, chokladiga efterrätt!'
     ],
-    "tips": [
-      "Tillsätt en nypa kanel, apelsinskal eller likör i grädden.",
-      "Servera med färska bär för en extra elegant touch."
+    tips: [
+        'Du kan variera chokladen genom att använda olika smaker som mörk choklad med mint eller mjölkchoklad med karamell.',
+        'För en ännu sötare pizza kan du lägga till karamelliserade pekannötter eller krossade kex som topping.'
     ]
-  },
+},
 
-  "55580": {
-    "title": "Äppelfries med kanel och vaniljvisp",
-    "image": "bilder/55580.png",
-    "description": "Krispigt friterade äppelbitar som rullas i kanel och socker.",
-    "ingredients": [
-      "3 stora äpplen",
-      "1 dl vetemjöl",
-      "1 dl majsstärkelse",
-      "1/2 tsk bakpulver",
-      "1 dl mjölk",
-      "1 ägg",
-      "1 msk strösocker",
-      "1/2 tsk kanel",
-      "En nypa salt",
-      "Olja för fritering",
-      "1 dl strösocker (till rullning)",
-      "1 tsk malen kanel (till rullning)",
-      "2 dl vispgrädde",
-      "1 msk florsocker",
-      "1 tsk vaniljsocker"
+'55582': {
+    title: 'Enchiladas med Choklad och Banan',
+    image: 'bilder/55582.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '4 mjuka tortillabröd',
+        '2 mogna bananer, skivade',
+        '100 g mörk choklad (eller mjölkchoklad), hackad',
+        '1 msk smör (till stekning)',
+        '1 msk strösocker',
+        '1/2 tsk kanel',
+        '1 dl vispgrädde (till servering)',
+        'Eventuellt glass eller vaniljsås som tillbehör'
     ],
-    "instructions": [
-      "1. Skala och skär äpplena i tunna stavar.",
-      "2. Blanda mjöl, majsstärkelse, bakpulver, socker, kanel och salt i en skål.",
-      "3. Tillsätt mjölk och ägg, vispa till en klumpfri smet.",
-      "4. Värm oljan till ca 180°C.",
-      "5. Doppa äppelbitarna i smeten och fritera 2–3 minuter tills gyllene.",
-      "6. Rulla de varma äppelfriesen i kanel- och sockerblandningen.",
-      "7. Vispa grädde med florsocker och vaniljsocker till en vaniljvisp.",
-      "8. Servera nyfriterade äppelfries med vaniljvispen."
+    instructions: [
+        'Förbered fyllningen: Skiva bananerna och hacka chokladen. Blanda strösocker och kanel i en liten skål.',
+        'Fyll tortillabröden: Lägg skivade bananer och hackad choklad i mitten av varje tortillabröd. Vik in kanterna och rulla ihop dem till enchiladas.',
+        'Stek enchiladas: Värm smöret i en stekpanna på medelvärme. Lägg enchiladasen med skarven nedåt och stek tills de är gyllenbruna och krispiga, cirka 2–3 minuter per sida. Strö över kanel- och sockerblandningen under stekningen.',
+        'Servera: Placera enchiladasen på en tallrik. Ringla över lite smält choklad för extra dekoration och servera med vispad grädde, glass eller vaniljsås.'
     ],
-    "tips": [
-      "Tillsätt en nypa muskot eller kardemumma för extra smak.",
-      "Servera som dessert eller lyxigt mellanmål."
+    tips: [
+        'Du kan lägga till hackade nötter, kokosflingor eller marshmallows för extra smak och textur.'
     ]
-  },
+},
+'55583': {
+    title: 'Citronstekta Äpplen med Kardemumma och Vaniljglass',
+    image: 'bilder/55583.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '4 äpplen (gärna syrliga sorter som Granny Smith eller Ingrid Marie)',
+        '1 citron (saft och skal)',
+        '2 msk smör',
+        '2 msk honung eller ljust muscovadosocker',
+        '1 tsk malen kardemumma',
+        '1/2 tsk kanel (valfritt)',
+        '1 dl hackade nötter (t.ex. mandel eller valnötter, valfritt)',
+        '4 kulor vaniljglass',
+        'Färska myntablad (till garnering)'
+    ],
+    instructions: [
+        'Förbered äpplena: Tvätta och kärna ur äpplena. Skär dem i tunna klyftor eller tjockare skivor beroende på preferens. Riv citronens skal och pressa saften.',
+        'Stek äpplena: Värm smöret i en stor stekpanna på medelhög värme. Lägg i äppelskivorna och stek tills de börjar mjukna och få en gyllene yta, cirka 3–4 minuter.',
+        'Smaksätt: Tillsätt honung eller socker, kardemumma, kanel (om du vill), citronskal och saft. Rör om försiktigt så att alla smaker blandas och äpplena karamelliseras något, cirka 2 minuter.',
+        'Garnera: Strö över hackade nötter om du använder det, och låt dem rostas lätt i stekpannan med äpplena.',
+        'Servera: Fördela de varma äppelskivorna på tallrikar eller i skålar. Lägg en kula vaniljglass bredvid och garnera med färska myntablad. Servera direkt.'
+    ],
+    tips: [
+        'För en extra twist kan du tillsätta en skvätt calvados eller rom när du steker äpplena.',
+        'Använd växtbaserad glass för att göra rätten vegansk.'
+    ]
+},
 
-  "55581": {
-    "title": "Efterrättspizza med choklad och marshmallows",
-    "image": "bilder/55581.png",
-    "description": "En söt pizza toppad med choklad, marshmallows och andra godsaker.",
-    "ingredients": [
-      "1 paket färdig pizzadeg",
-      "100 g mjölkchoklad",
-      "100 g mörk choklad",
-      "1 dl nutella",
-      "1,5 dl mini-marshmallows",
-      "1/2 dl chokladsås",
-      "1 msk florsocker",
-      "Hackade nötter (valfritt)",
-      "Färska bär (valfritt)"
+'55584': {
+    title: 'Miniriddare med Hallon och Vaniljcrème Fraiche',
+    image: 'bilder/55584.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '8 skivor vitt bröd (gärna dagsgammalt)',
+        '2 ägg',
+        '1 dl mjölk',
+        '1 msk socker',
+        '1 tsk vaniljsocker',
+        '2 msk smör (till stekning)',
+        '2 dl crème fraiche',
+        '1 tsk vaniljextrakt',
+        '2 msk florsocker',
+        '2 dl färska hallon'
     ],
-    "instructions": [
-      "1. Förgrädda pizzadegen i 220°C i 8–10 minuter.",
-      "2. Smält chokladen över vattenbad eller i mikro.",
-      "3. Bred nutella på den lättgräddade degen.",
-      "4. Häll på den smälta chokladen och toppa med marshmallows.",
-      "5. Grädda ytterligare 3–5 minuter tills marshmallowsen fått färg.",
-      "6. Dekorera med chokladsås, florsocker, nötter eller bär.",
-      "7. Skär i bitar och servera direkt."
+    instructions: [
+        'Förbered bröden: Skär bort kanterna på brödet och dela varje skiva i fyra mindre delar (trianglar eller fyrkanter).',
+        'Gör smeten: Vispa ihop ägg, mjölk, socker och vaniljsocker i en skål.',
+        'Stek bröden: Doppa brödbitarna i smeten och stek dem i smör på medelhög värme tills de blir gyllenbruna.',
+        'Förbered vaniljcrème fraichen: Blanda crème fraiche med vaniljextrakt och florsocker i en skål.',
+        'Servera: Lägg de gyllenbruna miniriddarna på en tallrik, toppa med en klick vaniljcrème fraiche och färska hallon. Servera direkt.'
     ],
-    "tips": [
-      "Testa olika chokladsorter, t.ex. mintsmak.",
-      "Lägg till karamelliserade nötter eller kex för extra crunch."
+    tips: [
+        'För extra smak, tillsätt lite kanel i smeten eller på toppen.',
+        'Byt ut hallon mot blåbär eller jordgubbar för variation.'
     ]
-  },
+},
 
-  "55582": {
-    "title": "Enchiladas med choklad och banan",
-    "image": "bilder/55582.png",
-    "description": "Söta enchiladas fyllda med banan och choklad, stekta till perfektion.",
-    "ingredients": [
-      "4 mjuka tortillabröd",
-      "2 mogna bananer, skivade",
-      "100 g mörk choklad, hackad",
-      "1 msk smör",
-      "1 msk strösocker",
-      "1/2 tsk kanel",
-      "1 dl vispgrädde",
-      "Glass eller vaniljsås (valfritt)"
+'55585': {
+    title: 'Key Lime Pie i Glas',
+    image: 'bilder/55585.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '200 g digestivekex',
+        '50 g smält smör',
+        '1 burk sötad kondenserad mjölk (ca 400 g)',
+        '4 lime (saft och skal)',
+        '2 dl vispgrädde',
+        '1 tsk vaniljsocker',
+        '4 skivor lime (till garnering)'
     ],
-    "instructions": [
-      "1. Skiva bananer och hacka choklad. Blanda socker och kanel.",
-      "2. Lägg bananer och choklad i varje tortillabröd, vik in kanterna och rulla ihop.",
-      "3. Stek i smör på medelvärme tills de är gyllenbruna och krispiga.",
-      "4. Strö över kanel- och sockerblandningen.",
-      "5. Servera med vispad grädde, glass eller vaniljsås."
+    instructions: [
+        'Förbered kexbotten: Krossa digestivekexen till smulor och blanda med smält smör. Fördela blandningen i botten av glasen och tryck till lätt.',
+        'Gör fyllningen: Blanda kondenserad mjölk med limesaft och limeskal i en skål.',
+        'Vispa grädde: Vispa grädden tillsammans med vaniljsocker tills mjuka toppar bildas.',
+        'Montera: Häll limefyllningen över kexbottnen i glasen. Toppa med vispad grädde och garnera med en limeskiva.',
+        'Servera: Ställ i kylen i minst 30 minuter innan servering.'
     ],
-    "tips": [
-      "Tillsätt hackade nötter, kokosflingor eller marshmallows i fyllningen.",
-      "Toppa med smält choklad för extra dekoration."
+    tips: [
+        'För extra smak, tillsätt en nypa limezest i fyllningen.',
+        'Servera med färska bär som hallon eller blåbär.'
     ]
-  },
+},
 
-  "55583": {
-    "title": "Citronstekta äpplen med kardemumma och vaniljglass",
-    "image": "bilder/55583.png",
-    "description": "Syrliga äppelklyftor stekta med citron, honung och kardemumma.",
-    "ingredients": [
-      "4 äpplen",
-      "1 citron (saft och skal)",
-      "2 msk smör",
-      "2 msk honung",
-      "1 tsk malen kardemumma",
-      "1/2 tsk kanel (valfritt)",
-      "1 dl hackade nötter (valfritt)",
-      "4 kulor vaniljglass",
-      "Färska myntablad"
+'55586': {
+    title: 'Rostad Kokos med Passionsfrukt och Glass',
+    image: 'bilder/55586.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '1 dl riven kokos',
+        '4 passionsfrukter',
+        '4 kulor vaniljglass',
+        '1 tsk honung',
+        'Färsk mynta (till garnering)'
     ],
-    "instructions": [
-      "1. Kärna ur och skiva äpplena. Riv skal och pressa citron.",
-      "2. Stek äppelskivor i smör tills gyllene.",
-      "3. Tillsätt honung, kardemumma, kanel, citronskal och saft.",
-      "4. Rör om och låt karamelliseras lätt. Tillsätt nötter om du vill.",
-      "5. Servera direkt med en kula vaniljglass och mynta."
+    instructions: [
+        'Rosta kokosen: Rosta den rivna kokosen i en torr stekpanna på medelvärme tills den blir gyllene.',
+        'Förbered passionsfrukten: Dela passionsfrukterna och skopa ur fruktköttet.',
+        'Servera: Lägg en kula vaniljglass i varje skål, toppa med passionsfruktskärnor, en skvätt honung och den rostade kokosen. Garnera med färsk mynta och servera direkt.'
     ],
-    "tips": [
-      "En skvätt calvados eller rom ger extra smak.",
-      "Använd växtbaserad glass för veganskt alternativ."
+    tips: [
+        'Strö över hackade nötter eller chokladbitar för extra crunch.',
+        'Använd fryst vaniljglass för en kallare upplevelse.'
     ]
-  },
+},
 
-  "55584": {
-    "title": "Miniriddare med hallon och vaniljcrème fraiche",
-    "image": "bilder/55584.png",
-    "description": "Små franska toastbitar serverade med söt vaniljcrème och färska hallon.",
-    "ingredients": [
-      "8 skivor vitt bröd",
-      "2 ägg",
-      "1 dl mjölk",
-      "1 msk socker",
-      "1 tsk vaniljsocker",
-      "2 msk smör",
-      "2 dl crème fraiche",
-      "1 tsk vaniljextrakt",
-      "2 msk florsocker",
-      "2 dl färska hallon"
+'55587': {
+    title: 'Citron- och Jordgubb Float',
+    image: 'bilder/55587.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '2 dl jordgubbssorbet',
+        '2 dl citronläsk',
+        '1 dl färska jordgubbar (delade)',
+        'Färsk mynta (till garnering)'
     ],
-    "instructions": [
-      "1. Skär bort brödkanter och dela varje skiva i fyra.",
-      "2. Vispa ihop ägg, mjölk, socker och vaniljsocker.",
-      "3. Doppa brödbitarna i smeten och stek i smör tills gyllene.",
-      "4. Blanda crème fraiche med vaniljextrakt och florsocker.",
-      "5. Servera miniriddarna med vaniljcrème fraiche och hallon."
+    instructions: [
+        'Förbered glasen: Lägg en kula jordgubbssorbet i varje glas.',
+        'Häll över dryck: Häll försiktigt över citronläsk tills glasen är nästan fulla.',
+        'Garnera: Lägg i några färska jordgubbar och garnera med mynta.',
+        'Servera: Servera omedelbart med sugrör och sked.'
     ],
-    "tips": [
-      "Variera med andra bär eller frukter.",
-      "Använd dagsgammalt bröd för bäst resultat."
+    tips: [
+        'För extra fräschör, tillsätt lite limejuice i citronläsk.',
+        'Byt ut sorbet mot citron- eller limeglass för en syrligare variant.'
     ]
-  },
+},
+'55588': {
+    title: 'Cheesecake med Blåbär och Citron',
+    image: 'bilder/55588.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '200 g digestivekex',
+        '50 g smält smör',
+        '200 g färskost',
+        '1 dl florsocker',
+        '1 tsk vaniljextrakt',
+        '1 citron (skal och saft)',
+        '2 dl vispgrädde',
+        '2 dl färska blåbär'
+    ],
+    instructions: [
+        'Förbered botten: Krossa digestivekexen och blanda med smält smör. Tryck ut blandningen i botten av glas eller små formar.',
+        'Gör fyllningen: Blanda färskost, florsocker, vaniljextrakt, citronskal och citronsaft i en skål.',
+        'Vispa grädde: Vispa grädden tills mjuka toppar bildas och vänd försiktigt ner den i färskostblandningen.',
+        'Montera: Häll fyllningen över kexbottnen och toppa med färska blåbär.',
+        'Servera: Ställ i kylen i minst en timme innan servering.'
+    ],
+    tips: [
+        'För extra smak, tillsätt en nypa vaniljpulver i fyllningen.',
+        'Toppingen kan varieras med andra bär, såsom hallon eller jordgubbar.'
+    ]
+},
 
-  "55585": {
-    "title": "Key lime pie i glas",
-    "image": "bilder/55585.png",
-    "description": "En frisk limepaj serverad i portionsglas.",
-    "ingredients": [
-      "200 g digestivekex",
-      "50 g smält smör",
-      "1 burk sötad kondenserad mjölk (ca 400 g)",
-      "4 lime (saft och skal)",
-      "2 dl vispgrädde",
-      "1 tsk vaniljsocker",
-      "4 skivor lime (garnering)"
+'55589': {
+    title: 'Fruktsoppa med Vispad Grädde och Mandelbiskvier',
+    image: 'bilder/55589.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '5 dl blandade bär och frukter (t.ex. äpple, päron, apelsin, hallon, blåbär)',
+        '5 dl vatten',
+        '1 dl socker',
+        '1 vaniljstång (delad och urskrapad)',
+        '1 msk potatismjöl (utblandat i lite kallt vatten)',
+        '2 dl vispgrädde',
+        '1 dl mandelbiskvier'
     ],
-    "instructions": [
-      "1. Krossa kexen och blanda med smält smör. Fördela i botten av glas.",
-      "2. Blanda kondenserad mjölk med limesaft och -skal.",
-      "3. Vispa grädden med vaniljsocker.",
-      "4. Häll limefyllningen över kexsmulorna, toppa med grädde.",
-      "5. Garnera med en limeskiva. Kyl minst 30 minuter."
+    instructions: [
+        'Gör soppan: Koka upp vattnet med socker och vaniljstången (inklusive frön). Lägg i frukterna och bären och låt sjuda i 5 minuter.',
+        'Red av: Tillsätt potatismjölsblandningen och rör om tills soppan tjocknar lätt. Ta bort från värmen och låt svalna.',
+        'Vispa grädde: Vispa grädden fluffig.',
+        'Servera: Häll upp soppan i skålar, toppa med vispad grädde och mandelbiskvier. Servera direkt.'
     ],
-    "tips": [
-      "Smaksätt grädden med lite limezest för extra syra.",
-      "Toppa med färska bär eller kokosflingor."
+    tips: [
+        'Tillsätt extra socker eller honung om du vill ha sötare soppa.',
+        'Frys fruktsoppan för att skapa en is-soppa för varma dagar.'
     ]
-  },
+},
 
-  "55586": {
-    "title": "Rostad kokos med passionsfrukt och glass",
-    "image": "bilder/55586.png",
-    "description": "En enkel dessert med exotisk smak av kokos och passionsfrukt.",
-    "ingredients": [
-      "1 dl riven kokos",
-      "4 passionsfrukter",
-      "4 kulor vaniljglass",
-      "1 tsk honung",
-      "Färsk mynta"
+'55590': {
+    title: 'Pannacotta',
+    image: 'bilder/55590.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '5 dl vispgrädde',
+        '1 dl strösocker',
+        '1 vaniljstång (delad och urskrapad)',
+        '2 gelatinblad',
+        '2 dl färska bär (t.ex. hallon eller blåbär, till garnering)'
     ],
-    "instructions": [
-      "1. Rosta kokosen i en torr stekpanna tills gyllene.",
-      "2. Dela passionsfrukterna och skopa ur fruktköttet.",
-      "3. Lägg en kula glass i varje skål, toppa med passionsfrukt och rostad kokos.",
-      "4. Ringla över honung och dekorera med mynta."
+    instructions: [
+        'Förbered gelatin: Lägg gelatinbladen i kallt vatten i cirka 5 minuter.',
+        'Koka gräddblandningen: Värm grädden, socker och vaniljstång (inklusive frön) i en kastrull på medelhög värme tills det nästan kokar. Ta bort från värmen och ta bort vaniljstången.',
+        'Tillsätt gelatin: Krama ur gelatinbladen och rör ner dem i den varma grädden tills de smälter.',
+        'Häll upp och kyl: Häll blandningen i serveringsglas och låt stelna i kylen i minst 4 timmar.',
+        'Garnera: Toppa pannacottan med färska bär innan servering.'
     ],
-    "tips": [
-      "Byt ut vaniljglassen mot kokosglass för extra kokossmak.",
-      "Tillsätt hackad choklad för en söt kontrast."
+    tips: [
+        'För extra smak, kan du smaksätta grädden med lite citruszest eller kaffe.',
+        'Tillsätt lite likör eller rom för en vuxnare variant.'
     ]
-  },
+},
 
-  "55587": {
-    "title": "Citron- och jordgubb float",
-    "image": "bilder/55587.png",
-    "description": "En svalkande dryck med sorbet och läsk.",
-    "ingredients": [
-      "2 dl jordgubbssorbet",
-      "2 dl citronläsk",
-      "1 dl färska jordgubbar",
-      "Färsk mynta"
+'55591': {
+    title: 'Cookie-Kladdkaka',
+    image: 'bilder/55591.png',
+    portion: ' (8 portioner)',
+    ingredients: [
+        '150 g smör',
+        '2 dl strösocker',
+        '2 ägg',
+        '1,5 dl vetemjöl',
+        '3 msk kakao',
+        '1 tsk vaniljsocker',
+        '100 g grovt hackad mjölkchoklad',
+        '8 stora chocolate chip cookies'
     ],
-    "instructions": [
-      "1. Lägg en kula jordgubbssorbet i varje glas.",
-      "2. Häll över citronläsk försiktigt.",
-      "3. Tillsätt färska jordgubbar och mynta.",
-      "4. Servera genast med sugrör och sked."
+    instructions: [
+        'Förbered ugnen: Sätt ugnen på 175°C. Smörj och mjöla en rund form.',
+        'Gör smeten: Smält smöret och låt det svalna något. Vispa ihop socker och ägg i en bunke. Blanda i smör, mjöl, kakao och vaniljsocker.',
+        'Tillsätt choklad: Vänd ner den hackade chokladen i smeten.',
+        'Montera: Häll smeten i formen och tryck ner chocolate chip cookies jämt fördelat.',
+        'Grädda: Grädda i ugnen i cirka 20 minuter. Kakan ska vara lite kladdig i mitten. Låt svalna innan servering.'
     ],
-    "tips": [
-      "Variera med annan sorbet eller läsk.",
-      "Toppa med lite is för extra kyla."
+    tips: [
+        'Toppa med mer hackad choklad innan gräddning för extra smak.',
+        'Servera med en klick vispad grädde eller glass.'
     ]
-  },
+},
 
-  "55588": {
-    "title": "Cheesecake med blåbär och citron",
-    "image": "bilder/55588.png",
-    "description": "Frisk cheesecake i portionsformat, toppad med färska blåbär.",
-    "ingredients": [
-      "200 g digestivekex",
-      "50 g smält smör",
-      "200 g färskost",
-      "1 dl florsocker",
-      "1 tsk vaniljextrakt",
-      "1 citron (skal och saft)",
-      "2 dl vispgrädde",
-      "2 dl färska blåbär"
+'55592': {
+    title: 'Tiramisu i Glas',
+    image: 'bilder/55592.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '8 savoiardikex',
+        '2 dl starkt kaffe (kallnat)',
+        '2 msk amaretto (valfritt)',
+        '250 g mascarpone',
+        '2 ägg (separerade)',
+        '1 dl florsocker',
+        '2 msk kakao (till garnering)',
+        'Färska hallon eller riven choklad (till garnering, valfritt)'
     ],
-    "instructions": [
-      "1. Krossa kexen och blanda med smält smör. Tryck ut i botten av små glas.",
-      "2. Rör ihop färskost, florsocker, vaniljextrakt, citronskal och saft.",
-      "3. Vispa grädde och vänd ner i färskostblandningen.",
-      "4. Häll fyllningen över kexbottnarna och toppa med blåbär.",
-      "5. Kyl i minst 1 timme innan servering."
+    instructions: [
+        'Förbered mascarponekrämen: Vispa äggulor och florsocker tills det blir fluffigt. Tillsätt mascarponen och vispa till en jämn smet. Vispa äggvitorna till ett fast skum och vänd försiktigt ner dem i mascarponeblandningen.',
+        'Förbered kexen: Blanda kaffet med amaretto om du använder det. Doppa kexen snabbt i kaffeblandningen så att de blir fuktiga men inte för blöta.',
+        'Montera: Varva mascarponekräm och kaffedoppade kex i glasen. Börja och avsluta med mascarponekräm.',
+        'Garnera: Sikta kakao över toppen precis innan servering. Toppa med färska hallon eller riven choklad om så önskas.',
+        'Kyltid: Ställ i kylen i minst 2 timmar för att låta smakerna sätta sig.'
     ],
-    "tips": [
-      "Ersätt blåbären med hallon eller björnbär.",
-      "Tillsätt lite florsocker bland bären om de är väldigt syrliga."
+    tips: [
+        'För en alkoholfri version, ersätt amaretto med en skvätt vaniljextrakt.',
+        'För extra textur, strö hackade nötter mellan lagren.'
     ]
-  },
+},
+'55593': {
+    title: 'Granolabakade Nektariner',
+    image: 'bilder/55593.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '4 stora nektariner, halverade och urkärnade',
+        '1 dl granola (valfri sort)',
+        '2 msk honung eller lönnsirap',
+        '2 msk smör, smält',
+        '1 tsk kanel',
+        '1 dl grekisk yoghurt eller vaniljglass (till servering)',
+        'Färsk mynta till garnering (valfritt)'
+    ],
+    instructions: [
+        'Förbered ugnen: Sätt ugnen på 200°C och klä en ugnsform med bakplåtspapper.',
+        'Förbered nektarinerna: Placera nektarinerna med den skurna sidan uppåt i ugnsformen.',
+        'Gör granolafyllningen: I en skål, blanda granola, smält smör, honung och kanel. Rör om tills granolan är jämnt täckt.',
+        'Fyll nektarinerna: Skeda granolablandningen över nektarinerna och tryck försiktigt ned den i hålen.',
+        'Baka: Sätt in formen i ugnen och baka i 15–20 minuter, eller tills nektarinerna är mjuka och granolan är gyllene.',
+        'Servera: Lägg de varma nektarinerna på tallrikar och toppa med en klick grekisk yoghurt eller en kula vaniljglass. Garnera med färsk mynta om så önskas.'
+    ],
+    tips: [
+        'För extra smak, tillsätt en nypa muskot eller kardemumma till granolablandningen.',
+        'Servera med rostade nötter för extra crunch.'
+    ]
+},
 
-  "55589": {
-    "title": "Fruktsoppa med vispad grädde och mandelbiskvier",
-    "image": "bilder/55589.png",
-    "description": "En lätt och svalkande fruktsoppa fylld med bär och frukt.",
-    "ingredients": [
-      "5 dl blandade bär och frukter",
-      "5 dl vatten",
-      "1 dl socker",
-      "1 vaniljstång",
-      "1 msk potatismjöl",
-      "2 dl vispgrädde",
-      "1 dl mandelbiskvier"
+'55594': {
+    title: 'Dumlekladdkaka',
+    image: 'bilder/55594.png',
+    portion: ' (8 portioner)',
+    ingredients: [
+        '150 g smör',
+        '200 g Dumlekolor',
+        '2 dl strösocker',
+        '2 ägg',
+        '1,5 dl vetemjöl',
+        '1 msk kakao',
+        '1 tsk vaniljsocker',
+        '50 g mörk choklad (grovt hackad)'
     ],
-    "instructions": [
-      "1. Koka upp vatten, socker och vaniljstång.",
-      "2. Lägg i bär/frukt och sjud 5 minuter.",
-      "3. Red av med potatismjölet utrört i lite kallt vatten.",
-      "4. Låt svalna. Vispa grädden.",
-      "5. Servera soppan med en klick grädde och mandelbiskvier."
+    instructions: [
+        'Förbered ugnen: Sätt ugnen på 175°C. Smörj och mjöla en rund form (ca 20 cm i diameter).',
+        'Smält smör och Dumle: Smält smöret i en kastrull på medelvärme. Tillsätt Dumlekolorna och rör om tills de smälter. Ta av från värmen.',
+        'Blanda smeten: Vispa ihop ägg och socker i en bunke. Sikta ner mjöl, kakao och vaniljsocker. Tillsätt den smälta Dumleblandningen och rör till en jämn smet.',
+        'Tillsätt choklad: Vänd ner den hackade mörka chokladen i smeten.',
+        'Grädda: Häll smeten i formen och grädda i ugnen i cirka 20 minuter. Kakan ska vara kladdig i mitten.',
+        'Servera: Låt svalna något och servera med en klick vispad grädde eller glass.'
     ],
-    "tips": [
-      "Anpassa sockermängden efter hur söta bären är.",
-      "Variera frukterna efter säsong, t.ex. äpplen, päron eller stenfrukter."
+    tips: [
+        'Toppa med fler Dumlekolor innan gräddning för extra kolasmak.',
+        'Servera med färska bär för en syrlig kontrast.',
+        'För en segare konsistens, låt kakan stå i kylen över natten.'
     ]
-  },
+},
 
-  "55590": {
-    "title": "Pannacotta",
-    "image": "bilder/55590.png",
-    "description": "Len italiensk grädddessert som smälter i munnen.",
-    "ingredients": [
-      "5 dl vispgrädde",
-      "1 dl strösocker",
-      "1 vaniljstång",
-      "2 gelatinblad",
-      "2 dl färska bär"
+'55595': {
+    title: 'Cannoli',
+    image: 'bilder/55595.png',
+    portion: ' (8 små cannoli)',
+    ingredients: [
+        '8 cannoliskal (färdiga eller hemgjorda)',
+        '250 g ricotta',
+        '1 dl florsocker',
+        '1 tsk vaniljextrakt',
+        '1 dl hackad mörk choklad',
+        '1 dl hackade pistagenötter',
+        'Florsocker (till garnering)'
     ],
-    "instructions": [
-      "1. Lägg gelatinbladen i kallt vatten i 5 minuter.",
-      "2. Värm grädde, socker och vaniljstång nästan till kokpunkten.",
-      "3. Ta bort från värmen, plocka ut vaniljstången.",
-      "4. Rör ner urkramade gelatinblad tills de smälter.",
-      "5. Häll i serveringsglas och ställ kallt minst 4 timmar.",
-      "6. Toppa med färska bär vid servering."
+    instructions: [
+        'Gör fyllningen: Blanda ricotta, florsocker och vaniljextrakt i en skål. Vänd ner den hackade mörka chokladen.',
+        'Fyll cannoliskalen: Fyll en spritspåse med ricottablandningen och fyll varje cannoliskal.',
+        'Garnera: Doppa ändarna av cannoliskalen i hackade pistagenötter. Sikta över florsocker innan servering.'
     ],
-    "tips": [
-      "Variera med andra smaksättningar, som citron eller choklad.",
-      "Garnera med bärsås eller hackad choklad för extra lyx."
+    tips: [
+        'Fyll cannoliskalen precis innan servering för att behålla deras krispighet.',
+        'Smaksätt ricottakrämen med apelsinzest eller en skvätt Amaretto för variation.',
+        'För en färgglad touch, använd kanderade körsbär som garnering.'
     ]
-  },
+},
 
-  "55591": {
-    "title": "Cookie-kladdkaka",
-    "image": "bilder/55591.png",
-    "description": "Kladdkaka med chocolate chip cookies för extra crunch.",
-    "ingredients": [
-      "150 g smör",
-      "2 dl strösocker",
-      "2 ägg",
-      "1,5 dl vetemjöl",
-      "3 msk kakao",
-      "1 tsk vaniljsocker",
-      "100 g hackad mjölkchoklad",
-      "8 stora chocolate chip cookies"
+'55596': {
+    title: 'Äppel Samosas med Pistage och Mynta',
+    image: 'bilder/55596.png',
+    portion: ' (12 samosas)',
+    ingredients: [
+        '4 stora äpplen (skalade och tärnade)',
+        '2 msk smör',
+        '2 msk strösocker',
+        '1 tsk malen kardemumma',
+        '1/2 tsk kanel',
+        '1 dl hackade pistagenötter',
+        '12 vårrulleark eller filodegsark',
+        'Olja till fritering',
+        'Färska myntablad (till garnering)'
     ],
-    "instructions": [
-      "1. Sätt ugnen på 175°C och smörj en rund form.",
-      "2. Smält smöret och låt svalna något.",
-      "3. Vispa ihop socker och ägg, tillsätt smör, mjöl, kakao och vaniljsocker.",
-      "4. Vänd ner den hackade chokladen.",
-      "5. Häll smeten i formen och tryck ner cookies.",
-      "6. Grädda i ca 20 minuter. Låt svalna innan servering."
+    instructions: [
+        'Förbered fyllningen: Smält smöret i en stekpanna och stek äppelbitarna tills de mjuknar. Tillsätt socker, kardemumma och kanel. Rör om och låt svalna. Vänd ner pistagenötterna.',
+        'Fyll och vik: Lägg en sked fyllning i ena hörnet av varje vårrulleark. Vik arket diagonalt över fyllningen till en triangel och fortsätt vika tills hela arket är slut.',
+        'Fritera: Hetta upp oljan i en kastrull till cirka 180°C. Fritera samosas i omgångar tills de blir gyllene och krispiga. Låt rinna av på hushållspapper.',
+        'Servera: Garnera med färska myntablad och servera med en klick yoghurt eller vaniljsås.'
     ],
-    "tips": [
-      "Kakan ska vara lite kladdig i mitten.",
-      "Servera med glass eller grädde för extra njutning."
+    tips: [
+        'Byt ut pistagenötterna mot valnötter eller mandlar för variation.',
+        'För en sötare touch, strö över lite florsocker efter fritering.',
+        'Gör dem i förväg och värm upp i ugnen precis innan servering.'
     ]
-  },
+},
 
-  "55592": {
-    "title": "Tiramisu i glas",
-    "image": "bilder/55592.png",
-    "description": "En snabb variant av den klassiska italienska desserten, serverad i portionsglas.",
-    "ingredients": [
-      "8 savoiardikex",
-      "2 dl starkt kaffe (kallt)",
-      "2 msk amaretto (valfritt)",
-      "250 g mascarpone",
-      "2 ägg (separerade)",
-      "1 dl florsocker",
-      "2 msk kakao"
+'55597': {
+    title: 'Morotskladdkaka',
+    image: 'bilder/55597.png',
+    portion: ' (8 portioner)',
+    ingredients: [
+        '150 g smör',
+        '2 ägg',
+        '2 dl strösocker',
+        '2 dl riven morot',
+        '2 dl vetemjöl',
+        '1 tsk kanel',
+        '1 tsk kardemumma',
+        '1 tsk bakpulver',
+        '100 g vit choklad (grovt hackad)'
     ],
-    "instructions": [
-      "1. Vispa äggulor och florsocker fluffigt. Tillsätt mascarponen och vispa slätt.",
-      "2. Vispa äggvitorna till fast skum och vänd ner.",
-      "3. Blanda kaffet med amaretto om du vill.",
-      "4. Doppa kexen snabbt i kaffet och varva med mascarponekräm i glas.",
-      "5. Sikta kakao över toppen och kyl minst 2 timmar."
+    instructions: [
+        'Förbered ugnen: Sätt ugnen på 175°C. Smörj och mjöla en rund form (ca 20 cm i diameter).',
+        'Gör smeten: Smält smöret och låt det svalna. Vispa ihop ägg och socker tills det blir fluffigt. Tillsätt smöret och den rivna moroten.',
+        'Tillsätt torra ingredienser: Blanda mjöl, kanel, kardemumma och bakpulver i en skål. Sikta ner i smeten och blanda försiktigt. Vänd till sist ner den hackade vita chokladen.',
+        'Grädda: Häll smeten i formen och grädda i ugnen i cirka 20 minuter. Kakan ska vara kladdig i mitten.',
+        'Servera: Låt svalna och servera med vispad grädde eller vaniljglass.'
     ],
-    "tips": [
-      "Byt ut amaretto mot vaniljextrakt för alkoholfri version.",
-      "Strö hackade nötter eller riv choklad mellan lagren."
+    tips: [
+        'Toppa med en frosting av färskost, florsocker och citron för extra lyx.',
+        'Tillsätt hackade nötter för en crunchig textur.',
+        'Förvara kakan i kylen för en fastare konsistens.'
     ]
-  },
+},
 
-  "55593": {
-    "title": "Granolabakade nektariner",
-    "image": "bilder/55593.png",
-    "description": "Varma, mjuka nektariner under ett knaprigt granolatäcke.",
-    "ingredients": [
-      "4 stora nektariner",
-      "1 dl granola",
-      "2 msk honung eller lönnsirap",
-      "2 msk smör, smält",
-      "1 tsk kanel",
-      "1 dl grekisk yoghurt eller vaniljglass"
+'55598': {
+    title: 'Noblessebakelser',
+    image: 'bilder/55598.png',
+    portion: ' (8 bakelser)',
+    ingredients: [
+        '1 paket Noblesse (ca 150 g)',
+        '3 dl vispgrädde',
+        '1 tsk vaniljsocker',
+        '2 dl färska bär (t.ex. hallon eller blåbär)'
     ],
-    "instructions": [
-      "1. Sätt ugnen på 200°C och klä en form med bakplåtspapper.",
-      "2. Dela nektarinerna och ta ur kärnorna.",
-      "3. Blanda granola, smält smör, honung och kanel.",
-      "4. Lägg nektarinerna med snittytan uppåt och skeda över granolablandningen.",
-      "5. Baka 15–20 minuter tills frukten är mjuk och granolan gyllene.",
-      "6. Servera med yoghurt eller glass."
+    instructions: [
+        'Förbered grädden: Vispa grädden fluffig tillsammans med vaniljsocker.',
+        'Montera bakelser: Lägg en Noblesse-skiva som bas, toppa med en klick grädde och några bär. Upprepa med ytterligare ett lager Noblesse och grädde.',
+        'Servera: Stapla två eller tre lager och avsluta med bär på toppen. Servera omedelbart.'
     ],
-    "tips": [
-      "Tillsätt en nypa muskot eller kardemumma för mer smak.",
-      "Toppa med rostade nötter för extra crunch."
+    tips: [
+        'För extra smak, ringla lite smält choklad över bakelserna.',
+        'Byt ut bären mot frukt som kiwi eller apelsinskivor för variation.',
+        'Servera med en kopp kaffe för en elegant dessertupplevelse.'
     ]
-  },
+},
 
-  "55594": {
-    "title": "Dumlekladdkaka",
-    "image": "bilder/55594.png",
-    "description": "Kladdkaka full av kola från smälta Dumlekolor.",
-    "ingredients": [
-      "150 g smör",
-      "200 g Dumlekolor",
-      "2 dl strösocker",
-      "2 ägg",
-      "1,5 dl vetemjöl",
-      "1 msk kakao",
-      "1 tsk vaniljsocker",
-      "50 g mörk choklad"
+'55599': {
+    title: 'Bärrutor',
+    image: 'bilder/55599.png',
+    portion: ' (12 rutor)',
+    ingredients: [
+        '150 g smör',
+        '2 dl strösocker',
+        '3 ägg',
+        '3 dl vetemjöl',
+        '1 tsk bakpulver',
+        '1 dl mjölk',
+        '3 dl blandade bär (t.ex. hallon, blåbär, vinbär)',
+        '2 msk florsocker (till garnering)'
     ],
-    "instructions": [
-      "1. Sätt ugnen på 175°C och smörj en rund form (20 cm).",
-      "2. Smält smör i en kastrull, tillsätt Dumle och rör tills de smälter.",
-      "3. Vispa ihop ägg och socker. Tillsätt mjöl, kakao och vaniljsocker.",
-      "4. Rör i smör- och Dumleblandningen. Vänd i hackad mörk choklad.",
-      "5. Häll i formen och grädda ca 20 minuter. Låt vara kladdig i mitten.",
-      "6. Låt svalna något och servera."
+    instructions: [
+        'Förbered ugnen: Sätt ugnen på 175°C. Klä en form (ca 20x30 cm) med bakplåtspapper.',
+        'Gör smeten: Smält smöret och låt det svalna något. Vispa ägg och socker fluffigt i en bunke. Rör ner smöret och mjölken.',
+        'Tillsätt torra ingredienser: Blanda mjöl och bakpulver och vänd försiktigt ner i smeten.',
+        'Lägg till bär: Häll smeten i formen och strö bären jämnt över.',
+        'Grädda: Grädda i ugnen i cirka 25 minuter eller tills kakan är gyllene och en provsticka kommer ut torr.',
+        'Servera: Låt kakan svalna och skär i rutor. Sikta över florsocker innan servering.'
     ],
-    "tips": [
-      "Toppa med extra Dumle innan gräddning för mer kola.",
-      "Servera med grädde eller glass och bär.",
-      "För en segare konsistens, kyl kakan över natten."
+    tips: [
+        'Byt ut bären efter säsong eller använd frysta bär (tina och låt rinna av först).',
+        'Servera med en klick vaniljvisp för en extra touch.',
+        'För en knaprig yta, strö lite råsocker över bären innan gräddning.'
     ]
-  },
+},
 
-  "55595": {
-    "title": "Cannoli",
-    "image": "bilder/55595.png",
-    "description": "Krispiga skal fyllda med söt ricottakräm, en italiensk klassiker.",
-    "ingredients": [
-      "8 cannoliskal",
-      "250 g ricotta",
-      "1 dl florsocker",
-      "1 tsk vaniljextrakt",
-      "1 dl hackad mörk choklad",
-      "1 dl hackade pistagenötter"
+'55100': {
+    title: 'Bärkaka i Långpanna',
+    image: 'bilder/55100.png',
+    portion: ' (20 bitar)',
+    ingredients: [
+        '200 g smör',
+        '4 ägg',
+        '4 dl strösocker',
+        '6 dl vetemjöl',
+        '2 tsk bakpulver',
+        '2 dl mjölk',
+        '5 dl blandade bär (t.ex. hallon, blåbär, björnbär)'
     ],
-    "instructions": [
-      "1. Blanda ricotta, florsocker och vaniljextrakt. Vänd ner hackad choklad.",
-      "2. Fyll cannoliskalen med blandningen.",
-      "3. Doppa ändarna i hackade pistagenötter.",
-      "4. Pudra över florsocker innan servering."
+    instructions: [
+        'Förbered ugnen: Sätt ugnen på 175°C. Klä en långpanna (ca 30x40 cm) med bakplåtspapper.',
+        'Gör smeten: Smält smöret och låt det svalna. Vispa ägg och socker pösigt. Blanda i det smälta smöret och mjölken.',
+        'Tillsätt torra ingredienser: Blanda mjöl och bakpulver och vänd ner i smeten.',
+        'Lägg till bär: Häll smeten i långpannan och strö bären jämnt över.',
+        'Grädda: Grädda i ugnen i cirka 30 minuter. Låt kakan svalna och skär i bitar.'
     ],
-    "tips": [
-      "Fyll precis innan servering för att behålla krispigheten.",
-      "Smaksätt med apelsinzest eller lite Amaretto.",
-      "Använd kanderade körsbär för färg."
+    tips: [
+        'För en extra smak, tillsätt rivet citronskal i smeten.',
+        'Toppa med smuldeg innan gräddning för en crunchig kaka.',
+        'Kakan går utmärkt att frysa in i bitar för senare njutning.'
     ]
-  },
+},
 
-  "55596": {
-    "title": "Äppel Samosas med pistage och mynta",
-    "image": "bilder/55596.png",
-    "description": "Frasiga samosas fyllda med kryddiga äpplen och pistagenötter.",
-    "ingredients": [
-      "4 stora äpplen, skalade och tärnade",
-      "2 msk smör",
-      "2 msk strösocker",
-      "1 tsk malen kardemumma",
-      "1/2 tsk kanel",
-      "1 dl hackade pistagenötter",
-      "12 vårrulleark eller filodegsark",
-      "Olja till fritering",
-      "Färska myntablad"
+'55101': {
+    title: 'Mjuk Sockerkaka med Plommon',
+    image: 'bilder/55101.png',
+    portion: ' (12 bitar)',
+    ingredients: [
+        '150 g smör',
+        '3 ägg',
+        '2 dl strösocker',
+        '3 dl vetemjöl',
+        '1 tsk bakpulver',
+        '1 dl mjölk',
+        '5 plommon (urkärnade och skivade)',
+        '2 msk råsocker'
     ],
-    "instructions": [
-      "1. Smält smöret och stek äppelbitarna mjuka. Tillsätt socker, kardemumma och kanel.",
-      "2. Rör om och låt svalna, blanda i pistagenötter.",
-      "3. Lägg en sked fyllning på arket, vik till en triangel.",
-      "4. Fritera i olja (180°C) tills gyllene. Låt rinna av.",
-      "5. Servera med färska myntablad och ev. yoghurt eller vaniljsås."
+    instructions: [
+        'Förbered ugnen: Sätt ugnen på 175°C. Smörj och bröa en rund kakform (ca 24 cm i diameter).',
+        'Gör smeten: Smält smöret och låt det svalna. Vispa ägg och socker fluffigt. Tillsätt smöret och mjölken.',
+        'Tillsätt torra ingredienser: Blanda mjöl och bakpulver och vänd försiktigt ner i smeten.',
+        'Lägg till plommon: Häll smeten i formen och tryck ner plommonskivorna jämnt över kakan. Strö råsocker över.',
+        'Grädda: Grädda i ugnen i cirka 35 minuter eller tills en provsticka kommer ut torr.',
+        'Servera: Låt kakan svalna något innan servering.'
     ],
-    "tips": [
-      "Byt pistagenötter mot valnötter eller mandlar.",
-      "Strö florsocker över för en sötare touch.",
-      "Värm i ugnen precis innan servering för att behålla krispigheten."
+    tips: [
+        'Servera med vispad grädde eller vaniljkräm.',
+        'Byt ut plommon mot äpplen eller päron för variation.',
+        'Tillsätt lite kanel i smeten för en kryddig touch.'
     ]
-  },
+},
 
-  "55597": {
-    "title": "Morotskladdkaka",
-    "image": "bilder/55597.png",
-    "description": "En kladdig kaka med smak av morot, kryddor och vit choklad.",
-    "ingredients": [
-      "150 g smör",
-      "2 ägg",
-      "2 dl strösocker",
-      "2 dl riven morot",
-      "2 dl vetemjöl",
-      "1 tsk kanel",
-      "1 tsk kardemumma",
-      "1 tsk bakpulver",
-      "100 g vit choklad, grovhackad"
+'55102': {
+    title: 'Pinocchiotårta',
+    image: 'bilder/55102.png',
+    portion: ' (8 bitar)',
+    ingredients: [
+        'Botten:',
+        '100 g smör',
+        '1 dl strösocker',
+        '4 äggulor',
+        '1,5 dl vetemjöl',
+        '1 tsk bakpulver',
+        '1 dl mjölk',
+        'Maräng:',
+        '4 äggvitor',
+        '2 dl strösocker',
+        'Fyllning:',
+        '3 dl vispgrädde',
+        '2 dl färska bär'
     ],
-    "instructions": [
-      "1. Sätt ugnen på 175°C och smörj en form (20 cm).",
-      "2. Smält smöret. Vispa ägg och socker fluffigt.",
-      "3. Rör i smöret och den rivna moroten.",
-      "4. Blanda mjöl, kanel, kardemumma och bakpulver. Sikta ner och blanda försiktigt.",
-      "5. Vänd ner den hackade vita chokladen.",
-      "6. Häll i formen och grädda i 20 minuter. Kakan ska vara kladdig i mitten.",
-      "7. Låt svalna och servera med grädde eller glass."
+    instructions: [
+        'Förbered ugnen: Sätt ugnen på 150°C. Klä en långpanna (ca 30x40 cm) med bakplåtspapper.',
+        'Gör bottnen: Vispa smör och socker krämigt. Tillsätt äggulorna en i taget. Blanda mjöl och bakpulver och varva ner det med mjölken i smeten.',
+        'Gör marängen: Vispa äggvitorna till ett fast skum. Tillsätt sockret lite i taget under fortsatt vispning tills marängen blir glansig.',
+        'Montera: Bred ut kaksmeten jämnt i långpannan. Bred marängen över.',
+        'Grädda: Grädda i ugnen i cirka 40 minuter. Låt svalna helt och dela kakan i två lika stora delar.',
+        'Fyll och servera: Vispa grädden och bred ut den på ena bottnen. Strö bär över och lägg den andra bottnen ovanpå. Servera genast.'
     ],
-    "tips": [
-      "Toppa med frosting av färskost, florsocker och citron.",
-      "Tillsätt hackade nötter för crunch.",
-      "Förvara i kylen för en fastare konsistens."
+    tips: [
+        'Byt ut bären mot skivade jordgubbar eller persikor för variation.',
+        'För en festligare touch, pudra över florsocker innan servering.',
+        'Tårtan kan göras dagen innan och förvaras i kylen utan fyllning.'
     ]
-  },
+},
 
-  "55598": {
-    "title": "Noblessebakelser",
-    "image": "bilder/55598.png",
-    "description": "Enkel dessert med tunn choklad, vispad grädde och bär.",
-    "ingredients": [
-      "1 paket Noblesse (ca 150 g)",
-      "3 dl vispgrädde",
-      "1 tsk vaniljsocker",
-      "2 dl färska bär"
+'55103': {
+    title: 'Jordnöts- och Chokladrutor',
+    image: 'bilder/55103.png',
+    portion: ' (16 rutor)',
+    ingredients: [
+        '200 g mörk choklad',
+        '100 g smör',
+        '2 dl jordnötssmör',
+        '2 dl strösocker',
+        '3 ägg',
+        '2 dl vetemjöl',
+        '1 dl hackade jordnötter'
     ],
-    "instructions": [
-      "1. Vispa grädde fluffig med vaniljsocker.",
-      "2. Lägg en Noblesse-skiva som botten, toppa med grädde och bär.",
-      "3. Upprepa lager om du vill.",
-      "4. Servera genast."
+    instructions: [
+        'Förbered ugnen: Sätt ugnen på 175°C. Klä en form (ca 20x20 cm) med bakplåtspapper.',
+        'Gör smeten: Smält choklad och smör tillsammans på låg värme. Låt svalna. Vispa ägg och socker fluffigt och blanda i chokladblandningen.',
+        'Tillsätt torra ingredienser: Sikta ner mjölet och vänd försiktigt ner. Blanda i jordnötssmör och hackade jordnötter.',
+        'Grädda: Häll smeten i formen och grädda i ugnen i cirka 25 minuter. Kakan ska vara lite kladdig i mitten.',
+        'Servera: Låt svalna och skär i rutor.'
     ],
-    "tips": [
-      "Ringla smält choklad över för extra lyx.",
-      "Byt ut bären mot kiwi eller apelsinbitar.",
-      "Servera med en kopp kaffe för en elegant finish."
+    tips: [
+        'Toppa med smält choklad och extra jordnötter för en lyxigare version.',
+        'Servera med en klick vispgrädde eller vaniljglass.',
+        'Förvara rutorna i kylskåp för en fastare konsistens.'
     ]
-  },
+},
 
-  "55599": {
-    "title": "Bärrutor",
-    "image": "bilder/55599.png",
-    "description": "Mjuka kakrutor fyllda med bär, perfekta att skära upp i bitar.",
-    "ingredients": [
-      "150 g smör",
-      "2 dl strösocker",
-      "3 ägg",
-      "3 dl vetemjöl",
-      "1 tsk bakpulver",
-      "1 dl mjölk",
-      "3 dl blandade bär",
-      "2 msk florsocker"
-    ],
-    "instructions": [
-      "1. Sätt ugnen på 175°C och klä en form (20x30 cm) med bakplåtspapper.",
-      "2. Smält smöret, låt svalna något. Vispa ägg och socker fluffigt.",
-      "3. Rör ner smöret och mjölken.",
-      "4. Blanda mjöl och bakpulver, vänd ner i smeten.",
-      "5. Häll i formen, strö över bären.",
-      "6. Grädda i 25 minuter eller tills kakan är gyllene.",
-      "7. Låt svalna och skär i rutor. Pudra över florsocker."
-    ],
-    "tips": [
-      "Använd frysta bär men tina dem först.",
-      "Servera med vaniljvisp för extra god smak.",
-      "Strö lite råsocker över bären innan gräddning för knaprig yta."
-    ]
-  },
-
-  "55100": {
-    "title": "Bärkaka i långpanna",
-    "image": "bilder/55100.png",
-    "description": "En stor kaka med bär, utmärkt för många gäster.",
-    "ingredients": [
-      "200 g smör",
-      "4 ägg",
-      "4 dl strösocker",
-      "6 dl vetemjöl",
-      "2 tsk bakpulver",
-      "2 dl mjölk",
-      "5 dl blandade bär"
-    ],
-    "instructions": [
-      "1. Sätt ugnen på 175°C och klä en långpanna (30x40 cm) med bakplåtspapper.",
-      "2. Smält smöret och låt svalna. Vispa ägg och socker pösigt.",
-      "3. Rör i smöret och mjölken.",
-      "4. Blanda mjöl och bakpulver, vänd ner i smeten.",
-      "5. Häll smeten i pannan och strö över bären.",
-      "6. Grädda i ca 30 minuter.",
-      "7. Låt svalna, skär i bitar."
-    ],
-    "tips": [
-      "Tillsätt rivet citronskal i smeten för en frisk smak.",
-      "Toppa med smuldeg innan gräddning för en crunchig kaka.",
-      "Kakan går utmärkt att frysa in."
-    ]
-  },
-
-  "55101": {
-    "title": "Mjuk sockerkaka med plommon",
-    "image": "bilder/55101.png",
-    "description": "Saftig sockerkaka toppad med skivade plommon och råsocker.",
-    "ingredients": [
-      "150 g smör",
-      "3 ägg",
-      "2 dl strösocker",
-      "3 dl vetemjöl",
-      "1 tsk bakpulver",
-      "1 dl mjölk",
-      "5 plommon, urkärnade och skivade",
-      "2 msk råsocker"
-    ],
-    "instructions": [
-      "1. Sätt ugnen på 175°C och smörj/bröa en rund form (24 cm).",
-      "2. Smält smöret, låt svalna. Vispa ägg och socker fluffigt.",
-      "3. Rör i smöret och mjölken.",
-      "4. Blanda mjöl och bakpulver, vänd ner försiktigt.",
-      "5. Häll smeten i formen, fördela plommonskivorna över.",
-      "6. Strö råsocker på och grädda i ca 35 minuter.",
-      "7. Låt svalna något."
-    ],
-    "tips": [
-      "Servera med grädde eller vaniljkräm.",
-      "Byt ut plommon mot äpplen eller päron.",
-      "Tillsätt lite kanel i smeten för en kryddig touch."
-    ]
-  },
-
-  "55102": {
-    "title": "Pinocchiotårta",
-    "image": "bilder/55102.png",
-    "description": "Marängtårta med sockerkaksbotten och vispad grädde.",
-    "ingredients": [
-      "100 g smör",
-      "1 dl strösocker",
-      "4 äggulor",
-      "1,5 dl vetemjöl",
-      "1 tsk bakpulver",
-      "1 dl mjölk",
-      "4 äggvitor",
-      "2 dl strösocker",
-      "3 dl vispgrädde",
-      "2 dl färska bär"
-    ],
-    "instructions": [
-      "1. Sätt ugnen på 150°C och klä en långpanna (30x40 cm) med bakplåtspapper.",
-      "2. Vispa smör och 1 dl socker krämigt. Tillsätt äggulor en i taget.",
-      "3. Blanda mjöl och bakpulver och varva ner med mjölken.",
-      "4. Bred ut smeten i pannan.",
-      "5. Vispa äggvitorna till ett fast skum, tillsätt 2 dl socker lite i taget.",
-      "6. Bred marängen över kaksmeten.",
-      "7. Grädda i ca 40 minuter. Låt svalna och dela i två delar.",
-      "8. Vispa grädde och bred på ena bottnen, strö över bär och lägg på den andra."
-    ],
-    "tips": [
-      "Byt bären mot skivade jordgubbar eller persikor.",
-      "Pudra med florsocker för festlig look.",
-      "Kan förberedas dagen innan utan fyllning."
-    ]
-  },
-  "55103": {
-    "title": "Jordnöts- och chokladrutor",
-    "image": "bilder/55103.png",
-    "description": "Kladdiga rutor med kombinationen choklad och jordnötssmör.",
-    "ingredients": [
-      "200 g mörk choklad",
-      "100 g smör",
-      "2 dl jordnötssmör",
-      "2 dl strösocker",
-      "3 ägg",
-      "2 dl vetemjöl",
-      "1 dl hackade jordnötter"
-    ],
-    "instructions": [
-      "1. Sätt ugnen på 175°C. Klä en form (ca 20x20 cm) med bakplåtspapper.",
-      "2. Smält choklad och smör tillsammans, och låt det svalna något.",
-      "3. Vispa ägg och strösocker fluffigt i en bunke.",
-      "4. Rör ner chokladblandningen, sikta sedan ner vetemjöl och rör försiktigt.",
-      "5. Tillsätt jordnötssmör och hackade jordnötter. Blanda försiktigt.",
-      "6. Häll smeten i formen och grädda i ca 25 minuter. Rutorna ska vara lite kladdiga i mitten.",
-      "7. Låt svalna innan du skär i bitar."
-    ],
-    "tips": [
-      "Toppa gärna med smält choklad och extra hackade jordnötter för en lyxigare variant.",
-      "Servera med vaniljglass eller vispad grädde.",
-      "Förvara rutorna i kylskåpet om du vill ha en fastare konsistens."
-    ]
-  },
-  '55104': {
+'55104': {
     title: 'Citronkaka',
     image: 'bilder/55104.png',
-    description: 'Saftig sockerkaka med frisk citronsmak.',
+    portion: ' (12 bitar)',
     ingredients: [
         '150 g smör',
         '3 ägg',
@@ -5982,24 +5983,23 @@ function getRecipeByCode(code) {
         '1 dl florsocker (till glasyr)'
     ],
     instructions: [
-        '1. Sätt ugnen på 175°C och smörj en rund form (ca 24 cm i diameter).',
-        '2. Smält smöret. Vispa ägg och socker fluffigt.',
-        '3. Tillsätt smör, citronskal och citronsaft.',
-        '4. Blanda vetemjöl och bakpulver och vänd ner i smeten.',
-        '5. Grädda i nedre delen av ugnen i ca 30 minuter. Låt kakan svalna.',
-        '6. Blanda florsocker med lite citronsaft till en glasyr och ringla över kakan.'
+        'Förbered ugnen: Sätt ugnen på 175°C. Smörj och mjöla en rund kakform (ca 24 cm i diameter).',
+        'Gör smeten: Smält smöret och låt det svalna. Vispa ägg och socker fluffigt. Tillsätt smöret, citronskal och citronsaft.',
+        'Tillsätt torra ingredienser: Blanda mjöl och bakpulver och vänd ner i smeten.',
+        'Grädda: Häll smeten i formen och grädda i ugnen i cirka 30 minuter. Låt kakan svalna.',
+        'Glasera: Blanda florsocker med lite citronsaft till en glasyr och ringla över den avsvalnade kakan.'
     ],
     tips: [
-        'Stick gärna hål i kakan och häll över citronsaft för extra saftighet.',
-        'Servera med färska bär eller vispad grädde.',
-        'För en twist, tillsätt vallmofrön i smeten.'
+        'För en extra saftig kaka, stick hål i den med en gaffel och häll över lite citronsaft innan glasyren.',
+        'Servera med vispad grädde eller färska bär.',
+        'För en annorlunda smak, tillsätt vallmofrön i smeten.'
     ]
 },
 
 '55105': {
     title: 'Chokladbollskladdkaka',
     image: 'bilder/55105.png',
-    description: 'En fusion mellan kladdkaka och chokladboll, toppad med kokos.',
+    portion: ' (12 bitar)',
     ingredients: [
         '150 g smör',
         '2 dl strösocker',
@@ -6011,23 +6011,22 @@ function getRecipeByCode(code) {
         '1 dl kokosflingor (till garnering)'
     ],
     instructions: [
-        '1. Sätt ugnen på 175°C och smörj en rund form (ca 24 cm i diameter).',
-        '2. Smält smöret och låt det svalna något. Vispa ihop ägg och socker.',
-        '3. Blanda i smör, vetemjöl, kakao, vaniljsocker och havregryn till en jämn smet.',
-        '4. Häll smeten i formen och grädda i ugnen i ca 20 minuter. Kakan ska vara kladdig i mitten.',
-        '5. Strö över kokosflingor medan kakan fortfarande är lite varm.'
+        'Förbered ugnen: Sätt ugnen på 175°C. Smörj och mjöla en rund kakform (ca 24 cm i diameter).',
+        'Gör smeten: Smält smöret och låt det svalna. Vispa ihop ägg och socker. Blanda i smör, mjöl, kakao, vaniljsocker och havregryn.',
+        'Grädda: Häll smeten i formen och grädda i ugnen i cirka 20 minuter. Kakan ska vara kladdig i mitten.',
+        'Garnera: Strö kokosflingor över kakan när den svalnat något.'
     ],
     tips: [
-        'För en intensivare chokladsmak, tillsätt hackad mörk choklad i smeten.',
-        'Servera med en klick vispad grädde eller vaniljglass.',
-        'Ringla eventuellt smält choklad över kakan innan du toppar med kokosen.'
+        'För en mer intensiv chokladsmak, tillsätt hackad mörk choklad i smeten.',
+        'Servera med en klick vispad grädde eller glass.',
+        'För en lyxigare topping, smält choklad och ringla över innan du strör på kokosen.'
     ]
 },
 
 '55106': {
-    title: 'Pekan- eller valnötsrutor',
+    title: 'Pekan- eller Valnötsrutor',
     image: 'bilder/55106.png',
-    description: 'Fudgy chokladrutor med knapriga nötter.',
+    portion: ' (16 rutor)',
     ingredients: [
         '200 g mörk choklad',
         '100 g smör',
@@ -6038,24 +6037,1164 @@ function getRecipeByCode(code) {
         '1 dl hackade pekannötter eller valnötter'
     ],
     instructions: [
-        '1. Sätt ugnen på 175°C och klä en form (ca 20x20 cm) med bakplåtspapper.',
-        '2. Smält smör och choklad på låg värme. Låt blandningen svalna något.',
-        '3. Vispa ägg och farinsocker fluffigt och rör i chokladblandningen.',
-        '4. Blanda vetemjöl och bakpulver och vänd ner i smeten. Tillsätt nötterna.',
-        '5. Grädda i ugnen i ca 25 minuter. Låt kakan svalna innan du skär den i rutor.'
+        'Förbered ugnen: Sätt ugnen på 175°C. Klä en form (ca 20x20 cm) med bakplåtspapper.',
+        'Gör smeten: Smält smör och choklad tillsammans på låg värme. Låt svalna. Vispa ägg och farinsocker fluffigt och blanda i chokladblandningen.',
+        'Tillsätt torra ingredienser: Blanda mjöl och bakpulver och vänd ner i smeten. Rör i de hackade nötterna.',
+        'Grädda: Häll smeten i formen och grädda i ugnen i cirka 25 minuter. Låt kakan svalna och skär i rutor.',
+        'Servera: Servera med en klick crème fraîche för en balanserad smak.'
     ],
     tips: [
-        'Servera med en klick crème fraîche eller vaniljglass för kontrast.',
-        'Strö gärna lite extra nötter ovanpå smeten för fin yta.',
-        'Kakan går bra att frysa in och tinas vid behov.'
+        'För extra knaprighet, strö hela nötter på toppen innan gräddning.',
+        'Kakan går utmärkt att frysa in i bitar för senare tillfällen.'
     ]
 },
+'44444': {
+    title: 'Biff Stroganoff',
+    image: 'bilder/44444.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '400 g nötkött (t.ex. lövbiff eller innanlår), strimlat',
+        '1 gul lök, finhackad',
+        '2 dl crème fraîche',
+        '1 dl grädde',
+        '1 msk tomatpuré',
+        '1 tsk dijonsenap',
+        '1 tsk paprikapulver',
+        '2 msk smör eller olja',
+        'Salt och svartpeppar efter smak',
+        'Färsk persilja, hackad (valfritt)'
+    ],
+    instructions: [
+        'Stek köttet: Hetta upp en stekpanna med smör eller olja. Stek det strimlade köttet på hög värme tills det får fin färg. Lägg åt sidan.',
+        'Fräs löken: I samma panna, sänk värmen och fräs den hackade löken tills den är mjuk och gyllene.',
+        'Tillsätt såsingredienserna: Blanda ner tomatpuré, dijonsenap och paprikapulver. Rör om och låt fräsa kort.',
+        'Koka ihop såsen: Häll i crème fraîche och grädde. Låt såsen sjuda på låg värme i 5 minuter.',
+        'Blanda köttet och smaka av: Lägg tillbaka det stekta köttet i såsen och låt det koka samman i 5 minuter. Smaka av med salt och peppar.',
+        'Servera: Garnera med färsk persilja och servera med ris eller pasta.'
+    ],
+    tips: [
+        'För en fylligare smak, tillsätt 1 tsk soja eller en skvätt rödvin i såsen.'
+    ]
+},
+'44445': {
+    title: 'Thaisoppa med kyckling och glasnudlar',
+    image: 'bilder/44445.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '2 kycklingfiléer, strimlade',
+        '1 burk kokosmjölk (400 ml)',
+        '5 dl kycklingbuljong',
+        '100 g glasnudlar',
+        '2 msk röd currypasta',
+        '2 msk fisksås',
+        '1 msk limejuice',
+        '1 röd paprika, strimlad',
+        '1 morot, tunt skivad',
+        '1 tsk färsk ingefära, riven',
+        'Koriander eller basilika till garnering'
+    ],
+    instructions: [
+        'Förbered basen: Hetta upp kokosmjölk i en kastrull och rör ner currypasta. Fräs kort.',
+        'Lägg till smakerna: Tillsätt buljong, fisksås, limejuice och ingefära. Låt sjuda i 5 minuter.',
+        'Koka grönsaker och kyckling: Lägg i kyckling, paprika och morot. Låt koka tills kycklingen är genomstekt (ca 8 minuter).',
+        'Tillred glasnudlar: Koka glasnudlar enligt anvisningarna på förpackningen. Skölj med kallt vatten och lägg i soppan.',
+        'Servera: Toppa med koriander eller basilika.'
+    ]
+},
+'44446': {
+    title: 'Burrito med kyckling',
+    image: 'bilder/44446.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '400 g kycklingfilé, strimlad',
+        '1 påse tacokrydda',
+        '1 dl vatten',
+        '4 stora tortillabröd',
+        '1 dl riven ost',
+        '1 dl sallad',
+        '1 tomat, tärnad',
+        '1 dl crème fraîche',
+        '1 msk olivolja'
+    ],
+    instructions: [
+        'Stek kycklingen: Hetta upp olivolja i en stekpanna. Stek kycklingen tills den är genomstekt. Tillsätt tacokrydda och vatten, låt sjuda 5 minuter.',
+        'Montera burriton: Lägg kyckling, ost, sallad, tomat och crème fraîche i tortillabröden.',
+        'Stek burriton: Vik ihop och stek i torr panna tills brödet är gyllene.',
+        'Servera: Servera med guacamole eller salsa.'
+    ]
+},
+'44447': {
+    title: 'Tonfiskpasta',
+    image: 'bilder/44447.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g pasta (t.ex. penne)',
+        '2 burkar tonfisk i vatten, avrunnen',
+        '1 dl crème fraîche',
+        '1 dl grädde',
+        '1 vitlöksklyfta, finhackad',
+        '1 msk olivolja',
+        '1 tsk citronsaft',
+        'Salt och peppar efter smak',
+        'Färsk persilja till garnering'
+    ],
+    instructions: [
+        'Koka pastan: Koka pastan enligt anvisningarna på förpackningen.',
+        'Förbered såsen: Hetta upp olivolja och fräs vitlöken kort. Tillsätt crème fraîche, grädde och tonfisk. Rör om.',
+        'Smaka av: Krydda med citronsaft, salt och peppar.',
+        'Blanda och servera: Vänd ner pastan i såsen och toppa med persilja.'
+    ]
+},
+'44448': {
+    title: 'Korv Stroganoff',
+    image: 'bilder/44448.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '400 g falukorv, strimlad',
+        '1 gul lök, finhackad',
+        '2 dl crème fraîche',
+        '2 dl passerade tomater',
+        '1 msk tomatpuré',
+        '1 tsk paprikapulver',
+        '2 msk smör',
+        'Salt och svartpeppar efter smak'
+    ],
+    instructions: [
+        'Stek korven och löken: Hetta upp smör i en stekpanna. Stek korven och löken tills de får färg.',
+        'Tillsätt smakerna: Rör ner tomatpuré, paprikapulver, passerade tomater och crème fraîche. Låt puttra i 10 minuter.',
+        'Smaka av och servera: Krydda med salt och peppar. Servera med ris eller potatismos.'
+    ]
+},
+'44449': {
+    title: 'Ostpasta',
+    image: 'bilder/44449.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g pasta (t.ex. fusilli eller penne)',
+        '2 dl grädde',
+        '2 dl riven ost (t.ex. cheddar eller parmesan)',
+        '1 vitlöksklyfta, finhackad',
+        '1 msk smör',
+        '1 tsk dijonsenap',
+        'Salt och svartpeppar efter smak'
+    ],
+    instructions: [
+        'Koka pastan: Koka pastan enligt förpackningens anvisningar.',
+        'Gör såsen: Hetta upp smör i en kastrull. Fräs vitlöken kort. Tillsätt grädde och värm upp. Rör ner osten tills den smälter.',
+        'Smaka av: Krydda med dijonsenap, salt och peppar.',
+        'Blanda och servera: Vänd ner pastan i såsen och servera direkt.'
+    ]
+},
+'44450': {
+    title: 'Laxpasta med lime',
+    image: 'bilder/44450.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g pasta (t.ex. tagliatelle)',
+        '200 g varmrökt lax, smulad',
+        '2 dl grädde',
+        '1 dl crème fraîche',
+        '1 lime (saft och zest)',
+        '1 vitlöksklyfta, finhackad',
+        '1 msk olivolja',
+        'Salt och svartpeppar efter smak',
+        'Färsk dill till garnering'
+    ],
+    instructions: [
+        'Koka pastan: Koka pastan enligt anvisningarna på förpackningen.',
+        'Förbered såsen: Hetta upp olivolja i en kastrull och fräs vitlöken. Tillsätt grädde, crème fraîche och limejuice samt zest.',
+        'Lägg till laxen: Vänd försiktigt ner den smulade laxen i såsen och låt sjuda i 5 minuter. Smaka av med salt och peppar.',
+        'Blanda och servera: Vänd ner pastan i såsen och toppa med dill.'
+    ]
+},
+'44451': {
+    title: 'Pasta med pesto och vitlöksstekt svamp',
+    image: 'bilder/44451.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g pasta (t.ex. linguine eller spaghetti)',
+        '200 g champinjoner, skivade',
+        '2 msk olivolja',
+        '2 vitlöksklyftor, skivade',
+        '3 msk grön pesto',
+        '1 dl riven parmesan',
+        'Salt och svartpeppar efter smak',
+        'Färsk basilika till garnering'
+    ],
+    instructions: [
+        'Koka pastan: Koka pastan enligt förpackningens anvisningar.',
+        'Stek svampen: Hetta upp olivolja i en stekpanna och fräs vitlök och svamp tills de är gyllene.',
+        'Tillsätt peston: Blanda ner peston i svampblandningen och låt värmas upp kort.',
+        'Blanda och servera: Rör ner den kokta pastan i pestoblandningen. Toppa med parmesan och basilika.'
+    ]
+},
+'44452': {
+    title: 'Tomat och chorizo soppa',
+    image: 'bilder/44452.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '200 g chorizo, skivad',
+        '1 gul lök, finhackad',
+        '2 vitlöksklyftor, hackade',
+        '400 g krossade tomater',
+        '5 dl grönsaksbuljong',
+        '1 tsk paprikapulver',
+        '1 msk olivolja',
+        'Salt och svartpeppar efter smak',
+        'Färsk persilja till garnering'
+    ],
+    instructions: [
+        'Stek chorizo: Fräs chorizon i en kastrull tills den släpper fett. Lägg åt sidan.',
+        'Fräs lök och vitlök: Tillsätt olivolja och fräs lök och vitlök tills de är mjuka.',
+        'Tillsätt tomater och buljong: Häll i krossade tomater, buljong och paprikapulver. Låt koka i 10 minuter.',
+        'Blanda och servera: Lägg tillbaka chorizon i soppan. Smaka av med salt och peppar. Toppa med persilja.'
+    ]
+},
+'44453': {
+    title: 'Spaghetti Carbonara',
+    image: 'bilder/44453.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g spaghetti',
+        '150 g bacon eller pancetta, tärnad',
+        '2 ägg',
+        '1 dl riven parmesan',
+        '1 vitlöksklyfta, hel',
+        'Salt och svartpeppar efter smak',
+        '1 msk olivolja'
+    ],
+    instructions: [
+        'Koka pastan: Koka spaghettin enligt förpackningens anvisningar.',
+        'Stek baconet: Hetta upp olivolja i en stekpanna. Stek bacon tillsammans med vitlöken tills det blir krispigt. Ta bort vitlöken.',
+        'Förbered äggblandningen: Vispa ihop ägg och parmesan i en skål.',
+        'Blanda och servera: Blanda spaghettin med baconet och stäng av värmen. Tillsätt äggblandningen och rör snabbt. Smaka av med peppar.'
+    ]
+},
+'44454': {
+    title: 'Fransk omelett med champinjoner',
+    image: 'bilder/44454.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '6 ägg',
+        '1 dl mjölk',
+        '200 g champinjoner, skivade',
+        '2 msk smör',
+        'Salt och svartpeppar efter smak',
+        'Färsk persilja till garnering'
+    ],
+    instructions: [
+        'Förbered svampen: Stek champinjonerna i smör tills de är gyllene. Krydda med salt och peppar.',
+        'Vispa äggen: Vispa ihop ägg och mjölk. Smaka av med lite salt.',
+        'Tillaga omeletten: Hetta upp smör i en panna och häll i äggblandningen. Rör försiktigt tills omeletten nästan stelnat.',
+        'Lägg på fyllningen: Lägg champinjonerna på ena halvan av omeletten och vik över. Servera direkt.'
+    ]
+},
+'44455': {
+    title: 'Pasta med rostad vitlök och creme fraiche',
+    image: 'bilder/44455.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g pasta (t.ex. penne)',
+        '3 vitlöksklyftor, hela',
+        '2 dl crème fraîche',
+        '1 dl grädde',
+        '1 dl riven parmesan',
+        '1 msk olivolja',
+        'Salt och svartpeppar efter smak',
+        'Färsk persilja till garnering'
+    ],
+    instructions: [
+        'Rosta vitlök: Hetta upp olivolja i en stekpanna och rosta hela vitlöksklyftor på låg värme tills de blir gyllene. Ta bort och mosa dem lätt.',
+        'Koka pastan: Koka pastan enligt förpackningens anvisningar.',
+        'Förbered såsen: Blanda crème fraîche, grädde och mosad vitlök i en kastrull. Värm upp på låg värme.',
+        'Blanda och servera: Vänd ner pastan i såsen och toppa med parmesan och persilja.'
+    ]
+},
+'44456': {
+    title: 'Tacobönor i pitabröd',
+    image: 'bilder/44456.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '400 g kidneybönor eller svarta bönor, sköljda',
+        '1 påse tacokrydda',
+        '1 dl vatten',
+        '4 pitabröd',
+        '1 dl crème fraîche',
+        'Sallad, tomat och gurka, hackade',
+        '1 msk olivolja'
+    ],
+    instructions: [
+        'Tillaga bönorna: Hetta upp olivolja i en stekpanna. Fräs bönorna och tillsätt tacokrydda och vatten. Låt sjuda 5 minuter.',
+        'Värm pitabröd: Värm pitabröden enligt förpackningens anvisningar.',
+        'Montera: Fyll pitabröden med tacobönor, sallad, tomat, gurka och en klick crème fraîche.',
+        'Servera: Servera direkt som ett enkelt och smakrikt alternativ.'
+    ]
+},
+'44457': {
+    title: 'Krämig pasta med bacon och ärtor',
+    image: 'bilder/44457.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g pasta (t.ex. farfalle eller penne)',
+        '150 g bacon, tärnat',
+        '1 dl grädde',
+        '1 dl crème fraîche',
+        '100 g ärtor (frysta eller färska)',
+        '1 vitlöksklyfta, finhackad',
+        'Salt och svartpeppar efter smak',
+        'Färsk persilja till garnering'
+    ],
+    instructions: [
+        'Stek bacon: Hetta upp en panna och stek bacon tills det är krispigt. Tillsätt vitlöken och fräs kort.',
+        'Koka pastan: Koka pastan enligt förpackningens anvisningar.',
+        'Förbered såsen: Tillsätt grädde och crème fraîche till baconet. Låt sjuda kort. Tillsätt ärtorna och låt dem bli varma.',
+        'Blanda och servera: Vänd ner pastan i såsen och toppa med persilja.'
+    ]
+},
+'44458': {
+    title: 'Broccolisoppa',
+    image: 'bilder/44458.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '500 g broccoli (färsk eller fryst)',
+        '1 gul lök, hackad',
+        '2 vitlöksklyftor, hackade',
+        '7 dl grönsaksbuljong',
+        '1 dl grädde',
+        '1 msk olivolja',
+        'Salt och svartpeppar efter smak',
+        'Färsk timjan till garnering (valfritt)'
+    ],
+    instructions: [
+        'Fräs lök och vitlök: Hetta upp olivolja i en kastrull och fräs lök och vitlök tills de är mjuka.',
+        'Koka broccoli: Tillsätt broccoli och buljong. Koka i 10 minuter tills broccolin är mjuk.',
+        'Mixa och smaka av: Mixa soppan slät och rör ner grädde. Smaka av med salt och peppar.',
+        'Servera: Toppa med timjan eller en klick crème fraîche.'
+    ]
+},
+'44459': {
+    title: 'Tacogratäng med nachos',
+    image: 'bilder/44459.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '400 g köttfärs',
+        '1 påse tacokrydda',
+        '1 dl vatten',
+        '1 burk crème fraîche (200 g)',
+        '2 dl riven ost',
+        '1 påse nachochips',
+        'Sallad, tomat och majs till servering'
+    ],
+    instructions: [
+        'Stek köttfärs: Hetta upp en stekpanna och stek köttfärsen. Tillsätt tacokrydda och vatten och låt sjuda i 5 minuter.',
+        'Montera gratängen: Lägg köttfärsen i en ugnsform. Bred över crème fraîche och toppa med nachochips och riven ost.',
+        'Gratinera: Grädda i ugnen på 200°C i 10 minuter tills osten är gyllene.',
+        'Servera: Servera med sallad, tomat och majs.'
+    ]
+},
+'44460': {
+    title: 'Varmrökt Lax med rödbetssmetana och wasabi',
+    image: 'bilder/44460.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '400 g varmrökt lax',
+        '3 rödbetor, kokta och rivna',
+        '2 dl smetana',
+        '1 tsk wasabi (justera efter smak)',
+        '1 msk citronsaft',
+        'Salt och svartpeppar efter smak',
+        'Färsk dill till garnering'
+    ],
+    instructions: [
+        'Förbered rödbetssmetanan: Blanda smetana, rivna rödbetor, citronsaft och wasabi. Smaka av med salt och peppar.',
+        'Servera laxen: Lägg upp laxen på tallrikar och toppa med rödbetssmetanan.',
+        'Garnera: Strö över färsk dill och servera med kokt potatis eller en sallad.'
+    ]
+},
+'44461': {
+    title: 'Kotlett med tzatziki',
+    image: 'bilder/44461.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '4 fläskkotletter',
+        '2 dl grekisk yoghurt',
+        '1 gurka, riven och avrunnen',
+        '2 vitlöksklyftor, pressade',
+        '1 msk olivolja',
+        '1 tsk citronsaft',
+        'Salt och svartpeppar efter smak',
+        '1 msk smör eller olja för stekning'
+    ],
+    instructions: [
+        'Gör tzatzikin: Blanda yoghurt, gurka, vitlök, olivolja och citronsaft. Smaka av med salt och peppar.',
+        'Stek kotletterna: Hetta upp smör eller olja i en panna och stek kotletterna tills de är gyllene och genomstekta (ca 4–5 minuter per sida).',
+        'Servera: Lägg upp kotletterna och servera med tzatziki samt valfri sallad.'
+    ]
+},
+'44462': {
+    title: 'Pizza bianco med halloumi och zucchini',
+    image: 'bilder/44462.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '1 färdig pizzabotten',
+        '2 dl crème fraîche',
+        '1 zucchini, tunt skivad',
+        '150 g halloumi, skivad',
+        '1 msk olivolja',
+        '1 tsk torkad timjan',
+        'Salt och svartpeppar efter smak'
+    ],
+    instructions: [
+        'Förbered botten: Sätt ugnen på 225°C. Bred crème fraîche över pizzabotten.',
+        'Lägg på fyllningen: Fördela zucchiniskivor och halloumi jämnt över botten. Ringla över olivolja och krydda med timjan, salt och peppar.',
+        'Grädda: Grädda i ugnen i 10–12 minuter tills halloumin är gyllene.',
+        'Servera: Servera direkt, gärna med en fräsch grönsallad.'
+    ]
+},
+'44463': {
+    title: 'Enchiladas med paprikaost',
+    image: 'bilder/44463.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '8 små tortillabröd',
+        '400 g kycklingfilé, strimlad',
+        '1 paprika, tärnad',
+        '200 g paprikaost (på tub eller färskost)',
+        '1 dl riven ost',
+        '1 msk olivolja',
+        '1 burk krossade tomater',
+        'Salt och svartpeppar efter smak'
+    ],
+    instructions: [
+        'Stek kycklingen: Hetta upp olivolja i en panna och stek kycklingen tills den är genomstekt. Tillsätt paprikan och låt den mjukna.',
+        'Fyll tortillabröden: Bred paprikaost på bröden. Lägg på kycklingblandningen och rulla ihop. Placera i en ugnsform.',
+        'Gratinera: Häll krossade tomater över och toppa med riven ost. Grädda i ugnen på 200°C i 15 minuter.',
+        'Servera: Servera med en fräsch sallad.'
+    ]
+},
+'44464': {
+    title: 'Halloumigryta med jordnötssås',
+    image: 'bilder/44464.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '200 g halloumi, tärnad',
+        '1 burk kokosmjölk (400 ml)',
+        '2 msk jordnötssmör',
+        '1 msk röd currypasta',
+        '1 röd paprika, tärnad',
+        '1 morot, tunt skivad',
+        '1 msk olivolja',
+        'Färsk koriander till garnering'
+    ],
+    instructions: [
+        'Stek halloumin: Hetta upp olivolja i en panna och stek halloumin tills den är gyllene. Lägg åt sidan.',
+        'Gör jordnötssåsen: I samma panna, rör ihop kokosmjölk, jordnötssmör och currypasta. Låt koka upp.',
+        'Lägg till grönsaker: Tillsätt paprika och morot och låt koka tills grönsakerna är mjuka (ca 5 minuter).',
+        'Servera: Lägg tillbaka halloumin i grytan och värm upp. Toppa med koriander och servera med ris.'
+    ]
+},
+'44465': {
+    title: 'Tacosoppa',
+    image: 'bilder/44465.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '400 g köttfärs',
+        '1 påse tacokrydda',
+        '1 burk krossade tomater (400 g)',
+        '5 dl grönsaksbuljong',
+        '1 burk majs (150 g), avrunnen',
+        '1 röd paprika, tärnad',
+        '1 gul lök, hackad',
+        '1 msk olivolja',
+        'Salt och svartpeppar efter smak',
+        'Färsk koriander till garnering (valfritt)'
+    ],
+    instructions: [
+        'Stek köttfärsen: Hetta upp olivolja i en kastrull och stek köttfärsen tills den är genomstekt. Tillsätt tacokryddan och rör om.',
+        'Tillsätt grönsaker: Lägg i lök och paprika, och låt fräsa tillsammans med köttfärsen i 2–3 minuter.',
+        'Koka soppan: Häll i krossade tomater, buljong och majs. Låt soppan sjuda i 10 minuter. Smaka av med salt och peppar.',
+        'Servera: Toppa med färsk koriander och servera med tortilla chips eller bröd.'
+    ]
+},
+'44466': {
+    title: 'Halloumipasta med ärtor och soltorkad tomatcreme',
+    image: 'bilder/44466.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g pasta (t.ex. farfalle eller penne)',
+        '200 g halloumi, tärnad',
+        '100 g ärtor (frysta eller färska)',
+        '2 msk soltorkad tomatcrème',
+        '2 dl grädde',
+        '1 vitlöksklyfta, finhackad',
+        '1 msk olivolja',
+        'Salt och svartpeppar efter smak',
+        'Färsk basilika till garnering'
+    ],
+    instructions: [
+        'Koka pastan: Koka pastan enligt förpackningens anvisningar.',
+        'Stek halloumin: Hetta upp olivolja i en stekpanna och stek halloumin tills den är gyllene. Lägg åt sidan.',
+        'Gör såsen: Fräs vitlöken kort i samma panna. Tillsätt grädde och soltorkad tomatcrème. Låt sjuda kort.',
+        'Blanda och servera: Vänd ner pastan och ärtorna i såsen. Tillsätt halloumin och blanda försiktigt. Toppa med basilika.'
+    ]
+},
+'44467': {
+    title: 'Ost och skinkpaj',
+    image: 'bilder/44467.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '1 pajskal (färdigköpt eller hemlagat)',
+        '150 g rökt skinka, tärnad',
+        '2 dl riven ost (t.ex. Västerbottensost eller cheddar)',
+        '3 ägg',
+        '2 dl grädde',
+        '1 dl mjölk',
+        'Salt och svartpeppar efter smak'
+    ],
+    instructions: [
+        'Förgrädda pajskalet: Sätt ugnen på 200°C. Förgrädda pajskalet enligt anvisningarna på förpackningen.',
+        'Blanda fyllningen: Lägg skinka och ost i det förgräddade pajskalet.',
+        'Gör äggstanningen: Vispa ihop ägg, grädde och mjölk. Smaka av med salt och peppar. Häll över fyllningen.',
+        'Grädda pajen: Grädda i ugnen i 25–30 minuter tills äggstanningen har stelnat och pajen fått fin färg.',
+        'Servera: Servera med en fräsch sallad.'
+    ]
+},
+'44468': {
+    title: 'Sprödbakad torsk med rhode island',
+    image: 'bilder/44468.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '400 g torskfilé',
+        '2 dl vetemjöl',
+        '2 ägg, uppvispade',
+        '2 dl ströbröd',
+        '1 dl neutral olja för stekning',
+        '2 dl Rhode Island-sås (färdigköpt eller hemlagad)',
+        'Salt och svartpeppar efter smak'
+    ],
+    instructions: [
+        'Panera torsken: Krydda torsken med salt och peppar. Vänd i mjöl, därefter i ägg och sist i ströbröd.',
+        'Stek fisken: Hetta upp olja i en stekpanna och stek torsken gyllene och genomstekt, ca 3 minuter per sida.',
+        'Servera: Servera torsken med Rhode Island-sås och valfritt tillbehör, t.ex. kokt potatis eller sallad.'
+    ]
+},
+'44469': {
+    title: 'Carbonara nudlar',
+    image: 'bilder/44469.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g äggnudlar',
+        '150 g bacon eller pancetta, tärnad',
+        '2 ägg',
+        '1 dl riven parmesan',
+        '1 vitlöksklyfta, finhackad',
+        'Salt och svartpeppar efter smak',
+        '1 msk olivolja'
+    ],
+    instructions: [
+        'Koka nudlarna: Koka nudlarna enligt förpackningens anvisningar.',
+        'Stek baconet: Hetta upp olivolja i en panna och stek baconet tillsammans med vitlöken tills det är krispigt.',
+        'Förbered äggblandningen: Vispa ihop ägg och parmesan i en skål. Smaka av med svartpeppar.',
+        'Blanda: Rör ihop nudlar, bacon och äggblandningen i den varma pannan (utan värme på) tills såsen tjocknar.',
+        'Servera: Servera direkt med extra parmesan på toppen.'
+    ]
+},
+'44470': {
+    title: 'Kyckling med woksås och nudlar',
+    image: 'bilder/44470.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '400 g kycklingfilé, strimlad',
+        '300 g äggnudlar',
+        '1 morot, tunt skivad',
+        '1 röd paprika, strimlad',
+        '2 msk soja',
+        '1 msk ostronsås',
+        '1 msk sesamolja',
+        '1 tsk färsk ingefära, riven',
+        '1 msk neutral olja för stekning'
+    ],
+    instructions: [
+        'Koka nudlarna: Koka nudlarna enligt förpackningens anvisningar och ställ åt sidan.',
+        'Stek kycklingen: Hetta upp olja i en wokpanna och stek kycklingen tills den är genomstekt. Lägg åt sidan.',
+        'Fräs grönsakerna: I samma panna, fräs morot och paprika tills de är mjuka men fortfarande krispiga.',
+        'Blanda såsen: Tillsätt soja, ostronsås, sesamolja och ingefära. Rör ner kycklingen och nudlarna. Blanda väl och värm upp.',
+        'Servera: Servera genast, gärna toppat med sesamfrön.'
+    ]
+},
+'44471': {
+    title: 'Krämiga nudlar med färskost',
+    image: 'bilder/44471.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g äggnudlar',
+        '150 g färskost (t.ex. Philadelphia)',
+        '1 dl mjölk eller grädde',
+        '1 vitlöksklyfta, finhackad',
+        '1 tsk citronsaft',
+        '1 msk olivolja',
+        'Salt och svartpeppar efter smak',
+        'Färska örter till garnering (valfritt)'
+    ],
+    instructions: [
+        'Koka nudlarna: Koka nudlarna enligt förpackningens anvisningar och ställ åt sidan.',
+        'Gör såsen: Hetta upp olivolja i en kastrull och fräs vitlöken kort. Tillsätt färskosten och mjölken, och rör om tills såsen är slät.',
+        'Smaksätt: Rör ner citronsaft, salt och peppar.',
+        'Blanda och servera: Vänd ner nudlarna i såsen och toppa med färska örter.'
+    ]
+},
+'44472': {
+    title: 'Linssoppa',
+    image: 'bilder/44472.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '2 dl röda linser',
+        '1 gul lök, hackad',
+        '2 vitlöksklyftor, hackade',
+        '1 morot, tärnad',
+        '7 dl grönsaksbuljong',
+        '1 burk krossade tomater (400 g)',
+        '1 tsk spiskummin',
+        '1 tsk paprikapulver',
+        '1 msk olivolja',
+        'Salt och svartpeppar efter smak'
+    ],
+    instructions: [
+        'Fräs grönsaker: Hetta upp olivolja i en kastrull och fräs lök, vitlök och morot tills de är mjuka.',
+        'Tillsätt linser och kryddor: Häll i linser, spiskummin och paprikapulver. Rör om.',
+        'Koka soppan: Tillsätt buljong och krossade tomater. Låt koka i 15 minuter tills linserna är mjuka.',
+        'Mixa (valfritt): Mixa soppan slät med en stavmixer om du önskar. Smaka av med salt och peppar.',
+        'Servera: Servera med en klick crème fraîche och ett gott bröd.'
+    ]
+},
+'44473': {
+    title: 'Krämiga ramen med ägg',
+    image: 'bilder/44473.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g ramen-nudlar',
+        '2 ägg, kokta och halverade',
+        '1 liter kycklingbuljong',
+        '1 msk soja',
+        '1 msk misopasta',
+        '200 ml kokosmjölk',
+        '1 vitlöksklyfta, riven',
+        '1 tsk sesamolja',
+        'Topping: Vårlök, chili och sesamfrön'
+    ],
+    instructions: [
+        'Förbered buljongen: Koka upp kycklingbuljong och tillsätt soja, misopasta, kokosmjölk, vitlök och sesamolja. Låt sjuda i 10 minuter.',
+        'Koka nudlarna: Koka ramen-nudlarna enligt förpackningens anvisningar.',
+        'Montera ramen: Lägg nudlarna i skålar, häll över buljongen och toppa med kokt ägg, vårlök, chili och sesamfrön.',
+        'Servera: Servera genast, gärna med extra soja vid sidan av.'
+    ]
+},
+'44474': {
+    title: 'Pumpasoppa',
+    image: 'bilder/44474.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '500 g pumpa, tärnad (t.ex. butternut squash)',
+        '1 gul lök, hackad',
+        '2 vitlöksklyftor, hackade',
+        '7 dl grönsaksbuljong',
+        '1 dl grädde eller kokosmjölk',
+        '1 tsk spiskummin',
+        '1 msk olivolja',
+        'Salt och svartpeppar efter smak'
+    ],
+    instructions: [
+        'Fräs pumpa och lök: Hetta upp olivolja i en kastrull och fräs pumpa, lök och vitlök tills de mjuknar.',
+        'Koka soppan: Tillsätt buljongen och låt koka i 15 minuter tills pumpan är mjuk.',
+        'Mixa: Mixa soppan slät med en stavmixer. Rör ner grädde och krydda med spiskummin, salt och peppar.',
+        'Servera: Servera med en klick crème fraîche och rostade pumpafrön.'
+    ]
+},
+'44475': {
+    title: 'Kyckling med couscous och tandoori yoghurt',
+    image: 'bilder/44475.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '400 g kycklingfilé',
+        '2 dl couscous',
+        '1 tsk tandoorikrydda',
+        '2 dl grekisk yoghurt',
+        '1 tsk citronsaft',
+        '1 msk olivolja',
+        '1 gurka, skivad',
+        '1 tomat, tärnad',
+        'Salt och svartpeppar efter smak'
+    ],
+    instructions: [
+        'Marinera kycklingen: Blanda tandoorikrydda, citronsaft och lite yoghurt. Gnid in kycklingen och låt marinera i 10 minuter.',
+        'Tillaga couscous: Koka couscous enligt förpackningens anvisningar. Fluffa upp med en gaffel och tillsätt olivolja.',
+        'Stek kycklingen: Hetta upp en panna och stek kycklingen tills den är gyllene och genomstekt, ca 4–5 minuter per sida.',
+        'Servera: Servera kycklingen med couscous, yoghurt och grönsaker.'
+    ]
+},
+'44476': {
+    title: 'One pot pasta och köttfärssås',
+    image: 'bilder/44476.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g pasta (t.ex. penne)',
+        '300 g köttfärs',
+        '1 gul lök, hackad',
+        '2 vitlöksklyftor, hackade',
+        '1 burk krossade tomater (400 g)',
+        '5 dl vatten',
+        '1 tsk torkad basilika',
+        '1 msk olivolja',
+        'Salt och svartpeppar efter smak',
+        '1 dl riven parmesan till servering'
+    ],
+    instructions: [
+        'Stek köttfärs: Hetta upp olivolja i en stor kastrull. Stek köttfärsen tillsammans med lök och vitlök tills allt är brynt.',
+        'Lägg till pasta: Tillsätt pasta, krossade tomater, vatten och basilika. Rör om och låt koka på medelhög värme tills pastan är al dente, ca 10–12 minuter.',
+        'Smaka av: Krydda med salt och peppar.',
+        'Servera: Toppa med riven parmesan och servera direkt.'
+    ]
+},
+'44477': {
+    title: 'Ravioli med grön ärtpesto',
+    image: 'bilder/44477.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g färsk ravioli (t.ex. med ost eller spenatfyllning)',
+        '2 dl gröna ärtor (frysta eller färska)',
+        '1 dl riven parmesan',
+        '2 msk olivolja',
+        '1 vitlöksklyfta',
+        '1 msk citronsaft',
+        'Salt och svartpeppar efter smak',
+        'Färsk basilika till garnering'
+    ],
+    instructions: [
+        'Koka raviolin: Koka raviolin enligt förpackningens anvisningar.',
+        'Gör ärtpeston: Mixa ärtor, parmesan, olivolja, vitlök och citronsaft till en slät pesto. Smaka av med salt och peppar.',
+        'Blanda: Vänd försiktigt ner raviolin i ärtpeston.',
+        'Servera: Toppa med basilika och extra parmesan.'
+    ]
+},
+'44478': {
+    title: 'Pizza med pesto mozzarella salsiccia och tomatsallad',
+    image: 'bilder/44478.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '1 färdig pizzabotten',
+        '3 msk grön pesto',
+        '200 g mozzarella, skivad',
+        '150 g salsiccia, skivad',
+        '2 tomater, tärnade',
+        '1 msk olivolja',
+        'Färsk basilika till garnering'
+    ],
+    instructions: [
+        'Förbered pizzabotten: Sätt ugnen på 225°C. Bred ut pesto på pizzabotten.',
+        'Lägg på fyllningen: Fördela mozzarella och salsiccia över botten.',
+        'Grädda: Grädda i ugnen i 10–12 minuter tills osten smält och salsiccian är gyllene.',
+        'Servera: Toppa med tomatsallad (tomater blandade med olivolja) och färsk basilika.'
+    ]
+},
+'44479': {
+    title: 'Tjockpannkaka',
+    image: 'bilder/44479.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '3 ägg',
+        '6 dl mjölk',
+        '3 dl vetemjöl',
+        '1 tsk salt',
+        '50 g smör, smält',
+        'Lingonsylt och vispad grädde till servering (valfritt)'
+    ],
+    instructions: [
+        'Förbered smeten: Vispa ihop ägg och mjölk. Tillsätt mjöl och salt. Vispa till en slät smet.',
+        'Smöra formen: Häll det smälta smöret i en ugnsform (ca 30x40 cm) och fördela jämnt.',
+        'Grädda pannkakan: Häll smeten i formen och grädda i ugnen på 200°C i 30 minuter tills den är gyllene och fluffig.',
+        'Servera: Servera med lingonsylt och grädde, eller som matigare rätt med bacon och sallad.'
+    ]
+},
+'44480': {
+    title: 'Grönkålspaj',
+    image: 'bilder/44480.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '1 pajskal (färdigköpt eller hemlagat)',
+        '200 g grönkål, hackad',
+        '1 gul lök, finhackad',
+        '2 ägg',
+        '2 dl grädde',
+        '1 dl riven ost (t.ex. Västerbotten eller cheddar)',
+        '1 msk smör för stekning',
+        'Salt och svartpeppar efter smak'
+    ],
+    instructions: [
+        'Förbered grönkålen: Fräs grönkålen och löken i smör tills de mjuknar. Krydda med salt och peppar.',
+        'Förgrädda pajskalet: Sätt ugnen på 200°C och förgrädda pajskalet enligt anvisningarna på förpackningen.',
+        'Gör äggstanningen: Vispa ihop ägg och grädde, och tillsätt riven ost.',
+        'Fyll och grädda: Lägg grönkålsblandningen i pajskalet och häll över äggstanningen. Grädda i ugnen i 25–30 minuter tills pajen är gyllene.',
+        'Servera: Servera med en enkel sallad.'
+    ]
+},
+'44481': {
+    title: 'One pot pasta med bönor och soltorkade tomater',
+    image: 'bilder/44481.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g pasta (t.ex. penne eller farfalle)',
+        '1 burk vita bönor (ca 400 g), sköljda',
+        '100 g soltorkade tomater, strimlade',
+        '2 vitlöksklyftor, finhackade',
+        '5 dl grönsaksbuljong',
+        '1 dl grädde',
+        '1 msk olivolja',
+        '1 dl riven parmesan',
+        'Färsk basilika till garnering'
+    ],
+    instructions: [
+        'Fräs vitlök: Hetta upp olivolja i en stor kastrull och fräs vitlöken kort.',
+        'Tillsätt ingredienserna: Lägg i pasta, bönor, soltorkade tomater och buljong. Låt koka på medelvärme tills pastan är al dente, ca 12 minuter.',
+        'Tillsätt grädden: Rör ner grädden och låt puttra ytterligare någon minut.',
+        'Servera: Toppa med parmesan och basilika.'
+    ]
+},
+'44482': {
+    title: 'Morotsbiffar',
+    image: 'bilder/44482.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '4 morötter, rivna',
+        '1 potatis, riven',
+        '1 ägg',
+        '1 dl ströbröd',
+        '1 msk vetemjöl',
+        '1 tsk spiskummin',
+        'Salt och svartpeppar efter smak',
+        'Smör eller olja för stekning'
+    ],
+    instructions: [
+        'Blanda smeten: Blanda rivna morötter och potatis med ägg, ströbröd, mjöl och kryddor. Forma till små biffar.',
+        'Stek biffarna: Hetta upp smör eller olja i en panna och stek biffarna gyllene på båda sidor.',
+        'Servera: Servera med en yoghurtsås och sallad.'
+    ]
+},
+'44483': {
+    title: 'Majsfritters med yoghurtdipp',
+    image: 'bilder/44483.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '2 burkar majs (á 150 g), avrunnen',
+        '2 ägg',
+        '1 dl vetemjöl',
+        '1 dl riven ost (t.ex. cheddar)',
+        '1 tsk paprikapulver',
+        'Salt och svartpeppar efter smak',
+        'Olja för stekning',
+        'Yoghurtdipp:',
+        '2 dl grekisk yoghurt',
+        '1 vitlöksklyfta, pressad',
+        '1 tsk citronsaft',
+        'Salt och peppar efter smak'
+    ],
+    instructions: [
+        'Gör frittersmeten: Mixa hälften av majsen slät. Blanda med resterande majs, ägg, mjöl, ost och kryddor.',
+        'Stek fritters: Hetta upp olja i en stekpanna och stek små klickar av smeten tills de är gyllene.',
+        'Gör yoghurtdippen: Blanda yoghurt med vitlök, citronsaft, salt och peppar.',
+        'Servera: Servera fritters med yoghurtdippen.'
+    ]
+},
+'44484': {
+    title: 'Räkpasta med chili och vitlök',
+    image: 'bilder/44484.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g pasta (t.ex. spaghetti)',
+        '200 g räkor, skalade',
+        '2 vitlöksklyftor, skivade',
+        '1 röd chili, finhackad',
+        '1 dl vitt vin (valfritt)',
+        '1 dl grädde',
+        '1 msk olivolja',
+        'Färsk persilja till garnering',
+        'Salt och svartpeppar efter smak'
+    ],
+    instructions: [
+        'Koka pastan: Koka pastan enligt förpackningens anvisningar.',
+        'Fräs chili och vitlök: Hetta upp olivolja i en panna och fräs vitlök och chili tills det doftar.',
+        'Gör såsen: Tillsätt vin (om du använder det) och grädde, och låt koka ihop i 2–3 minuter. Smaka av med salt och peppar.',
+        'Lägg till räkorna: Vänd ner räkorna och låt dem bli varma, utan att överkoka.',
+        'Blanda och servera: Vänd ner pastan i såsen och toppa med persilja.'
+    ]
+},
+'44485': {
+    title: 'Tortellini med chili och sesam',
+    image: 'bilder/44485.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g färsk tortellini (t.ex. med ost eller spenatfyllning)',
+        '1 röd chili, finhackad',
+        '1 vitlöksklyfta, finhackad',
+        '2 msk sesamfrön',
+        '1 msk sesamolja',
+        '2 msk soja',
+        '1 msk honung',
+        '1 msk olivolja',
+        'Färsk koriander till garnering'
+    ],
+    instructions: [
+        'Koka tortellinin: Koka tortellini enligt förpackningens anvisningar.',
+        'Rosta sesamfrön: Hetta upp en torr panna och rosta sesamfröna tills de blir gyllene.',
+        'Gör såsen: Hetta upp olivolja och sesamolja i en stekpanna. Fräs chili och vitlök kort. Tillsätt soja och honung, och låt såsen koka ihop.',
+        'Blanda och servera: Vänd ner tortellinin i såsen. Toppa med rostade sesamfrön och koriander.'
+    ]
+},
+'44486': {
+    title: 'Råraka med svamp, bacon och rårörda lingon',
+    image: 'bilder/44486.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '4 stora potatisar, rivna',
+        '200 g svamp, skivad',
+        '150 g bacon, tärnat',
+        '1 msk smör eller olja',
+        '1 dl rårörda lingon',
+        'Salt och svartpeppar efter smak'
+    ],
+    instructions: [
+        'Förbered potatisen: Riv potatisen och pressa ur överflödig vätska. Krydda med salt och peppar.',
+        'Stek rårakor: Hetta upp smör eller olja i en stekpanna och stek potatisen till tunna rårakor, ca 4 minuter per sida.',
+        'Stek bacon och svamp: I en annan panna, stek bacon tills det är knaprigt. Tillsätt svampen och stek tills den är gyllene.',
+        'Servera: Lägg upp rårakorna och toppa med bacon, svamp och rårörda lingon.'
+    ]
+},
+'44487': {
+    title: 'Krämig pasta med kronärtskocka och citron',
+    image: 'bilder/44487.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g pasta (t.ex. linguine)',
+        '1 burk kronärtskockshjärtan (ca 200 g), grovt hackade',
+        '2 dl grädde',
+        '1 citron (saft och zest)',
+        '1 vitlöksklyfta, finhackad',
+        '1 msk olivolja',
+        '1 dl riven parmesan',
+        'Salt och svartpeppar efter smak',
+        'Färsk persilja till garnering'
+    ],
+    instructions: [
+        'Koka pastan: Koka pastan enligt förpackningens anvisningar.',
+        'Förbered såsen: Hetta upp olivolja i en panna. Fräs vitlök kort och tillsätt kronärtskockorna. Rör ner grädde, citronsaft och zest.',
+        'Blanda och smaka av: Vänd ner pastan i såsen och tillsätt parmesan. Smaka av med salt och peppar.',
+        'Servera: Toppa med persilja och extra parmesan.'
+    ]
+},
+'44488': {
+    title: 'Croque monsieur',
+    image: 'bilder/44488.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '8 skivor vitt bröd',
+        '4 skivor skinka',
+        '4 skivor ost (t.ex. Gruyère eller Emmental)',
+        '2 dl béchamelsås (valfritt)',
+        '2 msk smör',
+        'Salt och svartpeppar efter smak'
+    ],
+    instructions: [
+        'Montera smörgåsarna: Lägg en skiva skinka och en skiva ost mellan två brödskivor. Om du vill, bred ett tunt lager béchamelsås på insidan.',
+        'Stek smörgåsarna: Hetta upp smör i en stekpanna och stek smörgåsarna på medelvärme tills brödet är gyllene och osten smält.',
+        'Servera: Servera genast, gärna med en grönsallad vid sidan av.'
+    ]
+},
+'44489': {
+    title: 'Rigatoni allamatriciana',
+    image: 'bilder/44489.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g rigatoni',
+        '150 g pancetta eller bacon, tärnad',
+        '1 burk krossade tomater (400 g)',
+        '1 gul lök, finhackad',
+        '1 röd chili, finhackad (valfritt)',
+        '1 msk olivolja',
+        '1 dl riven pecorino eller parmesan',
+        'Salt och svartpeppar efter smak'
+    ],
+    instructions: [
+        'Koka pastan: Koka rigatoni enligt förpackningens anvisningar.',
+        'Stek pancetta: Hetta upp olivolja i en stekpanna och stek pancettan tills den är krispig. Tillsätt lök och chili och fräs kort.',
+        'Tillsätt tomater: Häll i krossade tomater och låt såsen sjuda i 10 minuter. Smaka av med salt och peppar.',
+        'Blanda och servera: Vänd ner pastan i såsen och toppa med pecorino.'
+    ]
+},
+'44490': {
+    title: 'Fisksoppa med torsk och lax',
+    image: 'bilder/44490.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '200 g torskfilé, tärnad',
+        '200 g laxfilé, tärnad',
+        '1 gul lök, hackad',
+        '2 vitlöksklyftor, hackade',
+        '3 potatisar, tärnade',
+        '2 morötter, skivade',
+        '1 burk krossade tomater (400 g)',
+        '7 dl fiskbuljong',
+        '1 dl grädde',
+        '1 msk olivolja',
+        '1 tsk paprikapulver',
+        'Salt och svartpeppar efter smak',
+        'Färsk dill till garnering'
+    ],
+    instructions: [
+        'Fräs grönsaker: Hetta upp olivolja i en stor kastrull. Fräs lök, vitlök, potatis och morot i några minuter.',
+        'Tillsätt vätska: Häll i krossade tomater och fiskbuljong. Krydda med paprikapulver, salt och peppar. Låt koka i 15 minuter tills potatisen är mjuk.',
+        'Lägg i fisken: Tillsätt torsk och lax och låt sjuda i 5 minuter. Rör ner grädden och smaka av.',
+        'Servera: Toppa med färsk dill och servera med ett gott bröd.'
+    ]
+},
+'44491': {
+    title: 'Thaiwok med glasnudlar och räkor',
+    image: 'bilder/44491.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g glasnudlar',
+        '200 g räkor, skalade',
+        '1 röd paprika, strimlad',
+        '2 morötter, strimlade',
+        '1 dl kokosmjölk',
+        '2 msk fisksås',
+        '1 msk röd currypasta',
+        '1 msk sesamolja',
+        '1 tsk färsk ingefära, riven',
+        'Färsk koriander till garnering'
+    ],
+    instructions: [
+        'Förbered nudlarna: Koka glasnudlarna enligt förpackningens anvisningar och ställ åt sidan.',
+        'Fräs grönsakerna: Hetta upp sesamolja i en wokpanna. Fräs paprika, morötter och ingefära kort.',
+        'Tillsätt såsen: Rör ner kokosmjölk, fisksås och currypasta. Låt sjuda i 5 minuter.',
+        'Lägg till räkor och nudlar: Tillsätt räkor och glasnudlar och blanda väl.',
+        'Servera: Toppa med färsk koriander och servera genast.'
+    ]
+},
+'44492': {
+    title: 'Gratinerad penne pasta',
+    image: 'bilder/44492.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '300 g pennepasta',
+        '200 g kycklingfilé, tärnad',
+        '2 dl crème fraîche',
+        '2 dl riven ost (t.ex. mozzarella eller cheddar)',
+        '1 vitlöksklyfta, hackad',
+        '1 dl passerade tomater',
+        '1 tsk oregano',
+        '1 msk olivolja',
+        'Salt och svartpeppar efter smak'
+    ],
+    instructions: [
+        'Koka pastan: Koka penne enligt förpackningens anvisningar och ställ åt sidan.',
+        'Stek kycklingen: Hetta upp olivolja i en panna och stek kycklingen tills den är genomstekt. Tillsätt vitlök och låt fräsa kort.',
+        'Blanda såsen: Rör ihop crème fraîche, passerade tomater och oregano. Smaka av med salt och peppar.',
+        'Gratinera: Lägg pastan och kycklingen i en ugnsform. Häll över såsen och toppa med riven ost. Gratinera i ugnen på 200°C i 10 minuter.',
+        'Servera: Servera med en fräsch sallad.'
+    ]
+},
+'44493': {
+    title: 'Halloumiburgare med grillad aubergine och chimichurrimajo',
+    image: 'bilder/44493.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '4 skivor halloumi',
+        '4 hamburgerbröd',
+        '1 aubergine, skivad',
+        '2 msk olivolja',
+        '1 dl majonnäs',
+        '2 msk chimichurrisås',
+        'Sallad och tomatskivor till montering'
+    ],
+    instructions: [
+        'Grilla auberginen: Pensla aubergineskivorna med olivolja och grilla i panna eller på grill tills de är mjuka.',
+        'Stek halloumi: Stek halloumin tills den får en gyllene yta.',
+        'Blanda chimichurrimajonäs: Rör ihop majonnäs och chimichurrisås.',
+        'Montera burgarna: Lägg sallad, tomat, halloumi och aubergine mellan bröden. Toppa med chimichurrimajo.',
+        'Servera: Servera med pommes frites eller en enkel sallad.'
+    ]
+},
+'44494': {
+    title: 'Pestopizza med mozzarella, grillad paprika och marinerad fänkål',
+    image: 'bilder/44494.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        '1 färdig pizzabotten',
+        '3 msk grön pesto',
+        '200 g mozzarella, skivad',
+        '1 röd paprika, grillad och strimlad',
+        '1 fänkål, tunt skivad',
+        '1 msk olivolja',
+        '1 tsk citronsaft',
+        'Färsk basilika till garnering'
+    ],
+    instructions: [
+        'Marinera fänkålen: Blanda fänkålsskivorna med olivolja och citronsaft. Låt stå i 10 minuter.',
+        'Förbered pizzabotten: Sätt ugnen på 225°C och bred ut pesto på pizzabotten.',
+        'Lägg på fyllningen: Fördela mozzarella och grillad paprika över pizzabotten. Grädda i 10–12 minuter.',
+        'Toppa: Lägg på den marinerade fänkålen och toppa med basilika.',
+        'Servera: Servera direkt med en grönsallad vid sidan.'
+    ]
+},
+'44495': {
+    title: 'Kycklingspett med jordnötssås',
+    image: 'bilder/44495.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        'Kycklingspett:',
+        '500 g kycklingfilé, skuren i bitar',
+        '2 msk soja',
+        '1 msk honung',
+        '1 msk rapsolja',
+        '1 tsk malen ingefära',
+        '1 tsk paprikapulver',
+        'Träspett (blötlägg i vatten innan användning)',
+        'Jordnötssås:',
+        '2 dl kokosmjölk',
+        '3 msk jordnötssmör',
+        '1 msk soja',
+        '1 tsk röd currypasta',
+        '1 tsk honung',
+        '1 msk limejuice'
+    ],
+    instructions: [
+        'Marinera kycklingen: Blanda soja, honung, olja, ingefära och paprikapulver i en skål. Lägg i kycklingbitarna och låt marinera i minst 15 minuter.',
+        'Gör jordnötssåsen: Värm kokosmjölk i en kastrull. Tillsätt jordnötssmör, soja, currypasta, honung och limejuice. Låt småputtra under omrörning tills såsen tjocknar.',
+        'Trä upp och grilla: Trä kycklingbitarna på spetten och grilla dem i en grillpanna eller ugn på 200°C i ca 10–12 minuter, vänd dem halvvägs.',
+        'Servera: Servera spetten med jordnötssås och valfria tillbehör som ris, sallad eller en fräsch gurksallad.'
+    ]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
   
     
   
-    
+     
 
     };
 
@@ -6071,7 +7210,14 @@ function displayRecipe(recipe) {
     var title = document.createElement('h2');
     title.textContent = recipe.title;
     recipeDiv.appendChild(title);
-
+  
+    var portionText = document.createElement('p');
+    portionText.className = 'portion-text';
+    
+    // Här antar vi att varje recept har en `portion`-egenskap, så vi hämtar den från objektet
+    portionText.textContent = 'Portion: ' + recipe.portion;
+    
+    recipeDiv.appendChild(portionText);
     // Bild
     if (recipe.image) {
         var image = document.createElement('img');
@@ -6080,13 +7226,6 @@ function displayRecipe(recipe) {
         image.className = 'recipe-image';
         recipeDiv.appendChild(image);
     }
- // Portioner (låst till 4 personer)
- var portionContainer = document.createElement('div');
- portionContainer.className = 'portion-container';
- portionContainer.innerHTML = `
-     <p class="portion-label">Portioner: <span class="portion-value">4 </span></p>
- `;
- recipeDiv.appendChild(portionContainer);
 
     // Ingredienser
     var ingredientsTitle = document.createElement('h3');
