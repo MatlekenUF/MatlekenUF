@@ -7213,11 +7213,9 @@ function displayRecipe(recipe) {
   
     var portionText = document.createElement('p');
     portionText.className = 'portion-text';
-    
-    // Här antar vi att varje recept har en `portion`-egenskap, så vi hämtar den från objektet
     portionText.textContent = 'Portion: ' + recipe.portion;
-    
     recipeDiv.appendChild(portionText);
+
     // Bild
     if (recipe.image) {
         var image = document.createElement('img');
@@ -7232,62 +7230,55 @@ function displayRecipe(recipe) {
     ingredientsTitle.textContent = 'Ingredienser:';
     recipeDiv.appendChild(ingredientsTitle);
 
-    // Skapa en container för ingredienser, instruktioner och tips
     var contentContainer = document.createElement('div');
     contentContainer.className = 'content-container';
 
     // Ingredienser list
     var ingredientsList = document.createElement('div');
-    ingredientsList.className = 'ingredients-list'; // Kolumn för ingredienser
+    ingredientsList.className = 'ingredients-list';
     recipe.ingredients.forEach(function(ingredient) {
         var ingredientItem = document.createElement('div');
-        ingredientItem.className = 'ingredient-item'; // Blockformat
+        ingredientItem.className = 'ingredient-item';
         ingredientItem.innerHTML = `<input type="checkbox" class="ingredient-checkbox"> ${ingredient}`;
         ingredientsList.appendChild(ingredientItem);
     });
 
-    // Lägg till ingredienser till container
     contentContainer.appendChild(ingredientsList);
 
-    // Instruktionstitel
+    // Instruktioner list
     var instructionsTitle = document.createElement('h3');
     instructionsTitle.textContent = 'Instruktioner:';
     contentContainer.appendChild(instructionsTitle);
 
-    // Instruktioner list
     var instructionsList = document.createElement('div');
-    instructionsList.className = 'instructions-list'; // Kolumn för instruktioner
+    instructionsList.className = 'instructions-list';
     recipe.instructions.forEach(function(instruction) {
         var instructionItem = document.createElement('div');
-        instructionItem.className = 'instruction-item'; // Blockformat
+        instructionItem.className = 'instruction-item';
         instructionItem.innerHTML = `<input type="checkbox" class="instruction-checkbox"> ${instruction}`;
         instructionsList.appendChild(instructionItem);
     });
 
-    // Lägg till instruktioner till container
     contentContainer.appendChild(instructionsList);
 
-    // Tips titel
+    // Tips list
     if (recipe.tips && recipe.tips.length > 0) {
         var tipsTitle = document.createElement('h3');
         tipsTitle.textContent = 'Tips:';
         contentContainer.appendChild(tipsTitle);
 
-        // Tips list
         var tipsList = document.createElement('div');
-        tipsList.className = 'tips-list'; // Kolumn för tips
+        tipsList.className = 'tips-list';
         recipe.tips.forEach(function(tip) {
             var tipItem = document.createElement('div');
-            tipItem.className = 'tip-item'; // Blockformat
+            tipItem.className = 'tip-item';
             tipItem.innerHTML = `<input type="checkbox" class="tip-checkbox"> ${tip}`;
             tipsList.appendChild(tipItem);
         });
 
-        // Lägg till tips till container
         contentContainer.appendChild(tipsList);
     }
 
-    // Lägg till hela innehållet (ingredienser, instruktioner och tips) till receptet
     recipeDiv.appendChild(contentContainer);
 
     // Lägg till receptet i resultsektionen
@@ -7301,11 +7292,13 @@ function displayRecipe(recipe) {
         document.getElementById('recipeSection').classList.remove('active');
     });
     recipeDiv.appendChild(closeBtn);
+// Stäng modal vid klick utanför innehållet
+
 
     // Timer
     var timer = document.createElement('div');
     timer.className = 'timer-container';
-    timer.innerHTML =  `
+    timer.innerHTML = `
         <label for="timerInput">Ställ in timer (minuter): </label>
         <input type="number" id="timerInput" min="1" value="30">
         <button id="startTimer">Starta Timer</button>
@@ -7316,8 +7309,8 @@ function displayRecipe(recipe) {
     resultSection.appendChild(recipeDiv);
 
     // Timer funktionalitet
-    let timerInterval = null; // Spara referensen till intervallet
-    let countdown = 30 * 60; // Default till 30 minuter i sekunder
+    let timerInterval = null;
+    let countdown = 30 * 60;
 
     document.getElementById('startTimer').addEventListener('click', function () {
         // Avbryt eventuell tidigare timer
@@ -7336,10 +7329,17 @@ function displayRecipe(recipe) {
 
             if (countdown < 0) {
                 clearInterval(timerInterval);
-                timerInterval = null; // Nollställ referensen
+                timerInterval = null; 
                 alert('Timer är slut!');
             }
         }, 1000);
+    });
+    // Lägg till eventlyssnare för att stänga fönstret när man klickar utanför
+    var recipeSection = document.getElementById('recipeSection');
+    recipeSection.addEventListener('click', function(e) {
+        if (e.target === recipeSection) {
+            recipeSection.classList.remove('active');
+        }
     });
 }
 
