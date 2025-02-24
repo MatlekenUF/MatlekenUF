@@ -23,6 +23,7 @@ function getRecipeByCode(code) {
         '11111': {
             title: 'Lasagne med halloumi, spenat och pumpakärnor',
             image: 'bilder/11111.png',  // Bildens väg
+            portion: ' (4 portioner)',
             ingredients: [
                 'Lasagneplattor (gärna fullkorn) – ca 9–12 st',
                 'Halloumi – 400 g',
@@ -51,236 +52,364 @@ function getRecipeByCode(code) {
                 'Servera: Låt lasagnen vila i några minuter innan servering. Garnera med färsk basilika och eventuellt mer rostade pumpakärnor.'
             ]
         },
-        '11112': {
-            title: 'Palak Paneer',
-            image: 'bilder/11112.png',  // Bildens väg
-            description: 'En klassisk indisk rätt med spenat och paneer, full av smak och perfekt att servera med naan eller ris.',
-            ingredients: [
-                'Färsk spenat – 400 g (eller fryst, tinad spenat – 500 g)',
-                'Paneer – 250 g (indisk färskost, kan ersättas med halloumi eller tofu)',
-                'Gul lök – 1 st, finhackad',
-                'Vitlöksklyftor – 3 st, finhackade',
-                'Ingefära – 2 cm färsk bit, riven',
-                'Tomat – 2 st, hackade (eller 1 dl krossade tomater)',
-                'Grön chili – 1 st, finhackad (justera efter smak)',
-                'Matolja eller ghee – 2 msk',
-                'Grädde eller kokosmjölk – 1 dl',
-                'Kryddor:',
-                'Garam masala – 1 tsk',
-                'Kumminfrön – 1 tsk',
-                'Korianderpulver – 1 tsk',
-                'Kurkuma – ½ tsk',
-                'Paprikapulver – ½ tsk',
-                'Salt – efter smak',
-                'För topping:',
-                'Färsk koriander – en handfull, hackad',
-                'Citron – några klyftor för servering'
-            ],
-            instructions: [
-                'Förbered spenaten: Om du använder färsk spenat, skölj den noggrant och blanchera (koka snabbt i några minuter). Häll av vattnet och mixa spenaten till en slät puré med hjälp av en mixer eller stavmixer. Ställ åt sidan. Om du använder fryst spenat, tina och mixa direkt.',
-                'Förbered paneer: Skär paneer i kuber. Stek dem gyllene i lite olja eller ghee i en panna. Lägg åt sidan på en tallrik.',
-                'Fräs kryddor och grönsaker: Värm olja eller ghee i en djup panna eller gryta. Tillsätt kumminfrön och låt dem fräsa tills de börjar spraka. Tillsätt lök och fräs tills den är gyllenbrun. Rör ner vitlök, ingefära och grön chili, och fräs ytterligare någon minut.',
-                'Laga basen: Tillsätt hackade tomater och låt dem koka ner tills de blir en tjock sås. Krydda med korianderpulver, kurkuma, paprikapulver och garam masala. Rör om väl.',
-                'Blanda i spenat och grädde: Häll ner spenatpurén i grytan och rör om. Låt koka på medelvärme i ca 5 minuter. Tillsätt grädde eller kokosmjölk för en krämigare konsistens. Smaka av med salt.',
-                'Tillsätt paneer: Lägg de stekta paneerbitarna i spenatröran och låt allt puttra i ytterligare 5 minuter så att smakerna blandas väl.',
-                'Servera: Toppa med färsk koriander och servera med nybakade naanbröd, basmatiris och citronklyftor vid sidan om.'
-            ]
-        },
-        '11113': {
-            title: 'Linscurry med kokosmjölk och lime',
-            image: 'bilder/11113.png',  // Bildens väg
-            description: 'En smakrik och mättande linscurry med en hint av lime, perfekt med ris eller naan.',
-            ingredients: [
-                'Röda linser – 2 dl (sköljda)',
-                'Kokosmjölk – 400 ml (1 burk)',
-                'Gul lök – 1 st, finhackad',
-                'Vitlöksklyftor – 3 st, finhackade',
-                'Färsk ingefära – 2 cm, riven',
-                'Grön chili – 1 st, finhackad (justera efter smak)',
-                'Tomat – 2 st, hackade (eller 1 dl krossade tomater)',
-                'Grönsaksbuljong – 4 dl',
-                'Kokosolja eller annan olja – 2 msk',
-                'Kryddor:',
-                'Korianderpulver – 1 tsk',
-                'Spiskummin – 1 tsk',
-                'Gurkmeja – ½ tsk',
-                'Paprikapulver – ½ tsk',
-                'Salt och peppar – efter smak',
-                'För topping:',
-                'Färsk koriander – en handfull, hackad',
-                'Lime – 1 st (juice och zest)',
-                'Rostade cashewnötter eller jordnötter – 50 g',
-                'Till servering:',
-                'Basmatiris eller naanbröd'
-            ],
-            instructions: [
-                'Förbered basen: Värm kokosolja i en stor kastrull eller gryta. Fräs lök tills den blir gyllene. Tillsätt vitlök, ingefära och chili, och fräs ytterligare en minut.',
-                'Tillsätt kryddor och tomat: Blanda ner korianderpulver, spiskummin, gurkmeja och paprikapulver. Fräs kryddorna snabbt för att frigöra deras aromer. Tillsätt hackade tomater och låt dem koka ner till en sås.',
-                'Koka linserna: Tillsätt de sköljda linserna, kokosmjölken och grönsaksbuljongen. Rör om och låt det hela koka upp. Sänk värmen och låt sjuda i 15–20 minuter tills linserna är mjuka och curryn har tjocknat. Smaka av med salt och peppar.',
-                'Tillsätt lime: Pressa i limejuice och blanda ner limeskal för en fräsch och syrlig smak.',
-                'Servera och toppa: Skeda upp linscurryn i skålar och toppa med färsk koriander och rostade cashewnötter. Servera med nykokt basmatiris eller varmt naanbröd.'
-            ]
-        },
-        '11114': {
-            title: 'Zucchiniplättar med fetaost och dill',
-            image: 'bilder/11114.png',
-            description: 'Fräscha zucchiniplättar med fetaost och dill, perfekt för en lättare måltid.',
-            ingredients: [
-                'Zucchini – 2 st (ca 500 g)',
-                'Fetaost – 150 g, smulad',
-                'Ägg – 2 st',
-                'Vetemjöl – 1 dl (eller mandelmjöl för en glutenfri variant)',
-                'Färsk dill – 3 msk, finhackad',
-                'Vårlök – 2 st, finhackade (eller en liten gul lök)',
-                'Vitlöksklyfta – 1 st, riven',
-                'Salt – ½ tsk',
-                'Svartpeppar – efter smak',
-                'Olivolja eller smör – för stekning',
-                'Till servering:',
-                'Grekisk yoghurt eller tzatziki',
-                'Citronklyftor',
-                'Sallad eller färska grönsaker'
-            ],
-            instructions: [
-                'Förbered zucchinin: Riv zucchinin grovt och lägg den i ett durkslag. Strö över saltet och låt stå i ca 10 minuter för att dra ur vätskan. Pressa sedan ur så mycket vätska som möjligt med händerna eller en ren kökshandduk.',
-                'Blanda smeten: I en stor skål, vispa upp äggen. Tillsätt den urpressade zucchinin, smulad fetaost, hackad dill, vårlök och vitlök. Blanda ner mjölet och rör om tills smeten är jämn. Krydda med svartpeppar.',
-                'Stek plättarna: Hetta upp olivolja eller smör i en stekpanna på medelvärme. Klicka ut smeten med en sked och platta till så att de blir platta plättar. Stek i 3–4 minuter per sida tills de är gyllenbruna och genomstekta.',
-                'Servera: Lägg upp plättarna på ett fat och servera med en klick grekisk yoghurt eller tzatziki. Garnera med citronklyftor och servera med en fräsch sallad.'
-            ]
-        },
-        '11115': {
-            title: 'Spaghetti med linsbolognese',
-            image: 'bilder/11115.png',
-            description: 'En vegetarisk twist på klassisk bolognese med linser, perfekt till spaghetti.',
-            ingredients: [
-                'Spaghetti – 400 g (gärna fullkorn eller glutenfri)',
-                'Röda eller gröna linser – 2 dl (sköljda och avrunna, eller 1 burk/kartong kokta linser)',
-                'Gul lök – 1 st, finhackad',
-                'Vitlöksklyftor – 3 st, finhackade',
-                'Morot – 1 st, riven',
-                'Stjälkselleri – 1 st, finhackad (valfritt)',
-                'Krossade tomater – 1 burk (400 g)',
-                'Tomatpuré – 2 msk',
-                'Grönsaksbuljong – 3 dl',
-                'Torkad oregano – 1 tsk',
-                'Torkad basilika – 1 tsk',
-                'Paprikapulver – ½ tsk',
-                'Salt och peppar – efter smak',
-                'Olivolja – 2 msk',
-                'Färsk basilika – till servering',
-                'Till servering:',
-                'Riven parmesanost eller veganskt alternativ',
-                'Bröd eller sallad vid sidan om'
-            ],
-            instructions: [
-                'Koka spaghettin: Koka pastan enligt förpackningens anvisningar. Häll av vattnet och håll varmt.',
-                'Förbered bolognesen: Hetta upp olivolja i en stor panna eller gryta. Fräs lök och vitlök tills de är mjuka. Tillsätt morot och selleri, och fräs ytterligare några minuter.',
-                'Tillsätt linser och tomater: Rör ner linserna, tomatpuré, och krossade tomater. Häll i grönsaksbuljongen och krydda med oregano, basilika, paprikapulver, salt och peppar.',
-                'Låt sjuda: Låt såsen sjuda på medelvärme i 15–20 minuter tills linserna är mjuka och såsen har tjocknat. Smaka av och justera kryddningen vid behov.',
-                'Servera: Lägg upp spaghettin på tallrikar och toppa med linsbolognese. Strö över riven parmesan och färsk basilika. Servera gärna med en fräsch sallad eller bröd vid sidan av.'
-            ]
-        },
-        '11116': {
-            title: 'Morotssoppa med kokos',
-            image: 'bilder/11116.png',
-            description: 'En krämig och smakrik soppa med morötter och kokosmjölk, perfekt för en mysig middag.',
-            ingredients: [
-                'Morötter – 800 g, skalade och skivade',
-                'Gul lök – 1 st, hackad',
-                'Vitlöksklyftor – 2 st, hackade',
-                'Ingefära – 3 cm, riven',
-                'Grönsaksbuljong – 8 dl',
-                'Kokosmjölk – 400 ml (1 burk)',
-                'Röd currypasta – 1–2 msk (justera efter smak)',
-                'Olivolja – 2 msk',
-                'Lime – 1 st, saft och zest',
-                'Salt och peppar – efter smak',
-                'Topping (valfritt):',
-                'Rostade kokosflakes',
-                'Färsk koriander – hackad',
-                'Pumpakärnor eller rostade jordnötter',
-                'Till servering:',
-                'Nybakat bröd eller naan'
-            ],
-            instructions: [
-                'Förbered basen: Hetta upp olivolja i en stor gryta. Fräs lök, vitlök och ingefära tills löken blir mjuk och doftar aromatiskt.',
-                'Tillsätt morötter och currypasta: Lägg i skivade morötter och rör ner röd currypasta. Fräs allt i några minuter så att smakerna utvecklas.',
-                'Tillsätt buljong och koka: Häll i grönsaksbuljongen och låt soppan koka upp. Sänk värmen och låt sjuda i ca 15–20 minuter, eller tills morötterna är mjuka.',
-                'Mixa soppan: Använd en stavmixer eller häll soppan i en blender och mixa den slät. Häll tillbaka soppan i grytan.',
-                'Tillsätt kokosmjölk och lime: Rör ner kokosmjölken och låt soppan bli varm igen. Smaka av med limejuice, limeskal, salt och peppar.',
-                'Servera: Häll upp soppan i skålar och toppa med rostade kokosflakes, färsk koriander och pumpakärnor om du vill. Servera med nybakat bröd eller naan vid sidan av.'
-            ]
-        },
-        '11117': {
-            title: 'Risonisallad',
-            image: 'bilder/11117.png',
-            description: 'En fräsch och matig risonisallad med fetaost och grönsaker, perfekt som tillbehör eller lätt huvudrätt.',
-            ingredients: [
-                'Risoni (pastasorten) – 3 dl',
-                'Körsbärstomater – 250 g, halverade',
-                'Gurka – 1 st, tärnad',
-                'Fetaost – 150 g, smulad (eller veganskt alternativ)',
-                'Rödlök – 1 liten, tunt skivad',
-                'Svarta oliver – 1 dl, urkärnade',
-                'Rostade solrosfrön – ½ dl (eller pumpakärnor)',
-                'Färsk spenat – 2 nävar',
-                'Färska örter – t.ex. basilika och persilja, hackade',
-                'Dressing:',
-                'Olivolja – 3 msk',
-                'Citronsaft – 2 msk',
-                'Vitlök – 1 liten klyfta, riven',
-                'Honung – 1 tsk (eller agavesirap för veganskt)',
-                'Salt och peppar – efter smak'
-            ],
-            instructions: [
-                'Koka risoni: Koka risonin enligt förpackningens anvisningar i lättsaltat vatten. Häll av vattnet och låt svalna.',
-                'Förbered grönsakerna: Medan risonin svalnar, skär körsbärstomater, gurka och rödlök. Blanda dessa i en stor skål tillsammans med spenat, svarta oliver och smulad fetaost.',
-                'Rosta frön: Rosta solrosfrön eller pumpakärnor i en torr panna tills de är gyllene. Låt svalna och strö över salladen.',
-                'Blanda dressing: Vispa ihop olivolja, citronsaft, riven vitlök, honung, salt och peppar i en liten skål. Justera smakerna efter behov.',
-                'Blanda salladen: Blanda den kokta och avsvalnade risonin med grönsakerna i skålen. Häll över dressingen och blanda väl.',
-                'Servera: Toppa med hackade örter och de rostade fröna. Servera som en lätt huvudrätt eller som tillbehör till grillade grönsaker eller bröd.'
-            ]
-        },
-        '11118': {
-            title: 'Halloumipytt med örtsmör och senapskräm',
-            image: 'bilder/11118.png',
-            description: 'En smakrik halloumipytt med hemgjort örtsmör och en krämig senapsdipp.',
-            ingredients: [
-                'Halloumipytt:',
-                'Halloumi – 400 g, tärnad',
-                'Potatis – 600 g, tärnad (skalad eller med skal)',
-                'Morötter – 2 st, tärnade',
-                'Palsternacka – 1 st, tärnad (valfritt)',
-                'Röd paprika – 1 st, tärnad',
-                'Rödlök – 1 st, grovhackad',
-                'Vitlöksklyftor – 2 st, finhackade',
-                'Smör eller olivolja – för stekning',
-                'Färsk persilja – en handfull, hackad',
-                'Salt och svartpeppar – efter smak',
-                'Örtsmör:',
-                'Smör – 100 g, rumsvarmt',
-                'Färska örter – t.ex. persilja, dill och gräslök, finhackade',
-                'Vitlöksklyfta – 1 liten, riven',
-                'Citronzest – från ½ citron',
-                'Salt och peppar – efter smak',
-                'Senapskräm:',
-                'Grekisk yoghurt – 2 dl',
-                'Dijonsenap – 1 msk',
-                'Honung – 1 tsk',
-                'Salt och peppar – efter smak'
-            ],
-            instructions: [
-                'Förbered halloumipytten: Koka de tärnade potatisarna och morötterna i lättsaltat vatten i ca 5 minuter. De ska vara lite mjuka men inte genomkokta. Häll av vattnet och låt ånga av.',
-                'Stek grönsaker och halloumi: Hetta upp en stor stekpanna med lite smör eller olja. Stek potatis, morötter och eventuellt palsternacka tills de är gyllene och knapriga. Tillsätt paprika, rödlök och vitlök, och stek ytterligare några minuter. Lägg till slut i halloumin och stek tills den får en gyllenbrun yta. Smaka av med salt och peppar.',
-                'Gör örtsmöret: Blanda det rumsvarma smöret med finhackade örter, riven vitlök, citronzest, salt och peppar. Forma till en liten rulle i plastfolie och lägg i kylen tills det stelnar.',
-                'Gör senapskrämen: Blanda grekisk yoghurt med dijonsenap, honung, salt och peppar. Smaka av och justera kryddningen vid behov.',
-                'Servera: Lägg upp halloumipytten på tallrikar. Toppa med en klick örtsmör som får smälta över pytten. Servera med senapskrämen vid sidan av.'
-            ]
-        },
-        '11119': {
+ '11112': {
+    title: 'Palak Paneer',
+    image: 'bilder/11112.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        'Färsk spenat – 400 g (eller fryst, tinad spenat – 500 g)',
+        'Paneer – 250 g (indisk färskost, kan ersättas med halloumi eller tofu)',
+        'Gul lök – 1 st, finhackad',
+        'Vitlöksklyftor – 3 st, finhackade',
+        'Ingefära – 2 cm färsk bit, riven',
+        'Tomat – 2 st, hackade (eller 1 dl krossade tomater)',
+        'Grön chili – 1 st, finhackad (justera efter smak)',
+        'Matolja eller ghee – 2 msk',
+        'Grädde eller kokosmjölk – 1 dl',
+        'Kryddor:',
+        'Garam masala – 1 tsk',
+        'Kumminfrön – 1 tsk',
+        'Korianderpulver – 1 tsk',
+        'Kurkuma – ½ tsk',
+        'Paprikapulver – ½ tsk',
+        'Salt – efter smak',
+        'För topping:',
+        'Färsk koriander – en handfull, hackad',
+        'Citron – några klyftor för servering'
+    ],
+    instructions: [
+        'Förbered spenaten: Om du använder färsk spenat, skölj den noggrant och blanchera (koka snabbt i några minuter). Häll av vattnet och mixa spenaten till en slät puré med hjälp av en mixer eller stavmixer. Ställ åt sidan. Om du använder fryst spenat, tina och mixa direkt.',
+        'Förbered paneer: Skär paneer i kuber. Stek dem gyllene i lite olja eller ghee i en panna. Lägg åt sidan på en tallrik.',
+        'Fräs kryddor och grönsaker: Värm olja eller ghee i en djup panna eller gryta. Tillsätt kumminfrön och låt dem fräsa tills de börjar spraka. Tillsätt lök och fräs tills den är gyllenbrun. Rör ner vitlök, ingefära och grön chili, och fräs ytterligare någon minut.',
+        'Laga basen: Tillsätt hackade tomater och låt dem koka ner tills de blir en tjock sås. Krydda med korianderpulver, kurkuma, paprikapulver och garam masala. Rör om väl.',
+        'Blanda i spenat och grädde: Häll ner spenatpurén i grytan och rör om. Låt koka på medelvärme i ca 5 minuter. Tillsätt grädde eller kokosmjölk för en krämigare konsistens. Smaka av med salt.',
+        'Tillsätt paneer: Lägg de stekta paneerbitarna i spenatröran och låt allt puttra i ytterligare 5 minuter så att smakerna blandas väl.',
+        'Servera: Toppa med färsk koriander och servera med nybakade naanbröd, basmatiris och citronklyftor vid sidan om.'
+    ],
+    tips: [
+        'För en vegansk variant, byt ut paneer mot tofu och använd kokosmjölk istället för grädde.'
+    ]
+},
+
+'11113': {
+    title: 'Linscurry med kokosmjölk och lime',
+    image: 'bilder/11113.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        'Röda linser – 2 dl (sköljda)',
+        'Kokosmjölk – 400 ml (1 burk)',
+        'Gul lök – 1 st, finhackad',
+        'Vitlöksklyftor – 3 st, finhackade',
+        'Färsk ingefära – 2 cm, riven',
+        'Grön chili – 1 st, finhackad (justera efter smak)',
+        'Tomat – 2 st, hackade (eller 1 dl krossade tomater)',
+        'Grönsaksbuljong – 4 dl',
+        'Kokosolja eller annan olja – 2 msk',
+        'Kryddor:',
+        'Korianderpulver – 1 tsk',
+        'Spiskummin – 1 tsk',
+        'Gurkmeja – ½ tsk',
+        'Paprikapulver – ½ tsk',
+        'Salt och peppar – efter smak',
+        'För topping:',
+        'Färsk koriander – en handfull, hackad',
+        'Lime – 1 st (juice och zest)',
+        'Rostade cashewnötter eller jordnötter – 50 g',
+        'Till servering:',
+        'Basmatiris eller naanbröd'
+    ],
+    instructions: [
+        'Förbered basen: Värm kokosolja i en stor kastrull eller gryta. Fräs lök tills den blir gyllene. Tillsätt vitlök, ingefära och chili, och fräs ytterligare en minut.',
+        'Tillsätt kryddor och tomat: Blanda ner korianderpulver, spiskummin, gurkmeja och paprikapulver. Fräs kryddorna snabbt för att frigöra deras aromer. Tillsätt hackade tomater och låt dem koka ner till en sås.',
+        'Koka linserna: Tillsätt de sköljda linserna, kokosmjölken och grönsaksbuljongen. Rör om och låt det hela koka upp. Sänk värmen och låt sjuda i 15–20 minuter tills linserna är mjuka och curryn har tjocknat. Smaka av med salt och peppar.',
+        'Tillsätt lime: Pressa i limejuice och blanda ner limeskal för en fräsch och syrlig smak.',
+        'Servera och toppa: Skeda upp linscurryn i skålar och toppa med färsk koriander och rostade cashewnötter. Servera med nykokt basmatiris eller varmt naanbröd.'
+    ],
+    tips: [
+        'Vill du göra rätten mer matig? Tillsätt tärnad sötpotatis, morot eller blomkål samtidigt som linserna för extra smak och textur.'
+    ]
+},
+'11114': {
+    title: 'Zucchiniplättar med fetaost och dill',
+    image: 'bilder/11114.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        'Zucchini – 2 st (ca 500 g)',
+        'Fetaost – 150 g, smulad',
+        'Ägg – 2 st',
+        'Vetemjöl – 1 dl (eller mandelmjöl för en glutenfri variant)',
+        'Färsk dill – 3 msk, finhackad',
+        'Vårlök – 2 st, finhackade (eller en liten gul lök)',
+        'Vitlöksklyfta – 1 st, riven',
+        'Salt – ½ tsk',
+        'Svartpeppar – efter smak',
+        'Olivolja eller smör – för stekning',
+        'Till servering:',
+        'Grekisk yoghurt eller tzatziki',
+        'Citronklyftor',
+        'Sallad eller färska grönsaker'
+    ],
+    instructions: [
+        'Förbered zucchinin: Riv zucchinin grovt och lägg den i ett durkslag. Strö över saltet och låt stå i ca 10 minuter för att dra ur vätskan. Pressa sedan ur så mycket vätska som möjligt med händerna eller en ren kökshandduk.',
+        'Blanda smeten: I en stor skål, vispa upp äggen. Tillsätt den urpressade zucchinin, smulad fetaost, hackad dill, vårlök och vitlök. Blanda ner mjölet och rör om tills smeten är jämn. Krydda med svartpeppar.',
+        'Stek plättarna: Hetta upp olivolja eller smör i en stekpanna på medelvärme. Klicka ut smeten med en sked och platta till så att de blir platta plättar. Stek i 3–4 minuter per sida tills de är gyllenbruna och genomstekta.',
+        'Servera: Lägg upp plättarna på ett fat och servera med en klick grekisk yoghurt eller tzatziki. Garnera med citronklyftor och servera med en fräsch sallad.'
+    ],
+    tips: [
+        'För extra crunch, tillsätt en näve hackade nötter eller solrosfrön i smeten. Plättarna är även goda att förbereda i förväg och värma upp vid servering!'
+    ]
+},
+'11115': {
+    title: 'Spaghetti med linsbolognese',
+    image: 'bilder/11115.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        'Spaghetti – 400 g (gärna fullkorn eller glutenfri)',
+        'Röda eller gröna linser – 2 dl (sköljda och avrunna, eller 1 burk/kartong kokta linser)',
+        'Gul lök – 1 st, finhackad',
+        'Vitlöksklyftor – 3 st, finhackade',
+        'Morot – 1 st, riven',
+        'Stjälkselleri – 1 st, finhackad (valfritt)',
+        'Krossade tomater – 1 burk (400 g)',
+        'Tomatpuré – 2 msk',
+        'Grönsaksbuljong – 3 dl',
+        'Torkad oregano – 1 tsk',
+        'Torkad basilika – 1 tsk',
+        'Paprikapulver – ½ tsk',
+        'Salt och peppar – efter smak',
+        'Olivolja – 2 msk',
+        'Färsk basilika – till servering',
+        'Till servering:',
+        'Riven parmesanost eller veganskt alternativ',
+        'Bröd eller sallad vid sidan om'
+    ],
+    instructions: [
+        'Koka spaghettin: Koka pastan enligt förpackningens anvisningar. Häll av vattnet och håll varmt.',
+        'Förbered bolognesen: Hetta upp olivolja i en stor panna eller gryta. Fräs lök och vitlök tills de är mjuka. Tillsätt morot och selleri, och fräs ytterligare några minuter.',
+        'Tillsätt linser och tomater: Rör ner linserna, tomatpuré, och krossade tomater. Häll i grönsaksbuljongen och krydda med oregano, basilika, paprikapulver, salt och peppar.',
+        'Låt sjuda: Låt såsen sjuda på medelvärme i 15–20 minuter tills linserna är mjuka och såsen har tjocknat. Smaka av och justera kryddningen vid behov.',
+        'Servera: Lägg upp spaghettin på tallrikar och toppa med linsbolognese. Strö över riven parmesan och färsk basilika. Servera gärna med en fräsch sallad eller bröd vid sidan av.'
+    ],
+    tips: [
+        'Vill du ha en extra mustig smak? Tillsätt en skvätt rött vin när du fräser grönsakerna, eller en nypa socker för att balansera syran i tomaterna.'
+    ]
+},
+'11116': {
+    title: 'Morotssoppa med kokos',
+    image: 'bilder/11116.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        'Morötter – 800 g, skalade och skivade',
+        'Gul lök – 1 st, hackad',
+        'Vitlöksklyftor – 2 st, hackade',
+        'Ingefära – 3 cm, riven',
+        'Grönsaksbuljong – 8 dl',
+        'Kokosmjölk – 400 ml (1 burk)',
+        'Röd currypasta – 1–2 msk (justera efter smak)',
+        'Olivolja – 2 msk',
+        'Lime – 1 st, saft och zest',
+        'Salt och peppar – efter smak',
+        'Topping (valfritt):',
+        'Rostade kokosflakes',
+        'Färsk koriander – hackad',
+        'Pumpakärnor eller rostade jordnötter',
+        'Till servering:',
+        'Nybakat bröd eller naan'
+    ],
+    instructions: [
+        'Förbered basen: Hetta upp olivolja i en stor gryta. Fräs lök, vitlök och ingefära tills löken blir mjuk och doftar aromatiskt.',
+        'Tillsätt morötter och currypasta: Lägg i skivade morötter och rör ner röd currypasta. Fräs allt i några minuter så att smakerna utvecklas.',
+        'Tillsätt buljong och koka: Häll i grönsaksbuljongen och låt soppan koka upp. Sänk värmen och låt sjuda i ca 15–20 minuter, eller tills morötterna är mjuka.',
+        'Mixa soppan: Använd en stavmixer eller häll soppan i en blender och mixa den slät. Häll tillbaka soppan i grytan.',
+        'Tillsätt kokosmjölk och lime: Rör ner kokosmjölken och låt soppan bli varm igen. Smaka av med limejuice, limeskal, salt och peppar.',
+        'Servera: Häll upp soppan i skålar och toppa med rostade kokosflakes, färsk koriander och pumpakärnor om du vill. Servera med nybakat bröd eller naan vid sidan av.'
+    ],
+    tips: [
+        'För en extra touch kan du lägga till en nypa chiliflakes för mer hetta eller riva ner lite apelsinskal för en sötare citruston.'
+    ]
+},
+'11117': {
+    title: 'Risonisallad',
+    image: 'bilder/11117.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        'Risoni (pastasorten) – 3 dl',
+        'Körsbärstomater – 250 g, halverade',
+        'Gurka – 1 st, tärnad',
+        'Fetaost – 150 g, smulad (eller veganskt alternativ)',
+        'Rödlök – 1 liten, tunt skivad',
+        'Svarta oliver – 1 dl, urkärnade',
+        'Rostade solrosfrön – ½ dl (eller pumpakärnor)',
+        'Färsk spenat – 2 nävar',
+        'Färska örter – t.ex. basilika och persilja, hackade',
+        'Dressing:',
+        'Olivolja – 3 msk',
+        'Citronsaft – 2 msk',
+        'Vitlök – 1 liten klyfta, riven',
+        'Honung – 1 tsk (eller agavesirap för veganskt)',
+        'Salt och peppar – efter smak'
+    ],
+    instructions: [
+        'Koka risoni: Koka risonin enligt förpackningens anvisningar i lättsaltat vatten. Häll av vattnet och låt svalna.',
+        'Förbered grönsakerna: Medan risonin svalnar, skär körsbärstomater, gurka och rödlök. Blanda dessa i en stor skål tillsammans med spenat, svarta oliver och smulad fetaost.',
+        'Rosta frön: Rosta solrosfrön eller pumpakärnor i en torr panna tills de är gyllene. Låt svalna och strö över salladen.',
+        'Blanda dressing: Vispa ihop olivolja, citronsaft, riven vitlök, honung, salt och peppar i en liten skål. Justera smakerna efter behov.',
+        'Blanda salladen: Blanda den kokta och avsvalnade risonin med grönsakerna i skålen. Häll över dressingen och blanda väl.',
+        'Servera: Toppa med hackade örter och de rostade fröna. Servera som en lätt huvudrätt eller som tillbehör till grillade grönsaker eller bröd.'
+    ],
+    tips: [
+        'Vill du göra salladen mer matig? Tillsätt grillade grönsaker som zucchini eller aubergine, eller blanda ner kokta kikärtor för extra protein.'
+    ]
+},
+'11118': {
+    title: 'Halloumipytt med örtsmör och senapskräm',
+    image: 'bilder/11118.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        'Halloumipytt:',
+        'Halloumi – 400 g, tärnad',
+        'Potatis – 600 g, tärnad (skalad eller med skal)',
+        'Morötter – 2 st, tärnade',
+        'Palsternacka – 1 st, tärnad (valfritt)',
+        'Röd paprika – 1 st, tärnad',
+        'Rödlök – 1 st, grovhackad',
+        'Vitlöksklyftor – 2 st, finhackade',
+        'Smör eller olivolja – för stekning',
+        'Färsk persilja – en handfull, hackad',
+        'Salt och svartpeppar – efter smak',
+        'Örtsmör:',
+        'Smör – 100 g, rumsvarmt',
+        'Färska örter – t.ex. persilja, dill och gräslök, finhackade',
+        'Vitlöksklyfta – 1 liten, riven',
+        'Citronzest – från ½ citron',
+        'Salt och peppar – efter smak',
+        'Senapskräm:',
+        'Grekisk yoghurt – 2 dl',
+        'Dijonsenap – 1 msk',
+        'Honung – 1 tsk',
+        'Salt och peppar – efter smak'
+    ],
+    instructions: [
+        'Förbered halloumipytten: Koka de tärnade potatisarna och morötterna i lättsaltat vatten i ca 5 minuter. De ska vara lite mjuka men inte genomkokta. Häll av vattnet och låt ånga av.',
+        'Stek grönsaker och halloumi: Hetta upp en stor stekpanna med lite smör eller olja. Stek potatis, morötter och eventuellt palsternacka tills de är gyllene och knapriga. Tillsätt paprika, rödlök och vitlök, och stek ytterligare några minuter. Lägg till slut i halloumin och stek tills den får en gyllenbrun yta. Smaka av med salt och peppar.',
+        'Gör örtsmöret: Blanda det rumsvarma smöret med finhackade örter, riven vitlök, citronzest, salt och peppar. Forma till en liten rulle i plastfolie och lägg i kylen tills det stelnar.',
+        'Gör senapskrämen: Blanda grekisk yoghurt med dijonsenap, honung, salt och peppar. Smaka av och justera kryddningen vid behov.',
+        'Servera: Lägg upp halloumipytten på tallrikar. Toppa med en klick örtsmör som får smälta över pytten. Servera med senapskrämen vid sidan av.'
+    ],
+    tips: [
+        'För extra crunch kan du strö över rostade solrosfrön eller pumpakärnor. Rätten fungerar också bra som matlåda!'
+    ]
+},
+'11116': {
+    title: 'Morotssoppa med kokos',
+    image: 'bilder/11116.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        'Morötter – 800 g, skalade och skivade',
+        'Gul lök – 1 st, hackad',
+        'Vitlöksklyftor – 2 st, hackade',
+        'Ingefära – 3 cm, riven',
+        'Grönsaksbuljong – 8 dl',
+        'Kokosmjölk – 400 ml (1 burk)',
+        'Röd currypasta – 1–2 msk (justera efter smak)',
+        'Olivolja – 2 msk',
+        'Lime – 1 st, saft och zest',
+        'Salt och peppar – efter smak',
+        'Topping (valfritt):',
+        'Rostade kokosflakes',
+        'Färsk koriander – hackad',
+        'Pumpakärnor eller rostade jordnötter',
+        'Till servering:',
+        'Nybakat bröd eller naan'
+    ],
+    instructions: [
+        'Förbered basen: Hetta upp olivolja i en stor gryta. Fräs lök, vitlök och ingefära tills löken blir mjuk och doftar aromatiskt.',
+        'Tillsätt morötter och currypasta: Lägg i skivade morötter och rör ner röd currypasta. Fräs allt i några minuter så att smakerna utvecklas.',
+        'Tillsätt buljong och koka: Häll i grönsaksbuljongen och låt soppan koka upp. Sänk värmen och låt sjuda i ca 15–20 minuter, eller tills morötterna är mjuka.',
+        'Mixa soppan: Använd en stavmixer eller häll soppan i en blender och mixa den slät. Häll tillbaka soppan i grytan.',
+        'Tillsätt kokosmjölk och lime: Rör ner kokosmjölken och låt soppan bli varm igen. Smaka av med limejuice, limeskal, salt och peppar.',
+        'Servera: Häll upp soppan i skålar och toppa med rostade kokosflakes, färsk koriander och pumpakärnor om du vill. Servera med nybakat bröd eller naan vid sidan av.'
+    ],
+    tips: [
+        'För en extra touch kan du lägga till en nypa chiliflakes för mer hetta eller riva ner lite apelsinskal för en sötare citruston.'
+    ]
+},
+'11117': {
+    title: 'Risonisallad',
+    image: 'bilder/11117.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        'Risoni (pastasorten) – 3 dl',
+        'Körsbärstomater – 250 g, halverade',
+        'Gurka – 1 st, tärnad',
+        'Fetaost – 150 g, smulad (eller veganskt alternativ)',
+        'Rödlök – 1 liten, tunt skivad',
+        'Svarta oliver – 1 dl, urkärnade',
+        'Rostade solrosfrön – ½ dl (eller pumpakärnor)',
+        'Färsk spenat – 2 nävar',
+        'Färska örter – t.ex. basilika och persilja, hackade',
+        'Dressing:',
+        'Olivolja – 3 msk',
+        'Citronsaft – 2 msk',
+        'Vitlök – 1 liten klyfta, riven',
+        'Honung – 1 tsk (eller agavesirap för veganskt)',
+        'Salt och peppar – efter smak'
+    ],
+    instructions: [
+        'Koka risoni: Koka risonin enligt förpackningens anvisningar i lättsaltat vatten. Häll av vattnet och låt svalna.',
+        'Förbered grönsakerna: Medan risonin svalnar, skär körsbärstomater, gurka och rödlök. Blanda dessa i en stor skål tillsammans med spenat, svarta oliver och smulad fetaost.',
+        'Rosta frön: Rosta solrosfrön eller pumpakärnor i en torr panna tills de är gyllene. Låt svalna och strö över salladen.',
+        'Blanda dressing: Vispa ihop olivolja, citronsaft, riven vitlök, honung, salt och peppar i en liten skål. Justera smakerna efter behov.',
+        'Blanda salladen: Blanda den kokta och avsvalnade risonin med grönsakerna i skålen. Häll över dressingen och blanda väl.',
+        'Servera: Toppa med hackade örter och de rostade fröna. Servera som en lätt huvudrätt eller som tillbehör till grillade grönsaker eller bröd.'
+    ],
+    tips: [
+        'Vill du göra salladen mer matig? Tillsätt grillade grönsaker som zucchini eller aubergine, eller blanda ner kokta kikärtor för extra protein.'
+    ]
+},
+'11118': {
+    title: 'Halloumipytt med örtsmör och senapskräm',
+    image: 'bilder/11118.png',
+    portion: ' (4 portioner)',
+    ingredients: [
+        'Halloumipytt:',
+        'Halloumi – 400 g, tärnad',
+        'Potatis – 600 g, tärnad (skalad eller med skal)',
+        'Morötter – 2 st, tärnade',
+        'Palsternacka – 1 st, tärnad (valfritt)',
+        'Röd paprika – 1 st, tärnad',
+        'Rödlök – 1 st, grovhackad',
+        'Vitlöksklyftor – 2 st, finhackade',
+        'Smör eller olivolja – för stekning',
+        'Färsk persilja – en handfull, hackad',
+        'Salt och svartpeppar – efter smak',
+        'Örtsmör:',
+        'Smör – 100 g, rumsvarmt',
+        'Färska örter – t.ex. persilja, dill och gräslök, finhackade',
+        'Vitlöksklyfta – 1 liten, riven',
+        'Citronzest – från ½ citron',
+        'Salt och peppar – efter smak',
+        'Senapskräm:',
+        'Grekisk yoghurt – 2 dl',
+        'Dijonsenap – 1 msk',
+        'Honung – 1 tsk',
+        'Salt och peppar – efter smak'
+    ],
+    instructions: [
+        'Förbered halloumipytten: Koka de tärnade potatisarna och morötterna i lättsaltat vatten i ca 5 minuter. De ska vara lite mjuka men inte genomkokta. Häll av vattnet och låt ånga av.',
+        'Stek grönsaker och halloumi: Hetta upp en stor stekpanna med lite smör eller olja. Stek potatis, morötter och eventuellt palsternacka tills de är gyllene och knapriga. Tillsätt paprika, rödlök och vitlök, och stek ytterligare några minuter. Lägg till slut i halloumin och stek tills den får en gyllenbrun yta. Smaka av med salt och peppar.',
+        'Gör örtsmöret: Blanda det rumsvarma smöret med finhackade örter, riven vitlök, citronzest, salt och peppar. Forma till en liten rulle i plastfolie och lägg i kylen tills det stelnar.',
+        'Gör senapskrämen: Blanda grekisk yoghurt med dijonsenap, honung, salt och peppar. Smaka av och justera kryddningen vid behov.',
+        'Servera: Lägg upp halloumipytten på tallrikar. Toppa med en klick örtsmör som får smälta över pytten. Servera med senapskrämen vid sidan av.'
+    ],
+    tips: [
+        'För extra crunch kan du strö över rostade solrosfrön eller pumpakärnor. Rätten fungerar också bra som matlåda!'
+    ]
+},
+'11119': {
     title: 'BBQ-kryddade grillost nuggets med ostgratinerad potatis och majssallad',
     image: 'bilder/11119.png',
-    description: 'Krispiga grillost nuggets med en härlig BBQ-touch, serverade med krämig ostgratinerad potatis och en fräsch majssallad.',
+    portion: ' (4 portioner)',
     ingredients: [
         'Grillost Nuggets:',
         'Grillost (halloumi) – 400 g, skuren i bitar',
@@ -308,29 +437,19 @@ function getRecipeByCode(code) {
         'Salt och peppar – efter smak'
     ],
     instructions: [
-        'Ostgratinerad Potatis:',
-        '1. Sätt ugnen på 200°C.',
-        '2. Smörj en ugnsform och lägg i potatisskivorna i lager. Krydda med salt, peppar och vitlök.',
-        '3. Häll över grädden och toppa med riven ost.',
-        '4. Gratinera i ugnen i ca 40 minuter tills potatisen är mjuk och osten är gyllenbrun.',
-        'Grillost Nuggets:',
-        '1. Förbered tre skålar: en med vetemjöl blandat med paprikapulver och BBQ-krydda, en med uppvispat ägg, och en med panko ströbröd.',
-        '2. Doppa varje grillostbit först i mjöl, sedan i ägg, och slutligen i panko.',
-        '3. Hetta upp rapsolja i en stekpanna eller kastrull. Stek eller fritera nuggets tills de är gyllene och krispiga. Låt rinna av på hushållspapper.',
-        'Majssallad:',
-        '1. Grilla majskolvarna i en grillpanna eller på utegrill tills de får fina grillränder. Skär av kornen.',
-        '2. Blanda majskornen med tomater, avokado, rödlök och koriander i en skål.',
-        '3. Ringla över limejuice och olivolja. Smaka av med salt och peppar.',
-        'Servera:',
-        'Servera de BBQ-kryddade grillostnuggets med ostgratinerad potatis och fräsch majssallad. Garnera med limeklyftor och extra koriander om så önskas.',
-        'Tips:',
+        'Ostgratinerad Potatis: Sätt ugnen på 200°C. Smörj en ugnsform och lägg i potatisskivorna i lager. Krydda med salt, peppar och vitlök. Häll över grädden och toppa med riven ost. Gratinera i ugnen i ca 40 minuter tills potatisen är mjuk och osten är gyllene.',
+        'Grillost Nuggets: Förbered tre skålar: en med vetemjöl blandat med paprikapulver och BBQ-krydda, en med uppvispat ägg, och en med panko ströbröd. Doppa varje grillostbit först i mjöl, sedan i ägg, och slutligen i panko. Hetta upp rapsolja i en stekpanna eller kastrull. Stek eller fritera nuggets tills de är gyllene och krispiga. Låt rinna av på hushållspapper.',
+        'Majssallad: Grilla majskolvarna i en grillpanna eller på utegrill tills de får fina grillränder. Skär av kornen. Blanda majskornen med tomater, avokado, rödlök och koriander i en skål. Ringla över limejuice och olivolja. Smaka av med salt och peppar.',
+        'Servera: Servera de BBQ-kryddade grillostnuggets med ostgratinerad potatis och fräsch majssallad. Garnera med limeklyftor och extra koriander om så önskas.'
+    ],
+    tips: [
         'Vill du ha extra hetta? Tillsätt en nypa chiliflakes till BBQ-kryddan eller servera med en het sås vid sidan om.'
     ]
 },
 '11120': {
-    title: 'Miso Mac and Cheese',
+    title: 'Miso mac and cheese',
     image: 'bilder/11120.png',
-    description: 'En lyxig och smakrik twist på klassisk mac and cheese med krämig ostsås och en touch av umami från miso.',
+    portion: ' (4 portioner)',
     ingredients: [
         'Pasta:',
         'Macaroni – 300 g (eller annan kort pasta som fusilli eller penne)',
@@ -349,33 +468,22 @@ function getRecipeByCode(code) {
         'Färsk persilja – hackad, för garnering'
     ],
     instructions: [
-        'Koka pastan:',
-        '1. Koka makaronerna enligt förpackningens anvisningar i saltat vatten. Häll av och ställ åt sidan.',
-        'Förbered ostsåsen:',
-        '1. Smält smöret i en kastrull på medelvärme. Vispa i mjölet och låt det fräsa i 1–2 minuter utan att det tar färg.',
-        '2. Häll i mjölken lite i taget under ständig vispning för att undvika klumpar. Låt såsen sjuda tills den tjocknar.',
-        'Smaksätt såsen:',
-        '1. Sänk värmen och rör ner den rivna osten. Tillsätt misopastan och senapen. Smaka av med salt och peppar.',
-        '2. Rör om tills allt är slätt och krämigt.',
-        'Blanda med pasta:',
-        '1. Häll den kokta pastan i ostsåsen och blanda väl.',
-        '2. Häll över blandningen i en smord ugnsform.',
-        'Förbered toppingen:',
-        '1. Blanda panko, parmesan och smält smör i en skål.',
-        '2. Strö toppingen över pastan i ugnsformen.',
-        'Gratinera:',
-        '1. Gratinera i ugnen på 200°C i ca 15 minuter eller tills toppingen är gyllene och krispig.',
-        'Servera:',
-        '1. Garnera med hackad persilja och servera direkt, gärna med en fräsch grönsallad vid sidan av.',
-        'Tips:',
-        'För extra umami kan du tillsätta några droppar soja eller en skvätt vitt vin i ostsåsen.',
-        'Vill du ha lite hetta? Strö över chiliflakes innan gratinering!'
+        'Koka pastan: Koka makaronerna enligt förpackningens anvisningar i saltat vatten. Häll av och ställ åt sidan.',
+        'Förbered ostsåsen: Smält smöret i en kastrull på medelvärme. Vispa i mjölet och låt det fräsa i 1–2 minuter utan att det tar färg. Häll i mjölken lite i taget under ständig vispning för att undvika klumpar. Låt såsen sjuda tills den tjocknar.',
+        'Smaksätt såsen: Sänk värmen och rör ner den rivna osten. Tillsätt misopastan och senapen. Smaka av med salt och peppar. Rör om tills allt är slätt och krämigt.',
+        'Blanda med pasta: Häll den kokta pastan i ostsåsen och blanda väl. Häll över blandningen i en smord ugnsform.',
+        'Förbered toppingen: Blanda panko, parmesan och smält smör i en skål. Strö toppingen över pastan i ugnsformen.',
+        'Gratinera: Gratinera i ugnen på 200°C i ca 15 minuter eller tills toppingen är gyllene och krispig.',
+        'Servera: Garnera med hackad persilja och servera direkt, gärna med en fräsch grönsallad vid sidan av.'
+    ],
+    tips: [
+        'För extra umami kan du tillsätta några droppar soja eller en skvätt vitt vin i ostsåsen. Vill du ha lite hetta? Strö över chiliflakes innan gratinering!'
     ]
 },
 '11121': {
     title: 'Taquitos på svarta bönor',
     image: 'bilder/11121.png',
-    description: 'Krispiga och smakrika taquitos fyllda med svarta bönor, kryddor och ost. Perfekta att servera med guacamole, salsa och lime.',
+    portion: ' (4 portioner)',
     ingredients: [
         'Fyllning:',
         'Svarta bönor – 2 burkar (ca 400 g), avrunna och sköljda',
@@ -398,32 +506,20 @@ function getRecipeByCode(code) {
         'Färsk lime – i klyftor'
     ],
     instructions: [
-        'Förbered fyllningen:',
-        '1. Hetta upp lite olja i en stekpanna på medelhög värme. Stek lök och vitlök tills de mjuknar.',
-        '2. Tillsätt paprika och stek i några minuter till.',
-        'Tillsätt kryddor och bönor:',
-        '1. Rör ner kummin, paprikapulver och chilipulver.',
-        '2. Tillsätt de svarta bönorna och mosa dem lätt med en slev för att få en krämig men fortfarande bitig konsistens.',
-        '3. Smaka av med salt och peppar. Låt fyllningen svalna något och blanda sedan i den rivna osten och koriandern.',
-        'Rulla taquitos:',
-        '1. Fördela fyllningen jämnt över tortillorna.',
-        '2. Rulla ihop varje tortilla till en tajt rulle. Fäst med en tandpetare om de inte håller ihop av sig själva.',
-        'Tillaga taquitos:',
-        'Stekning:',
-        '1. Hetta upp olja i en stekpanna och stek taquitosen tills de är gyllene och krispiga på båda sidor.',
-        'Ugnsbakning:',
-        '1. Pensla rullarna med olja och baka i ugnen på 200°C i ca 15–20 minuter, eller tills de är gyllene och krispiga.',
-        'Servera:',
-        '1. Servera taquitosen med guacamole, salsa, gräddfil och limeklyftor.',
-        '2. Strö gärna över extra koriander.',
-        'Tips:',
+        'Förbered fyllningen: Hetta upp lite olja i en stekpanna på medelhög värme. Stek lök och vitlök tills de mjuknar. Tillsätt paprika och stek i några minuter till.',
+        'Tillsätt kryddor och bönor: Rör ner kummin, paprikapulver och chilipulver. Tillsätt de svarta bönorna och mosa dem lätt med en slev för att få en krämig men fortfarande bitig konsistens. Smaka av med salt och peppar. Låt fyllningen svalna något och blanda sedan i den rivna osten och koriandern.',
+        'Rulla taquitos: Fördela fyllningen jämnt över tortillorna. Rulla ihop varje tortilla till en tajt rulle. Fäst med en tandpetare om de inte håller ihop av sig själva.',
+        'Tillaga taquitos: Stekning: Hetta upp olja i en stekpanna och stek taquitosen tills de är gyllene och krispiga på båda sidor. Ugnsbakning: Pensla rullarna med olja och baka i ugnen på 200°C i ca 15–20 minuter, eller tills de är gyllene och krispiga.',
+        'Servera: Servera taquitosen med guacamole, salsa, gräddfil och limeklyftor. Strö gärna över extra koriander.'
+    ],
+    tips: [
         'Vill du variera fyllningen? Tillsätt majs, hackade jalapeños eller sötpotatis för extra smak och textur!'
     ]
 },
 '11122': {
-    title: 'Färgglad Dhal Chaat-Gryta',
-    image: 'bilder/11122.webp',
-    description: 'En kryddig och färgglad dhal-gryta toppad med chaat-inspirerade smaker och texturer för en riktig smakexplosion.',
+    title: 'Färgglad dhal chaat-gryta',
+    image: 'bilder/11122.png',
+    portion: ' (4 portioner)',
     ingredients: [
         'För dhal-grytan:',
         '2 dl röda linser (sköljda och avrunna)',
@@ -454,36 +550,23 @@ function getRecipeByCode(code) {
         'Tamarindsås eller chutney för en söt och syrlig touch'
     ],
     instructions: [
-        'Förbered dhal-grytan:',
-        '1. Värm olivolja eller ghee i en stor gryta.',
-        '2. Tillsätt senapsfrön och låt dem poppa i några sekunder.',
-        '3. Lägg till hackad lök, vitlök och ingefära. Stek tills löken är gyllene.',
-        '4. Rör ner kryddorna (gurkmeja, spiskummin, korianderpulver och garam masala) och låt dem fräsas med i en minut för att frigöra aromerna.',
-        '5. Tillsätt tomaterna och koka tills de är mjuka.',
-        'Koka dhalen:',
-        '1. Häll i de sköljda linserna och rör om.',
-        '2. Tillsätt vatten eller buljong och koka upp.',
-        '3. Sänk värmen och låt sjuda i 15-20 minuter tills linserna är mjuka och grytan har en krämig konsistens.',
-        '4. Rör ner kokosmjölken (om du använder det), och smaka av med salt och peppar.',
-        'Montera chaat-grytan:',
-        '1. Häll upp dhal-grytan i skålar.',
-        '2. Toppa med kokta kikärtor, rödlök, koriander, granatäppelkärnor och friterade kikärtsnudlar (eller papadums).',
-        '3. Krydda med chaat masala och ringla över citronjuice.',
-        '4. Klicka på yoghurt och eventuellt tamarindsås eller chutney.',
-        'Servera:',
-        '1. Servera med naanbröd, chapati eller ris.',
-        '2. För en extra fräsch känsla kan du lägga till några myntablad som dekoration.',
-        'Tips:',
-        '1. Använd gröna linser eller mungbönor om du vill ha en mer texturerad gryta.',
-        '2. Gör grytan mildare genom att minska chilin, eller hetare med extra grön chili.',
-        '3. Byt ut yoghurt mot vegansk yoghurt för en helt vegansk variant.',
-        'Njut av en explosion av smaker och texturer i denna färgglada dhal chaat-gryta! 🥘🌈'
+        'Förbered dhal-grytan: Värm olivolja eller ghee i en stor gryta. Tillsätt senapsfrön och låt dem poppa i några sekunder. Lägg till hackad lök, vitlök och ingefära. Stek tills löken är gyllene.',
+        'Rör ner kryddorna (gurkmeja, spiskummin, korianderpulver och garam masala) och låt dem fräsas med i en minut för att frigöra aromerna. Tillsätt tomaterna och koka tills de är mjuka.',
+        'Koka dhalen: Häll i de sköljda linserna och rör om. Tillsätt vatten eller buljong och koka upp. Sänk värmen och låt sjuda i 15-20 minuter tills linserna är mjuka och grytan har en krämig konsistens.',
+        'Rör ner kokosmjölken (om du använder det), och smaka av med salt och peppar.',
+        'Montera chaat-grytan: Häll upp dhal-grytan i skålar. Toppa med kokta kikärtor, rödlök, koriander, granatäppelkärnor och friterade kikärtsnudlar (eller papadums). Krydda med chaat masala och ringla över citronjuice. Klicka på yoghurt och eventuellt tamarindsås eller chutney.',
+        'Servera: Servera med naanbröd, chapati eller ris. För en extra fräsch känsla kan du lägga till några myntablad som dekoration.'
+    ],
+    tips: [
+        'Använd gröna linser eller mungbönor om du vill ha en mer texturerad gryta.',
+        'Gör grytan mildare genom att minska chilin, eller hetare med extra grön chili.',
+        'Byt ut yoghurt mot vegansk yoghurt för en helt vegansk variant.'
     ]
 },
 '11123': {
-    title: 'Tomatiga Bönor med Svamp och Vitlök på Surdegsbröd',
+    title: 'Tomatiga bönor med svamp och vitlök på surdegsbröd',
     image: 'bilder/11123.png',
-    description: 'En rustik och smakrik rätt med tomatiga bönor, svamp och vitlök, serverad på krispigt surdegsbröd. Perfekt för en enkel men lyxig middag.',
+    portion: ' (4 portioner)',
     ingredients: [
         'Bönröra:',
         'Cannellinibönor eller vita bönor – 2 burkar (ca 400 g), avrunna och sköljda',
@@ -506,33 +589,20 @@ function getRecipeByCode(code) {
         'Vitlöksklyfta – 1 st, för gnidning'
     ],
     instructions: [
-        'Förbered bönröran:',
-        '1. Hetta upp olivoljan i en stor stekpanna eller gryta.',
-        '2. Fräs lök och vitlök tills de är mjuka och doftande.',
-        '3. Tillsätt svampen och stek tills den släppt sin vätska och blivit gyllene.',
-        'Tillsätt smakerna:',
-        '1. Rör ner tomatpuré, torkade örter, paprikapulver och chiliflakes. Låt fräsa i någon minut.',
-        '2. Tillsätt sedan krossade tomater och rödvinsvinäger. Låt såsen sjuda på låg värme i 10 minuter.',
-        'Blanda i bönorna:',
-        '1. Vänd ner de avrunna bönorna i tomatsåsen.',
-        '2. Låt puttra i ytterligare 5–7 minuter tills allt är väl genomvärmt.',
-        '3. Smaka av med salt och peppar.',
-        'Rosta surdegsbrödet:',
-        '1. Pensla brödskivorna med olivolja och grilla i en grillpanna eller rosta i ugnen tills de är gyllene och krispiga.',
-        '2. Gnid varje skiva med en skivad vitlöksklyfta för extra smak.',
-        'Servera:',
-        '1. Lägg de rostade surdegsbrödsskivorna på tallrikar.',
-        '2. Skeda upp de tomatiga bönorna med svamp ovanpå.',
-        '3. Garnera med färsk basilika eller persilja och eventuellt ett extra stänk olivolja.',
-        'Tips:',
-        '1. För en extra lyxig touch, toppa med smulad fetaost eller vegansk ost.',
-        '2. Servera med en fräsch sallad vid sidan av!'
+        'Förbered bönröran: Hetta upp olivoljan i en stor stekpanna eller gryta. Fräs lök och vitlök tills de är mjuka och doftande. Tillsätt svampen och stek tills den släppt sin vätska och blivit gyllene.',
+        'Tillsätt smakerna: Rör ner tomatpuré, torkade örter, paprikapulver och chiliflakes. Låt fräsa i någon minut. Tillsätt sedan krossade tomater och rödvinsvinäger. Låt såsen sjuda på låg värme i 10 minuter.',
+        'Blanda i bönorna: Vänd ner de avrunna bönorna i tomatsåsen. Låt puttra i ytterligare 5–7 minuter tills allt är väl genomvärmt. Smaka av med salt och peppar.',
+        'Rosta surdegsbrödet: Pensla brödskivorna med olivolja och grilla i en grillpanna eller rosta i ugnen tills de är gyllene och krispiga. Gnid varje skiva med en skivad vitlöksklyfta för extra smak.',
+        'Servera: Lägg de rostade surdegsbrödsskivorna på tallrikar. Skeda upp de tomatiga bönorna med svamp ovanpå. Garnera med färsk basilika eller persilja och eventuellt ett extra stänk olivolja.'
+    ],
+    tips: [
+        'För en extra lyxig touch, toppa med smulad fetaost eller vegansk ost, och servera med en fräsch sallad vid sidan av!'
     ]
 },
 '11124': {
-    title: 'Sweet Chilinudlar med Cashewnötter',
+    title: 'Sweet chilinudlar med cashewnötter',
     image: 'bilder/11124.png',
-    description: 'En snabb och smakrik rätt med nudlar, krispiga grönsaker och en söt och kryddig chilidressing, toppad med cashewnötter.',
+    portion: ' (4 portioner)',
     ingredients: [
         'Nudlar och grönsaker:',
         'Äggnudlar eller risnudlar – 300 g',
@@ -553,32 +623,21 @@ function getRecipeByCode(code) {
         'Chiliflakes – efter smak (valfritt)'
     ],
     instructions: [
-        'Koka nudlarna:',
-        '1. Koka nudlarna enligt förpackningens anvisningar. Skölj dem i kallt vatten och låt rinna av. Ställ åt sidan.',
-        'Förbered grönsakerna:',
-        '1. Hetta upp lite sesamolja i en stor stekpanna eller wok.',
-        '2. Stek broccoli, paprika, morot och röd lök på medelhög värme i 4–5 minuter tills de är mjuka men fortfarande har lite tuggmotstånd.',
-        'Blanda dressingen:',
-        '1. I en skål, vispa ihop sweet chilisås, sojasås, limejuice, sesamolja, riven ingefära, vitlök och eventuellt chiliflakes.',
-        'Kombinera nudlar och grönsaker:',
-        '1. Tillsätt nudlarna i stekpannan med grönsakerna och häll över dressingen.',
-        '2. Rör om ordentligt så att nudlarna täcks av såsen.',
-        '3. Värm i 2–3 minuter tills allt är genomvarmt.',
-        'Tillsätt cashewnötter:',
-        '1. Strö över rostade cashewnötter och blanda in dem precis innan servering.',
-        'Servera:',
-        '1. Lägg upp nudlarna i skålar.',
-        '2. Garnera med färsk koriander och sesamfrön.',
-        '3. Servera med limeklyftor vid sidan för extra syrlighet.',
-        'Tips:',
-        '1. För extra protein, lägg till tofu, kyckling eller räkor.',
-        '2. Rätten kan enkelt göras vegansk genom att använda veganska nudlar och kontrollera att sojasåsen är vegansk.'
+        'Koka nudlarna: Koka nudlarna enligt förpackningens anvisningar. Skölj dem i kallt vatten och låt rinna av. Ställ åt sidan.',
+        'Förbered grönsakerna: Hetta upp lite sesamolja i en stor stekpanna eller wok. Stek broccoli, paprika, morot och röd lök på medelhög värme i 4–5 minuter tills de är mjuka men fortfarande har lite tuggmotstånd.',
+        'Blanda dressingen: I en skål, vispa ihop sweet chilisås, sojasås, limejuice, sesamolja, riven ingefära, vitlök och eventuellt chiliflakes.',
+        'Kombinera nudlar och grönsaker: Tillsätt nudlarna i stekpannan med grönsakerna och häll över dressingen. Rör om ordentligt så att nudlarna täcks av såsen. Värm i 2–3 minuter tills allt är genomvarmt.',
+        'Tillsätt cashewnötter: Strö över rostade cashewnötter och blanda in dem precis innan servering.',
+        'Servera: Lägg upp nudlarna i skålar. Garnera med färsk koriander och sesamfrön. Servera med limeklyftor vid sidan för extra syrlighet.'
+    ],
+    tips: [
+        'För extra protein, lägg till tofu, kyckling eller räkor. Rätten kan enkelt göras vegansk genom att använda veganska nudlar och kontrollera att sojasåsen är vegansk.'
     ]
 },
 '11125': {
     title: 'Tacopiroger',
     image: 'bilder/11125.png',
-    description: 'Smakrika och mättande tacopiroger fyllda med vegetarisk tacofärs, grönsaker och ost. Perfekta för middag, utflykter eller som snacks.',
+    portion: ' (ca 12 piroger)',
     ingredients: [
         'Deg:',
         'Vetemjöl – 7 dl',
@@ -599,34 +658,20 @@ function getRecipeByCode(code) {
         'Ägg – 1 st, uppvispat (eller växtbaserad dryck för vegansk variant)'
     ],
     instructions: [
-        'Förbered degen:',
-        '1. Blanda vetemjöl, bakpulver och salt i en skål.',
-        '2. Nyp ihop smöret med mjölblandningen tills det blir en smulig massa.',
-        '3. Tillsätt mjölk och arbeta ihop till en smidig deg.',
-        '4. Plasta in och låt vila i kylen i 30 minuter.',
-        'Gör fyllningen:',
-        '1. Hetta upp lite olja i en stekpanna. Fräs lök och vitlök tills de mjuknar.',
-        '2. Tillsätt den vegetariska tacofärsen och stek enligt anvisningarna. Blanda i taco-kryddmixen.',
-        '3. Tillsätt majs, paprika och krossade tomater. Låt allt puttra tills fyllningen tjocknar något.',
-        '4. Låt svalna och blanda sedan i den rivna osten.',
-        'Forma pirogerna:',
-        '1. Kavla ut degen på en mjölad yta till ca 3 mm tjocklek.',
-        '2. Stansa ut rundlar (ca 12 cm i diameter).',
-        '3. Lägg en klick fyllning i mitten av varje rundel. Vik över och tryck ihop kanterna med en gaffel för att försegla.',
-        'Pensla och grädda:',
-        '1. Lägg pirogerna på en bakplåtspappersklädd plåt.',
-        '2. Pensla med ägg eller växtbaserad dryck.',
-        '3. Grädda i ugnen på 200°C i ca 15–20 minuter, eller tills pirogerna är gyllene.',
-        'Servera:',
-        '1. Servera pirogerna varma med en klick gräddfil, guacamole eller salsa vid sidan av.',
-        'Tips:',
-        '1. För variation kan du fylla pirogerna med svarta bönor, sötpotatis eller extra grönsaker som spenat och zucchini!'
+        'Förbered degen: Blanda vetemjöl, bakpulver och salt i en skål. Nyp ihop smöret med mjölblandningen tills det blir en smulig massa. Tillsätt mjölk och arbeta ihop till en smidig deg. Plasta in och låt vila i kylen i 30 minuter.',
+        'Gör fyllningen: Hetta upp lite olja i en stekpanna. Fräs lök och vitlök tills de mjuknar. Tillsätt den vegetariska tacofärsen och stek enligt anvisningarna. Blanda i taco-kryddmixen. Tillsätt majs, paprika och krossade tomater. Låt allt puttra tills fyllningen tjocknar något. Låt svalna och blanda sedan i den rivna osten.',
+        'Forma pirogerna: Kavla ut degen på en mjölad yta till ca 3 mm tjocklek. Stansa ut rundlar (ca 12 cm i diameter). Lägg en klick fyllning i mitten av varje rundel. Vik över och tryck ihop kanterna med en gaffel för att försegla.',
+        'Pensla och grädda: Lägg pirogerna på en bakplåtspappersklädd plåt. Pensla med ägg eller växtbaserad dryck. Grädda i ugnen på 200°C i ca 15–20 minuter, eller tills pirogerna är gyllene.',
+        'Servera: Servera pirogerna varma med en klick gräddfil, guacamole eller salsa vid sidan av.'
+    ],
+    tips: [
+        'För variation kan du fylla pirogerna med svarta bönor, sötpotatis eller extra grönsaker som spenat och zucchini!'
     ]
 },
 '11126': {
-    title: 'Paj med Spenat, Feta och Soltorkade Tomater',
+    title: 'Paj med spenat, feta och soltorkade tomater',
     image: 'bilder/11126.png',
-    description: 'En läcker paj med smakrik fyllning av spenat, fetaost och soltorkade tomater. Perfekt som huvudrätt eller till buffén.',
+    portion: ' (4–6 portioner)',
     ingredients: [
         'Pajdeg:',
         'Vetemjöl – 3 dl',
@@ -645,85 +690,61 @@ function getRecipeByCode(code) {
         'Olivolja – 1 msk'
     ],
     instructions: [
-        'Förbered pajdegen:',
-        '1. Blanda vetemjöl och smör i en skål eller matberedare. Arbeta ihop tills det blir en smulig massa.',
-        '2. Tillsätt vatten, lite i taget, och arbeta snabbt ihop till en smidig deg.',
-        '3. Plasta in degen och låt vila i kylen i minst 30 minuter.',
-        'Förbered fyllningen:',
-        '1. Hetta upp olivolja i en stekpanna. Fräs lök och vitlök tills de mjuknar.',
-        '2. Tillsätt spenaten och låt den snabbt sjunka ihop (om du använder färsk). Låt svalna något.',
-        'Förgrädda pajskalet:',
-        '1. Kavla ut degen på en mjölad yta och klä en pajform (ca 24 cm i diameter).',
-        '2. Nagga botten med en gaffel.',
-        '3. Förgrädda skalet i 200°C i ca 10 minuter.',
-        'Montera pajen:',
-        '1. Fördela spenatblandningen i det förgräddade pajskalet.',
-        '2. Strö över smulad fetaost och soltorkade tomater.',
-        '3. Vispa ihop ägg, mjölk och grädde. Krydda med salt och peppar.',
-        '4. Häll äggstanningen över fyllningen.',
-        'Grädda pajen:',
-        '1. Grädda i mitten av ugnen på 200°C i ca 25–30 minuter, eller tills äggstanningen stelnat och pajen fått fin färg.',
-        'Servera:',
-        '1. Servera pajen varm eller ljummen med en fräsch sallad vid sidan av.',
-        'Tips:',
-        '1. Du kan lägga till hackade valnötter för extra crunch.',
-        '2. Byt ut fetaosten mot getost för en annan smakprofil.'
+        'Förbered pajdegen: Blanda vetemjöl och smör i en skål eller matberedare. Arbeta ihop tills det blir en smulig massa. Tillsätt vatten, lite i taget, och arbeta snabbt ihop till en smidig deg. Plasta in degen och låt vila i kylen i minst 30 minuter.',
+        'Förbered fyllningen: Hetta upp olivolja i en stekpanna. Fräs lök och vitlök tills de mjuknar. Tillsätt spenaten och låt den snabbt sjunka ihop (om du använder färsk). Låt svalna något.',
+        'Förgrädda pajskalet: Kavla ut degen på en mjölad yta och klä en pajform (ca 24 cm i diameter). Nagga botten med en gaffel. Förgrädda skalet i 200°C i ca 10 minuter.',
+        'Montera pajen: Fördela spenatblandningen i det förgräddade pajskalet. Strö över smulad fetaost och soltorkade tomater. Vispa ihop ägg, mjölk och grädde. Krydda med salt och peppar. Häll äggstanningen över fyllningen.',
+        'Grädda pajen: Grädda i mitten av ugnen på 200°C i ca 25–30 minuter, eller tills äggstanningen stelnat och pajen fått fin färg.',
+        'Servera: Servera pajen varm eller ljummen med en fräsch sallad vid sidan av.'
+    ],
+    tips: [
+        'Du kan lägga till hackade valnötter för extra crunch eller byta ut fetaosten mot getost för en annan smakprofil.'
     ]
 },
 '11127': {
-    title: 'Risotto med Kantareller och Brynt Mandelsmör',
+    title: 'Risonisallad',
     image: 'bilder/11127.png',
-    description: 'En lyxig och smakrik risotto med kantareller och brynt mandelsmör. Perfekt för en speciell middag eller när du vill unna dig något extra.',
+    portion: ' (4 portioner)',
     ingredients: [
-        'Risotto:',
-        'Arborioris – 3 dl',
-        'Gul lök – 1 liten, finhackad',
-        'Vitlök – 2 klyftor, finhackade',
-        'Olivolja – 2 msk',
-        'Torrt vitt vin – 1 dl',
-        'Grönsaksbuljong – 8 dl, varm',
-        'Parmesanost – 1 dl, riven',
-        'Smör – 2 msk',
-        'Salt och peppar – efter smak',
-        'Kantareller:',
-        'Färska kantareller – 300 g',
-        'Smör – 2 msk',
-        'Salt och peppar – efter smak',
-        'Brynt mandelsmör:',
-        'Smör – 100 g',
-        'Skållade mandlar – 50 g, grovhackade',
-        'Garnering:',
-        'Färsk timjan eller persilja – finhackad',
-        'Riven parmesan – till servering'
+        'Risoni (pastasorten) – 3 dl',
+        'Körsbärstomater – 250 g, halverade',
+        'Gurka – 1 st, tärnad',
+        'Fetaost – 150 g, smulad (eller veganskt alternativ)',
+        'Rödlök – 1 liten, tunt skivad',
+        'Svarta oliver – 1 dl, urkärnade',
+        'Rostade solrosfrön – ½ dl (eller pumpakärnor)',
+        'Färsk spenat – 2 nävar',
+        'Färska örter – t.ex. basilika och persilja, hackade',
+        'Dressing:',
+        'Olivolja – 3 msk',
+        'Citronsaft – 2 msk',
+        'Vitlök – 1 liten klyfta, riven',
+        'Honung – 1 tsk (eller agavesirap för veganskt)',
+        'Salt och peppar – efter smak'
     ],
     instructions: [
-        'Förbered kantarellerna:',
-        '1. Rensa svampen: Borsta av eventuell jord och dela större svampar i mindre bitar.',
-        '2. Stek kantarellerna: Hetta upp smöret i en stekpanna och stek kantarellerna tills de är gyllene och vätskan har kokat bort. Krydda med salt och peppar. Ställ åt sidan.',
-        'Koka risotton:',
-        '1. Fräs lök och vitlök: Värm olivoljan i en stor kastrull. Tillsätt den hackade löken och vitlöken och fräs tills de är mjuka och genomskinliga.',
-        '2. Tillsätt riset: Häll i arborioriset och rör om i någon minut tills riskornen är glansiga.',
-        '3. Deglacera med vin: Häll i det vita vinet och låt det koka in i riset.',
-        '4. Tillsätt buljong successivt: Tillsätt en slev varm buljong i taget och rör om ofta. När vätskan absorberats, tillsätt nästa slev. Fortsätt tills riset är al dente och krämigt, ca 18–20 minuter.',
-        '5. Avsluta risotton: Rör ner parmesanosten och smöret. Smaka av med salt och peppar.',
-        'Gör brynt mandelsmör:',
-        '1. Bryna smöret: Smält smöret i en liten kastrull på medelhög värme. Låt det koka tills det doftar nötigt och har fått en gyllenbrun färg.',
-        '2. Tillsätt mandlarna: Vänd ner de hackade mandlarna och låt dem bryna i smöret i några sekunder. Ta bort från värmen.',
-        'Montering:',
-        '1. Servera risotton: Lägg upp risotton på tallrikar.',
-        '2. Toppa med kantareller: Fördela de stekta kantarellerna ovanpå.',
-        '3. Ringla över mandelsmöret: Ringla det brynta mandelsmöret med mandlar över rätten.',
-        '4. Garnera: Toppa med färska örter och extra riven parmesan.',
-        'Tips:',
-        '1. Vill du ha en vegansk variant? Använd vegansk parmesan och byt smöret mot ett växtbaserat alternativ.'
+        'Koka risoni:',
+        'Koka risonin enligt förpackningens anvisningar i lättsaltat vatten. Häll av vattnet och låt svalna.',
+        'Förbered grönsakerna:',
+        'Medan risonin svalnar, skär körsbärstomater, gurka och rödlök. Blanda dessa i en stor skål tillsammans med spenat, svarta oliver och smulad fetaost.',
+        'Rosta frön:',
+        'Rosta solrosfrön eller pumpakärnor i en torr panna tills de är gyllene. Låt svalna och strö över salladen.',
+        'Blanda dressing:',
+        'Vispa ihop olivolja, citronsaft, riven vitlök, honung, salt och peppar i en liten skål. Justera smakerna efter behov.',
+        'Blanda salladen:',
+        'Blanda den kokta och avsvalnade risonin med grönsakerna i skålen. Häll över dressingen och blanda väl.',
+        'Servera:',
+        'Toppa med hackade örter och de rostade fröna. Servera som en lätt huvudrätt eller som tillbehör till grillade grönsaker eller bröd.'
+    ],
+    tips: [
+        'Vill du göra salladen mer matig? Tillsätt grillade grönsaker som zucchini eller aubergine, eller blanda ner kokta kikärtor för extra protein.'
     ]
 },
 '11128': {
-    title: 'Vitlöksrostad Spetskål med Örtig Smörsås och Hasselnötter',
+    title: 'Vitlöksrostad spetskål med örtig smörsås och hasselnötter',
     image: 'bilder/11128.png',
-    description: 'En elegant och smakrik rätt med vitlöksrostad spetskål, örtig smörsås och knapriga hasselnötter. Perfekt som tillbehör eller lätt huvudrätt.',
+    portion: ' (4 portioner)',
     ingredients: [
-        'Spetskål:',
         'Spetskål – 2 små eller 1 stor, halverad eller kvartad',
         'Olivolja – 2 msk',
         'Vitlök – 2 klyftor, pressade',
@@ -740,31 +761,24 @@ function getRecipeByCode(code) {
     ],
     instructions: [
         'Förbered spetskålen:',
-        '1. Sätt ugnen på 200°C.',
-        '2. Lägg spetskålen på en plåt klädd med bakplåtspapper. Pensla generöst med olivolja och strö över vitlök, salt och peppar.',
-        '3. Rosta i ugnen i ca 20–25 minuter, eller tills spetskålen är gyllene och mjuk med lätt krispiga kanter.',
+        'Sätt ugnen på 200°C. Lägg spetskålen på en plåt klädd med bakplåtspapper. Pensla generöst med olivolja och strö över vitlök, salt och peppar. Rosta i ugnen i ca 20–25 minuter, eller tills spetskålen är gyllene och mjuk med lätt krispiga kanter.',
         'Gör den örtiga smörsåsen:',
-        '1. Smält smöret i en kastrull på låg värme.',
-        '2. Tillsätt vitlök och låt den sjuda i smöret utan att bli brynt.',
-        '3. Rör ner citronjuice och de finhackade örterna. Smaka av med salt och peppar.',
+        'Smält smöret i en kastrull på låg värme. Tillsätt vitlök och låt den sjuda i smöret utan att bli brynt. Rör ner citronjuice och de finhackade örterna. Smaka av med salt och peppar.',
         'Rosta hasselnötter:',
-        '1. Hetta upp en torr stekpanna och rosta hasselnötterna tills de börjar dofta och få en gyllene färg.',
-        '2. Låt svalna och grovhacka dem.',
+        'Hetta upp en torr stekpanna och rosta hasselnötterna tills de börjar dofta och få en gyllene färg. Låt svalna och grovhacka dem.',
         'Montera rätten:',
-        '1. Lägg den rostade spetskålen på ett serveringsfat.',
-        '2. Ringla den örtiga smörsåsen över kålen.',
-        '3. Toppa med de rostade hasselnötterna och garnera med extra färska örter.',
+        'Lägg den rostade spetskålen på ett serveringsfat. Ringla den örtiga smörsåsen över kålen. Toppa med de rostade hasselnötterna och garnera med extra färska örter.',
         'Servera:',
-        '1. Servera rätten som en elegant förrätt, tillbehör eller lätt huvudrätt tillsammans med ett gott bröd eller en fräsch sallad.',
-        'Tips:',
-        '1. Vill du ha extra crunch? Strö över lite panko som rostats i smör.',
-        '2. För en vegansk variant kan smöret bytas ut mot ett växtbaserat alternativ.'
+        'Servera rätten som en elegant förrätt, tillbehör eller lätt huvudrätt tillsammans med ett gott bröd eller en fräsch sallad.'
+    ],
+    tips: [
+        'Vill du ha extra crunch? Strö över lite panko som rostats i smör! För en vegansk variant kan smöret bytas ut mot ett växtbaserat alternativ.'
     ]
 },
 '11129': {
-    title: 'Rostad Tomatsoppa med Vitlöksbröd',
+    title: 'Rostad tomatsoppa med vitlöksbröd',
     image: 'bilder/11129.png',
-    description: 'En mustig och fyllig rostad tomatsoppa serverad med krispigt vitlöksbröd. Perfekt för en mysig måltid.',
+    portion: ' (4 portioner)',
     ingredients: [
         'Tomatsoppa:',
         'Färska tomater – 1 kg, halverade',
@@ -786,26 +800,22 @@ function getRecipeByCode(code) {
     ],
     instructions: [
         'Rostad Tomatsoppa:',
-        '1. Sätt ugnen på 200°C.',
-        '2. Lägg tomater, rödlök och vitlöksklyftor på en plåt klädd med bakplåtspapper.',
-        '3. Ringla över olivolja och strö över salt och peppar. Rosta i ugnen i 25–30 minuter tills grönsakerna är mjuka och lätt karamelliserade.',
-        '4. Ta ut plåten från ugnen och låt vitlöken svalna något. Kläm ut vitlökskrämen från skalet.',
-        '5. Häll grönsakerna (inklusive olivoljan från plåten) i en stor kastrull. Tillsätt buljongen, tomatpuré, timjan och socker.',
-        '6. Använd en stavmixer för att mixa soppan slät. Tillsätt grädden om du önskar och värm upp igen. Smaka av med salt och peppar.',
+        'Rosta grönsakerna: Sätt ugnen på 200°C. Lägg tomater, rödlök och vitlöksklyftor på en plåt klädd med bakplåtspapper. Ringla över olivolja och strö över salt och peppar. Rosta i ugnen i 25–30 minuter, tills grönsakerna är mjuka och lätt karamelliserade.',
+        'Gör soppbasen: Ta ut plåten från ugnen och låt vitlöken svalna något. Kläm sedan ut den rostade vitlökskrämen från skalet. Häll grönsakerna (inklusive olivoljan från plåten) i en stor kastrull. Tillsätt buljongen, tomatpuré, timjan och socker.',
+        'Mixa soppan: Använd en stavmixer för att mixa soppan slät. Vill du ha en extra len soppa, sila den genom en finmaskig sil. Tillsätt grädden om du önskar och värm upp igen. Smaka av med salt och peppar.',
         'Vitlöksbröd:',
-        '1. Blanda det mjuka smöret med pressad vitlök, persilja och parmesan om du använder det.',
-        '2. Bred vitlökssmöret på brödskivorna. Lägg dem på en plåt och grilla i ugnen på 225°C i 5–7 minuter tills de är gyllene och krispiga.',
-        'Servering:',
-        '1. Häll upp den varma tomatsoppan i skålar och servera med de nygrillade vitlöksbröden vid sidan.',
-        '2. Garnera gärna med en skvätt olivolja, färsk basilika eller lite riven parmesan.',
-        'Tips:',
-        '1. Vill du ha en extra mättande soppa? Tillsätt kokta linser eller små pastaformer som orzo.'
+        'Förbered vitlökssmöret: Blanda det mjuka smöret med pressad vitlök, persilja och parmesan om du använder det.',
+        'Grilla brödet: Bred vitlökssmöret på brödskivorna. Lägg dem på en plåt och grilla i ugnen på 225°C i 5–7 minuter tills de är gyllene och krispiga.',
+        'Servering: Häll upp den varma tomatsoppan i skålar och servera med de nygrillade vitlöksbröden vid sidan. Garnera gärna med en skvätt olivolja, färsk basilika eller lite riven parmesan.'
+    ],
+    tips: [
+        'Vill du ha en extra mättande soppa? Tillsätt kokta linser eller små pastaformer som orzo.'
     ]
 },
 '11130': {
-    title: 'Potatis och Purjolökssoppa',
+    title: 'Potatis och purjolökssoppa',
     image: 'bilder/11130.png',
-    description: 'En klassisk, krämig soppa på potatis och purjolök som värmer och mättar.',
+    portion: ' (4 portioner)',
     ingredients: [
         'Potatis – 500 g, skalad och tärnad',
         'Purjolök – 2 stora, sköljda och skivade (endast det vita och ljusgröna)',
@@ -818,29 +828,20 @@ function getRecipeByCode(code) {
         'Bröd – för servering'
     ],
     instructions: [
-        'Förbered grönsakerna:',
-        '1. Skala och tärna potatisen. Skölj och skiva purjolöken.',
-        'Fräs purjolöken och vitlöken:',
-        '1. Smält smöret i en stor kastrull på medelvärme.',
-        '2. Lägg i purjolöken och vitlöken, och fräs dem mjuka utan att de får färg.',
-        'Koka soppan:',
-        '1. Tillsätt potatisen och grönsaksbuljongen i kastrullen.',
-        '2. Låt soppan sjuda under lock i 15–20 minuter, tills potatisen är helt mjuk.',
-        'Mixa soppan:',
-        '1. Använd en stavmixer för att mixa soppan slät. Om du föredrar en rustik soppa, kan du lämna den lite grov.',
-        '2. Rör i grädde eller crème fraiche om du vill ha en krämigare soppa. Smaka av med salt och peppar.',
-        'Servera:',
-        '1. Häll upp soppan i skålar och toppa med hackad persilja eller gräslök.',
-        '2. Servera med ett gott bröd vid sidan av.',
-        'Tips:',
-        '1. För extra smak, lägg till en nypa muskotnöt eller lite riven parmesan vid servering.',
-        '2. Soppan kan även göras vegansk genom att byta ut smör och grädde mot växtbaserade alternativ.'
+        'Förbered grönsakerna: Skala och tärna potatisen. Skölj och skiva purjolöken.',
+        'Fräs purjolöken och vitlöken: Smält smöret i en stor kastrull på medelvärme. Lägg i purjolöken och vitlöken, och fräs dem mjuka utan att de får färg.',
+        'Koka soppan: Tillsätt potatisen och grönsaksbuljongen i kastrullen. Låt soppan sjuda under lock i 15–20 minuter, tills potatisen är helt mjuk.',
+        'Mixa soppan: Använd en stavmixer för att mixa soppan slät. Om du föredrar en rustik soppa, kan du lämna den lite grov. Rör i grädde eller crème fraiche om du vill ha en krämigare soppa. Smaka av med salt och peppar.',
+        'Servera: Häll upp soppan i skålar och toppa med hackad persilja eller gräslök. Servera med ett gott bröd vid sidan av.'
+    ],
+    tips: [
+        'För extra smak, lägg till en nypa muskotnöt eller lite riven parmesan vid servering. Soppan kan även göras vegansk genom att byta ut smör och grädde mot växtbaserade alternativ.'
     ]
 },
 '11131': {
-    title: 'Tacogratäng med Syrlig Salsa och Nachos',
+    title: 'Tacogratäng med syrlig salsa och nachos',
     image: 'bilder/11131.png',
-    description: 'En smakrik och mättande tacogratäng med krispig nachostopping och syrlig salsa. Perfekt för hela familjen!',
+    portion: ' (4–6 portioner)',
     ingredients: [
         'Tacofyllning:',
         '1 gul lök, hackad',
@@ -867,34 +868,21 @@ function getRecipeByCode(code) {
         'Färsk koriander till garnering'
     ],
     instructions: [
-        'Förbered ugnen:',
-        '1. Sätt ugnen på 200°C och smörj en ugnsform (ca 20x30 cm).',
-        'Tillaga tacofyllningen:',
-        '1. Hetta upp lite olja i en stekpanna och fräs löken tills den är mjuk.',
-        '2. Tillsätt vitlök, paprika och linser (eller vegetarisk färs). Fräs i några minuter.',
-        '3. Strö över tacokryddan och rör om. Tillsätt krossade tomater, majs, bönor och vatten. Låt puttra i 5–7 minuter tills blandningen tjocknar.',
-        'Förbered salsan:',
-        '1. Blanda tomater, rödlök, limejuice, olivolja och koriander i en skål.',
-        '2. Smaka av med salt och peppar. Ställ åt sidan.',
-        'Montera gratängen:',
-        '1. Häll tacofyllningen i den smorda ugnsformen.',
-        '2. Bred ut crème fraîche ovanpå och strö över den rivna osten.',
-        '3. Krossa nachos lätt och strö dem över osten för en krispig topping.',
-        'Grädda:',
-        '1. Ställ formen i ugnen och grädda i 15–20 minuter, eller tills osten är gyllene och bubblig.',
-        'Servera:',
-        '1. Garnera gratängen med färsk koriander och servera tillsammans med den syrliga salsan.',
-        '2. Komplettera gärna med guacamole, extra nachos och limeklyftor vid sidan av.',
-        'Tips:',
-        '1. För en extra krämig variant kan du blanda crème fraîche med en matsked majonnäs innan du breder ut den.',
-        '2. Byt ut linser mot exempelvis tärnad zucchini eller svamp för variation.',
-        '3. Vill du ha mer hetta? Tillsätt hackad chili i fyllningen eller salsa.'
+        'Förbered ugnen: Sätt ugnen på 200°C och smörj en ugnsform (ca 20x30 cm).',
+        'Tillaga tacofyllningen: Hetta upp lite olja i en stekpanna och fräs löken tills den är mjuk. Tillsätt vitlök, paprika och linser (eller vegetarisk färs). Fräs i några minuter. Strö över tacokryddan och rör om. Tillsätt krossade tomater, majs, bönor och vatten. Låt puttra i 5–7 minuter tills blandningen tjocknar.',
+        'Förbered salsan: Blanda tomater, rödlök, limejuice, olivolja och koriander i en skål. Smaka av med salt och peppar. Ställ åt sidan.',
+        'Montera gratängen: Häll tacofyllningen i den smorda ugnsformen. Bred ut crème fraîche ovanpå och strö över den rivna osten. Krossa nachos lätt och strö dem över osten för en krispig topping.',
+        'Grädda: Ställ formen i ugnen och grädda i 15–20 minuter, eller tills osten är gyllene och bubblig.',
+        'Servera: Garnera gratängen med färsk koriander och servera tillsammans med den syrliga salsan. Komplettera gärna med guacamole, extra nachos och limeklyftor vid sidan om.'
+    ],
+    tips: [
+        'För en extra krämig variant kan du blanda crème fraîche med en matsked majonnäs innan du breder ut den. Byt ut linser mot exempelvis tärnad zucchini eller svamp för variation. Vill du ha mer hetta? Tillsätt hackad chili i fyllningen eller salsa.'
     ]
 },
 '11132': {
-    title: 'Gnocchi med Krämig Tomatsås och Mozzarella',
+    title: 'Gnocchi med krämig tomatsås och mozzarella',
     image: 'bilder/11132.png',
-    description: 'En härligt krämig gnocchi-rätt med smakrik tomatsås, mozzarella och färsk basilika.',
+    portion: ' (4 portioner)',
     ingredients: [
         'För gnocchin:',
         '500 g färsk gnocchi (finns att köpa färdig i butiken)',
@@ -917,33 +905,22 @@ function getRecipeByCode(code) {
         'En grönsallad eller vitlöksbröd'
     ],
     instructions: [
-        'Förbered gnocchin:',
-        '1. Koka gnocchin enligt förpackningens anvisningar, vanligtvis 2–3 minuter i lättsaltat vatten tills de flyter upp till ytan.',
-        '2. Häll av vattnet och ställ åt sidan.',
-        'Gör tomatsåsen:',
-        '1. Hetta upp olivolja i en stekpanna eller kastrull. Fräs löken tills den är mjuk och genomskinlig, ca 3–4 minuter.',
-        '2. Tillsätt vitlöken och fräs ytterligare en minut.',
-        '3. Rör ner tomatpurén och låt den steka med i någon minut för att fördjupa smaken.',
-        '4. Häll i de krossade tomaterna, grädden, oregano, basilika och eventuellt chiliflakes. Låt såsen sjuda på låg värme i ca 10 minuter. Smaka av med salt och peppar.',
-        'Blanda gnocchi med tomatsåsen:',
-        '1. Tillsätt den kokta gnocchin i tomatsåsen och rör försiktigt om så att gnocchin täcks av den krämiga såsen.',
-        'Lägg i mozzarella:',
-        '1. Fördela gnocchi och sås i en ugnsform eller låt den vara kvar i stekpannan om den är ugnssäker.',
-        '2. Lägg på skivor eller tärningar av mozzarella och strö över parmesan.',
-        'Grädda:',
-        '1. Sätt ugnen på 200°C och gratinera i ca 10–15 minuter tills mozzarellan har smält och blivit lätt gyllene.',
-        'Servera:',
-        '1. Garnera med färsk basilika och servera rätten direkt, gärna med en fräsch grönsallad eller vitlöksbröd vid sidan av.',
-        'Tips:',
-        '1. För en vegansk version, byt ut mozzarellan och parmesan mot växtbaserad ost och använd havregrädde i såsen.',
-        '2. Tillsätt grönsaker som spenat eller zucchini för extra fyllighet.',
-        '3. Vill du ha lite crunch? Strö över rostade pinjenötter eller solrosfrön vid servering.'
+        'Förbered gnocchin: Koka gnocchin enligt förpackningens anvisningar, vanligtvis 2–3 minuter i lättsaltat vatten tills de flyter upp till ytan. Häll av vattnet och ställ åt sidan.',
+        'Gör tomatsåsen: Hetta upp olivolja i en stekpanna eller kastrull. Fräs löken tills den är mjuk och genomskinlig, ca 3–4 minuter. Tillsätt vitlöken och fräs ytterligare en minut. Rör ner tomatpurén och låt den steka med i någon minut för att fördjupa smaken.',
+        'Häll i de krossade tomaterna, grädden, oregano, basilika och eventuellt chiliflakes. Låt såsen sjuda på låg värme i ca 10 minuter. Smaka av med salt och peppar.',
+        'Blanda gnocchi med tomatsåsen: Tillsätt den kokta gnocchin i tomatsåsen och rör försiktigt om så att gnocchin täcks av den krämiga såsen.',
+        'Lägg i mozzarella: Fördela gnocchi och sås i en ugnsform eller låt den vara kvar i stekpannan om den är ugnssäker. Lägg på skivor eller tärningar av mozzarella och strö över parmesan.',
+        'Grädda: Sätt ugnen på 200°C och gratinera i ca 10–15 minuter tills mozzarellan har smält och blivit lätt gyllene.',
+        'Servera: Garnera med färsk basilika och servera rätten direkt, gärna med en fräsch grönsallad eller vitlöksbröd vid sidan av.'
+    ],
+    tips: [
+        'För en vegansk version, byt ut mozzarellan och parmesan mot växtbaserad ost och använd havregrädde i såsen. Tillsätt grönsaker som spenat eller zucchini för extra fyllighet. Vill du ha lite crunch? Strö över rostade pinjenötter eller solrosfrön vid servering.'
     ]
 },
 '11133': {
-    title: 'Enkel och Krämig Zucchinipasta',
+    title: 'Enkel och krämig zucchini pasta',
     image: 'bilder/11133.png',
-    description: 'En snabb och krämig zucchinipasta med härliga smaker av vitlök, parmesan och citron.',
+    portion: ' (4 portioner)',
     ingredients: [
         'För pastan:',
         '400 g valfri pasta (t.ex. spaghetti, tagliatelle eller fusilli)',
@@ -964,31 +941,20 @@ function getRecipeByCode(code) {
         'En skvätt citron (valfritt, för extra fräschör)'
     ],
     instructions: [
-        'Koka pastan:',
-        '1. Koka pastan enligt förpackningens anvisningar i rikligt saltat vatten. Spara ca 1 dl av pastavattnet innan du häller av resten.',
-        'Fräs grönsakerna:',
-        '1. Värm olivoljan i en stor stekpanna.',
-        '2. Fräs löken tills den är mjuk och genomskinlig, ca 3–4 minuter.',
-        '3. Tillsätt vitlöken och fräs ytterligare en minut.',
-        '4. Lägg i zucchinin och fräs tills den är mjuk men fortfarande har lite tuggmotstånd, ca 5–7 minuter.',
-        'Gör såsen:',
-        '1. Häll i grädden och låt allt småputtra i 2–3 minuter.',
-        '2. Tillsätt parmesanosten och rör om tills den smälter. Smaka av med basilika, chiliflakes, salt och peppar.',
-        'Blanda med pastan:',
-        '1. Tillsätt den kokta pastan i stekpannan med såsen. Blanda väl så att pastan täcks av såsen.',
-        '2. Om såsen känns för tjock, tillsätt lite av det sparade pastavattnet för att få en krämigare konsistens.',
-        'Servera:',
-        '1. Lägg upp pastan på tallrikar och toppa med färsk basilika, extra parmesan och eventuellt en skvätt citronjuice.',
-        'Tips:',
-        '1. För extra protein, lägg till rostade kikärtor eller stekt tofu.',
-        '2. Byt ut parmesan mot näringsjäst för en vegansk och nötig smak.',
-        '3. Vill du ha mer textur? Strö över rostade pinjenötter eller solrosfrön.'
+        'Koka pastan: Koka pastan enligt förpackningens anvisningar i rikligt saltat vatten. Spara ca 1 dl av pastavattnet innan du häller av resten.',
+        'Fräs grönsakerna: Värm olivoljan i en stor stekpanna. Fräs löken tills den är mjuk och genomskinlig, ca 3–4 minuter. Tillsätt vitlöken och fräs ytterligare en minut. Lägg i zucchinin och fräs tills den är mjuk men fortfarande har lite tuggmotstånd, ca 5–7 minuter.',
+        'Gör såsen: Häll i grädden och låt allt småputtra i 2–3 minuter. Tillsätt parmesanosten och rör om tills den smälter. Smaka av med basilika, chiliflakes, salt och peppar.',
+        'Blanda med pastan: Tillsätt den kokta pastan i stekpannan med såsen. Blanda väl så att pastan täcks av såsen. Om såsen känns för tjock, tillsätt lite av det sparade pastavattnet för att få en krämigare konsistens.',
+        'Servera: Lägg upp pastan på tallrikar och toppa med färsk basilika, extra parmesan och eventuellt en skvätt citronjuice.'
+    ],
+    tips: [
+        'För extra protein, lägg till rostade kikärtor eller stekt tofu. Byt ut parmesan mot näringsjäst för en vegansk och nötig smak. Vill du ha mer textur? Strö över rostade pinjenötter eller solrosfrön.'
     ]
 },
 '11134': {
-    title: 'Italiensk Pastasallad med Soltorkade Tomater',
+    title: 'Italiensk pastasallad med soltorkade tomater',
     image: 'bilder/11134.png',
-    description: 'En fräsch och smakrik italiensk pastasallad med soltorkade tomater, oliver och en härlig dressing.',
+    portion: ' (4 portioner)',
     ingredients: [
         'Bas:',
         '300 g pasta (t.ex. fusilli, penne eller farfalle)',
@@ -1010,31 +976,20 @@ function getRecipeByCode(code) {
         'Färska basilikablad'
     ],
     instructions: [
-        'Koka pastan:',
-        '1. Koka pastan enligt förpackningens anvisningar i lättsaltat vatten.',
-        '2. Häll av vattnet och låt pastan svalna helt, gärna genom att skölja den med kallt vatten.',
-        'Förbered grönsakerna:',
-        '1. Strimla de soltorkade tomaterna och skär körsbärstomater, paprika och rödlök.',
-        '2. Lägg alla grönsaker i en stor salladsskål tillsammans med oliver och basilika.',
-        'Gör dressingen:',
-        '1. I en liten skål, blanda olja, vinäger, dijonsenap, pressad vitlök, oregano, salt och peppar.',
-        '2. Vispa ihop tills dressingen är väl blandad.',
-        'Blanda salladen:',
-        '1. Tillsätt den avsvalnade pastan till salladsskålen med grönsakerna.',
-        '2. Häll över dressingen och blanda väl så att allt täcks.',
-        'Servera:',
-        '1. Toppa salladen med riven parmesan eller smulad fetaost och garnera med färska basilikablad.',
-        '2. Servera direkt eller låt stå i kylen i ca 30 minuter för att låta smakerna utvecklas.',
-        'Tips:',
-        '1. För en matigare sallad kan du tillsätta grillad kyckling, bönor eller tofu.',
-        '2. Byt ut parmesan mot vegansk ost för en helt växtbaserad version.',
-        '3. Lägg till rostade pinjenötter eller solrosfrön för extra crunch.'
+        'Koka pastan: Koka pastan enligt förpackningens anvisningar i lättsaltat vatten. Häll av vattnet och låt pastan svalna helt, gärna genom att skölja den med kallt vatten.',
+        'Förbered grönsakerna: Strimla de soltorkade tomaterna och skär körsbärstomater, paprika och rödlök. Lägg alla grönsaker i en stor salladsskål tillsammans med oliver och basilika.',
+        'Gör dressingen: I en liten skål, blanda olja, vinäger, dijonsenap, pressad vitlök, oregano, salt och peppar. Vispa ihop tills dressingen är väl blandad.',
+        'Blanda salladen: Tillsätt den avsvalnade pastan till salladsskålen med grönsakerna. Häll över dressingen och blanda väl så att allt täcks.',
+        'Servera: Toppa salladen med riven parmesan eller smulad fetaost och garnera med färska basilikablad. Servera direkt eller låt stå i kylen i ca 30 minuter för att låta smakerna utvecklas.'
+    ],
+    tips: [
+        'För en matigare sallad kan du tillsätta grillad kyckling, bönor eller tofu. Byt ut parmesan mot vegansk ost för en helt växtbaserad version. Lägg till rostade pinjenötter eller solrosfrön för extra crunch.'
     ]
 },
 '11135': {
-    title: 'Kantarellpizza med Lagrad Ost',
+    title: 'Kantarellpizza med lagrad ost',
     image: 'bilder/11135.png',
-    description: 'En lyxig pizza med kantareller, lagrad ost och färska örter. Perfekt för svampälskare!',
+    portion: ' (4 portioner)',
     ingredients: [
         'Pizzadeg:',
         '25 g jäst',
@@ -1055,37 +1010,21 @@ function getRecipeByCode(code) {
         'Ringlad olivolja'
     ],
     instructions: [
-        'Förbered degen:',
-        '1. Smula jästen i en stor skål och lös upp den i ljummet vatten.',
-        '2. Tillsätt olivolja, salt och mjöl, lite i taget. Knåda tills degen är smidig.',
-        '3. Låt degen jäsa under en kökshandduk i ca 30–40 minuter.',
-        'Förbered kantarellerna:',
-        '1. Rensa kantarellerna och skär större svampar i mindre bitar.',
-        '2. Hetta upp smör i en stekpanna och stek kantarellerna på medelhög värme tills de släppt och absorberat sin vätska.',
-        '3. Tillsätt vitlöken mot slutet och fräs i ytterligare en minut. Smaka av med salt och peppar.',
-        'Gör pizzabotten:',
-        '1. Sätt ugnen på 250°C (eller så hög temperatur som möjligt). Ställ in en plåt eller pizzasten i ugnen för att förvärmas.',
-        '2. Kavla ut degen på ett mjölat bakplåtspapper till önskad form, rund eller rektangulär.',
-        'Montera pizzan:',
-        '1. Bred ut crème fraiche över pizzabottnen.',
-        '2. Strö över den rivna lagrade osten jämnt.',
-        '3. Fördela kantarellerna över pizzan och lägg till mozzarella.',
-        'Grädda:',
-        '1. Lyft över pizzan med bakplåtspappret till den varma plåten eller pizzastenen.',
-        '2. Grädda i ugnen i 7–10 minuter tills kanterna är gyllenbruna och osten bubblar.',
-        'Topping och servering:',
-        '1. Ta ut pizzan och strö över färsk timjan eller persilja.',
-        '2. Ringla över lite olivolja för extra smak. Servera direkt medan den är varm.',
-        'Tips:',
-        '1. Byt ut lagrad ost mot en blåmögelost för en starkare smak.',
-        '2. För en matigare variant, lägg till skivad potatis eller karamelliserad lök.',
-        '3. Servera med en fräsch grönsallad.'
+        'Förbered degen: Smula jästen i en stor skål och lös upp den i ljummet vatten. Tillsätt olivolja, salt och mjöl, lite i taget. Knåda tills degen är smidig. Låt degen jäsa under en kökshandduk i ca 30–40 minuter.',
+        'Förbered kantarellerna: Rensa kantarellerna och skär större svampar i mindre bitar. Hetta upp smör i en stekpanna och stek kantarellerna på medelhög värme tills de släppt och absorberat sin vätska. Tillsätt vitlöken mot slutet och fräs i ytterligare en minut. Smaka av med salt och peppar.',
+        'Gör pizzabotten: Sätt ugnen på 250°C (eller så hög temperatur som möjligt). Ställ in en plåt eller pizzasten i ugnen för att förvärmas. Kavla ut degen på ett mjölat bakplåtspapper till önskad form, rund eller rektangulär.',
+        'Montera pizzan: Bred ut crème fraiche över pizzabottnen. Strö över den rivna lagrade osten jämnt. Fördela kantarellerna över pizzan och lägg till mozzarella.',
+        'Grädda: Lyft över pizzan med bakplåtspappret till den varma plåten eller pizzastenen. Grädda i ugnen i 7–10 minuter tills kanterna är gyllenbruna och osten bubblar.',
+        'Topping och servering: Ta ut pizzan och strö över färsk timjan eller persilja. Ringla över lite olivolja för extra smak. Servera direkt medan den är varm.'
+    ],
+    tips: [
+        'Byt ut lagrad ost mot en blåmögelost för en starkare smak. För en matigare variant, lägg till skivad potatis eller karamelliserad lök. Servera med en fräsch grönsallad.'
     ]
 },
 '11136': {
-    title: 'Mexikansk Halloumiburgare med Picklad Lök, Avokado och Koriander',
+    title: 'Mexikansk halloumiburgare med picklad lök, avokado och koriander.',
     image: 'bilder/11136.png',
-    description: 'En smakrik och krispig halloumiburgare med syrlig picklad lök och krämig avokado.',
+    portion: ' (4 portioner)',
     ingredients: [
         'Picklad lök:',
         '1 rödlök, tunt skivad',
@@ -1107,35 +1046,21 @@ function getRecipeByCode(code) {
         'Salladsblad'
     ],
     instructions: [
-        'Gör den picklade löken:',
-        '1. Koka upp vatten, ättiksprit och socker i en kastrull tills sockret lösts upp.',
-        '2. Lägg de skivade rödlökarna i en burk eller skål och häll över lagen. Låt stå i minst 30 minuter, gärna längre för intensivare smak.',
-        'Förbered halloumin:',
-        '1. Skär halloumin i tjocka skivor (ca 1 cm).',
-        '2. Pensla halloumiskivorna med olivolja och krydda med paprikapulver och spiskummin på båda sidor.',
-        'Stek eller grilla halloumin:',
-        '1. Hetta upp en grillpanna eller stekpanna.',
-        '2. Stek halloumiskivorna på medelhög värme i ca 2–3 minuter per sida tills de fått en gyllenbrun yta.',
-        'Förbered tillbehören:',
-        '1. Blanda crème fraiche eller majonnäs med limejuice för en syrlig dressing.',
-        '2. Rosta hamburgerbröden lätt i en torr panna eller på grillen.',
-        'Montera burgarna:',
-        '1. Lägg ett salladsblad på botten av varje bröd.',
-        '2. Lägg på en halloumiskiva, följt av skivad avokado, picklad lök och grillad majs.',
-        '3. Toppa med lite lime-crème fraiche och en generös mängd koriander.',
-        '4. Lägg på det översta brödet.',
-        'Servera:',
-        '1. Servera direkt tillsammans med sötpotatispommes eller en fräsch sallad.',
-        'Tips:',
-        '1. Vill du ha extra hetta? Lägg till jalapeños eller ringla över lite srirachasås.',
-        '2. Byt ut brödet mot glutenfria alternativ om så önskas.',
-        '3. För en vegansk variant, använd tofu eller vegansk ost istället för halloumi.'
+        'Gör den picklade löken: Koka upp vatten, ättiksprit och socker i en kastrull tills sockret lösts upp. Lägg de skivade rödlökarna i en burk eller skål och häll över lagen. Låt stå i minst 30 minuter, gärna längre för intensivare smak.',
+        'Förbered halloumin: Skär halloumin i tjocka skivor (ca 1 cm). Pensla halloumiskivorna med olivolja och krydda med paprikapulver och spiskummin på båda sidor.',
+        'Stek eller grilla halloumin: Hetta upp en grillpanna eller stekpanna. Stek halloumiskivorna på medelhög värme i ca 2–3 minuter per sida tills de fått en gyllenbrun yta.',
+        'Förbered tillbehören: Blanda crème fraiche eller majonnäs med limejuice för en syrlig dressing. Rosta hamburgerbröden lätt i en torr panna eller på grillen.',
+        'Montera burgarna: Lägg ett salladsblad på botten av varje bröd. Lägg på en halloumiskiva, följt av skivad avokado, picklad lök och grillad majs. Toppa med lite lime-crème fraiche och en generös mängd koriander. Lägg på det översta brödet.',
+        'Servera: Servera direkt tillsammans med sötpotatispommes eller en fräsch sallad.'
+    ],
+    tips: [
+        'Vill du ha extra hetta? Lägg till jalapeños eller ringla över lite srirachasås. Byt ut brödet mot glutenfria alternativ om så önskas. För en vegansk variant, använd tofu eller vegansk ost istället för halloumi.'
     ]
 },
 '11137': {
-    title: 'Pasta Bersaglieri - Pasta med Fyra Sorters Ostar',
+    title: 'Pasta bersaglieri - pasta med fyra sorters ostar',
     image: 'bilder/11137.png',
-    description: 'En dekadent och ostig pasta som smälter i munnen. Perfekt för ostälskare!',
+    portion: ' (4 portioner)',
     ingredients: [
         '400 g pasta (valfri sort)',
         '1 dl parmesan, riven',
@@ -1149,22 +1074,21 @@ function getRecipeByCode(code) {
         'Salt och peppar'
     ],
     instructions: [
-        '1. Koka pastan enligt anvisningarna på förpackningen.',
-        '2. Smält smöret i en kastrull och fräs vitlöken tills den är mjuk.',
-        '3. Tillsätt grädde och mjölk, låt sjuda.',
-        '4. Rör i ostarna en i taget och låt smälta under omrörning. Smaka av med salt och peppar.',
-        '5. Blanda den nykokta pastan med ostsåsen.',
-        '6. Servera genast, gärna med en sallad och vitlöksbröd.',
-        'Tips:',
-        '1. Byt ut gräddosten mot Västerbottensost för en mer kraftfull smak.',
-        '2. Toppa med färsk basilika eller valnötter för extra textur och färg.',
-        '3. För en glutenfri variant, använd glutenfri pasta.'
+        'Koka pastan enligt anvisningarna på förpackningen.',
+        'Smält smöret i en kastrull och fräs vitlöken tills den är mjuk.',
+        'Tillsätt grädde och mjölk, låt sjuda.',
+        'Rör i ostarna en i taget och låt smälta under omrörning. Smaka av med salt och peppar.',
+        'Blanda den nykokta pastan med ostsåsen.',
+        'Servera genast, gärna med en sallad och vitlöksbröd.'
+    ],
+    tips: [
+        'Byt ut gräddosten mot västerbottenost för en mer kraftfull smak. Toppa med färsk basilika eller valnötter för extra textur och färg. För en glutenfri variant, använd glutenfri pasta.'
     ]
 },
 '11138': {
-    title: 'Vegetarisk Stroganoff',
+    title: 'Vegetarisk stroganoff',
     image: 'bilder/11138.png',
-    description: 'En klassisk stroganoff i vegetarisk tappning med smakrika quornbitar eller tofu.',
+    portion: ' (4 portioner)',
     ingredients: [
         '300 g quornbitar eller tofu',
         '1 gul lök, hackad',
@@ -1178,21 +1102,20 @@ function getRecipeByCode(code) {
         'Färsk persilja, hackad'
     ],
     instructions: [
-        '1. Stek lök och vitlök i smör tills de är mjuka.',
-        '2. Tillsätt quorn eller tofu och fräs i några minuter.',
-        '3. Rör ner paprikapulver, krossade tomater och dijonsenap. Låt koka i 5 minuter.',
-        '4. Häll i grädde och låt småputtra ytterligare 5 minuter. Smaka av med salt och peppar.',
-        '5. Servera med ris eller potatismos och toppa med persilja.',
-        'Tips:',
-        '1. Lägg till skivade champinjoner för mer smak och textur.',
-        '2. För en vegansk variant, använd växtbaserad grädde och tofu.',
-        '3. Servera med en klick crème fraiche eller vegansk alternativ för extra syrlighet.'
+        'Stek lök och vitlök i smör tills de är mjuka.',
+        'Tillsätt quorn eller tofu och fräs i några minuter.',
+        'Rör ner paprikapulver, krossade tomater och dijonsenap. Låt koka i 5 minuter.',
+        'Häll i grädde och låt småputtra ytterligare 5 minuter. Smaka av med salt och peppar.',
+        'Servera med ris eller potatismos och toppa med persilja.'
+    ],
+    tips: [
+        'Lägg till skivade champinjoner för mer smak och textur. För en vegansk variant, använd växtbaserad grädde och tofu. Servera med en klick crème fraiche eller vegan alternativ för extra syrlighet.'
     ]
 },
 '11139': {
-    title: 'Citronpasta med Broccoli och Krispig Grönkål',
+    title: 'Citronpasta med broccoli och krispig grönkål',
     image: 'bilder/11139.png',
-    description: 'En fräsch och lättlagad pasta med citron, broccoli och krispig grönkål. Perfekt för en vardagsmiddag!',
+    portion: ' (4 portioner)',
     ingredients: [
         '400 g spaghetti',
         '1 citron, saft och zest',
@@ -1204,21 +1127,20 @@ function getRecipeByCode(code) {
         'Salt och peppar'
     ],
     instructions: [
-        '1. Koka pastan enligt anvisningarna.',
-        '2. Ångkoka eller koka broccolin tills den är mjuk men fortfarande spänstig.',
-        '3. Hetta upp olivolja i en panna och fräs vitlök och grönkål tills grönkålen är krispig.',
-        '4. Blanda den kokta pastan med citronjuice, zest, olivolja, broccoli och parmesan.',
-        '5. Toppa med den krispiga grönkålen och servera direkt.',
-        'Tips:',
-        '1. Strö över rostade pinjenötter eller mandelspån för extra crunch.',
-        '2. Testa att tillsätta chiliflakes för lite hetta.',
-        '3. Använd glutenfri pasta för en glutenfri variant.'
+        'Koka pastan enligt anvisningarna.',
+        'Ångkoka eller koka broccolin tills den är mjuk men fortfarande spänstig.',
+        'Hetta upp olivolja i en panna och fräs vitlök och grönkål tills grönkålen är krispig.',
+        'Blanda den kokta pastan med citronjuice, zest, olivolja, broccoli och parmesan.',
+        'Toppa med den krispiga grönkålen och servera direkt.'
+    ],
+    tips: [
+        'Strö över rostade pinjenötter eller mandelspån för extra crunch. Testa att tillsätta chili flakes för lite hetta. Använd glutenfri pasta för en glutenfri variant.'
     ]
 },
 '11140': {
-    title: 'Italiensk Tomatsoppa med Mozzarellafyllda Quesadillas',
+    title: 'Italiensk tomatsoppa med mozzarellafyllda quesadillas',
     image: 'bilder/11140.png',
-    description: 'En klassisk tomatsoppa serverad med krispiga och ostiga quesadillas för en komplett måltid.',
+    portion: ' (4 portioner)',
     ingredients: [
         'Tomatsoppa:',
         '1 kg färska tomater eller 2 burkar krossade tomater',
@@ -1236,26 +1158,21 @@ function getRecipeByCode(code) {
         '1 msk smör eller olja'
     ],
     instructions: [
-        'Tomatsoppa:',
-        '1. Hetta upp olivolja i en kastrull. Fräs lök och vitlök tills de är mjuka.',
-        '2. Tillsätt tomater, buljong och basilika. Låt sjuda i 15 minuter.',
-        '3. Mixa soppan slät med en stavmixer. Rör i grädden och smaka av med salt och peppar.',
-        'Quesadillas:',
-        '1. Fördela mozzarella och parmesan jämnt över hälften av tortillabröden. Lägg på de andra som lock.',
-        '2. Hetta upp en stekpanna med smör eller olja. Stek varje quesadilla tills den är gyllene och osten har smält.',
-        '3. Skär i trekanter.',
-        'Servera:',
-        '1. Servera tomatsoppan med mozzarellafyllda quesadillas vid sidan om.',
-        'Tips:',
-        '1. Toppa soppan med färska basilika eller krutonger.',
-        '2. Testa att tillsätta chili för en kryddigare soppa.',
-        '3. Gör glutenfria quesadillas med glutenfria tortillabröd.'
+        'Tomatsoppa: Hetta upp olivolja i en kastrull. Fräs lök och vitlök tills de är mjuka.',
+        'Tillsätt tomater, buljong och basilika. Låt sjuda i 15 minuter.',
+        'Mixa soppan slät med en stavmixer. Rör i grädden och smaka av med salt och peppar.',
+        'Quesadillas: Fördela mozzarella och parmesan jämnt över hälften av tortillabröden. Lägg på de andra som lock.',
+        'Hetta upp en stekpanna med smör eller olja. Stek varje quesadilla tills den är gyllene och osten har smält.',
+        'Skär i trekanter. Servera tomatsoppan med mozzarellafyllda quesadillas vid sidan om.'
+    ],
+    tips: [
+        'Toppa soppan med färska basilika eller krutonger. Testa att tillsätta chili för en kryddigare soppa. Gör glutenfria quesadillas med glutenfria tortillabröd.'
     ]
 },
 '11141': {
-    title: 'Krämig Fänkålspasta',
+    title: 'Krämig fänkålspasta',
     image: 'bilder/11141.png',
-    description: 'En len och smakrik pasta med fänkål, citron och parmesan. Perfekt för en vardagslyxig middag.',
+    portion: ' (4 portioner)',
     ingredients: [
         '400 g pasta (t.ex. tagliatelle)',
         '1 stor fänkål, tunt skivad',
@@ -1268,21 +1185,20 @@ function getRecipeByCode(code) {
         'Färsk persilja eller dill för topping'
     ],
     instructions: [
-        '1. Koka pastan enligt anvisningarna på förpackningen.',
-        '2. Hetta upp smör eller olivolja i en stor panna. Fräs vitlök och fänkål tills fänkålen är mjuk.',
-        '3. Häll i vitt vin och låt sjuda tills vätskan reducerats något.',
-        '4. Tillsätt grädde och låt småkoka. Rör i parmesan och citronzest. Smaka av med salt och peppar.',
-        '5. Blanda pastan med såsen och toppa med persilja eller dill. Servera genast.',
-        'Tips:',
-        '1. Byt ut vitt vin mot lite extra citronjuice för en alkoholfri variant.',
-        '2. Tillsätt chili flakes för en kryddigare rätt.',
-        '3. Servera med ett gott bröd för att suga upp såsen.'
+        'Koka pastan enligt anvisningarna på förpackningen.',
+        'Hetta upp smör eller olivolja i en stor panna. Fräs vitlök och fänkål tills fänkålen är mjuk.',
+        'Häll i vitt vin och låt sjuda tills vätskan reducerats något.',
+        'Tillsätt grädde och låt småkoka. Rör i parmesan och citronzest. Smaka av med salt och peppar.',
+        'Blanda pastan med såsen och toppa med persilja eller dill. Servera genast.'
+    ],
+    tips: [
+        'Byt ut vitt vin mot lite extra citronjuice för en alkoholfri variant. Tillsätt chili flakes för en kryddigare rätt. Servera med ett gott bröd för att suga upp såsen.'
     ]
 },
 '11142': {
-    title: 'Burrito Bowl med Tortillachips',
+    title: 'Burrito bowl med tortillachips',
     image: 'bilder/11142.png',
-    description: 'En enkel och mättande burrito bowl fylld med ris, bönor och färska grönsaker. Perfekt för en snabb middag.',
+    portion: ' (4 portioner)',
     ingredients: [
         '2 dl ris',
         '1 burk svarta bönor, sköljda',
@@ -1296,20 +1212,19 @@ function getRecipeByCode(code) {
         'Tortillachips för topping'
     ],
     instructions: [
-        '1. Koka riset enligt förpackningen.',
-        '2. Förbered grönsakerna och bönorna.',
-        '3. Montera burrito bowlen genom att lägga riset i botten och sedan fylla med bönor, grönsaker, avokado och majs.',
-        '4. Toppa med gräddfil, salsa, riven ost och tortillachips. Pressa över lime.',
-        'Tips:',
-        '1. Tillsätt jalapeños eller picklad rödlök för mer smak.',
-        '2. Gör rätten vegansk genom att använda vegansk ost och yoghurt.',
-        '3. För extra protein, lägg till stekt tofu eller sojafärs.'
+        'Koka riset enligt förpackningen.',
+        'Förbered grönsakerna och bönorna.',
+        'Montera burrito bowlen genom att lägga riset i botten och sedan fylla med bönor, grönsaker, avokado och majs.',
+        'Toppa med gräddfil, salsa, riven ost och tortillachips. Pressa över lime.'
+    ],
+    tips: [
+        'Tillsätt jalapeños eller picklad rödlök för mer smak. Gör rätten vegansk genom att använda vegansk ost och yoghurt. För extra protein, lägg till stekt tofu eller sojafärs.'
     ]
 },
 '11143': {
-    title: 'Frasig Halloumi med Tzatziki och Rostad Potatis',
+    title: 'Frasig halloumi med tzatziki och rostad potatis',
     image: 'bilder/11143.png',
-    description: 'En härlig kombination av krispig halloumi, krämig tzatziki och gyllene rostad potatis.',
+    portion: ' (4 portioner)',
     ingredients: [
         'Frasig halloumi:',
         '2 paket halloumi (à 200 g)',
@@ -1330,28 +1245,19 @@ function getRecipeByCode(code) {
         'Salt och peppar'
     ],
     instructions: [
-        'Rostad potatis:',
-        '1. Sätt ugnen på 225°C.',
-        '2. Lägg potatisklyftorna på en plåt, ringla över olivolja och krydda med rosmarin, salt och peppar.',
-        '3. Rosta i ugnen i ca 30 minuter, tills potatisen är gyllene.',
-        'Tzatziki:',
-        '1. Blanda riven gurka med grekisk yoghurt, vitlök och olivolja. Smaka av med salt och peppar.',
-        'Frasig halloumi:',
-        '1. Skär halloumin i tjocka skivor.',
-        '2. Doppa halloumiskivorna i mjöl, sedan i ägg och till sist i panko eller ströbröd.',
-        '3. Stek i rikligt med olja på medelhög värme tills de är gyllene och frasiga.',
-        'Servera:',
-        '1. Servera halloumin tillsammans med rostad potatis och tzatziki.',
-        'Tips:',
-        '1. Lägg till en enkel grönsallad för ett fräscht tillbehör.',
-        '2. Testa att krydda panko med lite paprikapulver för extra smak.',
-        '3. Gör glutenfria paneringar med glutenfritt mjöl och ströbröd.'
+        'Rostad potatis: Sätt ugnen på 225°C. Lägg potatisklyftorna på en plåt, ringla över olivolja och krydda med rosmarin, salt och peppar. Rosta i ugnen i ca 30 minuter, tills potatisen är gyllene.',
+        'Tzatziki: Blanda riven gurka med grekisk yoghurt, vitlök och olivolja. Smaka av med salt och peppar.',
+        'Frasig halloumi: Skär halloumin i tjocka skivor. Doppa halloumiskivorna i mjöl, sedan i ägg och till sist i panko eller ströbröd. Stek i rikligt med olja på medelhög värme tills de är gyllene och frasiga.',
+        'Servera halloumin tillsammans med rostad potatis och tzatziki.'
+    ],
+    tips: [
+        'Lägg till en enkel grönsallad för ett fräscht tillbehör. Testa att krydda panko med lite paprikapulver för extra smak. Gör glutenfria paneringar med glutenfritt mjöl och ströbröd.'
     ]
 },
 '11144': {
-    title: 'Krämiga Gochujang- och Jordnötsnudlar',
+    title: 'Krämiga gochujang- och jordnötsnudlar',
     image: 'bilder/11144.png',
-    description: 'En smakexplosion av krämiga nudlar med gochujang och jordnötssås. Perfekt för en snabb och smakrik middag.',
+    portion: ' (4 portioner)',
     ingredients: [
         '400 g äggnudlar eller risnudlar',
         '2 msk gochujang (koreansk chilipasta)',
@@ -1366,22 +1272,21 @@ function getRecipeByCode(code) {
         '2 msk rostade sesamfrön'
     ],
     instructions: [
-        '1. Koka nudlarna enligt anvisningarna på förpackningen.',
-        '2. Hetta upp sesamolja i en panna och fräs vitlök och ingefära.',
-        '3. Tillsätt gochujang, jordnötssmör, soja och kokosmjölk. Låt såsen puttra i några minuter tills den tjocknar.',
-        '4. Blanda ner morot och sockerärtor och låt koka tills grönsakerna är mjuka men fortfarande krispiga.',
-        '5. Rör ner nudlarna och blanda väl.',
-        '6. Toppa med rostade sesamfrön innan servering.',
-        'Tips:',
-        '1. Lägg till tofu eller tempeh för extra protein.',
-        '2. Justera mängden gochujang efter önskad hetta.',
-        '3. Tillsätt limejuice för extra friskhet.'
+        'Koka nudlarna enligt anvisningarna på förpackningen.',
+        'Hetta upp sesamolja i en panna och fräs vitlök och ingefära.',
+        'Tillsätt gochujang, jordnötssmör, soja och kokosmjölk. Låt såsen puttra i några minuter tills den tjocknar.',
+        'Blanda ner morot och sockerärtor och låt koka tills grönsakerna är mjuka men fortfarande krispiga.',
+        'Rör ner nudlarna och blanda väl.',
+        'Toppa med rostade sesamfrön innan servering.'
+    ],
+    tips: [
+        'Lägg till tofu eller tempeh för extra protein. Justera mängden gochujang efter önskad hetta. Tillsätt limejuice för extra friskhet.'
     ]
 },
 '11145': {
-    title: 'Krämig Citronpasta med Sparris',
+    title: 'Krämig citronpasta med sparris',
     image: 'bilder/11145.png',
-    description: 'En enkel och elegant pasta med sparris, citron och parmesan. Perfekt för både vardag och fest.',
+    portion: ' (4 portioner)',
     ingredients: [
         '400 g linguine eller spaghetti',
         '200 g grön sparris, skuren i bitar',
@@ -1394,21 +1299,20 @@ function getRecipeByCode(code) {
         'Färsk basilika eller persilja för topping'
     ],
     instructions: [
-        '1. Koka pastan enligt förpackningen.',
-        '2. Hetta upp olivolja i en panna och fräs vitlök och sparris tills sparrisen är mjuk.',
-        '3. Tillsätt grädde, citronsaft och zest. Låt småputtra några minuter.',
-        '4. Blanda den nykokta pastan med såsen och rör i parmesan. Smaka av med salt och peppar.',
-        '5. Toppa med färsk basilika eller persilja och servera.',
-        'Tips:',
-        '1. Lägg till rostade pinjenötter eller mandelspån för extra crunch.',
-        '2. Byt ut grädden mot växtbaserad alternativ för en vegansk version.',
-        '3. Servera med ett gott bröd eller en fräsch grönsallad.'
+        'Koka pastan enligt förpackningen.',
+        'Hetta upp olivolja i en panna och fräs vitlök och sparris tills sparrisen är mjuk.',
+        'Tillsätt grädde, citronsaft och zest. Låt småputtra några minuter.',
+        'Blanda den nykokta pastan med såsen och rör i parmesan. Smaka av med salt och peppar.',
+        'Toppa med färsk basilika eller persilja och servera.'
+    ],
+    tips: [
+        'Lägg till rostade pinjenötter eller mandelspån för extra crunch. Byt ut grädden mot växtbaserad alternativ för en vegansk version. Servera med ett gott bröd eller en fräsch grönsallad.'
     ]
 },
 '11146': {
-    title: 'Auberginegratäng - Melanzane alla Parmigiana',
+    title: 'Auberginegratäng - Melanzane alla parmigiana',
     image: 'bilder/11146.png',
-    description: 'En klassisk italiensk gratäng med aubergine, tomatsås och ost. Ett underbart vegetariskt alternativ.',
+    portion: ' (4 portioner)',
     ingredients: [
         '2 stora auberginer',
         '2 burkar krossade tomater (800 g)',
@@ -1422,22 +1326,21 @@ function getRecipeByCode(code) {
         'Salt och peppar'
     ],
     instructions: [
-        '1. Sätt ugnen på 200°C.',
-        '2. Skär auberginerna i ca 1 cm tjocka skivor. Salta och låt dem ligga i ca 20 minuter för att dra ut vätskan. Torka av med hushållspapper.',
-        '3. Hetta upp olivolja i en panna och stek aubergineskivorna tills de är gyllene.',
-        '4. I en kastrull, fräs lök och vitlök. Tillsätt krossade tomater, oregano och basilika. Låt sjuda i 15 minuter. Smaka av med salt och peppar.',
-        '5. Varva tomatsås, aubergineskivor, mozzarella och parmesan i en ugnsform. Avsluta med ett lager ost.',
-        '6. Gratinera i ugnen i ca 25 minuter tills ytan är gyllene och bubblig.',
-        'Tips:',
-        '1. Servera med en fräsch grönsallad och bröd för en komplett måltid.',
-        '2. För en vegansk version, använd växtbaserad ost och smör.',
-        '3. Lägg till zucchini eller paprika för extra grönsaker.'
+        'Sätt ugnen på 200°C.',
+        'Skär auberginerna i ca 1 cm tjocka skivor. Salta och låt dem ligga i ca 20 minuter för att dra ut vätskan. Torka av med hushållspapper.',
+        'Hetta upp olivolja i en panna och stek aubergineskivorna tills de är gyllene.',
+        'I en kastrull, fräs lök och vitlök. Tillsätt krossade tomater, oregano och basilika. Låt sjuda i 15 minuter. Smaka av med salt och peppar.',
+        'Varva tomatsås, aubergineskivor, mozzarella och parmesan i en ugnsform. Avsluta med ett lager ost.',
+        'Gratinera i ugnen i ca 25 minuter tills ytan är gyllene och bubblig.'
+    ],
+    tips: [
+        'Servera med en fräsch grönsallad och bröd för en komplett måltid. För en vegansk version, använd växtbaserad ost och smör. Lägg till zucchini eller paprika för extra grönsaker.'
     ]
 },
 '11147': {
-    title: 'Friterade Vårrullar',
+    title: 'Friterade vårrullar',
     image: 'bilder/11147.png',
-    description: 'Krispiga vårrullar fyllda med grönsaker, perfekt som förrätt eller snacks.',
+    portion: ' (4 portioner)',
     ingredients: [
         '12 vårrulleark (köpes färdiga)',
         '2 dl vitkål, finstrimlad',
@@ -1451,21 +1354,20 @@ function getRecipeByCode(code) {
         'Olja för fritering'
     ],
     instructions: [
-        '1. Fräs vitlök, vitkål, morot, böngroddar och salladslök i lite sesamolja tills de är mjuka.',
-        '2. Tillsätt soja och ostronsås. Låt svalna.',
-        '3. Lägg en sked fyllning på varje vårrulleark. Vik in kanterna och rulla ihop. Pensla kanten med vatten för att försegla.',
-        '4. Hetta upp olja i en kastrull. Fritera vårrullarna i omgångar tills de är gyllene. Låt rinna av på hushållspapper.',
-        '5. Servera med sweet chilisås eller sojasås.',
-        'Tips:',
-        '1. Fyll vårrullarna med glasnudlar för mer textur.',
-        '2. För en hälsosammare variant, grädda dem i ugnen på 200°C i ca 20 minuter.',
-        '3. Lägg till färsk koriander i fyllningen för extra smak.'
+        'Fräs vitlök, vitkål, morot, böngroddar och salladslök i lite sesamolja tills de är mjuka.',
+        'Tillsätt soja och ostronsås. Låt svalna.',
+        'Lägg en sked fyllning på varje vårrulleark. Vik in kanterna och rulla ihop. Pensla kanten med vatten för att försegla.',
+        'Hetta upp olja i en kastrull. Fritera vårrullarna i omgångar tills de är gyllene. Låt rinna av på hushållspapper.',
+        'Servera med sweet chilisås eller sojasås.'
+    ],
+    tips: [
+        'Fyll vårrullarna med glasnudlar för mer textur. För en hälsosammare variant, grädda dem i ugnen på 200°C i ca 20 minuter. Lägg till färsk koriander i fyllningen för extra smak.'
     ]
 },
 '11148': {
-    title: 'Röd Linsgryta med Sval Citronyoghurt',
+    title: 'Röd linsgryta med sval citronyoghurt',
     image: 'bilder/11148.png',
-    description: 'En värmande och mättande gryta med röda linser, kryddor och en frisk citronyoghurt.',
+    portion: ' (4 portioner)',
     ingredients: [
         '2 dl röda linser',
         '1 gul lök, hackad',
@@ -1483,21 +1385,20 @@ function getRecipeByCode(code) {
         'En nypa salt'
     ],
     instructions: [
-        '1. Skölj linserna.',
-        '2. Hetta upp olivolja i en gryta. Fräs lök, vitlök och morot tills de är mjuka.',
-        '3. Tillsätt spiskummin och gurkmeja. Rör om och tillsätt krossade tomater, buljong och linser.',
-        '4. Låt koka i ca 20 minuter tills linserna är mjuka. Smaka av med salt och peppar.',
-        '5. Blanda yoghurt med citronzest och saft. Servera som topping på grytan.',
-        'Tips:',
-        '1. Servera med naanbröd eller ris för en mättande måltid.',
-        '2. Lägg till en näve färsk spenat i slutet för mer grönt.',
-        '3. Gör grytan vegansk genom att byta ut yoghurten mot ett växtbaserat alternativ.'
+        'Skölj linserna.',
+        'Hetta upp olivolja i en gryta. Fräs lök, vitlök och morot tills de är mjuka.',
+        'Tillsätt spiskummin och gurkmeja. Rör om och tillsätt krossade tomater, buljong och linser.',
+        'Låt koka i ca 20 minuter tills linserna är mjuka. Smaka av med salt och peppar.',
+        'Blanda yoghurt med citronzest och saft. Servera som topping på grytan.'
+    ],
+    tips: [
+        'Servera med naanbröd eller ris för en mättande måltid. Lägg till en näve färsk spenat i slutet för mer grönt. Gör grytan vegansk genom att byta ut yoghurten mot ett växtbaserat alternativ.'
     ]
 },
 '11149': {
-    title: 'Burrito med Ost och Svarta Bönor',
+    title: 'Burrito med ost och svarta bönor',
     image: 'bilder/11149.png',
-    description: 'En smakrik burrito fylld med svarta bönor, grönsaker och ost. Perfekt för en snabb lunch eller middag.',
+    portion: ' (4 portioner)',
     ingredients: [
         '4 stora tortillabröd',
         '1 burk svarta bönor, avrunna och sköljda',
@@ -1513,21 +1414,20 @@ function getRecipeByCode(code) {
         'Salt och peppar'
     ],
     instructions: [
-        '1. Hetta upp olivolja i en panna och fräs röd lök tills den är mjuk.',
-        '2. Tillsätt svarta bönor, majs, tomater, spiskummin och paprikapulver. Låt fräsa i några minuter och smaka av med salt och peppar.',
-        '3. Värm tortillabröden i en panna eller ugn.',
-        '4. Fördela bönblandningen och ost jämnt på tortillabröden. Vik ihop till burritos.',
-        '5. Servera med crème fraiche eller gräddfil och pressad lime.',
-        'Tips:',
-        '1. Lägg till avokado eller guacamole för extra krämighet.',
-        '2. För en vegansk version, använd växtbaserad ost och crème fraiche.',
-        '3. Servera med tortillachips och salsa vid sidan om.'
+        'Hetta upp olivolja i en panna och fräs röd lök tills den är mjuk.',
+        'Tillsätt svarta bönor, majs, tomater, spiskummin och paprikapulver. Låt fräsa i några minuter och smaka av med salt och peppar.',
+        'Värm tortillabröden i en panna eller ugn.',
+        'Fördela bönblandningen och ost jämnt på tortillabröden. Vik ihop till burritos.',
+        'Servera med crème fraiche eller gräddfil och pressad lime.'
+    ],
+    tips: [
+        'Lägg till avokado eller guacamole för extra krämighet. För en vegansk version, använd växtbaserad ost och crème fraiche. Servera med tortillachips och salsa vid sidan om.'
     ]
 },
 '11150': {
-    title: 'Krämig Avokadopasta',
+    title: 'Krämig avocadopasta',
     image: 'bilder/11150.png',
-    description: 'En snabb och fräsch pastarätt med krämig avokadosås och en hint av citron.',
+    portion: ' (4 portioner)',
     ingredients: [
         '400 g pasta (t.ex. spaghetti eller penne)',
         '2 mogna avokador',
@@ -1539,20 +1439,19 @@ function getRecipeByCode(code) {
         'Färsk basilika för topping'
     ],
     instructions: [
-        '1. Koka pastan enligt anvisningarna.',
-        '2. Mixa avokado, grädde, vitlök, citronjuice och zest till en slät sås. Smaka av med salt och peppar.',
-        '3. Blanda den nykokta pastan med avokadosåsen.',
-        '4. Toppa med parmesan och färsk basilika innan servering.',
-        'Tips:',
-        '1. Strö över rostade pinjenötter för extra crunch.',
-        '2. För en hetare variant, tillsätt lite chili flakes.',
-        '3. Ät så snart som möjligt, eftersom avokadosåsen kan mörkna.'
+        'Koka pastan enligt anvisningarna.',
+        'Mixa avokado, grädde, vitlök, citronjuice och zest till en slät sås. Smaka av med salt och peppar.',
+        'Blanda den nykokta pastan med avokadosåsen.',
+        'Toppa med parmesan och färsk basilika innan servering.'
+    ],
+    tips: [
+        'Strö över rostade pinjenötter för extra crunch. För en hetare variant, tillsätt lite chili flakes. Ät så snart som möjligt, eftersom avokadosåsen kan mörkna.'
     ]
 },
 '11151': {
-    title: 'Chili sin Carne',
+    title: 'Chili sin carne',
     image: 'bilder/11151.png',
-    description: 'En värmande vegetarisk chili med bönor och kryddor. Perfekt för en mättande middag.',
+    portion: ' (4 portioner)',
     ingredients: [
         '1 gul lök, hackad',
         '2 vitlöksklyftor, hackade',
@@ -1570,21 +1469,20 @@ function getRecipeByCode(code) {
         'Salt och peppar'
     ],
     instructions: [
-        '1. Hetta upp olivolja i en gryta och fräs lök, vitlök och paprika tills de mjuknar.',
-        '2. Tillsätt tomatpuré, spiskummin, paprikapulver och chilipulver. Fräs i någon minut.',
-        '3. Rör ner krossade tomater, buljong, bönor och majs. Låt sjuda i 20 minuter.',
-        '4. Smaka av med salt och peppar.',
-        '5. Servera med ris, tortilla eller ett gott bröd.',
-        'Tips:',
-        '1. Toppa med färsk koriander och en klick gräddfil.',
-        '2. Lägg till lite mörk choklad för en djupare smak.',
-        '3. Gör rätten extra matig genom att tillsätta sojafärs eller linser.'
+        'Hetta upp olivolja i en gryta och fräs lök, vitlök och paprika tills de mjuknar.',
+        'Tillsätt tomatpuré, spiskummin, paprikapulver och chilipulver. Fräs i någon minut.',
+        'Rör ner krossade tomater, buljong, bönor och majs. Låt sjuda i 20 minuter.',
+        'Smaka av med salt och peppar.',
+        'Servera med ris, tortilla eller ett gott bröd.'
+    ],
+    tips: [
+        'Toppa med färsk koriander och en klick gräddfil. Lägg till lite mörk choklad för en djupare smak. Gör rätten extra matig genom att tillsätta sojafärs eller linser.'
     ]
 },
 '11152': {
-    title: 'Kimchi Fried Rice med Edamame',
+    title: 'Kimchi fried rice med edamame',
     image: 'bilder/11152.png',
-    description: 'En snabb och smakrik rätt med kryddig kimchi och fräscha edamamebönor.',
+    portion: ' (4 portioner)',
     ingredients: [
         '4 dl kokt och kallt ris (gärna jasminris)',
         '1 dl kimchi, hackad',
@@ -1598,22 +1496,21 @@ function getRecipeByCode(code) {
         'Rostade sesamfrön för topping'
     ],
     instructions: [
-        '1. Hetta upp oljan i en stor panna eller wok.',
-        '2. Stek salladslök och kimchi i någon minut.',
-        '3. Tillsätt riset och blanda väl. Häll i soja och sesamolja.',
-        '4. Knäck äggen direkt i pannan och rör om tills de är tillagade.',
-        '5. Lägg till edamamebönorna och låt allt bli genomvarmt.',
-        '6. Toppa med sesamfrön och eventuellt chiliflakes.',
-        'Tips:',
-        '1. Servera med extra kimchi vid sidan av.',
-        '2. För en vegansk version, hoppa över äggen och lägg till tofu istället.',
-        '3. Pressa över lite limejuice för en fräsch touch.'
+        'Hetta upp oljan i en stor panna eller wok.',
+        'Stek salladslök och kimchi i någon minut.',
+        'Tillsätt riset och blanda väl. Häll i soja och sesamolja.',
+        'Knäck äggen direkt i pannan och rör om tills de är tillagade.',
+        'Lägg till edamamebönorna och låt allt bli genomvarmt.',
+        'Toppa med sesamfrön och eventuellt chiliflakes.'
+    ],
+    tips: [
+        'Servera med extra kimchi vid sidan av. För en vegansk version, hoppa över äggen och lägg till tofu istället. Pressa över lite limejuice för en fräsch touch.'
     ]
 },
 '11153': {
-    title: 'Vit Sparrissoppa',
+    title: 'Vit sparrissoppa',
     image: 'bilder/11153.png',
-    description: 'En lyxig och len soppa med vit sparris och en hint av vitt vin.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g vit sparris',
         '1 gul lök, hackad',
@@ -1627,22 +1524,21 @@ function getRecipeByCode(code) {
         'Färsk gräslök eller persilja för topping'
     ],
     instructions: [
-        '1. Skala sparrisen och skär bort de träiga ändarna. Skär sparrisen i bitar.',
-        '2. Smält smöret i en kastrull och fräs lök och vitlök tills de är mjuka.',
-        '3. Tillsätt sparrisen och fräs i ytterligare några minuter. Pudra över mjölet och rör om.',
-        '4. Häll i buljongen och vinet. Låt koka i ca 15 minuter tills sparrisen är mjuk.',
-        '5. Mixa soppan slät med en stavmixer. Rör i grädden och smaka av med salt och peppar.',
-        '6. Servera med färsk gräslök eller persilja som topping.',
-        'Tips:',
-        '1. Servera med krutonger eller ett gott bröd vid sidan om.',
-        '2. För en vegansk version, använd växtbaserad grädde och uteslut smöret.',
-        '3. Tillsätt lite citronzest för extra fräschör.'
+        'Skala sparrisen och skär bort de träiga ändarna. Skär sparrisen i bitar.',
+        'Smält smöret i en kastrull och fräs lök och vitlök tills de är mjuka.',
+        'Tillsätt sparrisen och fräs i ytterligare några minuter. Pudra över mjölet och rör om.',
+        'Häll i buljongen och vinet. Låt koka i ca 15 minuter tills sparrisen är mjuk.',
+        'Mixa soppan slät med en stavmixer. Rör i grädden och smaka av med salt och peppar.',
+        'Servera med färsk gräslök eller persilja som topping.'
+    ],
+    tips: [
+        'Servera med krutonger eller ett gott bröd vid sidan om. För en vegansk version, använd växtbaserad grädde och uteslut smöret. Tillsätt lite citronzest för extra fräschör.'
     ]
 },
 '11154': {
     title: 'Sommarsoppa',
     image: 'bilder/11154.png',
-    description: 'En färgstark och lätt soppa med grönsaker som passar perfekt till sommardagar.',
+    portion: ' (4 portioner)',
     ingredients: [
         '4 potatisar, tärnade',
         '2 morötter, skivade',
@@ -1656,21 +1552,20 @@ function getRecipeByCode(code) {
         'Färska örter (t.ex. dill eller persilja)'
     ],
     instructions: [
-        '1. Smält smöret i en stor kastrull. Fräs potatis och morötter i några minuter.',
-        '2. Häll i grönsaksbuljongen och låt koka i ca 15 minuter tills potatisen är mjuk.',
-        '3. Tillsätt grädden, ärtor, haricots verts och majs. Låt småkoka i ytterligare 5 minuter.',
-        '4. Smaka av med salt och peppar.',
-        '5. Servera med färska örter som topping.',
-        'Tips:',
-        '1. Tillsätt ramslök eller späda nässlor för en vårig twist.',
-        '2. Servera med ett knäckebröd eller smörgås.',
-        '3. För en vegansk variant, byt ut grädden mot havre- eller sojagrädde.'
+        'Smält smöret i en stor kastrull. Fräs potatis och morötter i några minuter.',
+        'Häll i grönsaksbuljongen och låt koka i ca 15 minuter tills potatisen är mjuk.',
+        'Tillsätt grädden, ärtor, haricots verts och majs. Låt småkoka i ytterligare 5 minuter.',
+        'Smaka av med salt och peppar.',
+        'Servera med färska örter som topping.'
+    ],
+    tips: [
+        'Tillsätt ramslök eller späda nässlor för en vårig twist. Servera med ett knäckebröd eller smörgås. För en vegansk variant, byt ut grädden mot havre- eller sojagrädde.'
     ]
 },
 '11155': {
-    title: 'Tortellini med Ricotta och Basilika i Tomatsås',
+    title: 'Tortellini med ricotta och basilika i tomatsås',
     image: 'bilder/11155.png',
-    description: 'En klassisk italiensk rätt med färsk tortellini och en smakrik tomatsås.',
+    portion: ' (4 portioner)',
     ingredients: [
         '400 g färsk tortellini med ricotta och basilika',
         '1 burk krossade tomater (400 g)',
@@ -1684,21 +1579,20 @@ function getRecipeByCode(code) {
         'Salt och peppar'
     ],
     instructions: [
-        '1. Koka tortellinin enligt förpackningens anvisningar.',
-        '2. Hetta upp olivolja i en kastrull. Fräs lök och vitlök tills de är mjuka.',
-        '3. Tillsätt krossade tomater och oregano. Låt såsen sjuda i 10 minuter.',
-        '4. Rör ner grädden och smaka av med salt och peppar.',
-        '5. Häll tomatsåsen över den nykokta tortellinin. Toppa med parmesan och färsk basilika.',
-        'Tips:',
-        '1. Lägg till rostade pinjenötter för extra smak.',
-        '2. Servera med vitlöksbröd för en mättande måltid.',
-        '3. För en vegansk variant, välj tortellini och grädde utan animaliska produkter.'
+        'Koka tortellinin enligt förpackningens anvisningar.',
+        'Hetta upp olivolja i en kastrull. Fräs lök och vitlök tills de är mjuka.',
+        'Tillsätt krossade tomater och oregano. Låt såsen sjuda i 10 minuter.',
+        'Rör ner grädden och smaka av med salt och peppar.',
+        'Häll tomatsåsen över den nykokta tortellinin. Toppa med parmesan och färsk basilika.'
+    ],
+    tips: [
+        'Lägg till rostade pinjenötter för extra smak. Servera med vitlöksbröd för en mättande måltid. För en vegansk variant, välj tortellini och grädde utan animaliska produkter.'
     ]
 },
 '11156': {
-    title: 'One Pot Pasta med Bönor och Soltorkade Tomater',
+    title: 'One Pot pasta med bönor och soltorkade tomater',
     image: 'bilder/11156.png',
-    description: 'En enkel och smakrik pasta som tillagas i en gryta för minimal ansträngning.',
+    portion: ' (4 portioner)',
     ingredients: [
         '400 g pasta (t.ex. penne)',
         '1 burk vita bönor (400 g), avrunna',
@@ -1713,21 +1607,20 @@ function getRecipeByCode(code) {
         'Salt och peppar'
     ],
     instructions: [
-        '1. Hetta upp olivolja i en stor gryta. Fräs lök och vitlök tills de mjuknar.',
-        '2. Tillsätt pasta, bönor, soltorkade tomater, buljong och grädde. Rör om.',
-        '3. Låt koka på medelhög värme tills pastan är al dente och vätskan har reducerats, ca 12–15 minuter. Rör om då och då.',
-        '4. Smaka av med salt och peppar.',
-        '5. Toppa med parmesan och servera genast.',
-        'Tips:',
-        '1. Tillsätt spenat eller grönkål i slutet för extra grönsaker.',
-        '2. För en vegansk version, använd växtbaserad grädde och uteslut parmesan.',
-        '3. Strö över chili flakes för lite hetta.'
+        'Hetta upp olivolja i en stor gryta. Fräs lök och vitlök tills de mjuknar.',
+        'Tillsätt pasta, bönor, soltorkade tomater, buljong och grädde. Rör om.',
+        'Låt koka på medelhög värme tills pastan är al dente och vätskan har reducerats, ca 12–15 minuter. Rör om då och då.',
+        'Smaka av med salt och peppar.',
+        'Toppa med parmesan och servera genast.'
+    ],
+    tips: [
+        'Tillsätt spenat eller grönkål i slutet för extra grönsaker. För en vegansk version, använd växtbaserad grädde och uteslut parmesan. Strö över chili flakes för lite hetta.'
     ]
 },
 '11157': {
     title: 'Kantarellpaj',
     image: 'bilder/11157.png',
-    description: 'En härlig paj fylld med kantareller och en krämig oststanning. Perfekt för hösten.',
+    portion: ' (4 portioner)',
     ingredients: [
         'Pajdeg:',
         '3 dl vetemjöl',
@@ -1740,30 +1633,27 @@ function getRecipeByCode(code) {
         '3 ägg',
         '2 dl grädde',
         '1 dl mjölk',
-        '1 dl riven Västerbottenost',
+        '1 dl riven västerbottenost',
         'Salt och peppar',
         'Färsk timjan till topping'
     ],
     instructions: [
-        'Pajdeg:',
-        '1. Nyp ihop mjöl och smör till en smulig deg. Tillsätt vatten och arbeta snabbt ihop. Låt vila i kylen i 30 minuter.',
-        '2. Kavla ut degen och klä en pajform. Förgrädda i 200°C i 10 minuter.',
-        'Fyllning:',
-        '1. Stek lök och kantareller i smör tills vätskan kokat bort. Krydda med salt och peppar.',
-        '2. Vispa ihop ägg, grädde, mjölk och ost. Smaka av med salt och peppar.',
-        '3. Lägg kantarellerna i det förgräddade pajskalet och häll över äggstanningen.',
-        '4. Grädda i 200°C i ca 25–30 minuter tills pajen är gyllene.',
-        '5. Toppa med färsk timjan innan servering.',
-        'Tips:',
-        '1. Servera med en grönsallad och lingonsylt för en extra nordisk touch.',
-        '2. Byt ut kantarellerna mot champinjoner om du inte hittar kantareller.',
-        '3. För en glutenfri pajdeg, använd glutenfritt mjöl.'
+        'Pajdeg: Nyp ihop mjöl och smör till en smulig deg. Tillsätt vatten och arbeta snabbt ihop. Låt vila i kylen i 30 minuter.',
+        'Kavla ut degen och klä en pajform. Förgrädda i 200°C i 10 minuter.',
+        'Fyllning: Stek lök och kantareller i smör tills vätskan kokat bort. Krydda med salt och peppar.',
+        'Vispa ihop ägg, grädde, mjölk och ost. Smaka av med salt och peppar.',
+        'Lägg kantarellerna i det förgräddade pajskalet och häll över äggstanningen.',
+        'Grädda i 200°C i ca 25–30 minuter tills pajen är gyllene.',
+        'Toppa med färsk timjan innan servering.'
+    ],
+    tips: [
+        'Servera med en grönsallad och lingonsylt för en extra nordisk touch. Byt ut kantarellerna mot champinjoner om du inte hittar kantareller. För en glutenfri pajdeg, använd glutenfritt mjöl.'
     ]
 },
 '11158': {
     title: 'Morotssoppa',
     image: 'bilder/11158.png',
-    description: 'En värmande och len soppa med morötter och en hint av ingefära.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g morötter, skalade och skivade',
         '1 gul lök, hackad',
@@ -1776,20 +1666,19 @@ function getRecipeByCode(code) {
         'Färsk koriander eller persilja för topping'
     ],
     instructions: [
-        '1. Hetta upp olivolja i en kastrull och fräs lök, vitlök och ingefära tills de är mjuka.',
-        '2. Tillsätt morötterna och buljongen. Låt koka i ca 20 minuter tills morötterna är mjuka.',
-        '3. Mixa soppan slät med en stavmixer. Rör i kokosmjölken och smaka av med salt och peppar.',
-        '4. Toppa med färsk koriander eller persilja och servera.',
-        'Tips:',
-        '1. Tillsätt en skvätt apelsinjuice för en söt och fruktig touch.',
-        '2. Servera med ett gott bröd eller rostade pumpafrön.',
-        '3. Gör soppan extra matig genom att lägga till linser.'
+        'Hetta upp olivolja i en kastrull och fräs lök, vitlök och ingefära tills de är mjuka.',
+        'Tillsätt morötterna och buljongen. Låt koka i ca 20 minuter tills morötterna är mjuka.',
+        'Mixa soppan slät med en stavmixer. Rör i kokosmjölken och smaka av med salt och peppar.',
+        'Toppa med färsk koriander eller persilja och servera.'
+    ],
+    tips: [
+        'Tillsätt en skvätt apelsinjuice för en söt och fruktig touch. Servera med ett gott bröd eller rostade pumpafrön. Gör soppan extra matig genom att lägga till linser.'
     ]
 },
 '11159': {
     title: 'Västerbottenpaj',
     image: 'bilder/11159.png',
-    description: 'En klassisk ostpaj med smakrik Västerbottenost. Perfekt till buffé eller fest.',
+    portion: ' (4 portioner)',
     ingredients: [
         'Pajdeg:',
         '3 dl vetemjöl',
@@ -1803,24 +1692,21 @@ function getRecipeByCode(code) {
         'Salt och peppar'
     ],
     instructions: [
-        'Pajdeg:',
-        '1. Nyp ihop mjöl och smör till en smulig deg. Tillsätt vatten och arbeta ihop. Låt vila i kylen i 30 minuter.',
-        '2. Kavla ut degen och klä en pajform. Förgrädda i 200°C i 10 minuter.',
-        'Fyllning:',
-        '1. Vispa ihop ägg, grädde, mjölk och ost. Smaka av med salt och peppar.',
-        '2. Häll fyllningen i det förgräddade pajskalet.',
-        '3. Grädda i 200°C i ca 25–30 minuter tills fyllningen har stelnat och pajen är gyllene.',
-        '4. Låt svalna något innan servering.',
-        'Tips:',
-        '1. Servera med löjrom, crème fraiche och hackad rödlök för en lyxig variant.',
-        '2. Passar perfekt som bufférätt eller till midsommar.',
-        '3. För en glutenfri deg, använd glutenfritt mjöl.'
+        'Pajdeg: Nyp ihop mjöl och smör till en smulig deg. Tillsätt vatten och arbeta ihop. Låt vila i kylen i 30 minuter.',
+        'Kavla ut degen och klä en pajform. Förgrädda i 200°C i 10 minuter.',
+        'Fyllning: Vispa ihop ägg, grädde, mjölk och ost. Smaka av med salt och peppar.',
+        'Häll fyllningen i det förgräddade pajskalet.',
+        'Grädda i 200°C i ca 25–30 minuter tills fyllningen har stelnat och pajen är gyllene.',
+        'Låt svalna något innan servering.'
+    ],
+    tips: [
+        'Servera med löjrom, crème fraiche och hackad rödlök för en lyxig variant. Passar perfekt som bufférätt eller till midsommar. För en glutenfri deg, använd glutenfritt mjöl.'
     ]
 },
 '11160': {
     title: 'Morotsbiffar',
     image: 'bilder/11160.png',
-    description: 'Smakrika biffar av morötter, perfekta att servera med en fräsch sallad.',
+    portion: ' (4 portioner)',
     ingredients: [
         '4 morötter, rivna',
         '1 gul lök, finhackad',
@@ -1831,20 +1717,19 @@ function getRecipeByCode(code) {
         '2 msk smör eller olja för stekning'
     ],
     instructions: [
-        '1. Blanda rivna morötter, lök, ägg, ströbröd och kryddor i en skål. Låt stå i 10 minuter för att svälla.',
-        '2. Forma smeten till små biffar.',
-        '3. Hetta upp smör eller olja i en stekpanna och stek biffarna på medelhög värme tills de är gyllene på båda sidor.',
-        '4. Servera med en yoghurtsås och sallad.',
-        'Tips:',
-        '1. Gör biffarna veganska genom att byta ägg mot 2 msk potatismjöl.',
-        '2. Lägg till lite riven ost i smeten för extra smak.',
-        '3. Servera med couscous eller bulgur som en komplett måltid.'
+        'Blanda rivna morötter, lök, ägg, ströbröd och kryddor i en skål. Låt stå i 10 minuter för att svälla.',
+        'Forma smeten till små biffar.',
+        'Hetta upp smör eller olja i en stekpanna och stek biffarna på medelhög värme tills de är gyllene på båda sidor.',
+        'Servera med en yoghurtsås och sallad.'
+    ],
+    tips: [
+        'Gör biffarna veganska genom att byta ägg mot 2 msk potatismjöl. Lägg till lite riven ost i smeten för extra smak. Servera med couscous eller bulgur som en komplett måltid.'
     ]
 },
 '11161': {
-    title: 'Kantarelltoast med Picklad Rödlök',
+    title: 'Kantarelltoast med picklad rödlök',
     image: 'bilder/11161.png',
-    description: 'En lyxig toast med smörstekta kantareller och syrlig picklad rödlök.',
+    portion: ' (4 portioner)',
     ingredients: [
         'Toast:',
         '300 g kantareller, rensade och skivade',
@@ -1855,31 +1740,27 @@ function getRecipeByCode(code) {
         '1 dl riven Västerbottenost (eller parmesan)',
         'Salt och peppar',
         'Färsk persilja för topping',
-        'Picklad Rödlök:',
+        'Picklad rödlök:',
         '1 rödlök, tunt skivad',
         '1 dl ättiksprit (12 %)',
         '1 dl strösocker',
         '1 dl vatten'
     ],
     instructions: [
-        'Picklad Rödlök:',
-        '1. Koka upp ättiksprit, socker och vatten tills sockret löst sig.',
-        '2. Lägg i den skivade rödlöken och låt stå i minst 30 minuter.',
-        'Toast:',
-        '1. Stek kantarellerna i smör tills de släpper vätska och blir gyllene. Tillsätt vitlök och stek i ytterligare 1 minut. Krydda med salt och peppar.',
-        '2. Bred crème fraiche på brödskivorna. Lägg på kantarellerna och strö över ost.',
-        '3. Grilla i ugn på 225°C i ca 5 minuter tills osten smält och brödet är knaprigt.',
-        '4. Toppa toasten med picklad rödlök och färsk persilja. Servera direkt.',
-        'Tips:',
-        '1. Lägg till lite chili flakes för extra hetta.',
-        '2. Byt ut Västerbottenost mot chèvre för en annan smak.',
-        '3. Servera med en grönsallad vid sidan om.'
+        'Picklad rödlök: Koka upp ättiksprit, socker och vatten tills sockret löst sig. Lägg i den skivade rödlöken och låt stå i minst 30 minuter.',
+        'Toast: Stek kantarellerna i smör tills de släpper vätska och blir gyllene. Tillsätt vitlök och stek i ytterligare 1 minut. Krydda med salt och peppar.',
+        'Bred crème fraiche på brödskivorna. Lägg på kantarellerna och strö över ost.',
+        'Grilla i ugn på 225°C i ca 5 minuter tills osten smält och brödet är knaprigt.',
+        'Toppa toasten med picklad rödlök och färsk persilja. Servera direkt.'
+    ],
+    tips: [
+        'Lägg till lite chili flakes för extra hetta. Byt ut Västerbottenost mot chèvre för en annan smak. Servera med en grönsallad vid sidan om.'
     ]
 },
 '11162': {
-    title: 'Broccolipaj med Purjolök',
+    title: 'Broccolipaj med purjolök',
     image: 'bilder/11162.png',
-    description: 'En smakrik paj fylld med broccoli och purjolök, perfekt för både middag och lunch.',
+    portion: ' (4 portioner)',
     ingredients: [
         'Pajdeg:',
         '3 dl vetemjöl',
@@ -1895,21 +1776,19 @@ function getRecipeByCode(code) {
         'Salt och peppar'
     ],
     instructions: [
-        'Pajdeg:',
-        '1. Nyp ihop mjöl och smör till en smulig deg. Tillsätt vatten och arbeta ihop. Låt vila i kylen i 30 minuter.',
-        '2. Kavla ut degen och klä en pajform. Förgrädda i 200°C i 10 minuter.',
-        'Fyllning:',
-        '1. Ångkoka eller koka broccolibuketterna i 2–3 minuter.',
-        '2. Stek purjolöken tills den mjuknar.',
-        '3. Vispa ihop ägg, grädde, mjölk och ost. Krydda med salt och peppar.',
-        '4. Lägg broccoli och purjolök i det förgräddade pajskalet. Häll över äggstanningen.',
-        '5. Grädda i 200°C i ca 30 minuter tills pajen stelnat och fått fin färg.',
-        'Tips:',
-        '1. Servera med en enkel grönsallad.',
-        '2. Byt ut grädden mot crème fraiche för en fylligare smak.',
-        '3. För en vegansk variant, använd en pajdeg utan smör och byt ut äggstanningen mot en blandning av havregrädde och kikärtsmjöl.'
+        'Pajdeg: Nyp ihop mjöl och smör till en smulig deg. Tillsätt vatten och arbeta ihop. Låt vila i kylen i 30 minuter.',
+        'Kavla ut degen och klä en pajform. Förgrädda i 200°C i 10 minuter.',
+        'Fyllning: Ångkoka eller koka broccolibuketterna i 2–3 minuter. Stek purjolöken tills den mjuknar.',
+        'Vispa ihop ägg, grädde, mjölk och ost. Krydda med salt och peppar.',
+        'Lägg broccoli och purjolök i det förgräddade pajskalet. Häll över äggstanningen.',
+        'Grädda i 200°C i ca 30 minuter tills pajen stelnat och fått fin färg.'
+    ],
+    tips: [
+        'Servera med en enkel grönsallad. Byt ut grädden mot crème fraiche för en fylligare smak. För en vegansk variant, använd en pajdeg utan smör och byt ut äggstanningen mot en blandning av havregrädde och kikärtsmjöl.'
     ]
 },
+
+
 '33333': {
     title: 'Hoisinkarré med Smashed Gurksallad',
     image: 'bilder/33333.png',
@@ -5260,7 +5139,7 @@ function getRecipeByCode(code) {
 '55578': {
     title: 'Chokladfondant',
     image: 'bilder/55578.png',
-    portion: ' (4 portioner)',
+    
     ingredients: [
         '100 g mörk choklad',
         '100 g smör',
