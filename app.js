@@ -1787,19 +1787,17 @@ function getRecipeByCode(code) {
         'Servera med en enkel grönsallad. Byt ut grädden mot crème fraiche för en fylligare smak. För en vegansk variant, använd en pajdeg utan smör och byt ut äggstanningen mot en blandning av havregrädde och kikärtsmjöl.'
     ]
 },
-
-
 '33333': {
-    title: 'Hoisinkarré med Smashed Gurksallad',
+    title: 'Hoisinkarré med smashed gurksallad',
     image: 'bilder/33333.png',
-    description: 'Saftig hoisinkarré serverad med en krispig och syrlig gurksallad.',
+    portion: ' (4 portioner)',
     ingredients: [
         'Fläskkarré:',
         '500 g fläskkarré (hel eller i skivor)',
         '4 msk hoisinsås',
         '2 msk soja',
         '1 msk honung',
-        'Smashed Gurksallad:',
+        'Smashed gurksallad:',
         '1 gurka',
         '2 msk risvinäger',
         '1 tsk sesamolja',
@@ -1807,134 +1805,156 @@ function getRecipeByCode(code) {
         '1 nypa salt',
         'Till servering:',
         'Kokt ris eller nudlar',
-        'Färsk koriander för garnering (valfritt)'
+        'Ev. färsk koriander för garnering'
     ],
     instructions: [
-        '1. Blanda hoisinsås, soja och honung i en skål. Lägg fläskkarrén i marinaden och låt stå i kylen i minst 30 minuter.',
-        '2. Skölj och krossa gurkan genom att trycka lätt med en kavel eller en kniv. Blanda med risvinäger, sesamolja, chiliflakes och salt. Låt stå i kylskåp.',
-        '3. Hetta upp en stekpanna eller grillpanna med lite olja. Stek fläskkarrén på medelhög värme i 5–6 minuter per sida tills genomstekt.',
-        '4. Skär karrén i skivor om tillagad hel. Servera med smashed gurksalladen och kokt ris eller nudlar. Toppa med koriander om önskat.'
-    ]
-},
-'33334': {
-    title: 'Chicken Larb - Thaisallad med Kyckling och Jordnötter',
-    image: 'bilder/33334.png',
-    description: 'En fräsch och smakrik thaisallad med kycklingfärs och jordnötter.',
-    ingredients: [
-        '300 g kycklingfärs',
-        '1 msk rapsolja',
-        '1 msk fisksås',
-        '1 msk limejuice (ca 1 lime)',
-        '1 msk ljus soja',
-        '1 tsk strösocker',
-        '1 röd chili, finhackad',
-        '2 salladslökar, tunt skivade',
-        '1 dl jordnötter, grovhackade',
-        '8 stora salladsblad (t.ex. romansallad eller isberg)',
-        'Färsk koriander och mynta till garnering'
+        'Förbered marinaden: Blanda hoisinsås, soja och honung i en skål. Lägg ner fläskkarrén och täck skålen med plastfolie. Låt marinera i minst 30 minuter i kylen, men gärna längre (upp till 12 timmar för mer smak).',
+        'Förbered gurksalladen: Skölj gurkan och skär den i 4 cm långa bitar. Lägg en bit i taget på en skärbräda, placera sidan av en tung kniv eller en kavel över gurkan och tryck försiktigt tills den krossas. Lägg gurkbitarna i en skål och blanda med risvinäger, sesamolja, chiliflakes och en nypa salt. Låt stå i kylskåp medan du förbereder köttet.',
+        'Tillaga köttet: Hetta upp en stekpanna eller grillpanna med lite neutral olja. Stek fläskkarrén på medelhög värme i 5–6 minuter per sida tills den är genomstekt och fått en fin yta. Om du använder en hel bit karré kan du tillaga den i ugnen (200 °C) i 20 minuter efter att den fått stekyta.',
+        'Servera: Skär köttet i skivor om det tillagades helt. Servera med smashed gurksalladen och kokt ris eller nudlar. Toppa med färsk koriander om du vill.'
     ],
-    instructions: [
-        '1. Blanda fisksås, limejuice, soja och socker i en skål. Rör om tills sockret löser sig.',
-        '2. Hetta upp olja i en stekpanna. Bryn kycklingfärsen tills genomstekt.',
-        '3. Häll såsen över kycklingen och tillsätt chili och salladslök. Rör om och låt fräsa i några minuter.',
-        '4. Lägg kycklingblandningen i salladsblad och toppa med hackade jordnötter, koriander och mynta. Servera direkt.'
-    ]
+    tips: []
 },
-'33335': {
-    title: 'Chilinudlar med Fläskfärs',
-    image: 'bilder/33335.png',
-    description: 'Kryddiga nudlar med fläskfärs och en härligt smakrik sås.',
-    ingredients: [
-        '300 g fläskfärs',
-        '250 g äggnudlar eller risnudlar',
-        '2 msk neutral olja',
-        '2 vitlöksklyftor, finhackade',
-        '2 msk chiliolja',
-        '1 msk ljus soja',
-        '1 msk risvinäger',
-        '1 tsk strösocker',
-        '2 salladslökar, tunt skivade',
-        'Sesamfrön för topping (valfritt)'
+"33334": {
+    "title": "Chicken larb - thaisallad med kyckling och jordnötter",
+    "image": "bilder/33334.png",
+    "portion": "(4 portioner)",
+    "ingredients": [
+      "300 g kycklingfärs",
+      "1 msk rapsolja till stekning",
+      "1 msk fisksås",
+      "1 msk limejuice (ca 1 lime)",
+      "1 msk ljus soja",
+      "1 tsk strösocker",
+      "1 röd chili, finhackad",
+      "2 salladslökar, tunt skivade",
+      "1 dl jordnötter, grovhackade",
+      "8 stora salladsblad (t.ex. romansallad eller isberg)",
+      "Färsk koriander och mynta till garnering"
     ],
-    instructions: [
-        '1. Koka nudlarna enligt förpackningen. Skölj med kallt vatten och ställ åt sidan.',
-        '2. Hetta upp 1 msk olja i en stekpanna och stek fläskfärsen tills krispig. Lägg åt sidan.',
-        '3. Fräs vitlök i resterande olja tills doftande. Tillsätt chiliolja, soja, risvinäger och socker. Rör om och låt sjuda.',
-        '4. Blanda ner fläskfärsen och nudlarna i såsen. Vänd runt tills allt är täckt.',
-        '5. Servera med salladslök och sesamfrön som topping.'
-    ]
-},
+    "instructions": [
+      "Förbered såsen: I en liten skål, blanda fisksås, limejuice, soja och strösocker. Rör om tills sockret löser sig. Smaka av – balansen mellan salt, syrligt och sött ska vara jämn. Ställ åt sidan.",
+      "Stek kycklingfärsen: Hetta upp oljan i en stor stekpanna på medelhög värme. Lägg i kycklingfärsen och bryn den under omrörning tills den är genomstekt och smulig, ca 5–7 minuter.",
+      "Tillsätt smaker: Häll såsen över den stekta färsen och tillsätt chili och salladslök. Rör om och låt allt fräsa ihop i 2–3 minuter så att smakerna blandas väl.",
+      "Servera: Lägg kycklingblandningen i salladsblad och toppa med hackade jordnötter, färsk koriander och mynta. Servera genast som förrätt eller lätt huvudrätt."
+    ],
+    "tips": []
+  },
+  "33335": {
+    "title": "Chilinudlar med fläskfärs",
+    "image": "bilder/33335.png",
+    "portion": "(4 portioner)",
+    "ingredients": [
+      "300 g fläskfärs",
+      "250 g äggnudlar eller risnudlar",
+      "2 msk neutral olja",
+      "2 vitlöksklyftor, finhackade",
+      "2 msk chiliolja (justera mängden efter smak)",
+      "1 msk ljus soja",
+      "1 msk risvinäger",
+      "1 tsk strösocker",
+      "2 salladslökar, tunt skivade",
+      "Eventuellt sesamfrön till topping"
+    ],
+    "instructions": [
+      "Koka nudlarna: Följ anvisningarna på förpackningen och koka nudlarna tills de är al dente. Skölj dem i kallt vatten för att avbryta kokningen och ställ åt sidan.",
+      "Stek fläskfärsen: Hetta upp 1 msk av oljan i en stor stekpanna eller wok på medelhög värme. Stek fläskfärsen tills den är krispig och brynt, ca 5–6 minuter. Lägg över färsen på en tallrik och torka ur pannan.",
+      "Fräs vitlök och gör såsen: Tillsätt resterande olja i pannan och fräs vitlöken tills den doftar, ca 30 sekunder. Tillsätt chiliolja, soja, risvinäger och strösocker, och rör om. Låt såsen sjuda i 1 minut.",
+      "Blanda ihop: Lägg tillbaka fläskfärsen i pannan och tillsätt nudlarna. Vänd runt allt så att nudlarna täcks av såsen. Smaka av och justera styrkan med mer chiliolja om det behövs.",
+      "Servera: Lägg upp nudlarna på tallrikar och toppa med salladslök och sesamfrön. Servera genast."
+    ],
+    "tips": []
+  },
+
 '33336': {
-    title: 'Bao Bun med Hoisinfläsk',
+    title: 'Bao bun med hoisinfläsk',
     image: 'bilder/33336.png',
-    description: 'Mjuka bao buns fyllda med glaserat hoisinfläsk och fräscha grönsaker.',
+    portion: ' (4 portioner)',
     ingredients: [
-        '8 bao buns (färdigköpta eller hemgjorda)',
-        '300 g sidfläsk eller fläskkarré',
+        '8 bao buns (färdigköpta eller hemgjorda, ångas enligt instruktionerna)',
+        '300 g sidfläsk (eller fläskkarré)',
         '4 msk hoisinsås',
         '1 msk soja',
         '1 tsk farinsocker eller honung',
-        '1 morot, tunt strimlad',
+        'Neutral olja till stekning',
+        '1 morot, tunt skivad eller strimlad',
         '1 gurka, tunt skivad',
         'Salladsblad (valfritt)',
-        'Färsk koriander för garnering'
+        'Färsk koriander till garnering'
     ],
     instructions: [
-        '1. Skär fläsket i tunna skivor och stek i lite olja tills gyllene. Tillsätt hoisinsås, soja och farinsocker och låt glazera.',
-        '2. Skär morot och gurka i tunna skivor. Ånga bao buns enligt anvisningarna.',
-        '3. Fyll bunsen med glaserat fläsk, grönsaker och koriander. Servera genast.'
+        'Skär sidfläsket i tunna skivor och stek i lite olja på medelhög värme tills de får en gyllene yta.',
+        'Tillsätt hoisinsås, soja och farinsocker till pannan och vänd köttet så att det täcks av såsen. Stek i ytterligare 2–3 minuter.',
+        'Skölj och skär morot och gurka i tunna skivor och förbered grönsakerna.',
+        'Ånga bao buns enligt förpackningens instruktioner.',
+        'Fyll varje bun med glaserat fläskkött, grönsaker och koriander.',
+        'Servera omedelbart med extra hoisinsås.'
+    ],
+    tips: [
+        'Prova att lägga till lite chiliflakes för extra hetta.',
+        'Byt gärna ut fläskköttet mot kyckling eller tofu för en vegetarisk variant.'
     ]
 },
 '33337': {
-    title: 'Tonkatsu - Japansk Schnitzel med Krämig Kålsallad',
+    title: 'Tonkatsu - japansk schnitzel med krämig kålsallad',
     image: 'bilder/33337.png',
-    description: 'Krispig tonkatsu serverad med en fräsch kålsallad och tonkatsusås.',
+    portion: ' (4 portioner)',
     ingredients: [
-        '4 fläskkotletter (utan ben)',
+        '4 fläskkotletter (utan ben, ca 1 cm tjocka)',
         '1 dl vetemjöl',
         '2 ägg, lätt vispade',
         '2 dl panko-ströbröd',
+        'Neutral olja till stekning',
         '200 g vitkål, finstrimlad',
         '1 morot, riven',
         '2 msk majonnäs',
         '1 tsk dijonsenap',
         'Salt och peppar',
-        'Neutral olja till stekning'
+        'Kokt ris',
+        'Tonkatsusås eller worcestersås (finns färdigköpt)'
     ],
     instructions: [
-        '1. Banka ut kotletterna och krydda med salt och peppar.',
-        '2. Vänd kotletterna i mjöl, ägg och panko-ströbröd.',
-        '3. Hetta upp olja i en stekpanna och stek kotletterna gyllene, ca 3–4 minuter per sida.',
-        '4. Blanda vitkål och morot med majonnäs och senap. Smaka av med salt och peppar.',
-        '5. Skär tonkatsun i remsor och servera med kålsallad, ris och tonkatsusås.'
+        'Banka ut kotletterna till en jämn tjocklek och krydda med salt och peppar.',
+        'Vänd kotletterna i mjöl, därefter i ägg och sist i panko.',
+        'Hetta upp olja i en panna och stek kotletterna på medelvärme tills de är gyllene och frasiga, ca 3–4 minuter per sida.',
+        'Blanda strimlad vitkål och morot i en skål. Rör ihop majonnäs, senap, salt och peppar, och vänd ner i kålen.',
+        'Servera de skivade tonkatsukotletterna med kålsalladen, kokt ris och tonkatsusås.'
+    ],
+    tips: [
+        'För en extra krispig yta, doppad i panko kan du också rulla kotletterna i sesamfrön.',
+        'Servera med en fräsch japansk picklad ingefära för en extra touch.'
     ]
 },
 '33338': {
     title: 'Sushi',
     image: 'bilder/33338.png',
-    description: 'Klassisk sushi med lax, avokado och sushiris.',
+    portion: ' (4 portioner)',
     ingredients: [
         '300 g sushiris',
         '3 msk risvinäger',
         '1 msk socker',
         '1 tsk salt',
         '300 g sushi-grade lax eller tonfisk',
-        '1 avokado, skivad',
-        'Noriblad, klippta i remsor',
-        'Sojasås, wasabi och inlagd ingefära till servering'
+        '1 avokado, tunt skivad',
+        'Noriblad, klippta i små remsor',
+        'Sojasås, wasabi och inlagd ingefära'
     ],
     instructions: [
-        '1. Skölj riset och koka enligt anvisningar. Låt svalna.',
-        '2. Blanda risvinäger, socker och salt. Vänd ner blandningen i riset.',
-        '3. Skär fisken och avokadon i skivor.',
-        '4. Forma riset till ovaler och lägg på fisk eller avokado. Fäst med nori om önskat.',
-        '5. Servera med sojasås, wasabi och ingefära.'
+        'Skölj riset i kallt vatten tills vattnet är klart. Koka enligt anvisningarna på förpackningen och låt svalna något.',
+        'Blanda risvinäger, socker och salt i en liten kastrull och värm tills sockret löst sig. Häll blandningen över riset och vänd försiktigt.',
+        'Skär fisken i tunna skivor (ca 2 x 5 cm) och skär avokadon i skivor.',
+        'Fukta händerna med vatten och forma riset till små ovaler. Lägg en bit fisk eller en skiva avokado ovanpå och fäst eventuellt med en remsa nori.',
+        'Servera sushin med sojasås, wasabi och inlagd ingefära.'
+    ],
+    tips: [
+        'För en mer autentisk smak, använd sushi-grade tonfisk och servera sushin omedelbart efter tillagning.',
+        'Du kan även prova att rulla sushin till maki med hjälp av en bambumatta.'
     ]
 },
 '33339': {
-    title: 'Thailändsk Gryta med Kycklingfärs och Citrongräs',
+    title: 'Thailändsk gryta med kycklingfärs och citrongräs',
     image: 'bilder/33339.png',
-    description: 'En doftande thailändsk gryta med kycklingfärs, citrongräs och kokosmjölk.',
+    portion: ' (4 portioner)',
     ingredients: [
         '300 g kycklingfärs',
         '2 citrongrässtjälkar, finhackade',
@@ -1943,23 +1963,27 @@ function getRecipeByCode(code) {
         '1 msk fisksås',
         '1 tsk farinsocker',
         '1 lime, saften',
-        'Färsk koriander för garnering',
+        'Färsk koriander till garnering',
         'Kokt ris till servering'
     ],
     instructions: [
-        '1. Hetta upp olja och stek kycklingfärsen smulig. Tillsätt citrongräs och fräs.',
-        '2. Rör ner currypasta och häll i kokosmjölken. Låt sjuda.',
-        '3. Tillsätt fisksås, socker och limejuice. Låt sjuda i 10 minuter.',
-        '4. Servera med ris och toppa med koriander.'
+        'Hetta upp olja i en kastrull och stek kycklingfärsen tills den är smulig och genomstekt. Lägg i citrongräset och fräs med i 2 minuter.',
+        'Rör ner currypastan och låt den fräsa i 1 minut. Häll i kokosmjölken och rör om.',
+        'Tillsätt fisksås, farinsocker och limejuice. Låt grytan sjuda i 10 minuter på medelvärme.',
+        'Servera grytan i skålar och toppa med koriander. Servera med kokt ris.'
+    ],
+    tips: [
+        'För en kryddigare gryta, tillsätt mer currypasta eller en finhackad röd chili.',
+        'Byt gärna ut kycklingfärsen mot tofu för en vegetarisk variant.'
     ]
 },
 '33340': {
-    title: 'Stekta Nudlar',
+    title: 'Stekta nudlar',
     image: 'bilder/33340.png',
-    description: 'Enkel och smakrik rätt med stekta nudlar, kyckling eller tofu och grönsaker.',
+    portion: ' (4 portioner)',
     ingredients: [
         '300 g äggnudlar',
-        '200 g kycklingfilé eller tofu, strimlad',
+        '200 g kycklingfilé eller tofu, skuren i strimlor',
         '2 msk soja',
         '1 msk ostronsås',
         '1 msk sesamolja',
@@ -1969,45 +1993,54 @@ function getRecipeByCode(code) {
         '2 salladslökar, tunt skivade'
     ],
     instructions: [
-        '1. Koka nudlarna och skölj med kallt vatten.',
-        '2. Stek kyckling eller tofu tills gyllene. Lägg åt sidan.',
-        '3. Fräs vitlök, morot och paprika i hög värme.',
-        '4. Blanda nudlar, kyckling/tofu, soja, ostronsås och sesamolja. Rör om.',
-        '5. Servera med salladslök som topping.'
+        'Koka nudlarna enligt anvisningarna och skölj med kallt vatten. Ställ åt sidan.',
+        'Hetta upp lite olja i en wok eller stor stekpanna. Stek kycklingen eller tofun tills den är gyllene och genomstekt. Lägg åt sidan.',
+        'Fräs vitlök, morot och paprika snabbt på hög värme.',
+        'Lägg tillbaka kycklingen/tofun i pannan. Tillsätt nudlarna, soja, ostronsås och sesamolja. Rör om ordentligt.',
+        'Servera nudlarna på tallrikar och toppa med salladslök.'
+    ],
+    tips: [
+        'Lägg till färska böngroddar eller broccoli för mer grönsaker.',
+        'Byt kyckling mot tofu för en vegansk rätt.'
     ]
 },
 '33341': {
-    title: 'Nudlar med Krämig Asiatisk Köttfärssås',
+    title: 'Nudlar med krämig asiatisk köttfärssås',
     image: 'bilder/33341.png',
-    description: 'En fusion av krämig kokosmjölk och smakrik köttfärs med asiatiska toner.',
+    portion: ' (4 portioner)',
     ingredients: [
         '300 g köttfärs (nöt eller fläsk)',
         '250 g äggnudlar',
         '2 dl kokosmjölk',
         '2 msk hoisinsås',
         '2 msk soja',
-        '1 msk sriracha (justera efter smak)',
+        '1 tsk sriracha (justera efter smak)',
         '1 tsk ingefära, riven',
         '2 vitlöksklyftor, finhackade',
-        '2 salladslökar, tunt skivade',
+        '2 salladslökar, skivade',
         'Färsk koriander för garnering'
     ],
     instructions: [
-        '1. Koka nudlarna enligt anvisningarna. Skölj dem i kallt vatten och ställ åt sidan.',
-        '2. Hetta upp lite olja i en stekpanna och stek köttfärsen tills genomstekt och smulig. Tillsätt vitlök och ingefära, och låt fräsa i 1 minut.',
-        '3. Tillsätt kokosmjölk, hoisinsås, soja och sriracha. Låt puttra i 5 minuter tills såsen tjocknar något.',
-        '4. Blanda ner de kokta nudlarna och rör om ordentligt.',
-        '5. Servera nudlarna i skålar och toppa med salladslök och koriander.'
+        'Hetta upp lite olja i en stor stekpanna eller wok och stek köttfärsen tills den är genomstekt.',
+        'Tillsätt vitlök, ingefära och sriracha. Stek i 1 minut.',
+        'Häll i kokosmjölk, hoisinsås och soja. Låt puttra i 5 minuter tills såsen tjocknar något.',
+        'Koka nudlarna enligt förpackningens anvisningar, skölj med kallt vatten och ställ åt sidan.',
+        'Lägg nudlarna i såsen och blanda om så att allt täcks av såsen.',
+        'Servera nudlarna i skålar och toppa med salladslök och koriander.'
+    ],
+    tips: [
+        'För en extra kryddig rätt, tillsätt mer sriracha.',
+        'Du kan också lägga till grönsaker som paprika eller broccoli för mer textur och näring.'
     ]
 },
 '33342': {
-    title: 'Vietnamesiska Vårrullar',
+    title: 'Vietnamesiska vårrullar',
     image: 'bilder/33342.png',
-    description: 'Fräscha och lätta vårrullar fyllda med grönsaker och valfri proteinkälla.',
+    portion: ' (4 portioner)',
     ingredients: [
         '10 rispapper',
         '200 g räkor eller strimlad kyckling',
-        '1 morot, julienned',
+        '1 morot, julienned (tunna stavar)',
         '1 gurka, julienned',
         '1 dl böngroddar',
         'Salladsblad',
@@ -2015,41 +2048,49 @@ function getRecipeByCode(code) {
         'Jordnötssås eller hoisinsås till servering'
     ],
     instructions: [
-        '1. Förbered fyllningen genom att strimla morot och gurka, skölja salladsblad och groddar samt förbereda kyckling eller räkor.',
-        '2. Doppa ett rispapper i varmt vatten tills det mjuknar. Lägg det på en ren yta.',
-        '3. Placera ett salladsblad, kyckling eller räkor, grönsaker och örter på rispappret. Vik in sidorna och rulla tätt.',
-        '4. Upprepa med resterande rispapper och fyllning.',
-        '5. Servera med jordnötssås eller hoisinsås.'
+        'Förbered kycklingen. Strimla morot och gurka i tunna stavar. Skölj salladsblad och groddar.',
+        'Fyll en stor skål med varmt vatten och doppa ett rispapper i vattnet i några sekunder tills det mjuknar.',
+        'Lägg det mjuka rispappret på en ren yta och lägg ett salladsblad, kyckling, grönsaker och örter i mitten.',
+        'Vik in sidorna och rulla tätt från botten till toppen.',
+        'Servera rullarna med jordnötssås eller hoisinsås.'
+    ],
+    tips: [
+        'För en vegetarisk variant, använd tofu eller bara grönsaker.',
+        'Du kan även prova att lägga till lite avokado för extra krämighet.'
     ]
 },
 '33343': {
-    title: 'Japansk Gyoza',
+    title: 'Japansk gyoza',
     image: 'bilder/33343.png',
-    description: 'Krispiga och saftiga dumplings fyllda med smakrik färs och grönsaker.',
+    portion: ' (4 portioner)',
     ingredients: [
-        '20 gyozaplattor',
+        '20 gyozaplattor (finns i asiatiska butiker)',
         '200 g kyckling- eller fläskfärs',
         '1 dl finhackad vitkål',
         '1 salladslök, finhackad',
         '1 tsk soja',
-        '1 tsk sesamolja',
+        '1 tesked sesamolja',
         '1 vitlöksklyfta, riven',
-        '1 tsk ingefära, riven',
-        '1 msk neutral olja',
+        '1 tesked ingefära, riven',
+        '1 msk neutral olja till stekning',
         '0,5 dl vatten'
     ],
     instructions: [
-        '1. Blanda färs, vitkål, salladslök, soja, sesamolja, vitlök och ingefära i en skål.',
-        '2. Placera en tesked fyllning på en gyozaplatta. Pensla kanterna med vatten och vik ihop, pressa ihop kanterna.',
-        '3. Hetta upp oljan i en stekpanna och stek gyozan tills botten är gyllene, ca 2 minuter.',
-        '4. Tillsätt vatten, täck med lock och ånga i 5 minuter.',
-        '5. Servera med en blandning av sojasås och risvinäger.'
+        'Blanda färs, vitkål, salladslök, soja, sesamolja, vitlök och ingefära i en skål. Rör om tills allt är väl blandat.',
+        'Lägg en tesked fyllning i mitten av varje gyozaplatta. Pensla kanten med vatten, vik plattan över fyllningen och tryck ihop kanterna.',
+        'Hetta upp oljan i en stekpanna och lägg gyozan med den platta sidan ner. Stek i 2–3 minuter tills botten är gyllene.',
+        'Tillsätt vattnet och täck pannan med ett lock. Låt ånga i 5 minuter.',
+        'Servera med sojasås blandad med lite risvinäger.'
+    ],
+    tips: [
+        'För en krispigare yta, använd lite mer olja och stek längre på hög värme.',
+        'Du kan frysa gyoza för framtida användning och steka dem direkt från frysen.'
     ]
 },
 '33344': {
-    title: 'Vietnamesiska Sommarrullar',
+    title: 'Vietnamesiska sommarrullar',
     image: 'bilder/33344.png',
-    description: 'Lätta och fräscha rullar fyllda med risnudlar, räkor och grönsaker.',
+    portion: ' (4 portioner)',
     ingredients: [
         '10 rispapper',
         '200 g kokta räkor',
@@ -2061,17 +2102,19 @@ function getRecipeByCode(code) {
         'Jordnötssås till servering'
     ],
     instructions: [
-        '1. Doppa rispapper i varmt vatten tills det mjuknar.',
-        '2. Lägg risnudlar, räkor, grönsaker och örter på rispappret.',
-        '3. Vik in sidorna och rulla tätt.',
-        '4. Upprepa med resterande rispapper och fyllning.',
-        '5. Servera med jordnötssås.'
+        'Doppa rispappret i varmt vatten och låt det mjukna på en tallrik.',
+        'Lägg risnudlar, räkor, grönsaker och örter på rispappret. Vik in kanterna och rulla tätt.',
+        'Servera rullarna på ett fat och med jordnötssås vid sidan.'
+    ],
+    tips: [
+        'För en extra fräsch smak, lägg till lite limejuice i fyllningen.',
+        'Prova att använda tofu för en vegetarisk version.'
     ]
 },
 '33345': {
-    title: 'Krämiga Chili- och Jordnötsnudlar',
+    title: 'Krämig chili-och jordnöts nudlar',
     image: 'bilder/33345.png',
-    description: 'Kryddiga nudlar med en len och smakrik jordnötssås.',
+    portion: ' (4 portioner)',
     ingredients: [
         '250 g nudlar',
         '2 msk jordnötssmör',
@@ -2080,21 +2123,26 @@ function getRecipeByCode(code) {
         '1 msk limejuice',
         '1 dl kokosmjölk',
         '1 vitlöksklyfta, riven',
-        '1 tsk sesamolja',
+        '1 tesked sesamolja',
         '2 salladslökar, skivade',
         'Färsk koriander till topping'
     ],
     instructions: [
-        '1. Koka nudlarna och skölj med kallt vatten.',
-        '2. Vispa ihop jordnötssmör, sriracha, soja, limejuice, kokosmjölk och vitlök. Värm tills såsen blir krämig.',
-        '3. Häll såsen över nudlarna och blanda väl.',
-        '4. Toppa med salladslök och koriander.'
+        'Koka nudlarna enligt anvisningarna på förpackningen. Skölj med kallt vatten.',
+        'Vispa ihop jordnötssmör, sriracha, soja, limejuice, kokosmjölk och vitlök i en skål.',
+        'Värm såsen försiktigt i en liten kastrull tills den blir krämig.',
+        'Häll såsen över nudlarna och rör om tills allt är blandat.',
+        'Servera i skålar och toppa med salladslök och koriander.'
+    ],
+    tips: [
+        'Tillsätt mer sriracha för en extra hetta.',
+        'Prova att byta ut jordnötssmöret mot cashewnötskräm för en annan smak.'
     ]
 },
 '33346': {
-    title: 'Bulgogi i Salladsblad',
+    title: 'Bulgogi i salladsblad',
     image: 'bilder/33346.png',
-    description: 'Mört och smakrikt bulgogikött serverat i fräscha salladsblad.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g tunt skivad entrecôte eller flankstek',
         '3 msk soja',
@@ -2102,23 +2150,27 @@ function getRecipeByCode(code) {
         '1 msk sesamolja',
         '1 päron, rivet',
         '2 vitlöksklyftor, finhackade',
-        '1 tsk riven ingefära',
-        '1 tsk chiliflakes',
-        'Salladsblad',
+        '1 tesked riven ingefära',
+        '1 tesked chiliflakes',
+        'Salladsblad (t.ex. romansallad eller gemsallad)',
         '1 morot, strimlad',
         '1 gurka, strimlad',
         'Sesamfrön till garnering'
     ],
     instructions: [
-        '1. Blanda soja, farinsocker, sesamolja, rivet päron, vitlök, ingefära och chiliflakes i en skål. Lägg köttet i marinaden och låt stå i minst 1 timme.',
-        '2. Hetta upp en panna och stek köttet snabbt på hög värme tills genomstekt.',
-        '3. Servera köttet i salladsblad och toppa med morot, gurka och sesamfrön.'
+        'Blanda soja, farinsocker, sesamolja, rivet päron, vitlök, ingefära och chiliflakes i en skål. Lägg i köttet och marinera i minst 1 timme.',
+        'Stek eller grilla köttet på hög värme tills det är genomstekt och glaserat, ca 2–3 minuter per sida.',
+        'Lägg köttet i salladsblad och toppa med strimlad morot, gurka och sesamfrön.'
+    ],
+    tips: [
+        'För en sötare smak, använd mer päron i marinaden.',
+        'Du kan också byta ut köttet mot kyckling eller tofu för ett vegetariskt alternativ.'
     ]
 },
 '33347': {
-    title: 'Crispy Chili Beef',
+    title: 'Crispy chili beef',
     image: 'bilder/33347.png',
-    description: 'Krispigt friterat nötkött i en klibbig, smakrik chilimarinad.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g entrecôte eller ryggbiff, tunt skivad',
         '1 dl majsstärkelse',
@@ -2127,66 +2179,83 @@ function getRecipeByCode(code) {
         '1 msk honung',
         '1 röd chili, tunt skivad',
         '2 vitlöksklyftor, skivade',
-        '1 tsk riven ingefära',
+        '1 tesked riven ingefära',
         'Neutral olja till fritering',
         'Salladslök och sesamfrön till topping'
     ],
     instructions: [
-        '1. Täck köttskivorna med majsstärkelse.',
-        '2. Hetta upp olja och fritera köttet tills gyllene och krispigt. Låt rinna av.',
-        '3. Fräs vitlök, chili och ingefära i en stekpanna. Tillsätt soja, risvinäger och honung. Låt sjuda.',
-        '4. Lägg det friterade köttet i såsen och blanda väl.',
-        '5. Servera med salladslök och sesamfrön.'
+        'Blanda majsstärkelse och köttskivor i en skål så att köttet täcks helt.',
+        'Hetta upp olja i en stekpanna eller kastrull och fritera köttet tills det är gyllene och krispigt. Låt rinna av på hushållspapper.',
+        'Fräs vitlök, chili och ingefära i en annan panna i 1 minut. Tillsätt soja, risvinäger och honung och låt sjuda tills såsen blir klibbig.',
+        'Lägg det friterade köttet i såsen och rör runt så att allt täcks.',
+        'Servera på ett fat och toppa med salladslök och sesamfrön.'
+    ],
+    tips: [
+        'För extra crunch, fritera köttet i mindre omgångar så att de får en jämnare yta.',
+        'Servera gärna med ris eller nudlar.'
     ]
 },
 '33348': {
-    title: 'Bo La Lot - Vietnamesiska Färsbiffar',
+    title: 'Bo la lot, vietnamesiska färsbiffar',
     image: 'bilder/33348.png',
-    description: 'Smakrika färsbiffar rullade i betelblad och serverade med jordnötssås.',
+    portion: ' (4 portioner)',
     ingredients: [
         '400 g fläsk- eller nötköttfärs',
         '2 vitlöksklyftor, pressade',
-        '1 tsk fisksås',
-        '1 tsk soja',
-        '1 tsk socker',
-        '1 näve betelblad (eller salladsblad)',
+        '1 tesked fisksås',
+        '1 tesked soja',
+        '1 tesked socker',
+        '1 näve betelblad (eller salladsblad om betelblad inte finns)',
         'Neutral olja till stekning',
         'Jordnötssås till servering'
     ],
     instructions: [
-        '1. Blanda färs med vitlök, fisksås, soja och socker.',
-        '2. Lägg en klick färs på ett betelblad och rulla ihop till en tight rulle.',
-        '3. Stek rullarna i olja på medelvärme tills gyllene och genomstekta.',
-        '4. Servera med jordnötssås.'
+        'Blanda köttfärsen med vitlök, fisksås, soja och socker i en skål. Arbeta ihop tills det är väl blandat.',
+        'Forma små biffar och lägg en liten mängd av blandningen på ett betelblad. Rulla ihop och forma till täta rullar.',
+        'Stek biffarna i olja på medelvärme i 3–4 minuter per sida tills de är genomstekta.',
+        'Servera med jordnötssås och färska grönsaker.'
+    ],
+    tips: [
+        'Om du inte har betelblad kan du använda salladsblad som ett alternativ.',
+        'Biffarna kan även grillas för en extra rökig smak.'
     ]
 },
 '33349': {
-    title: 'Koreansk Sallad med Grillad Fläskkarré och Sesamdressing',
+    title: 'Koreansk sallad med grillad fläskkarré och sesamdressing',
     image: 'bilder/33349.png',
-    description: 'Fräsch sallad med kryddig fläskkarré och en smakrik sesamdressing.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g fläskkarré',
         '3 msk gochujang (koreansk chilipasta)',
         '2 msk soja',
         '1 msk honung',
-        '1 tsk sesamolja',
-        '1 huvud romansallad',
+        '1 tesked sesamolja',
+        '1 huvud romansallad, skuren i bitar',
         '1 gurka, tunt skivad',
         '1 morot, strimlad',
         '2 salladslökar, tunt skivade',
+        '2 msk sesamolja',
+        '1 msk soja',
+        '1 tesked risvinäger',
+        '1 tesked farinsocker',
         'Sesamfrön för garnering'
     ],
     instructions: [
-        '1. Blanda gochujang, soja, honung och sesamolja i en skål. Lägg i köttet och låt marinera i 1 timme.',
-        '2. Grilla eller stek fläskkarrén tills genomstekt. Skiva tunt.',
-        '3. Lägg sallad, gurka, morot och salladslök i en skål. Vispa ihop sesamolja, soja och risvinäger till dressing och häll över.',
-        '4. Toppa salladen med det skivade köttet och sesamfrön.'
+        'Blanda gochujang, soja, honung och sesamolja i en skål. Marinera fläskkarrén i minst 1 timme.',
+        'Grilla fläskkarrén på hög värme tills den är genomstekt och karamelliserad, ca 3–4 minuter per sida. Skiva köttet tunt.',
+        'Blanda salladen med gurka, morot och salladslök.',
+        'Vispa ihop sesamolja, soja, risvinäger och farinsocker för dressingen och häll över salladen.',
+        'Servera salladen toppad med det skivade köttet och sesamfrön.'
+    ],
+    tips: [
+        'För extra smak kan du tillsätta rostade jordnötter eller chili till salladen.',
+        'Om du vill ha en lättare variant, byt ut fläskkarrén mot kyckling eller tofu.'
     ]
 },
 '33350': {
-    title: 'Thai Drunken Noodles',
+    title: 'Thai drunken noodles',
     image: 'bilder/33350.png',
-    description: 'Kryddiga breda risnudlar med kyckling och aromatisk thai basilika.',
+    portion: ' (4 portioner)',
     ingredients: [
         '250 g breda risnudlar',
         '300 g kycklingfilé, strimlad',
@@ -2195,75 +2264,89 @@ function getRecipeByCode(code) {
         '2 msk fisksås',
         '2 msk soja',
         '1 msk ostronsås',
-        '1 tsk socker',
+        '1 tesked socker',
         '1 paprika, strimlad',
         '1 näve färsk basilika (helst thai basilika)'
     ],
     instructions: [
-        '1. Koka risnudlarna och skölj i kallt vatten.',
-        '2. Stek kycklingen tills genomstekt och ställ åt sidan.',
-        '3. Fräs vitlök och chili. Tillsätt paprika och stek 2 minuter.',
-        '4. Lägg tillbaka kycklingen och nudlarna i pannan. Tillsätt fisksås, soja, ostronsås och socker. Blanda väl.',
-        '5. Vänd ner färsk basilika och servera genast.'
+        'Koka risnudlarna enligt förpackningens instruktioner och skölj i kallt vatten.',
+        'Hetta upp lite olja i en wok och stek kycklingen tills den är genomstekt. Ta upp och lägg åt sidan.',
+        'Fräs vitlök och chili i samma wok tills det doftar. Lägg till paprika och stek i 2 minuter.',
+        'Lägg tillbaka kycklingen och nudlarna i woken. Tillsätt fisksås, soja, ostronsås och socker. Blanda väl.',
+        'Vänd ner färsk basilika precis innan servering.',
+        'Servera på tallrikar.'
+    ],
+    tips: [
+        'Använd gärna andra grönsaker som zucchini eller bönor för variation.',
+        'För extra hetta, lägg till mer chili eller använd sriracha.'
     ]
 },
 '33351': {
-    title: 'Korean Spicy Pork Salad',
+    title: 'Korean spicy pork salad',
     image: 'bilder/33351.png',
-    description: 'En kryddig och fräsch koreansk sallad med marinerat fläskkött och smakrik dressing.',
+    portion: ' (4 portioner)',
     ingredients: [
         '400 g fläskkarré eller sidfläsk, tunt skivat',
         '2 msk gochujang (koreansk chilipasta)',
         '2 msk soja',
         '1 msk honung',
-        '1 tsk sesamolja',
+        '1 tesked sesamolja',
         '1 romansallad, delad i blad',
         '1 gurka, tunt skivad',
         '1 morot, julienned',
         '2 salladslökar, strimlade',
-        'Dressing:',
         '2 msk risvinäger',
         '1 msk soja',
-        '1 tsk sesamolja',
-        '1 tsk socker',
+        '1 tesked sesamolja',
+        '1 tesked socker',
         'Sesamfrön och färsk koriander för topping'
     ],
     instructions: [
-        '1. Skär köttet i tunna skivor och lägg i en skål. Blanda gochujang, soja, honung och sesamolja och massera in i köttet. Låt marinera i 30 minuter.',
-        '2. Hetta upp en stekpanna och stek köttet på hög värme tills det är karamelliserat, ca 2–3 minuter per sida.',
-        '3. Skölj och torka salladsbladen. Lägg dem på ett stort fat och arrangera gurka, morot och salladslök ovanpå.',
-        '4. Vispa ihop risvinäger, soja, sesamolja och socker till dressingen.',
-        '5. Lägg det stekta köttet ovanpå salladen. Ringla över dressingen och toppa med sesamfrön och koriander. Servera genast.'
+        'Skär köttet i tunna skivor och lägg i en skål. Blanda gochujang, soja, honung och sesamolja och massera in i köttet. Låt marinera i 30 minuter (eller upp till 2 timmar).',
+        'Hetta upp en stekpanna eller grillpanna och stek köttet på hög värme tills det är karamelliserat och genomstekt, ca 2–3 minuter per sida. Låt vila i några minuter och skiva i mindre bitar om det behövs.',
+        'Skölj och torka salladsbladen. Lägg dem på ett stort fat och arrangera gurka, morot och salladslök ovanpå.',
+        'Vispa ihop risvinäger, soja, sesamolja och socker tills sockret löser sig.',
+        'Lägg det kryddiga köttet ovanpå salladen. Ringla över dressingen och toppa med sesamfrön och koriander. Servera genast.'
+    ],
+    tips: [
+        'För extra smak, grilla köttet istället för att steka det.',
+        'Byt ut fläskköttet mot kyckling om du vill ha en magrare variant.'
     ]
 },
 '33352': {
-    title: 'Indonesisk Kycklinggryta',
+    title: 'Indonesisk kycklinggryta',
     image: 'bilder/33352.png',
-    description: 'En smakrik gryta med kokosmjölk, citrongräs och kyckling.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g kycklingfilé, skuren i bitar',
         '1 burk kokosmjölk (400 ml)',
         '1 citrongrässtjälk, krossad',
-        '1 tsk riven ingefära',
-        '1 tsk gurkmeja',
+        '1 tesked riven ingefära',
+        '1 tesked gurkmeja',
         '2 vitlöksklyftor, pressade',
         '2 msk fisksås',
         '1 lime, saften',
         '1 röd chili, tunt skivad',
-        'Färsk koriander för topping'
+        'Färsk koriander för topping',
+        'Kokt ris till servering'
     ],
     instructions: [
-        '1. Krydda kycklingen med gurkmeja och lite salt. Hetta upp olja i en gryta och bryn kycklingen i 5 minuter. Ta upp och lägg åt sidan.',
-        '2. Fräs vitlök, ingefära och citrongräs i samma gryta tills det doftar. Tillsätt chilin och rör om.',
-        '3. Häll i kokosmjölk och fisksås. Låt sjuda i 5 minuter. Lägg tillbaka kycklingen och låt grytan puttra i 15–20 minuter tills kycklingen är genomkokt.',
-        '4. Pressa i limejuice och smaka av med mer fisksås eller chili om det behövs.',
-        '5. Servera med kokt ris och toppa med färsk koriander.'
+        'Krydda kycklingen med gurkmeja och lite salt. Hetta upp olja i en stor gryta och bryn kycklingen i 5 minuter tills den får lite färg. Ta upp och lägg åt sidan.',
+        'Fräs vitlök, ingefära och citrongräs tills det doftar. Tillsätt chilin och rör om.',
+        'Häll i kokosmjölken och fisksåsen och låt sjuda i 5 minuter.',
+        'Lägg tillbaka kycklingen och låt grytan puttra på låg värme i 15–20 minuter tills kycklingen är genomkokt.',
+        'Pressa i limejuice och justera smaken med mer fisksås eller chili om det behövs.',
+        'Servera grytan med kokt ris och toppa med färsk koriander.'
+    ],
+    tips: [
+        'Tillsätt grönsaker som paprika eller sockerärtor för en extra fräschhet.',
+        'För extra hetta, använd mer chili eller chilipulver.'
     ]
 },
 '33353': {
-    title: 'Nudelsallad med Räkor, Mango och Jordnötter',
+    title: 'Nudelsallad med räkor, mango och jordnötter',
     image: 'bilder/33353.png',
-    description: 'En fräsch och färgglad sallad med söta och syrliga smaker.',
+    portion: ' (4 portioner)',
     ingredients: [
         '250 g risnudlar',
         '300 g räkor, skalade',
@@ -2273,47 +2356,54 @@ function getRecipeByCode(code) {
         '1 dl jordnötter, hackade',
         '2 msk fisksås',
         '2 msk limejuice',
-        '1 tsk socker',
+        '1 tesked socker',
         '1 röd chili, finhackad',
         'Färsk mynta och koriander för garnering'
     ],
     instructions: [
-        '1. Koka risnudlarna enligt förpackningens instruktioner och skölj i kallt vatten. Låt rinna av.',
-        '2. Vispa ihop fisksås, limejuice, socker och chili till en dressing.',
-        '3. Lägg risnudlarna i en stor skål och blanda med räkor, mango, morot och gurka.',
-        '4. Häll över dressingen och blanda försiktigt.',
-        '5. Toppa med jordnötter, mynta och koriander. Servera genast.'
+        'Koka nudlarna enligt förpackningens instruktioner och skölj i kallt vatten. Låt rinna av.',
+        'Vispa ihop fisksås, limejuice, socker och chili i en skål.',
+        'Lägg nudlarna i en stor skål och blanda med räkor, mango, morot och gurka. Häll över dressingen och blanda försiktigt.',
+        'Strö över jordnötter och garnera med mynta och koriander. Servera genast.'
+    ],
+    tips: [
+        'Tillsätt avokado för en krämigare konsistens.',
+        'Byt ut räkorna mot kyckling eller tofu för variation.'
     ]
 },
 '33354': {
-    title: 'Heta Honungs Kycklingspett med Sesamsås',
+    title: 'Heta honungs kycklingspett med sesamsås',
     image: 'bilder/33354.png',
-    description: 'Saftiga kycklingspett med en kryddig honungsglaze och krämig sesamsås.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g kycklinglårfilé, skuren i bitar',
         '2 msk honung',
         '1 msk soja',
-        '1 tsk chiliflakes',
-        '1 tsk sesamolja',
+        '1 tesked chiliflakes',
+        '1 tesked sesamolja',
         'Sesamsås:',
         '2 msk tahini (sesampasta)',
         '2 msk soja',
         '1 msk risvinäger',
-        '1 tsk honung',
+        '1 tesked honung',
         '1 msk vatten'
     ],
     instructions: [
-        '1. Blanda honung, soja, chiliflakes och sesamolja i en skål. Lägg i kycklingbitarna och låt marinera i minst 30 minuter.',
-        '2. Trä kycklingbitarna på blötlagda träspett.',
-        '3. Grilla spetten på hög värme i 10–12 minuter. Vänd regelbundet för jämn färg.',
-        '4. Vispa ihop tahini, soja, risvinäger, honung och vatten till en slät sesamsås.',
-        '5. Servera spetten med sesamsåsen vid sidan.'
+        'Blanda honung, soja, chiliflakes och sesamolja i en skål. Lägg i kycklingen och låt marinera i minst 30 minuter.',
+        'Trä kycklingbitarna på blötlagda träspett.',
+        'Grilla på hög värme i 10–12 minuter, vänd regelbundet så att de får en jämn färg.',
+        'Vispa ihop tahini, soja, risvinäger, honung och vatten tills såsen är slät.',
+        'Lägg upp spetten på ett fat och servera med sesamsåsen vid sidan.'
+    ],
+    tips: [
+        'För en extra smakboost, pensla spetten med mer marinad under grillningen.',
+        'Servera gärna med ris eller en fräsch sallad.'
     ]
 },
 '33355': {
-    title: 'Tonkatsu - Krispig Kyckling med Kimchislaw',
+    title: 'Tonkatsu - krispig kyckling med kimchislaw',
     image: 'bilder/33355.png',
-    description: 'Japansk tonkatsu serverad med en smakrik kimchislaw och kokt ris.',
+    portion: ' (4 portioner)',
     ingredients: [
         '4 kycklingbröst eller kycklinglårfiléer',
         '1 dl vetemjöl',
@@ -2324,112 +2414,130 @@ function getRecipeByCode(code) {
         '200 g vitkål, strimlad',
         '100 g kimchi, hackad',
         '2 msk majonnäs',
-        '1 tsk risvinäger',
-        '1 tsk sesamolja',
+        '1 tesked risvinäger',
+        '1 tesked sesamolja',
         'Kokt ris till servering'
     ],
     instructions: [
-        '1. Banka ut kycklingfiléerna så att de är jämntjocka. Krydda med salt och peppar.',
-        '2. Doppa kycklingen i mjöl, sedan i ägg och slutligen i panko. Se till att den är jämnt täckt.',
-        '3. Hetta upp olja i en stekpanna och stek kycklingen på medelvärme i 4–5 minuter per sida tills den är gyllene och genomstekt. Låt rinna av på hushållspapper.',
-        '4. Blanda vitkål, kimchi, majonnäs, risvinäger och sesamolja till kimchislawen. Smaka av med salt och peppar.',
-        '5. Skär kycklingen i remsor och servera med kimchislaw och kokt ris.'
+        'Banka ut kycklingfiléerna lätt så att de är jämntjocka. Krydda med lite salt och peppar.',
+        'Doppa kycklingen först i mjöl, sedan i ägg och till sist i panko. Se till att den är jämnt täckt.',
+        'Hetta upp olja i en stekpanna och stek kycklingen på medelvärme i 4–5 minuter per sida tills den är gyllene och genomstekt. Låt rinna av på hushållspapper.',
+        'Blanda vitkål, kimchi, majonnäs, risvinäger och sesamolja i en skål. Smaka av med salt och peppar.',
+        'Skär kycklingen i remsor och servera med kimchislaw och kokt ris.'
+    ],
+    tips: [
+        'Byt ut kycklingen mot fläskfilé för en klassisk tonkatsu.',
+        'För en mildare variant, använd mindre kimchi i slawen.'
     ]
 },
 '33356': {
     title: 'Japansk Umamiglaserad Kyckling med Jasminris och Regnbågssallad',
     image: 'bilder/33356.png',
-    description: 'Saftig kyckling i en umamirik glasering serverad med färgsprakande grönsaker.',
+    portion: ' (4 portioner)',
     ingredients: [
-        '600 g kycklinglårfilé eller kycklingbröst',
-        '2 msk japansk soja',
-        '1 msk mirin',
-        '1 msk sake (eller mer mirin)',
+        '600 g kycklinglårfilé (eller kycklingbröst)',
+        '2 msk soja (gärna japansk soja)',
+        '1 msk mirin (japanskt risvin)',
+        '1 msk sake (kan ersättas med mer mirin om du ej har sake)',
         '1 msk sesamolja',
         '2 msk honung',
         '1 vitlöksklyfta, riven',
-        '1 tsk riven färsk ingefära',
-        '1 tsk majsstärkelse (utblandad i 1 msk vatten)',
-        '1 tsk rostade sesamfrön',
-        'Salladslök till garnering',
+        '1 tesked riven färsk ingefära',
+        '1 tesked majsstärkelse (utblandad i 1 msk vatten)',
+        '1 tesked rostade sesamfrön (till garnering)',
+        'Salladslök (tunt skivad, till garnering)',
         'Jasminris:',
         '3 dl jasminris',
         '6 dl vatten',
         '1 krm salt',
         'Regnbågssallad:',
-        '2 morötter, strimlade',
-        '1 rödbeta, tunt strimlad',
+        '2 morötter, strimlade (eller rivna)',
+        '1 rödbeta, tunt strimlad (kan bytas mot mer morot om smaken är för jordig)',
         '1/4 rödkålshuvud, strimlad',
         '1/2 gurka, tunt skivad',
         '1 röd paprika, strimlad',
         '1 lime, saften',
         '2 msk risvinäger',
         '1 msk olivolja',
-        '1 tsk honung',
-        'Salt och peppar'
+        '1 tesked honung',
+        'Salt och peppar efter smak'
     ],
     instructions: [
-        '1. Blanda soja, mirin, sake, sesamolja, honung, vitlök och ingefära. Bryn kycklingen i en panna och häll över såsen. Låt sjuda tills kycklingen är genomstekt.',
-        '2. Rör ner majsstärkelsen och låt såsen tjockna. Toppa med sesamfrön och salladslök.',
-        '3. Koka jasminris enligt instruktioner.',
-        '4. Blanda grönsakerna och häll över en dressing av lime, risvinäger, olivolja, honung, salt och peppar.',
-        '5. Servera kycklingen med ris och sallad. Toppa med extra sesamfrön.'
+        'Blanda soja, mirin, sake, sesamolja, honung, vitlök och ingefära i en skål. Ställ åt sidan.',
+        'Hetta upp en stekpanna med lite olja och bryn kycklingen på båda sidor tills den får fin färg. Sänk sedan värmen till medel.',
+        'Häll såsblandningen över kycklingen i pannan. Låt småkoka tills kycklingen är genomstekt (ca 10–12 minuter).',
+        'Blanda ut majsstärkelsen i vattnet och tillsätt i såsen. Rör om tills såsen tjocknar och blir glansig. Strö över rostade sesamfrön och skivad salladslök.',
+        'Skölj jasminriset i kallt vatten tills vattnet är klart. Koka upp vatten med en nypa salt, tillsätt riset och sänk värmen. Låt sjuda under lock i 10 minuter. Dra av från värmen och låt stå ytterligare 5 minuter utan att lyfta på locket.',
+        'Blanda limejuice, risvinäger, olivolja, honung, salt och peppar i en liten skål. Häll över grönsakerna och blanda väl.',
+        'Lägg upp kycklingen på tallrikar med lite extra sås från pannan. Servera med jasminris och regnbågssalladen vid sidan. Toppa eventuellt med extra sesamfrön eller limeklyftor för extra smak.'
+    ],
+    tips: [
+        'För extra smak kan du lägga till färsk koriander på toppen.',
+        'Servera gärna med en extra skvätt limejuice för en fräschare smak.'
     ]
 },
 '33357': {
-    title: 'Korean Fried Chicken',
+    title: 'Korean fried chicken',
     image: 'bilder/33357.png',
-    description: 'Krispig och smakrik koreansk kyckling med en klibbig sås.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g kycklingvingar eller lårbitar',
         '1 dl majsstärkelse',
         '1 dl vetemjöl',
-        '1 tsk bakpulver',
+        '1 tesked bakpulver',
         'Neutral olja till fritering',
         'Sås:',
-        '2 msk gochujang',
+        '2 msk gochujang (koreansk chilipasta)',
         '2 msk soja',
         '2 msk honung',
-        '1 tsk risvinäger',
+        '1 tesked risvinäger',
         '2 vitlöksklyftor, rivna'
     ],
     instructions: [
-        '1. Blanda majsstärkelse, vetemjöl och bakpulver. Doppa kycklingbitarna i blandningen och skaka av överflödet.',
-        '2. Hetta upp olja till 180 °C och fritera kycklingen i 6–8 minuter tills gyllene. Låt rinna av på hushållspapper.',
-        '3. Blanda gochujang, soja, honung, risvinäger och vitlök i en kastrull. Värm tills såsen blir slät.',
-        '4. Lägg kycklingen i en skål och häll över såsen. Blanda väl.',
-        '5. Servera med sesamfrön och salladslök.'
+        'Blanda majsstärkelse, vetemjöl och bakpulver i en skål. Doppa kycklingbitarna i blandningen och skaka av överflödet.',
+        'Hetta upp olja till 180 °C i en djup kastrull. Fritera kycklingen i omgångar i 6–8 minuter tills den är gyllene och genomstekt. Låt rinna av på hushållspapper.',
+        'Blanda gochujang, soja, honung, risvinäger och vitlök i en kastrull. Värm försiktigt tills såsen blir slät.',
+        'Lägg kycklingen i en skål och häll över såsen. Blanda så att all kyckling täcks.',
+        'Servera direkt med sesamfrön och salladslök som topping.'
+    ],
+    tips: [
+        'För extra krispighet, friterar kycklingen två gånger.',
+        'Servera med en fräsch sallad för att balansera ut den kryddiga smaken.'
     ]
 },
 '33358': {
-    title: 'Koreansk BBQ med Fläskkarré och Kimchislaw',
+    title: 'Koreansk bbq med fläskkarré och kimchislaw',
     image: 'bilder/33358.png',
-    description: 'Smakrik koreansk BBQ med saftig fläskkarré och en kryddig kimchislaw.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g fläskkarré i skivor',
         '2 msk gochujang',
         '2 msk soja',
         '1 msk honung',
-        '1 tsk sesamolja',
+        '1 tesked sesamolja',
         'Kimchislaw:',
         '200 g vitkål, strimlad',
         '100 g kimchi, hackad',
         '2 msk majonnäs',
-        '1 tsk risvinäger',
-        '1 tsk sesamolja',
+        '1 tesked risvinäger',
+        '1 tesked sesamolja',
         'Kokt ris eller salladsblad till servering'
     ],
     instructions: [
-        '1. Blanda gochujang, soja, honung och sesamolja. Marinera fläskkarrén i minst 1 timme.',
-        '2. Grilla fläskkarrén tills genomstekt och med fina grillränder, ca 3–4 minuter per sida.',
-        '3. Blanda vitkål, kimchi, majonnäs, risvinäger och sesamolja. Smaka av med salt och peppar.',
-        '4. Servera fläskkarrén med kimchislaw och kokt ris eller salladsblad.'
+        'Blanda gochujang, soja, honung och sesamolja i en skål. Lägg i fläskkarrén och låt marinera i minst 1 timme.',
+        'Hetta upp en grill eller stekpanna och grilla fläskkarrén tills den är genomstekt och fått fina grillränder, ca 3–4 minuter per sida.',
+        'Blanda vitkål, kimchi, majonnäs, risvinäger och sesamolja i en skål. Smaka av med salt och peppar.',
+        'Servera köttet med kimchislaw och kokt ris eller i salladsblad som wraps.'
+    ],
+    tips: [
+        'För mer smak kan du låta köttet marinera längre, gärna över natten.',
+        'Servera med ris eller i salladsblad för en mer lättare måltid.'
     ]
 },
 '33359': {
-    title: 'Nudelsallad med Räkor och Asiatisk Dressing',
+    title: 'Nudelsallad med räkor och asiatisk dressing',
     image: 'bilder/33359.png',
-    description: 'Fräsch nudelsallad med räkor, krispiga grönsaker och en smakrik asiatisk dressing.',
+    portion: ' (4 portioner)',
     ingredients: [
         '250 g risnudlar',
         '300 g räkor, skalade',
@@ -2441,193 +2549,227 @@ function getRecipeByCode(code) {
         '2 msk fisksås',
         '1 msk limejuice',
         '1 msk soja',
-        '1 tsk socker',
+        '1 tesked socker',
         '1 röd chili, finhackad'
     ],
     instructions: [
-        '1. Koka risnudlarna enligt förpackningens anvisningar. Skölj i kallt vatten och låt rinna av.',
-        '2. Vispa ihop fisksås, limejuice, soja, socker och chili till dressingen.',
-        '3. Lägg nudlarna i en stor skål och blanda med räkor, morot, gurka och böngroddar.',
-        '4. Häll dressingen över salladen och blanda väl.',
-        '5. Toppa med salladslök och servera genast.'
+        'Koka risnudlarna enligt förpackningens anvisningar. Skölj i kallt vatten och låt rinna av.',
+        'Vispa ihop fisksås, limejuice, soja, socker och chili i en skål.',
+        'Lägg nudlarna i en stor skål och blanda med räkor, grönsaker och böngroddar.',
+        'Häll dressingen över salladen och toppa med salladslök. Servera direkt.'
+    ],
+    tips: [
+        'För extra fräschör, lägg till färsk koriander eller mynta på toppen.',
+        'Byt ut räkorna mot kyckling eller tofu för en vegetarisk version.'
     ]
 },
 '33360': {
-    title: 'Krämig Gochujang- och Jordnötsnudlar',
+    title: 'Krämig gochujang- och jordnöts nudlar',
     image: 'bilder/33360.png',
-    description: 'Krämiga nudlar med en balanserad hetta från gochujang och en fyllig jordnötssmak.',
+    portion: ' (4 portioner)',
     ingredients: [
         '250 g nudlar (t.ex. äggnudlar eller risnudlar)',
-        '2 msk gochujang',
+        '2 msk gochujang (koreansk chilipasta)',
         '2 msk jordnötssmör',
         '1 msk soja',
         '1 msk risvinäger',
-        '1 tsk sesamolja',
+        '1 tesked sesamolja',
         '1 vitlöksklyfta, riven',
         '1 dl kokosmjölk',
         '2 salladslökar, tunt skivade',
         'Sesamfrön och färsk koriander för topping'
     ],
     instructions: [
-        '1. Koka nudlarna enligt förpackningens instruktioner. Skölj dem i kallt vatten och ställ åt sidan.',
-        '2. I en kastrull, värm kokosmjölken på medelvärme. Vispa i gochujang, jordnötssmör, soja, risvinäger, sesamolja och vitlök tills såsen är slät och krämig.',
-        '3. Lägg nudlarna i kastrullen med såsen och vänd runt så att allt täcks.',
-        '4. Servera nudlarna i skålar och toppa med salladslök, sesamfrön och koriander.'
+        'Koka nudlarna enligt förpackningens instruktioner. Skölj dem i kallt vatten och ställ åt sidan.',
+        'I en kastrull, värm kokosmjölk på medelvärme. Vispa i gochujang, jordnötssmör, soja, risvinäger, sesamolja och vitlök tills såsen är slät och krämig.',
+        'Lägg de kokta nudlarna i kastrullen med såsen och vänd runt så att allt täcks.',
+        'Lägg upp nudlarna i skålar och toppa med salladslök, sesamfrön och koriander.'
+    ],
+    tips: [
+        'Justera mängden gochujang efter önskad styrka.',
+        'Tillsätt lite limejuice för en extra fräsch smak.'
     ]
 },
 '33361': {
     title: 'Yakiniku',
     image: 'bilder/33361.png',
-    description: 'Japansk yakiniku med tunt skivat kött i en umamirik marinad, serverad med ris.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g biff eller entrecôte, tunt skivad',
         '1 dl soja',
-        '2 msk mirin',
+        '2 msk mirin (japanskt risvin)',
         '1 msk socker',
-        '1 tsk sesamolja',
+        '1 tesked sesamolja',
         '2 vitlöksklyftor, rivna',
-        '1 tsk riven ingefära',
+        '1 tesked riven ingefära',
         'Sesamfrön och salladslök för topping',
         'Kokt ris till servering'
     ],
     instructions: [
-        '1. Blanda soja, mirin, socker, sesamolja, vitlök och ingefära till marinaden. Lägg köttet i marinaden och låt vila i 30 minuter.',
-        '2. Hetta upp en stekpanna eller wok på hög värme. Stek köttet snabbt i omgångar tills det är genomstekt och glansigt, ca 1 minut per sida.',
-        '3. Servera köttet på en bädd av ris. Toppa med sesamfrön och salladslök.'
+        'Blanda soja, mirin, socker, sesamolja, vitlök och ingefära i en skål. Lägg i köttskivorna och låt marinera i 30 minuter.',
+        'Hetta upp en stekpanna eller wok på hög värme. Stek köttet snabbt i omgångar tills det är genomstekt och fått en fin glans, ca 1 minut per sida.',
+        'Lägg upp köttet på en bädd av ris. Strö över sesamfrön och salladslök.'
+    ],
+    tips: [
+        'Servera med en sallad för en lättare måltid.',
+        'Byt ut biffen mot kyckling eller svamp för variation.'
     ]
 },
 '33362': {
-    title: 'Koreansk Bulgogi',
+    title: 'Koreansk bulgogi',
     image: 'bilder/33362.png',
-    description: 'Klassisk koreansk rätt med tunt skivat kött marinerat i en söt och smakrik bulgogisås.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g entrecôte eller flankstek, tunt skivad',
         '3 msk soja',
         '2 msk farinsocker',
         '1 msk sesamolja',
-        '1 päron, rivet',
+        '1 päron, rivet (ger sötma)',
         '2 vitlöksklyftor, rivna',
-        '1 tsk riven ingefära',
-        '1 tsk chiliflakes',
-        'Sesamfrön och salladslök för topping'
+        '1 tesked riven ingefära',
+        '1 tesked chiliflakes',
+        'Sesamfrön och salladslök för topping',
+        'Kokt ris eller salladsblad till servering'
     ],
     instructions: [
-        '1. Blanda soja, farinsocker, sesamolja, rivet päron, vitlök, ingefära och chiliflakes i en skål.',
-        '2. Lägg i köttet och marinera i minst 1 timme, gärna över natten.',
-        '3. Hetta upp en grillpanna eller stekpanna och stek köttet på hög värme, 1–2 minuter per sida.',
-        '4. Servera med ris eller salladsblad. Toppa med sesamfrön och salladslök.'
+        'Blanda soja, farinsocker, sesamolja, rivet päron, vitlök, ingefära och chiliflakes i en skål. Lägg i köttet och marinera i minst 1 timme (gärna över natten).',
+        'Hetta upp en grillpanna eller stekpanna och stek köttet snabbt på hög värme tills det är genomstekt och glaserat, ca 1–2 minuter per sida.',
+        'Servera köttet med ris eller salladsblad. Toppa med sesamfrön och salladslök.'
+    ],
+    tips: [
+        'För extra smak, tillsätt några droppar sesamolja efter tillagning.',
+        'Du kan även grilla köttet om du har en grillpanna.'
     ]
 },
 '33363': {
-    title: 'Lågtempad Lax med Asiatisk Glaze',
+    title: 'Lågtempad lax med asiatisk glaze',
     image: 'bilder/33363.png',
-    description: 'Saftig lax med en smakrik asiatisk glaze, perfekt serverad med ris och grönsaker.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g laxfilé, skuren i portionsbitar',
         '2 msk soja',
         '1 msk honung',
         '1 msk risvinäger',
-        '1 tsk sesamolja',
-        '1 tsk riven ingefära',
+        '1 tesked sesamolja',
+        '1 tesked riven ingefära',
         '1 vitlöksklyfta, riven',
-        'Sesamfrön och färsk koriander för topping'
+        'Sesamfrön och färsk koriander för topping',
+        'Kokt ris och ångade grönsaker till servering'
     ],
     instructions: [
-        '1. Förvärm ugnen till 125 °C. Lägg laxfiléerna i en ugnsform.',
-        '2. Vispa ihop soja, honung, risvinäger, sesamolja, ingefära och vitlök.',
-        '3. Pensla laxfiléerna med glazen. Tillaga i ugnen i 20 minuter tills laxen är genomstekt men saftig.',
-        '4. Toppa med sesamfrön och koriander. Servera med ris och ångade grönsaker.'
+        'Lägg laxfiléerna i en ugnsform. Förvärm ugnen till 125°C.',
+        'Vispa ihop soja, honung, risvinäger, sesamolja, ingefära och vitlök i en skål.',
+        'Pensla laxfiléerna med glazen och tillaga i ugnen i ca 20 minuter tills laxen är genomstekt men fortfarande saftig.',
+        'Strö över sesamfrön och koriander. Servera med ris och ångade grönsaker.'
+    ],
+    tips: [
+        'För extra smak, pensla laxen med glazen flera gånger under tillagningen.',
+        'Prova att servera laxen med en fräsch sallad.'
     ]
 },
 '33364': {
-    title: 'Sticky Chicken med Coleslaw',
+    title: 'Sticky chicken med coleslaw',
     image: 'bilder/33364.png',
-    description: 'Mör och glaserad kyckling serverad med krispig coleslaw.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g kycklingklubbor eller kycklinglår',
         '2 msk soja',
         '2 msk honung',
         '1 msk risvinäger',
-        '1 tsk sriracha',
+        '1 tesked sriracha',
         '1 vitlöksklyfta, riven',
         'Coleslaw:',
         '200 g vitkål, strimlad',
         '1 morot, riven',
         '2 msk majonnäs',
-        '1 tsk dijonsenap',
-        '1 tsk risvinäger',
+        '1 tesked dijonsenap',
+        '1 tesked risvinäger',
         'Färsk koriander för topping'
     ],
     instructions: [
-        '1. Blanda soja, honung, risvinäger, sriracha och vitlök. Lägg i kycklingen och marinera i minst 30 minuter.',
-        '2. Lägg kycklingen i en ugnsform och häll över marinaden. Tillaga i ugnen på 200 °C i 30–35 minuter.',
-        '3. Blanda vitkål, morot, majonnäs, dijonsenap och risvinäger till coleslaw. Smaka av med salt och peppar.',
-        '4. Servera kycklingen med coleslaw och toppa med koriander.'
+        'Blanda soja, honung, risvinäger, sriracha och vitlök i en skål. Lägg i kycklingen och låt marinera i minst 30 minuter.',
+        'Lägg kycklingen i en ugnsform och häll över marinaden. Tillaga i ugnen på 200°C i ca 30–35 minuter tills kycklingen är genomstekt och glaserad.',
+        'Blanda vitkål, morot, majonnäs, dijonsenap och risvinäger i en skål. Smaka av med salt och peppar.',
+        'Lägg upp kycklingen på ett fat och toppa med koriander. Servera med coleslaw vid sidan.'
+    ],
+    tips: [
+        'För extra hetta, tillsätt mer sriracha i marinaden.',
+        'Byt ut kycklingen mot tofu för en vegetarisk version.'
     ]
 },
 '33365': {
-    title: 'Tonfisktartar med Soja- och Chilimajonnäs samt Friterad Lök',
+    title: 'Tonfisktartar med soja- och chilimajonnäs samt friterad lök',
     image: 'bilder/33365.png',
-    description: 'En elegant förrätt med färsk tonfisk, smakrik majonnäs och krispig friterad lök.',
+    portion: ' (4 portioner)',
     ingredients: [
-        '300 g färsk tonfisk, tärnad',
+        '300 g färsk tonfisk (sashimikvalitet), tärnad',
         '2 msk soja',
-        '1 tsk sesamolja',
-        '1 tsk limejuice',
+        '1 tesked sesamolja',
+        '1 tesked limejuice',
         '1 msk finhackad salladslök',
         'Chilimajonnäs:',
         '4 msk majonnäs',
-        '1 tsk sriracha',
-        '1 tsk limejuice',
-        'Friterad Lök:',
+        '1 tesked sriracha (justera efter smak)',
+        '1 tesked limejuice',
+        'Friterad lök:',
         '1 gul lök, tunt skivad',
         '1 dl vetemjöl',
         'Neutral olja till fritering',
         'Sesamfrön och färsk koriander för garnering'
     ],
     instructions: [
-        '1. Blanda tonfisk med soja, sesamolja, limejuice och salladslök. Ställ i kylen.',
-        '2. Blanda majonnäs, sriracha och limejuice till chilimajonnäsen.',
-        '3. Pudra löken med vetemjöl och fritera i olja tills gyllene. Låt rinna av.',
-        '4. Lägg upp tartaren och toppa med majonnäs, friterad lök, sesamfrön och koriander.'
+        'Lägg tonfisken i en skål och blanda med soja, sesamolja, limejuice och salladslök. Ställ i kylen medan resten förbereds.',
+        'Blanda majonnäs, sriracha och limejuice i en liten skål. Smaka av och justera styrkan efter önskemål.',
+        'Värm oljan i en liten kastrull. Pudra lökskivorna med vetemjöl och fritera i omgångar tills de är gyllene och krispiga. Låt rinna av på hushållspapper.',
+        'Lägg upp tonfisktartaren i små portionsformar eller direkt på tallrikar. Toppa med chilimajonnäs, friterad lök, sesamfrön och koriander. Servera genast.'
+    ],
+    tips: [
+        'För en mildare version, använd mindre sriracha i majonnäsen.',
+        'Servera med ett friskt salladsblad eller på små skålar för ett elegant tilltugg.'
     ]
 },
 '33366': {
-    title: 'Yakitorispett med Universalsallad',
+    title: 'Yakitorispett med universalsallad',
     image: 'bilder/33366.png',
-    description: 'Japanska kycklingspett med en söt och salt glaze, serverade med en fräsch sallad.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g kycklinglårfilé, skuren i bitar',
         '1 dl soja',
         '2 msk honung',
         '1 msk risvinäger',
-        '1 tsk sesamolja',
-        '1 tsk riven ingefära',
+        '1 tesked sesamolja',
+        '1 tesked riven ingefära',
         'Sallad:',
         '1 romansallad, strimlad',
         '1 gurka, skivad',
         '1 morot, strimlad',
         '2 msk risvinäger',
-        '1 tsk socker',
-        'Sesamfrön och färsk koriander för topping'
+        '1 tesked socker',
+        'Sesamfrön och färsk koriander till topping'
     ],
     instructions: [
-        '1. Marinera kycklingen i en blandning av soja, honung, risvinäger, sesamolja och ingefära. Låt stå i minst 30 minuter.',
-        '2. Trä kycklingbitarna på blötlagda träspett.',
-        '3. Grilla spetten på hög värme i 10–12 minuter, vänd ofta och pensla med marinaden.',
-        '4. Blanda sallad, gurka och morot i en skål. Häll över risvinäger och strö på socker. Blanda och låt stå i 5 minuter.',
-        '5. Servera spetten med salladen, toppat med sesamfrön och koriander.'
+        'Blanda soja, honung, risvinäger, sesamolja och ingefära i en skål. Lägg i kycklingen och låt marinera i minst 30 minuter.',
+        'Trä kycklingbitarna på blötlagda träspett.',
+        'Grilla spetten på hög värme i 10–12 minuter, vänd ofta och pensla med marinaden för extra smak.',
+        'Blanda sallad, gurka och morot i en skål. Häll över risvinäger och strö på socker. Blanda och låt stå i 5 minuter.',
+        'Lägg upp spetten på ett fat tillsammans med salladen. Strö över sesamfrön och koriander.'
+    ],
+    tips: [
+        'Trä kycklingen på spett med hjälp av metallspett för att minska användning av engångsartiklar.',
+        'Prova att grilla även grönsaker på spett för en extra färg på tallriken.'
     ]
 },
 '33367': {
-    title: 'Sushi Bowl med Lax och Sriracha Dressing',
+    title: 'Sushi bowl med lax och sriracha dressing',
     image: 'bilder/33367.png',
-    description: 'En sushi bowl fylld med färsk lax, grönsaker och en kryddig dressing.',
+    portion: ' (4 portioner)',
     ingredients: [
+        'Sushiris:',
         '300 g sushiris',
         '3 msk risvinäger',
         '1 msk socker',
-        '1 tsk salt',
+        '1 tesked salt',
+        'Topping:',
         '300 g färsk lax (sashimikvalitet), tärnad',
         '1 avokado, skivad',
         '1 gurka, tärnad',
@@ -2635,21 +2777,25 @@ function getRecipeByCode(code) {
         '1 dl edamamebönor',
         'Dressing:',
         '4 msk majonnäs',
-        '1 tsk sriracha',
-        '1 tsk limejuice',
+        '1 tesked sriracha',
+        '1 tesked limejuice',
         'Sesamfrön och nori-strimlor till garnering'
     ],
     instructions: [
-        '1. Skölj sushiris tills vattnet är klart. Koka enligt anvisningarna på förpackningen. Blanda med risvinäger, socker och salt medan det fortfarande är varmt. Låt svalna.',
-        '2. Blanda majonnäs, sriracha och limejuice till dressingen.',
-        '3. Lägg sushiris i botten av fyra skålar. Toppa med lax, avokado, gurka, morot och edamamebönor.',
-        '4. Ringla över sriracha-dressingen och toppa med sesamfrön och nori-strimlor. Servera genast.'
+        'Skölj riset tills vattnet är klart. Koka enligt anvisningarna på förpackningen. Blanda med risvinäger, socker och salt medan det fortfarande är varmt. Låt svalna.',
+        'Blanda majonnäs, sriracha och limejuice i en liten skål. Justera styrkan efter smak.',
+        'Lägg sushiris i botten av fyra skålar. Toppa med lax, avokado, gurka, morot och edamamebönor.',
+        'Ringla över sriracha-dressingen och toppa med sesamfrön och nori-strimlor. Servera genast.'
+    ],
+    tips: [
+        'Använd sushi-grade lax för bästa kvalitet och säkerhet.',
+        'Toppa gärna med picklad ingefära för extra syra.'
     ]
 },
 '33368': {
-    title: 'Risotto med Miso och Brynt Smör',
+    title: 'Risotto med miso och brynt smör',
     image: 'bilder/33368.png',
-    description: 'En lyxig risotto med smak av miso och nötigt brynt smör.',
+    portion: ' (4 portioner)',
     ingredients: [
         '2 dl arborioris',
         '1 liter grönsaksbuljong',
@@ -2662,18 +2808,22 @@ function getRecipeByCode(code) {
         'Färsk gräslök till garnering'
     ],
     instructions: [
-        '1. Hetta upp buljongen och lös upp misopastan i den. Håll buljongen varm.',
-        '2. Fräs lök och vitlök i smör tills de mjuknar. Tillsätt riset och rör om tills det blir lätt genomskinligt.',
-        '3. Häll i vinet och låt koka in. Tillsätt buljongen, en slev i taget, och rör kontinuerligt. Fortsätt tills riset är al dente, ca 20 minuter.',
-        '4. Smält resterande smör tills det är brynt och doftar nötigt.',
-        '5. Rör ner brynt smör och parmesan i risotton. Smaka av med salt och peppar.',
-        '6. Servera på tallrikar och toppa med gräslök.'
+        'Hetta upp buljongen i en kastrull och lös upp misopastan i den. Håll buljongen varm under hela tillagningen.',
+        'Smält en klick smör i en stor panna och fräs lök och vitlök tills de mjuknar. Tillsätt riset och rör om tills det blir lätt genomskinligt.',
+        'Häll i vinet och låt det koka in. Tillsätt sedan buljongen, en slev i taget, och rör kontinuerligt. Fortsätt tills riset är al dente, ca 20 minuter.',
+        'Smält resterande smör i en liten kastrull tills det är gyllene och doftar nötigt.',
+        'Rör ner brynt smör och parmesan i risotton. Smaka av med salt och peppar.',
+        'Lägg upp på tallrikar och toppa med gräslök.'
+    ],
+    tips: [
+        'För en mer intensiv smak kan du lägga till en skvätt soja i risotton.',
+        'Använd gärna en god buljong för att få bästa smak i risotton.'
     ]
 },
 '33369': {
     title: 'Kycklingkatsu',
     image: 'bilder/33369.png',
-    description: 'Krispig kyckling serverad med tonkatsusås och ris.',
+    portion: ' (4 portioner)',
     ingredients: [
         '4 kycklingbröst',
         '1 dl vetemjöl',
@@ -2684,47 +2834,56 @@ function getRecipeByCode(code) {
         'Tonkatsusås (färdigköpt eller hemmagjord)'
     ],
     instructions: [
-        '1. Banka ut kycklingbrösten till jämn tjocklek. Krydda med salt och peppar.',
-        '2. Doppa kycklingen i mjöl, sedan i ägg och till sist i panko. Se till att de är jämnt täckta.',
-        '3. Hetta upp olja i en stekpanna och stek kycklingen på medelvärme i 4–5 minuter per sida tills den är gyllene och genomstekt.',
-        '4. Skär kycklingen i skivor och servera med kokt ris och tonkatsusås.'
+        'Banka ut kycklingfiléerna till en jämn tjocklek. Krydda med salt och peppar.',
+        'Doppa kycklingen först i mjöl, sedan i ägg och till sist i panko. Se till att den är jämnt täckt.',
+        'Hetta upp olja i en stekpanna och stek kycklingen på medelvärme i 4–5 minuter per sida tills den är gyllene och genomstekt. Låt rinna av på hushållspapper.',
+        'Skär kycklingen i skivor och servera med kokt ris och tonkatsusås.'
+    ],
+    tips: [
+        'För extra krispighet kan du lägga till lite majsstärkelse i panko-ströbrödet.',
+        'Servera gärna med en fräsch kålsallad för att balansera den feta kycklingen.'
     ]
 },
 '33370': {
-    title: 'Halloumi Tikka Masala',
+    title: 'Halloumi tikka masala',
     image: 'bilder/33370.png',
-    description: 'En indisk-inspirerad gryta med kryddig sås och stekt halloumi.',
+    portion: ' (4 portioner)',
     ingredients: [
+        'Marinerad halloumi:',
         '400 g halloumi, skuren i tärningar',
         '1 dl yoghurt',
-        '1 tsk garam masala',
-        '1 tsk gurkmeja',
-        '1 tsk chilipulver',
+        '1 tesked garam masala',
+        '1 tesked gurkmeja',
+        '1 tesked chilipulver',
         'Sås:',
         '1 gul lök, finhackad',
         '2 vitlöksklyftor, rivna',
         '1 msk ingefära, riven',
         '1 burk krossade tomater (400 g)',
         '1 dl grädde eller kokosmjölk',
-        '1 tsk garam masala',
-        '1 tsk spiskummin',
-        '1 tsk korianderpulver',
-        '1 tsk chilipulver',
+        '1 tesked garam masala',
+        '1 tesked spiskummin',
+        '1 tesked korianderpulver',
+        '1 tesked chilipulver',
         'Färsk koriander och naanbröd till servering'
     ],
     instructions: [
-        '1. Blanda yoghurt, garam masala, gurkmeja och chilipulver i en skål. Lägg i halloumitärningarna och låt marinera i minst 30 minuter.',
-        '2. Stek halloumin tills den är gyllene på alla sidor. Ta upp och ställ åt sidan.',
-        '3. Fräs lök, vitlök och ingefära i en kastrull tills de mjuknar. Tillsätt garam masala, spiskummin, korianderpulver och chilipulver. Rör om och låt fräsa i 1 minut.',
-        '4. Häll i krossade tomater och låt puttra i 10 minuter. Tillsätt grädde eller kokosmjölk och rör om.',
-        '5. Lägg tillbaka halloumin i såsen och låt puttra i 5 minuter så att smakerna blandas.',
-        '6. Toppa med färsk koriander och servera med naanbröd och ris.'
+        'Blanda yoghurt, garam masala, gurkmeja och chilipulver i en skål. Lägg i halloumitärningarna och låt marinera i minst 30 minuter.',
+        'Hetta upp lite olja i en stekpanna och stek halloumin tills den är gyllene på alla sidor. Ta upp och ställ åt sidan.',
+        'Fräs lök, vitlök och ingefära i en kastrull tills de mjuknar. Tillsätt garam masala, spiskummin, korianderpulver och chilipulver. Rör om och låt fräsa i 1 minut.',
+        'Tillsätt de krossade tomaterna och låt puttra i 10 minuter. Tillsätt grädde eller kokosmjölk och rör om.',
+        'Lägg tillbaka halloumin i såsen och låt puttra i 5 minuter så att smakerna blandas.',
+        'Toppa med färsk koriander och servera med naanbröd och ris.'
+    ],
+    tips: [
+        'Använd gärna kokosmjölk för en mer autentisk smak.',
+        'Tikka masala-smaken kan intensifieras genom att lägga till mer garam masala.'
     ]
 },
 '33371': {
-    title: 'Koreansk Sill med Krossad Potatis',
+    title: 'Koreansk sill med krossad potatis',
     image: 'bilder/33371.png',
-    description: 'En spännande twist på klassisk sill med koreanska smaker och krispig potatis.',
+    portion: ' (4 portioner)',
     ingredients: [
         '4 sillfiléer, rensade och urvattnade',
         '2 msk gochujang',
@@ -2737,40 +2896,47 @@ function getRecipeByCode(code) {
         'Sesamfrön och salladslök för topping'
     ],
     instructions: [
-        '1. Blanda gochujang, soja, sesamolja och honung. Pensla sillfiléerna med marinaden och låt stå i 30 minuter.',
-        '2. Koka potatisen tills den är mjuk. Lägg på en plåt och tryck till varje potatis lätt med en sked eller potatisstöt.',
-        '3. Ringla över olivolja och strö på flingsalt och peppar. Rosta i ugnen på 225 °C i 20 minuter tills potatisen är gyllene.',
-        '4. Hetta upp en panna och stek sillen snabbt på medelvärme, ca 2–3 minuter per sida.',
-        '5. Servera sillen med krossad potatis och toppa med sesamfrön och salladslök.'
+        'Blanda gochujang, soja, sesamolja och honung i en skål. Pensla sillfiléerna med marinaden och låt stå i 30 minuter.',
+        'Koka potatisen tills den är mjuk. Lägg på en plåt och tryck till varje potatis lätt med en sked eller potatisstöt.',
+        'Ringla över olivolja och strö på flingsalt och peppar. Rosta i ugnen på 225 °C i 20 minuter tills potatisen är gyllene.',
+        'Hetta upp en panna och stek sillen snabbt på medelvärme, ca 2–3 minuter per sida.',
+        'Lägg upp sillen på ett fat och toppa med sesamfrön och salladslök. Servera med krossad potatis.'
+    ],
+    tips: [
+        'För extra smak kan du tillsätta lite ingefära i marinaden.',
+        'Byt gärna ut sillen mot lax om du föredrar en mildare fisk.'
     ]
 },
 '33372': {
-    title: 'Ugnsbakad Lax med Teriyakisås',
+    title: 'Ungsbakad lax med teriyakisås',
     image: 'bilder/33372.png',
-    description: 'En enkel och smakrik lax med teriyakisås, perfekt för både vardag och fest.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g laxfilé, skuren i portionsbitar',
         '1 dl teriyakisås (färdigköpt eller hemmagjord)',
-        '1 tsk sesamfrön',
+        '1 tesked sesamfrön',
         '2 salladslökar, skivade',
         'Kokt ris och ångade grönsaker till servering'
     ],
     instructions: [
-        '1. Lägg laxfiléerna i en ugnsform och pensla generöst med teriyakisås.',
-        '2. Tillaga i ugnen på 175 °C i 15–20 minuter tills laxen är genomstekt men fortfarande saftig.',
-        '3. Toppa laxen med sesamfrön och salladslök. Servera med ris och ångade grönsaker.'
+        'Lägg laxfiléerna i en ugnsform. Pensla generöst med teriyakisås.',
+        'Tillaga i ugnen på 175 °C i 15–20 minuter tills laxen är genomstekt men fortfarande saftig.',
+        'Toppa laxen med sesamfrön och salladslök. Servera med ris och ångade grönsaker.'
+    ],
+    tips: [
+        'För en extra smakfull lax kan du tillsätta lite finhackad vitlök i teriyakisåsen.',
+        'Servera gärna med en fräsch sallad vid sidan.'
     ]
 },
 '33373': {
-    title: 'Shawarmaspett med Ajvar- och Yoghurtsås',
+    title: 'Shawarmaspett med ajvar- och yoghurtsås',
     image: 'bilder/33373.png',
-    description: 'Kryddiga kycklingspett serverade i pitabröd med en härlig ajvar- och yoghurtsås.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g kycklinglårfilé, skuren i bitar',
         '2 msk shawarmakrydda',
         '1 msk olivolja',
         '1 msk citronsaft',
-        'Sås:',
         '2 dl grekisk yoghurt',
         '2 msk ajvar relish',
         '1 vitlöksklyfta, pressad',
@@ -2778,52 +2944,58 @@ function getRecipeByCode(code) {
         'Pitabröd och grönsaker till servering'
     ],
     instructions: [
-        '1. Blanda shawarmakrydda, olivolja och citronsaft i en skål. Lägg i kycklingen och låt marinera i minst 30 minuter.',
-        '2. Trä kycklingbitarna på blötlagda träspett.',
-        '3. Grilla eller stek spetten på hög värme i 10–12 minuter, vänd ofta så att de blir jämnt stekta.',
-        '4. Blanda yoghurt, ajvar relish och vitlök i en skål. Smaka av med salt och peppar.',
-        '5. Lägg spetten i pitabröd tillsammans med grönsaker och toppa med såsen.'
+        'Blanda shawarmakrydda, olivolja och citronsaft i en skål. Lägg i kycklingen och låt marinera i minst 30 minuter.',
+        'Trä kycklingbitarna på blötlagda träspett.',
+        'Grilla eller stek på hög värme i 10–12 minuter, vänd ofta så att de blir jämnt stekta.',
+        'Blanda yoghurt, ajvar relish och vitlök i en skål. Smaka av med salt och peppar.',
+        'Lägg spetten i pitabröd tillsammans med grönsaker och toppa med såsen.'
+    ],
+    tips: [
+        'För mer krydda kan du lägga till extra chili i ajvarsåsen.',
+        'Servera med en fräsch grönsallad eller hummus för en komplett måltid.'
     ]
 },
 '33374': {
     title: 'Kafta',
     image: 'bilder/33374.png',
-    description: 'Avlånga järpar av kryddig färs, perfekt med yoghurt och libabröd.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g lammfärs eller nötfärs',
         '1 gul lök, finhackad',
         '1 dl färsk persilja, hackad',
-        '1 tsk spiskummin',
-        '1 tsk korianderpulver',
-        '1 tsk paprikapulver',
+        '1 tesked spiskummin',
+        '1 tesked korianderpulver',
+        '1 tesked paprikapulver',
         'Salt och peppar',
         'Yoghurt och libabröd till servering'
     ],
     instructions: [
-        '1. I en stor skål, blanda färs, lök, persilja och kryddor. Arbeta färsen tills den är jämnt kryddad.',
-        '2. Forma färsen till avlånga järpar eller små biffar.',
-        '3. Grilla på hög värme eller stek i panna tills de är genomstekta och fått en fin yta, ca 4–5 minuter per sida.',
-        '4. Lägg upp kaftan med yoghurt och libabröd vid sidan. Toppa med extra persilja om du vill.'
+        'Blanda färs, lök, persilja och kryddor i en stor skål. Arbeta färsen tills den är jämnt kryddad.',
+        'Forma färsen till avlånga järpar eller små biffar.',
+        'Grilla på hög värme eller stek i panna tills de är genomstekta och fått en fin yta, ca 4–5 minuter per sida.',
+        'Lägg upp kaftan med yoghurt och libabröd vid sidan. Toppa med extra persilja om du vill.'
+    ],
+    tips: [
+        'Prova att lägga till lite riven vitlök i färsen för mer smak.',
+        'Servera gärna med en fräsch tomatsallad vid sidan.'
     ]
 },
 '33375': {
-    title: 'Indisk Kyckling med Persiskt Ris',
+    title: 'Indisk kyckling med persiskt ris',
     image: 'bilder/33375.png',
-    description: 'Kycklinggryta med smakrika kryddor serverad med saffransdoftande ris.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g kycklinglårfilé, skuren i bitar',
         '1 dl naturell yoghurt',
-        '1 tsk gurkmeja',
-        '1 tsk garam masala',
-        '1 tsk chilipulver',
-        '1 tsk ingefära, riven',
+        '1 tesked gurkmeja',
+        '1 tesked garam masala',
+        '1 tesked chilipulver',
+        '1 tesked ingefära, riven',
         '2 vitlöksklyftor, pressade',
-        'Sås:',
         '1 gul lök, hackad',
         '1 burk krossade tomater (400 g)',
         '1 dl grädde eller kokosmjölk',
-        '1 tsk garam masala',
-        'Persiskt ris:',
+        '1 tesked garam masala',
         '2 dl basmatiris',
         '1 nypa saffran',
         '1 msk smör',
@@ -2831,17 +3003,21 @@ function getRecipeByCode(code) {
         '2 msk pistagenötter'
     ],
     instructions: [
-        '1. Blanda yoghurt, gurkmeja, garam masala, chilipulver, ingefära och vitlök. Lägg i kycklingen och låt marinera i minst 30 minuter.',
-        '2. Hetta upp olja i en stekpanna och stek kycklingbitarna tills de är gyllene och genomstekta. Ta upp och lägg åt sidan.',
-        '3. Fräs löken tills den är mjuk. Tillsätt garam masala och låt fräsa i 1 minut. Häll i krossade tomater och låt sjuda i 10 minuter. Tillsätt grädde och blanda.',
-        '4. Koka riset enligt anvisningarna. Lös upp saffran i lite varmt vatten och rör ner det i riset tillsammans med smör, russin och pistagenötter.',
-        '5. Lägg upp kycklingen i såsen och servera med det persiska riset.'
+        'Blanda yoghurt, gurkmeja, garam masala, chilipulver, ingefära och vitlök. Lägg i kycklingen och låt marinera i minst 30 minuter.',
+        'Hetta upp olja i en stekpanna och stek kycklingbitarna tills de är gyllene och genomstekta. Ta upp och lägg åt sidan.',
+        'Fräs löken tills den är mjuk. Tillsätt garam masala och låt fräsa i 1 minut. Häll i de krossade tomaterna och låt sjuda i 10 minuter. Tillsätt grädde och blanda.',
+        'Koka riset enligt anvisningarna. Lös upp saffran i lite varmt vatten och rör ner det i riset tillsammans med smör, russin och pistagenötter.',
+        'Lägg upp kycklingen i såsen och servera med det persiska riset.'
+    ],
+    tips: [
+        'Byt gärna ut kycklingen mot lamm för en mer autentisk smak.',
+        'Servera med en lätt raita för att balansera kryddorna.'
     ]
 },
 '33376': {
-    title: 'Fläskfilégryta med Curry, Banan och Jordnötter',
+    title: 'Fläskfilégryta med curry, banan och jordnötter',
     image: 'bilder/33376.png',
-    description: 'En mild och smakrik gryta med exotiska smaker av curry, banan och jordnötter.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g fläskfilé, skivad',
         '1 gul lök, hackad',
@@ -2854,17 +3030,21 @@ function getRecipeByCode(code) {
         'Kokt ris till servering'
     ],
     instructions: [
-        '1. Hetta upp lite olja i en stekpanna och bryn fläskfilén tills den är gyllene. Ta upp och lägg åt sidan.',
-        '2. Fräs löken och paprikan i samma panna tills de mjuknar. Tillsätt curry och rör om.',
-        '3. Häll i grädde och kokosmjölk. Lägg tillbaka fläskfilén och låt puttra på låg värme i 10 minuter.',
-        '4. Rör ner bananskivorna och de hackade jordnötterna precis innan servering.',
-        '5. Servera grytan med kokt ris och gärna extra jordnötter på toppen.'
+        'Hetta upp lite olja i en stekpanna och bryn fläskfilén tills den är gyllene. Ta upp och lägg åt sidan.',
+        'Fräs löken och paprikan i samma panna tills de mjuknar. Tillsätt curry och rör om.',
+        'Häll i grädde och kokosmjölk. Lägg tillbaka fläskfilén och låt puttra på låg värme i 10 minuter.',
+        'Rör ner bananskivorna och de hackade jordnötterna precis innan servering.',
+        'Servera grytan med kokt ris och gärna extra jordnötter på toppen.'
+    ],
+    tips: [
+        'För en mer exotisk smak, tillsätt lite riven ingefära eller limejuice.',
+        'Byt ut fläskfilén mot kyckling för ett magrare alternativ.'
     ]
 },
 '33377': {
-    title: 'Krämig Kokoscurry med Kräftor och Myntayoghurt',
+    title: 'Krämig kokoscurry med kräftor och myntayoghurt',
     image: 'bilder/33377.png',
-    description: 'En snabb och läcker kokosbaserad curry med kräftstjärtar, serverad med frisk myntayoghurt.',
+    portion: ' (4 portioner)',
     ingredients: [
         '300 g kräftstjärtar, avrunna',
         '1 burk kokosmjölk (400 ml)',
@@ -2872,24 +3052,27 @@ function getRecipeByCode(code) {
         '1 gul lök, finhackad',
         '1 röd paprika, strimlad',
         '1 näve färsk spenat',
-        'Myntayoghurt:',
         '2 dl naturell yoghurt',
         '1 msk hackad mynta',
         '1 tsk honung',
         'Kokt ris till servering'
     ],
     instructions: [
-        '1. Hetta upp lite olja i en gryta och fräs löken tills den mjuknar. Tillsätt currypastan och fräs i 1 minut.',
-        '2. Häll i kokosmjölken och rör om. Låt koka upp och tillsätt paprikan. Låt puttra i 10 minuter.',
-        '3. Lägg i kräftstjärtarna och spenaten precis innan servering. Låt allt värmas upp utan att koka.',
-        '4. Blanda yoghurt, mynta och honung i en skål för myntayoghurten.',
-        '5. Servera curryn med kokt ris och toppa med en klick myntayoghurt.'
+        'Hetta upp lite olja i en gryta och fräs löken tills den mjuknar. Tillsätt currypastan och fräs i 1 minut.',
+        'Häll i kokosmjölken och rör om. Låt koka upp och tillsätt paprika. Låt puttra i 10 minuter.',
+        'Lägg i kräftstjärtarna och spenaten precis innan servering. Låt allt värmas upp men inte koka.',
+        'Blanda yoghurt, mynta och honung i en skål.',
+        'Servera curryn med kokt ris och toppa med en klick myntayoghurt.'
+    ],
+    tips: [
+        'Byt gärna ut kräftorna mot räkor eller kyckling om du föredrar det.',
+        'Tillsätt lite limejuice i yoghurten för extra fräschör.'
     ]
 },
 '33378': {
-    title: 'Blomkålscurry med Picklad Jalapeño och Ris',
+    title: 'Blomkålscurry med picklad jalapeño och ris',
     image: 'bilder/33378.png',
-    description: 'En vegetariskt värmande curry med blomkål och syrlig jalapeño.',
+    portion: ' (4 portioner)',
     ingredients: [
         '1 blomkål, i buketter',
         '1 burk kokosmjölk (400 ml)',
@@ -2899,67 +3082,77 @@ function getRecipeByCode(code) {
         '1 näve färsk spenat',
         '2 jalapeños, tunt skivade',
         '2 msk risvinäger',
-        '1 tsk socker',
+        '1 tesked socker',
         'Kokt ris till servering'
     ],
     instructions: [
-        '1. Blanda risvinäger och socker i en skål. Lägg i jalapeñoskivorna och låt stå i minst 20 minuter.',
-        '2. Hetta upp lite olja i en gryta och fräs lök och vitlök tills de mjuknar. Tillsätt currypastan och fräs i 1 minut.',
-        '3. Lägg i blomkålsbuketterna och häll över kokosmjölken. Låt puttra i 15 minuter tills blomkålen är mjuk.',
-        '4. Rör ner spenaten och låt den mjukna precis innan servering.',
-        '5. Lägg upp curryn med kokt ris och toppa med picklad jalapeño.'
+        'Blanda risvinäger och socker i en skål. Lägg i jalapeñoskivorna och låt stå i minst 20 minuter.',
+        'Hetta upp lite olja i en gryta och fräs lök och vitlök tills de mjuknar. Tillsätt currypastan och fräs i 1 minut.',
+        'Lägg i blomkålsbuketterna och häll över kokosmjölken. Låt puttra i 15 minuter tills blomkålen är mjuk.',
+        'Rör ner spenaten och låt den mjukna precis innan servering.',
+        'Lägg upp curryn med kokt ris och toppa med picklad jalapeño.'
+    ],
+    tips: [
+        'För extra smak, prova att lägga till lite färsk ingefära eller vitlök i curryn.',
+        'Servera gärna med naanbröd för att suga upp den krämiga såsen.'
     ]
 },
 '33379': {
-    title: 'Grillad Aubergine med Fetaostkräm',
+    title: 'Grillad aubergine med fetaostkräm',
     image: 'bilder/33379.png',
-    description: 'En enkel och smakrik rätt där grillad aubergine möter en len fetaostkräm.',
+    portion: ' (4 portioner)',
     ingredients: [
         '2 auberginer, skurna i skivor',
         '2 msk olivolja',
-        '1 tsk paprikapulver',
-        'Fetaostkräm:',
+        '1 tesked paprikapulver',
         '150 g fetaost',
         '2 dl grekisk yoghurt',
         '1 vitlöksklyfta, pressad',
-        '1 tsk citronsaft',
+        '1 tesked citronsaft',
         'Färsk persilja till topping'
     ],
     instructions: [
-        '1. Pensla aubergineskivorna med olivolja och krydda med paprikapulver, salt och peppar.',
-        '2. Grilla aubergineskivorna på hög värme tills de är mjuka och har fått fina grillränder, ca 3 minuter per sida.',
-        '3. Mixa fetaost, yoghurt, vitlök och citronsaft till en slät kräm.',
-        '4. Lägg upp aubergineskivorna på ett fat och toppa med fetaostkrämen och färsk persilja.'
+        'Pensla aubergineskivorna med olivolja och krydda med paprikapulver, salt och peppar.',
+        'Grilla skivorna på hög värme tills de är mjuka och har fått fina grillränder, ca 3 minuter per sida.',
+        'Mixa fetaost, yoghurt, vitlök och citronsaft till en slät kräm.',
+        'Lägg upp aubergineskivorna på ett fat och toppa med fetaostkräm och färsk persilja.'
+    ],
+    tips: [
+        'Prova att tillsätta lite honung i fetaostkrämen för en sötare smak.',
+        'Grillade tomater eller en fräsch tomatsalsa passar bra som tillbehör.'
     ]
 },
 '33380': {
-    title: 'Fläskkotletter med Muhammara',
+    title: 'Fläskkotletter med muhammara',
     image: 'bilder/33380.png',
-    description: 'Saftiga fläskkotletter med en krämig och smakrik paprikaröra.',
+    portion: ' (4 portioner)',
     ingredients: [
         '4 fläskkotletter',
         '1 msk olivolja',
-        '1 tsk paprikapulver',
+        '1 tesked paprikapulver',
         'Salt och peppar',
-        'Muhammara:',
         '2 röda paprikor',
         '1 dl valnötter',
         '1 vitlöksklyfta',
         '1 msk granatäppelsirap',
-        '1 tsk spiskummin',
+        '1 tesked spiskummin',
         '2 msk olivolja',
         'Färsk persilja och bröd till servering'
     ],
     instructions: [
-        '1. Rosta paprikorna i ugnen på 225 °C tills skalet är svartnat. Lägg dem i en plastpåse och låt svalna. Skala sedan bort skalen och mixa paprikorna med valnötter, vitlök, granatäppelsirap, spiskummin och olivolja till en slät röra. Smaka av med salt.',
-        '2. Krydda kotletterna med paprikapulver, salt och peppar. Hetta upp olivolja i en stekpanna och stek kotletterna 3–4 minuter per sida tills de är genomstekta.',
-        '3. Servera kotletterna med muhammara. Toppa med färsk persilja och servera med bröd vid sidan.'
+        'Rosta paprikorna i ugnen på 225 °C tills skalet är svartnat. Lägg dem i en plastpåse och låt svalna. Skala sedan bort skalen och mixa paprikorna med valnötter, vitlök, granatäppelsirap, spiskummin och olivolja till en slät röra. Smaka av med salt.',
+        'Krydda kotletterna med paprikapulver, salt och peppar. Hetta upp olivolja i en stekpanna och stek kotletterna 3–4 minuter per sida tills de är genomstekta.',
+        'Lägg upp kotletterna på tallrikar och servera med muhammara. Toppa med färsk persilja och bröd vid sidan.'
+    ],
+    tips: [
+        'Servera gärna med couscous eller ett härligt pitabröd.',
+        'För extra smak kan du även rösta paprikorna på grillen för en rökig smak.'
     ]
 },
 '33381': {
-    title: 'Pastasallad med Muhammara',
+    title: 'Pastasallad med muhammara',
     image: 'bilder/33381.png',
-    description: 'En fräsch och mättande pastasallad med smakrik muhammara och färska grönsaker.',
+    portion: ' (4 portioner)',
     ingredients: [
         '300 g pasta (t.ex. fusilli eller penne)',
         '2 dl muhammara (se recept ovan)',
@@ -2970,22 +3163,25 @@ function getRecipeByCode(code) {
         'Färsk persilja till garnering'
     ],
     instructions: [
-        '1. Koka pastan enligt förpackningens anvisningar. Skölj med kallt vatten och låt rinna av.',
-        '2. Lägg pastan i en stor skål och blanda med muhammara. Tillsätt gurka, paprika och oliver. Rör om försiktigt.',
-        '3. Smula över fetaosten och toppa med färsk persilja. Servera direkt eller låt stå i kylen tills servering.'
+        'Koka pastan enligt förpackningens anvisningar. Skölj med kallt vatten och låt rinna av.',
+        'Lägg pastan i en stor skål och blanda med muhammara. Tillsätt gurka, paprika och oliver. Rör om försiktigt.',
+        'Smula över fetaosten och toppa med färsk persilja. Servera direkt eller låt stå i kylen tills servering.'
+    ],
+    tips: [
+        'Perfekt för en lunchlåda eller som ett fräscht tillbehör till grillat.',
+        'Lägg till rostade pinjenötter för en extra crunch.'
     ]
 },
 '33382': {
-    title: 'Ssam Dak Bulgogi',
+    title: 'Ssam dak bulgogi',
     image: 'bilder/33382.png',
-    description: 'Koreansk kyckling med kryddig glaze serverad i salladsblad för en lätt och smakrik måltid.',
+    portion: ' (4 portioner)',
     ingredients: [
         '500 g kycklinglårfilé, skuren i bitar',
         '2 msk gochujang (koreansk chilipasta)',
         '2 msk soja',
         '1 msk honung',
-        '1 tsk sesamolja',
-        'Till servering:',
+        '1 tesked sesamolja',
         'Salladsblad (t.ex. romansallad)',
         '1 morot, strimlad',
         '1 gurka, strimlad',
@@ -2994,16 +3190,19 @@ function getRecipeByCode(code) {
         'Sesamfrön och salladslök för topping'
     ],
     instructions: [
-        '1. Blanda gochujang, soja, honung och sesamolja i en skål. Lägg i kycklingen och låt marinera i minst 30 minuter.',
-        '2. Hetta upp en stekpanna och stek kycklingen på hög värme tills den är genomstekt och glaserad, ca 8–10 minuter.',
-        '3. Lägg kycklingen i salladsblad och toppa med strimlade grönsaker, kimchi och en sked ris.',
-        '4. Strö över sesamfrön och salladslök. Servera genast.'
+        'Blanda gochujang, soja, honung och sesamolja i en skål. Lägg i kycklingen och låt marinera i minst 30 minuter.',
+        'Hetta upp en stekpanna och stek kycklingen på hög värme tills den är genomstekt och glaserad, ca 8–10 minuter.',
+        'Lägg kycklingen i salladsblad och toppa med strimlade grönsaker, kimchi och en sked ris. Strö över sesamfrön och salladslök.'
+    ],
+    tips: [
+        'Prova att byta ut kycklingen mot tofu för ett vegetariskt alternativ.',
+        'För en extra smakdimension kan du tillsätta en skvätt limejuice.'
     ]
 },
 '33383': {
-    title: 'Koreansk Street Toast',
+    title: 'Koreansk street toast',
     image: 'bilder/33383.png',
-    description: 'En populär koreansk snabbmat fylld med grönsaksomelett, ost och smörstekta brödskivor.',
+    portion: ' (4 portioner)',
     ingredients: [
         '8 skivor vitt bröd',
         '4 ägg',
@@ -3014,16 +3213,20 @@ function getRecipeByCode(code) {
         'Ketchup och majonnäs för servering'
     ],
     instructions: [
-        '1. Blanda ägg, vitkål och morot i en skål. Krydda med lite salt och peppar.',
-        '2. Hetta upp lite smör i en stekpanna och häll i en fjärdedel av äggblandningen. Stek som en omelett tills den är gyllene på båda sidor. Upprepa med resten.',
-        '3. Smörstek brödskivorna och lägg en ostskiva, en omelett och lite ketchup och majonnäs mellan två brödskivor.',
-        '4. Servera toasten varm, gärna med en extra klick majonnäs på sidan.'
+        'Blanda ägg, vitkål och morot i en skål. Krydda med lite salt och peppar.',
+        'Hetta upp lite smör i en stekpanna och häll i en fjärdedel av äggblandningen. Stek som en omelett tills den är gyllene på båda sidor. Upprepa med resten.',
+        'Smörstek brödskivorna och lägg en ostskiva, en omelett och lite ketchup och majonnäs mellan två brödskivor.',
+        'Servera toasten varm, gärna med en extra klick majonnäs på sidan.'
+    ],
+    tips: [
+        'Servera med en fräsch sallad för en komplett måltid.',
+        'För extra crunch kan du lägga till några skivor avokado i toasten.'
     ]
 },
 '33384': {
-    title: 'Kimchi Fried Rice med Edamame',
+    title: 'Kimchi fried rice med edamame',
     image: 'bilder/33384.png',
-    description: 'En kryddig och mättande rätt med kimchi och edamame, toppad med ett krämigt stekt ägg.',
+    portion: ' (4 portioner)',
     ingredients: [
         '4 dl kokt ris (gärna kallt)',
         '2 dl kimchi, hackad',
@@ -3031,15 +3234,19 @@ function getRecipeByCode(code) {
         '2 ägg',
         '1 msk gochujang (koreansk chilipasta)',
         '2 msk soja',
-        '1 tsk sesamolja',
+        '1 tesked sesamolja',
         '2 salladslökar, skivade',
         'Sesamfrön för topping'
     ],
     instructions: [
-        '1. Hetta upp lite olja i en stekpanna och fräs kimchin i 2–3 minuter tills den börjar dofta.',
-        '2. Lägg i riset och rör om. Tillsätt gochujang, soja och sesamolja och stek i ytterligare 3–4 minuter.',
-        '3. Stek äggen i en separat panna tills gulan är lätt krämig.',
-        '4. Lägg upp riset på tallrikar och toppa med edamamebönor, ett stekt ägg och salladslök. Strö över sesamfrön.'
+        'Hetta upp lite olja i en stekpanna och fräs kimchin i 2–3 minuter tills den börjar dofta.',
+        'Lägg i riset och rör om. Tillsätt gochujang, soja och sesamolja och stek i ytterligare 3–4 minuter.',
+        'Stek äggen i en separat panna tills gulan är lätt krämig.',
+        'Lägg upp riset på tallrikar och toppa med edamamebönor, ett stekt ägg och salladslök. Strö över sesamfrön.'
+    ],
+    tips: [
+        'För en vegetarisk version, byt ut äggen mot tofu eller extra edamamebönor.',
+        'Lägg till lite chili om du vill ha mer hetta.'
     ]
 },
 '22222': {
