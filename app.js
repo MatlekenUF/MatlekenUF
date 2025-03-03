@@ -3678,33 +3678,36 @@ function getRecipeByCode(code) {
     ]
 },
 '22237': {
-    title: 'Pasta salsiccia',
-    image: 'bilder/22237.png',
+    title: 'Aubergineparmigiana (Auberginegratäng med tomatsås och ost)',
+    image: 'bilder/22237.Webp',
     portion: ' (4 portioner)',
     ingredients: [
-        '400 g pasta (t.ex. penne)',
-        '300 g salsiccia (italiensk korv)',
+        '2 stora auberginer, skivade',
+        '2 msk olivolja',
         '1 gul lök, hackad',
         '2 vitlöksklyftor, finhackade',
-        '1 dl vitt vin',
-        '400 g krossade tomater',
-        '1 dl grädde',
-        '1 dl parmesan, riven',
-        '1 tsk chiliflakes',
-        'Färsk basilika för garnering'
+        '1 burk (400 g) krossade tomater',
+        '1 tsk oregano',
+        '1 tsk basilika',
+        '1 dl riven parmesan',
+        '200 g mozzarella, skivad',
+        'Salt och peppar',
+        '1 tsk socker (valfritt)'
     ],
     instructions: [
-        'Koka pastan: Koka pastan enligt förpackningens anvisningar.',
-        'Tillaga salsiccian: Ta ut korvinnehållet och stek det tillsammans med lök och vitlök tills det är genomstekt.',
-        'Gör såsen: Häll i vinet och låt det reducera. Tillsätt krossade tomater och låt koka i 10 minuter. Tillsätt grädden.',
-        'Blanda: Rör ner pastan i såsen och toppa med parmesan.',
-        'Servera: Garnera med basilika och servera.'
+        'Strö salt på aubergineskivorna och låt dem dra i 30 minuter. Skölj av och torka.',
+        'Hetta upp olivolja i en panna och stek auberginen gyllene på båda sidor. Lägg åt sidan.',
+        'Fräs lök och vitlök i samma panna, tillsätt krossade tomater, oregano, basilika, salt, peppar och ev. socker. Låt såsen sjuda i 15 min.',
+        'Varva aubergine, tomatsås och ost i en ugnsform. Avsluta med mozzarella och parmesan.',
+        'Gratinera i ugnen på 200°C i ca 25 minuter tills osten är gyllene.',
+        'Servera med en enkel sallad och bröd.'
     ],
     tips: [
-        'Tillsätt lite rödvin i såsen för en djupare smak.',
-        'För extra hetta, öka mängden chiliflakes.'
+        'För extra smak kan du lägga till färska örter som basilika eller timjan på toppen före servering.',
+        'Servera gärna med ett glas rödvin och en bit krispigt bröd.'
     ]
 },
+
 '22238': {
     title: 'Bruschetta med sardeller och tomat',
     image: 'bilder/22238.png',
