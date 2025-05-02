@@ -435,6 +435,36 @@ h3 {
 .product-card button:hover {
     background-color: #e68900;
 }
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-inner img, .carousel-inner video {
+    width: 100%;
+    display: none; /* Dölj alla bilder och videor utom en */
+}
+
+.carousel-inner img:first-child, .carousel-inner video:first-child {
+    display: block; /* Visa den första bilden/videon */
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev { left: 0; }
+.next { right: 0; }
 
  /* Om Oss Sektion Styling */
  .about-section {

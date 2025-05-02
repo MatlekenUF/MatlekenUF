@@ -7607,6 +7607,13 @@ function adjustIngredients(portions, ingredientCount) {
     }
 }
 
+let index = 0;
+function changeSlide(direction) {
+    let items = document.querySelectorAll('.carousel-inner img, .carousel-inner video');
+    items[index].style.display = "none"; // Dölj aktuell bild/video
+    index = (index + direction + items.length) % items.length;
+    items[index].style.display = "block"; // Visa nästa bild/video
+}
 
 
 
